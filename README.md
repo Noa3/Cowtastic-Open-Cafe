@@ -1,4 +1,6 @@
 # Cowtastic Cafe
+![85l2rs](https://github.com/Noa3/Cowtastic-Open-Cafe/assets/8495084/c52ea20b-32e8-42b5-a7cb-01c11261cd91)
+
 
 ## Description
 Welcome to the Cowtastic Cafe! In a land where people love their milk and cow girls are here to provide, you've opened a cow cafe with a new barista ready to make happy customers. Mix drinks, buy new ingredients, and help your barista grow in this milky puzzle/management minigame.
