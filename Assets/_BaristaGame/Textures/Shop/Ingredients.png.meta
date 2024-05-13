@@ -1,0 +1,549 @@
+fileFormatVersion: 2
+guid: 651a186fbea2ee44b9221052e900e3f0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ingredients_Boba
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3072
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -410, y: -238}
+        - {x: -294, y: 270}
+        - {x: 119, y: 285}
+        - {x: 275, y: -194}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e767edb60fc304895d7a90ba252d9f
+      internalID: 857129733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients_Caramel
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3072
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -242, y: -330}
+        - {x: -286, y: 308}
+        - {x: -44.97876, y: 325.95557}
+        - {x: 83, y: 135}
+        - {x: 124, y: -311}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24512e99303fb1d45ac2aa62cfa0a1ca
+      internalID: 466774236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients_Sprinkles
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3072
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -227, y: -255}
+        - {x: -247, y: 177}
+        - {x: -47.664307, y: 190.09521}
+        - {x: 166, y: 79}
+        - {x: 188, y: -233}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6676e49af4ae9cc4190a74bc0724cc75
+      internalID: 2130603452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients_Chocolate
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3072
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -263, y: -326}
+        - {x: -237, y: 25}
+        - {x: -63, y: 421}
+        - {x: 158, y: 44}
+        - {x: 229, y: -308}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859bcad8b09a5174c99de213e869ace3
+      internalID: -10175679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients_Coffee
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2048
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -390, y: -319}
+        - {x: -390, y: 344}
+        - {x: 85, y: 344}
+        - {x: 85, y: -319}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9051e47788651b48a8aa9f6e2b08ae3
+      internalID: 748859343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients_Espresso
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2048
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -350, y: -289}
+        - {x: -352, y: 160}
+        - {x: -96, y: 208}
+        - {x: 154, y: 334}
+        - {x: 24, y: 121}
+        - {x: 22, y: -275}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0271a6bed034a564297ff9810dfd9040
+      internalID: -1619377073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients_Sugar
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2048
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -301, y: -207}
+        - {x: -263, y: 1}
+        - {x: -80, y: 156}
+        - {x: 98, y: 26}
+        - {x: 116, y: -203}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5488c73d694166a448c7bf545d4b10bd
+      internalID: 1096679606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients_Tea
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2048
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -296, y: -241}
+        - {x: -283, y: 254}
+        - {x: 154, y: 254}
+        - {x: 172, y: -228}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c0288a67c1e984cb834c8b8cb79431
+      internalID: 1454174329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients_Cocoa
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -235, y: -241}
+        - {x: -222, y: 240}
+        - {x: 150, y: 388}
+        - {x: 135, y: -248}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a49b9f85f510484fa723c23c18b2cc4
+      internalID: 11693529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients_Milk
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -448, y: -416}
+        - {x: -448, y: 371}
+        - {x: 67, y: 371}
+        - {x: 67, y: -416}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8987211f297754e934d7989b704783
+      internalID: -1087012546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients_Whipped
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1024
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -372, y: -341}
+        - {x: -420, y: -129}
+        - {x: -143, y: 224}
+        - {x: 85, y: -126}
+        - {x: 29, y: -341}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d6551be259cf54449387103baaf551b
+      internalID: 308169626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients_Cream
+      rect:
+        serializedVersion: 2
+        x: 3070
+        y: 1026
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -361, y: -306}
+        - {x: -287, y: 218}
+        - {x: 28, y: 240}
+        - {x: 76, y: -306}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f387cd8cb3ddaad4e9d70e9fa503e02d
+      internalID: -1123883612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients_Ice
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -393, y: -191}
+        - {x: -393, y: -31}
+        - {x: -29.685394, y: 226}
+        - {x: 259, y: -7}
+        - {x: 219, y: -187}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff6d2cf2256fe64ea210fce273488b7
+      internalID: 1205726723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cow_Mood
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 114
+        width: 800
+        height: 780
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9098894eeb5be894dbaf808095da2f45
+      internalID: -992619245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Milk_Amount
+      rect:
+        serializedVersion: 2
+        x: 2302
+        y: 228
+        width: 520
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7804c81dbf141ea49a7e9cab9f15cd18
+      internalID: 1852188300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Ingredients_Sugar: 1096679606
+      Cow_Mood: -992619245
+      Ingredients_Whipped: 308169626
+      Milk_Amount: 1852188300
+      Ingredients_Caramel: 466774236
+      Ingredients_Espresso: -1619377073
+      Ingredients_Tea: 1454174329
+      Ingredients_Sprinkles: 2130603452
+      Ingredients_Cream: -1123883612
+      Ingredients_Coffee: 748859343
+      Ingredients_Chocolate: -10175679
+      Ingredients_Boba: 857129733
+      Ingredients_Ice: 1205726723
+      Ingredients_Cocoa: 11693529
+      Ingredients_Milk: -1087012546
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8639554063286430109
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5811403030423567069, guid: 8e3aec0acc29cc74a9eda777d9512cde, type: 3}
+      propertyPath: CursorDefault
+      value: 
+      objectReference: {fileID: 2800000, guid: 60fa53b5bcdbb9744a545d7b4abb0a1a, type: 3}
+    - target: {fileID: 5811403030423567069, guid: 8e3aec0acc29cc74a9eda777d9512cde, type: 3}
+      propertyPath: CursorInteract
+      value: 
+      objectReference: {fileID: 2800000, guid: c2c772afecd06d646b110689aa63b0ae, type: 3}
+    - target: {fileID: 5811403030423567069, guid: 8e3aec0acc29cc74a9eda777d9512cde, type: 3}
+      propertyPath: CursorMouseDown
+      value: 
+      objectReference: {fileID: 2800000, guid: 8cb6cf19b5c72274188cb57882df29e0, type: 3}
+    - target: {fileID: 6411546526300290346, guid: 8e3aec0acc29cc74a9eda777d9512cde, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6411546526300290346, guid: 8e3aec0acc29cc74a9eda777d9512cde, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 293.4261
+      objectReference: {fileID: 0}
+    - target: {fileID: 6411546526300290346, guid: 8e3aec0acc29cc74a9eda777d9512cde, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 621.1342
+      objectReference: {fileID: 0}
+    - target: {fileID: 6411546526300290346, guid: 8e3aec0acc29cc74a9eda777d9512cde, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.18539181
+      objectReference: {fileID: 0}
+    - target: {fileID: 6411546526300290346, guid: 8e3aec0acc29cc74a9eda777d9512cde, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6411546526300290346, guid: 8e3aec0acc29cc74a9eda777d9512cde, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6411546526300290346, guid: 8e3aec0acc29cc74a9eda777d9512cde, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6411546526300290346, guid: 8e3aec0acc29cc74a9eda777d9512cde, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6411546526300290346, guid: 8e3aec0acc29cc74a9eda777d9512cde, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6411546526300290346, guid: 8e3aec0acc29cc74a9eda777d9512cde, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6411546526300290346, guid: 8e3aec0acc29cc74a9eda777d9512cde, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7533718622052210877, guid: 8e3aec0acc29cc74a9eda777d9512cde, type: 3}
+      propertyPath: m_Name
+      value: CursorManager EditorOnly
+      objectReference: {fileID: 0}
+    - target: {fileID: 7533718622052210877, guid: 8e3aec0acc29cc74a9eda777d9512cde, type: 3}
+      propertyPath: m_TagString
+      value: EditorOnly
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e3aec0acc29cc74a9eda777d9512cde, type: 3}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7531eef2b90c2445a75ecc122afe9b3, type: 3}
+  m_Name: Avatar OfficeWorker
+  m_EditorClassIdentifier: 
+  Stats:
+    Weighted: 2000
+    FlusteredMultipler: 1.1
+    RemoveEventIfCustomerIsFinished: 1
+    CustomerEvent: 0
+  EventToActivate: {fileID: 0}
+  Normal: {fileID: 21300000, guid: de21e6105bc6e7b4a852ff6bcd335e14, type: 3}
+  Level1: {fileID: 21300000, guid: 773a880b134d6b344aec1c3f608983aa, type: 3}
+  Level2: {fileID: 21300000, guid: c182ba7c1cb86dc47b3f67ec30f32682, type: 3}
+  Level3: {fileID: 21300000, guid: bab681f06e1bc1b49b74760d3a49406d, type: 3}
+  Level4: {fileID: 21300000, guid: efddf11129e91de4897ee3cd6060fb92, type: 3}

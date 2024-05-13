@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7531eef2b90c2445a75ecc122afe9b3, type: 3}
+  m_Name: Avatar Bee
+  m_EditorClassIdentifier: 
+  Stats:
+    Weighted: 40
+    FlusteredMultipler: 1.1
+    RemoveEventIfCustomerIsFinished: 1
+    CustomerEvent: 0
+  EventToActivate: {fileID: 6864098142785736082, guid: 6bf10762d59b5f041a7cfb6da1061612, type: 3}
+  Normal: {fileID: 21300000, guid: 896999ad751cc1543b5b31cb6b6d51a5, type: 3}
+  Level1: {fileID: 21300000, guid: 99726acfa9c6e4241baad2a7aa76a07a, type: 3}
+  Level2: {fileID: 21300000, guid: b3b26d81ae840634ba71138119d229e3, type: 3}
+  Level3: {fileID: 21300000, guid: 7aa7cd468e967a341b5e2b0ac1b48030, type: 3}
+  Level4: {fileID: 21300000, guid: 8ed31a6946dc7164ab91ed3c764d5f86, type: 3}

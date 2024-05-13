@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6347287143489988316
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 331260290468912049, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: MoneyToUnlock
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 331260290955919848, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: header
+      value: Buy Ice for $8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1568852285084588749, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_text
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2262207052817559969, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2262207052817559969, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 27.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2605294850136013580, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_text
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2677371727598316842, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: MoneyToUnlock
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2677371728111857813, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: content
+      value: Adds $1.25 to the order
+      objectReference: {fileID: 0}
+    - target: {fileID: 2677371728151361395, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: header
+      value: Buy Caramel Sauce for $30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2677371728151361395, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: content
+      value: Adds $1.25 to the order
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295773671051482331, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1261686710, guid: 24b6e65edc9032f4da370f23ce9da936, type: 3}
+    - target: {fileID: 4772639105705247226, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_text
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009667048708391046, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: MoneyToUnlock
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009667050437024479, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: header
+      value: Buy Candies for $8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7099031307160019271, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: MoneyToUnlock
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7099031308798164216, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: content
+      value: Adds $1.25 to the order
+      objectReference: {fileID: 0}
+    - target: {fileID: 7099031308888652574, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: header
+      value: Buy Cocoa Powder for $30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7099031308888652574, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: content
+      value: Adds $1.25 to the order
+      objectReference: {fileID: 0}
+    - target: {fileID: 7171104888633390945, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_text
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707127849366474124, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707127849366474124, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707127849366474124, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707127849366474124, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707127849366474124, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707127849366474124, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707127849366474124, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707127849366474124, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707127849366474124, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707127849366474124, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707127849366474124, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7810323988701908972, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1261686710, guid: 24b6e65edc9032f4da370f23ce9da936, type: 3}
+    - target: {fileID: 8757853169180715026, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_Name
+      value: Cafe Visuals
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}

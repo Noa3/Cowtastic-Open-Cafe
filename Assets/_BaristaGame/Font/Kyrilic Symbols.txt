@@ -1,0 +1,4 @@
+to add them, use in the generator Custom Range (Hex)
+and put this in:
+
+0000-04FF

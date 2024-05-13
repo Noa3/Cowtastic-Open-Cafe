@@ -1,0 +1,6 @@
+{
+    "Weighted": 60,
+	"FlusteredMultipler": 0.8,
+	"RemoveEventIfCustomerIsFinished": true,
+    "CustomerEvent": 12
+}

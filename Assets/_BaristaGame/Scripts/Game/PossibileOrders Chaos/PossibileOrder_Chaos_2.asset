@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce4ebff02d2fb144e925ef5cb7ca2c04, type: 3}
+  m_Name: PossibileOrder_Chaos_2
+  m_EditorClassIdentifier: 
+  StartFilling: 1
+  PossibileExtraFillings:
+  - Filling: 4
+    Weighting: 50
+  - Filling: 0
+    Weighting: 50
+  - Filling: 7
+    Weighting: 50
+  - Filling: 6
+    Weighting: 50
+  - Filling: 2
+    Weighting: 50
+  - Filling: 3
+    Weighting: 50
+  WeightedToppings:
+  - Topping: 0
+    Weighting: 50
+  - Topping: 1
+    Weighting: 50
+  - Topping: 2
+    Weighting: 50
+  - Topping: 3
+    Weighting: 50
+  - Topping: 4
+    Weighting: 50
+  - Topping: 5
+    Weighting: 50

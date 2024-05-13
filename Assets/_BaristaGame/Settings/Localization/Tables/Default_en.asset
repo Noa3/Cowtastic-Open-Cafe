@@ -1,0 +1,1153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Default_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 99f355a02537cb04c821e914e96ec32f, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 5961144360232288257
+  m_TableData:
+  - m_Id: 2654012272640
+    m_Localized: Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224355836850176
+    m_Localized: Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 226539798360064
+    m_Localized: Arcade Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227076505694208
+    m_Localized: Credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227953312362496
+    m_Localized: Special Thanks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228206665101312
+    m_Localized: "Cowtastic Caf\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 229470362759168
+    m_Localized: Milky Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230078679445504
+    m_Localized: 'Milky Mode Enabled:
+
+      Test your speed as the Barista fills
+      up faster and faster.  Can you keep up with her?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231146272419840
+    m_Localized: Tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231298777313280
+    m_Localized: Normal Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231467803570176
+    m_Localized: Hard Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231828173975552
+    m_Localized: Casual Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233523209662464
+    m_Localized: Arcade Tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 234141684953088
+    m_Localized: Tips and instructions to help you learn to play if trial and error
+      isn't your cup of coffee.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 234396560224256
+    m_Localized: Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 266450740015104
+    m_Localized: Normal Difficulty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 266676540370944
+    m_Localized: Play until your Barista is as big as she can get, or until she gets
+      angry and quits.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269021949030400
+    m_Localized: Hard Difficulty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269212714364928
+    m_Localized: 'The customers are pickier and the Barista is moodier, but she can
+      get even bigger this time!
+
+      A slightly harder challenge than Normal Mode.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269706832736256
+    m_Localized: Casual Difficulty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269928791109632
+    m_Localized: 'Sometimes it''s okay to want to relax.
+
+      Cheaper & consistent
+      prices that make it easy to play around with different options.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271100448960512
+    m_Localized: Chaos Difficulty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273385908432896
+    m_Localized: 'Oh No.
+
+      Please, for the love of all that is good in this
+      world tell me you''ve at least played Normal Mode first right?  For your own
+      good... please!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 274592542584832
+    m_Localized: Ultra Chaos Difficulty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 274821425754112
+    m_Localized: Okay this time you SERIOUSLY weren't supposed to find this.  If
+      you have any self love left in your heart, don't even try this one.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286927487332352
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 312927965245440
+    m_Localized: Buy Regular Milk for $50
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316153368244224
+    m_Localized: Regular Milk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316273224675328
+    m_Localized: Worth $1 per drink
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316555551666176
+    m_Localized: Buy Vanilla Creamer for $35
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316567601901568
+    m_Localized: Worth $2 per drink
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316559485923328
+    m_Localized: Vanilla Creamer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536900430819328
+    m_Localized: Buy Whipped Cream for $15
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536982903418880
+    m_Localized: Whipped Cream
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537045671178240
+    m_Localized: Adds $0.75 to the order
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537330950959104
+    m_Localized: Buy Ice for $5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537416976134144
+    m_Localized: Adds $0.50 to the order
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537370968813568
+    m_Localized: Ice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537745180422144
+    m_Localized: Buy Coffee for $50
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537790525042688
+    m_Localized: Coffee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537965951807488
+    m_Localized: Worth $2 per drink
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540541439012864
+    m_Localized: Buy Tea for $50
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540592966037504
+    m_Localized: Tea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540631339724800
+    m_Localized: Worth $3 per drink
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540856380911616
+    m_Localized: Buy Espresso for $150
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540912534253568
+    m_Localized: Espresso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540973469102080
+    m_Localized: Worth $10 per drink
+    m_Metadata:
+      m_Items: []
+  - m_Id: 541379419009024
+    m_Localized: Buy Sugar for $15
+    m_Metadata:
+      m_Items: []
+  - m_Id: 541440546795520
+    m_Localized: Sugar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 541488361861120
+    m_Localized: Worth $1.5 per drink
+    m_Metadata:
+      m_Items: []
+  - m_Id: 547664034099200
+    m_Localized: Buy Chocolate for $100
+    m_Metadata:
+      m_Items: []
+  - m_Id: 547789489926144
+    m_Localized: Chocolate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 547914811535360
+    m_Localized: Worth $5 per drink
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549242392637440
+    m_Localized: Buy Boba for $75
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549324026376192
+    m_Localized: Adds $3 to the order
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549277549293568
+    m_Localized: Boba
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549459674361856
+    m_Localized: Buy Candies for $10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549533506695168
+    m_Localized: Candies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549589093806080
+    m_Localized: Adds $0.50 to the order
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549769167859712
+    m_Localized: Buy Caramel Sauce for $25
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549846439522304
+    m_Localized: Adds $1 to the order
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549811962343424
+    m_Localized: Caramel Sauce
+    m_Metadata:
+      m_Items: []
+  - m_Id: 550089201643520
+    m_Localized: Buy Cocoa Powder for $35
+    m_Metadata:
+      m_Items: []
+  - m_Id: 550208105967616
+    m_Localized: Adds $1.5 to the order
+    m_Metadata:
+      m_Items: []
+  - m_Id: 550158147612672
+    m_Localized: Cocoa Powder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1640869886521344
+    m_Localized: Reset Cup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1641101533736960
+    m_Localized: Finish Order
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1647484102602752
+    m_Localized: Welcome to the Cowtastic Cafe!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1647892887859200
+    m_Localized: 'Your dairy farm has recently decided to try opening a "cow cafe"
+      to help with marketing, along with that it also seems like a great way to give
+      new cow girls something to do while you prepare them for dairy duty.
+
+
+      Your
+      first barista is excited to get started and seems full of potential, help her
+      serve customers while working her towards her full milky power!
+
+
+      The
+      cafe is new, so you''ll also need to buy new ingredients along the way.
+
+      Luckily
+      it seems the customers around here are very receptive to the idea of paying
+      extra for some on-demand fresh milk if they''re in the right mood.
+
+
+      If
+      you need more help while playing, there are hover-over Tooltips.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648041961811968
+    m_Localized: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648188082974720
+    m_Localized: Show Again?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648511212154880
+    m_Localized: Congratulations!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648740309233664
+    m_Localized: You've made your Barista as big as she can get!  Having reached
+      her full potential she is happy to join your dairy full time, adding another
+      quality cow girl to your staff!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648943238049792
+    m_Localized: Keep Playing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649079095750656
+    m_Localized: Play Again
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649229939699712
+    m_Localized: Main Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649493451042816
+    m_Localized: More Stats
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649612644773888
+    m_Localized: Less Stats
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649997711241216
+    m_Localized: Try Again
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1650204792418304
+    m_Localized: Main Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1650345817501696
+    m_Localized: 'Oops!  Looks like you pushed her a little too far.  Did you leave
+      her full too long?  Maybe some difficult customer service?
+
+
+      Hopefully
+      she''ll be back to give the job another try after she cools off.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1650511282794496
+    m_Localized: Game Over
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1651431374680064
+    m_Localized: 'Whoa whoa whoa that''s way too much milk!  What are you even doing??? 
+      You''ve turned her into a bottomless well of milk, flooding the streets with
+      no end in sight!  It''s chaos!
+
+
+      I mean sure, she still enjoys it, but...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1651623855484928
+    m_Localized: Milk Flood!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652064190296064
+    m_Localized: PAUSED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652825364197376
+    m_Localized: Setting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1653300364931072
+    m_Localized: Restart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1653487506386944
+    m_Localized: Give Up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1653921176449024
+    m_Localized: General Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1654148486754304
+    m_Localized: Advanced Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655167128006656
+    m_Localized: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1654868065742848
+    m_Localized: Sounds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655301924548608
+    m_Localized: Resolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655422749863936
+    m_Localized: Fullscreen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655796151971840
+    m_Localized: Show Timer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655899071803392
+    m_Localized: Camera Movement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656078697066496
+    m_Localized: Reset Times
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656215754338304
+    m_Localized: Discord
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656401700417536
+    m_Localized: Texture Quality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656496193892352
+    m_Localized: AntiAliasing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656601168932864
+    m_Localized: Vsync
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1657977076805632
+    m_Localized: 'Ingredients:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658332258856960
+    m_Localized: Show Dialogue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658430149718016
+    m_Localized: Hide Dialogue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658553181237248
+    m_Localized: View Barista
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658635091800064
+    m_Localized: View Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658724845711360
+    m_Localized: Fix Outfit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660182504763392
+    m_Localized: Management
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660439854673920
+    m_Localized: Secret Candy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660536202031104
+    m_Localized: Has Mysterious Effects
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660668985307136
+    m_Localized: 'Best Way To Start A Day:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660808559161344
+    m_Localized: Manage Employee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660890163539968
+    m_Localized: Upgrade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661003594297344
+    m_Localized: Customize
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661098758860800
+    m_Localized: Milk Type
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661378443440128
+    m_Localized: Outfit Color
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661452141555712
+    m_Localized: Apron Style
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661525407657984
+    m_Localized: Pants Style
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1662565540524032
+    m_Localized: Milk Coffee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1662658687627264
+    m_Localized: Production+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1662771174666240
+    m_Localized: Stretchy Candy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1662860714668032
+    m_Localized: Max Size+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663192102432768
+    m_Localized: Extra Break
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663268698812416
+    m_Localized: Happiness+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663386760081408
+    m_Localized: Bitter Coffee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663505232392192
+    m_Localized: Production-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663816466526208
+    m_Localized: Fairy Latte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663875916591104
+    m_Localized: More Milk, Now!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1664405879484416
+    m_Localized: Calming Tea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1664587954221056
+    m_Localized: Fullness Tolerance+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1676894453198848
+    m_Localized: Increase Barista milk production rate.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677111105777664
+    m_Localized: Increase Barista milk capacity.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677334284693504
+    m_Localized: Improve Barista's mood.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677541911130112
+    m_Localized: Lower Barista milk production rate.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677736099016704
+    m_Localized: Fill the Barista immediately.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677955096211456
+    m_Localized: Barista loses happiness slower.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1683396865912832
+    m_Localized: Welcome to the Cowtastic Cafe!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1683534711713792
+    m_Localized: 'Your dairy farm has recently decided to try opening a "cow cafe"
+      to help with marketing, along with that it also seems like a great way to give
+      new cow girls something to do while you prepare them for dairy duty.
+
+
+      Your
+      first barista is excited to get started and seems full of potential, help her
+      serve customers while working her towards her full milky power!
+
+
+      The
+      cafe is new, so you''ll also need to buy new ingredients along the way.
+
+      Luckily
+      it seems the customers around here are very receptive to the idea of paying
+      extra for some on-demand fresh milk if they''re in the right mood.
+
+
+      If
+      you need more help while playing, there are hover-over Tooltips.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1684438634557440
+    m_Localized: Welcome to the CHAOS Cafe!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1684540275126272
+    m_Localized: 'Maybe you should have stayed home today, the entire cafe is in
+      chaos as all kinds of crazy stuff is going on here!  What are these prices? 
+      Why do all these things keep happening every time a customer comes in?
+
+
+      Hi,
+      looks like you found our little easter egg, you might want to play a different
+      mode first if somehow you found this on your first try.
+
+
+      You''ll need
+      a lot of knowledge of how the game works to overcome this chaos, or not... 
+      Honestly is this even beatable?  Only one way to find out.
+
+
+      Also thanks
+      for playing!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1685107663794176
+    m_Localized: Welcome to the Cowtastic Cafe!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1713462324850688
+    m_Localized: 'Your dairy farm has recently decided to try opening a "cow cafe"
+      to help with marketing, along with that it also seems like a great way to give
+      new cow girls something to do while you prepare them for dairy duty.
+
+
+      Your
+      first barista is excited to get started and seems full of potential, help her
+      serve customers while working her towards her full milky power!
+
+
+      The
+      cafe is new, so you''ll also need to buy new ingredients along the way.
+
+      Luckily
+      it seems the customers around here are very receptive to the idea of paying
+      extra for some on-demand fresh milk if they''re in the right mood.
+
+
+      If
+      you haven''t learned to play, try Normal Mode first.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1713827099275264
+    m_Localized: Welcome to the CHAOS Cafe!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1713940962045952
+    m_Localized: 'Maybe you should have stayed home today, the entire cafe is in
+      chaos as all kinds of crazy stuff is going on here!  What are these prices? 
+      Why do all these things keep happening every time a customer comes in?
+
+
+      Hi,
+      looks like you found our little easter egg, you might want to play a different
+      mode first if somehow you found this on your first try.
+
+
+      You''ll need
+      a lot of knowledge of how the game works to overcome this chaos, or not... 
+      Honestly is this even beatable?  Only one way to find out.
+
+
+      Also thanks
+      for playing!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19834399893057536
+    m_Localized: Holiday Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132748730527490048
+    m_Localized: Voice Lines
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132749943507623936
+    m_Localized: Auto-Fix Outfit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132752649106333696
+    m_Localized: Sandbox
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132752870515253248
+    m_Localized: Scores & Stats
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132753222291529728
+    m_Localized: General Stats
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132753240020852736
+    m_Localized: Game Progress
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132753744281051136
+    m_Localized: Secrets Found
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132754228769300480
+    m_Localized: 'Milk Produced:'
+    m_Metadata:
+      m_Items:
+      - rid: 5961144360232288257
+  - m_Id: 132865428639293440
+    m_Localized: 'Cups Sold:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132865470217428992
+    m_Localized: 'Time Played:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132865505260838912
+    m_Localized: 'Money Earned:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132867593416056832
+    m_Localized: Regular
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132867783132815360
+    m_Localized: Milky
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132868178831843328
+    m_Localized: Casual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870450861154304
+    m_Localized: Normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870565030109184
+    m_Localized: Hard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870694181117952
+    m_Localized: Chaos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870790192930816
+    m_Localized: Ultra Chaos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133031481403088896
+    m_Localized: Milk Lover
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133031655290544128
+    m_Localized: Produce over 100 L Milk.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133034372322926592
+    m_Localized: Working Overtime
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133034562396200960
+    m_Localized: Play the game for a long time.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133034814415151104
+    m_Localized: Cup Seller
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133034908078153728
+    m_Localized: Sell 1000 Drinks.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035056309051392
+    m_Localized: Full Wardrobe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035131357732864
+    m_Localized: Buy every outfit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035279336972288
+    m_Localized: Earn $10,000.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035228871106560
+    m_Localized: Moonopoly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035644203671552
+    m_Localized: Find the secret Chaos Difficulty.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035857651802112
+    m_Localized: Familiar Faces
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036011389820928
+    m_Localized: See all the crossover customers.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036121565798400
+    m_Localized: One Of Everything
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036188431392768
+    m_Localized: Make a drink that has it all.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036482359828480
+    m_Localized: Sandbox Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036564937285632
+    m_Localized: Unlock the secret Sandbox Mode.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036677680177152
+    m_Localized: Supersized
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036731409211392
+    m_Localized: Reach her true largest size.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036805832941568
+    m_Localized: Make Waves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036853224382464
+    m_Localized: Make milk until the cafe floods.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133037091288883200
+    m_Localized: Ultra Chaos...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133037143440859136
+    m_Localized: Find a truly cursed difficulty.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133054867663593472
+    m_Localized: 'Best Time: '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133055089148010496
+    m_Localized: No Record
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133847226483580928
+    m_Localized: Exit Tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133847557804236800
+    m_Localized: Next
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133847671285325824
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133991633908244480
+    m_Localized: Welcome to Arcade Mode's Tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133992199195566080
+    m_Localized: 'Having recently opened a new cafe location and having hired this
+      fresh new cow girl as your first barista here, your job is to help your barista
+      serve customers while making sure to keep her happy.  It''s important to make
+      sure she doesn''t quit, as she seems interested in taking a promotion to a
+      milkier position on your farm once she''s ready for it.
+
+
+      If there''s
+      anything about the gameplay that seems unclear you should hopefully be able
+      to find help in this tutorial.  Otherwise you can also try jumping right in
+      and start learning the game through trial and error.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133992920209006592
+    m_Localized: Basics
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133993158466445312
+    m_Localized: 'A mouse should be everything you need to play, no other buttons
+      are required.
+
+
+      If there is any extra info you need for anything, Normal
+      Mode has hover-over Tooltips that give plenty of useful information.
+
+      You
+      may be able to figure out most mechanics just with the Tooltip help.
+
+
+      (Touch
+      Controls haven''t been tested, but if you are seeing this on a phone they must
+      at least partially work I guess?)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133995165042450432
+    m_Localized: Drink Making
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133995531494596608
+    m_Localized: 'The main task during gameplay is mixing drinks.
+
+
+      Each customer
+      has a portrait showing their mood and asks for an order represented by this
+      graphic.
+
+
+      Pay close attention to the fill amounts of each ingredient
+      and what extras they want added to it.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133996458540638208
+    m_Localized: 'Over here are your ingredients.  While playing simply click and
+      hold to start filling a cup, or for certain ingredients click once to add it
+      to the drink.
+
+
+      Your cafe is freshly opened and still needs to stock
+      a few ingredients.  Try to earn enough to unlock them all.
+
+
+      Buying new
+      ingredients is important for making more money, the more complex the drink
+      the higher the value.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133997655410450432
+    m_Localized: 'This is the cup you are filling for your customer, while making
+      drinks you can use the fill lines to compare how accurately your drink is to
+      the customer''s request.
+
+
+      The accuracy of the drink impacts the rating
+      and how much money it sells for.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133998653654802432
+    m_Localized: Managing Your Barista
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133998700043804672
+    m_Localized: 'Your ultimate goal is to bring your barista to her full potential,
+      but you can''t neglect her happiness while she works.  She took this job hoping
+      to earn a promotion to a dairy position, but even if this is her dream job
+      she wont stick around if she becomes too unhappy.
+
+
+      Balance her mood
+      while making progress on her size and milk production, making customers happy
+      and making sure to regularly empty her will help keep her mood high.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133998785406279680
+    m_Localized: 'You can keep track of your barista''s happiness and fullness here. 
+      If her happiness drops to 0, she quits.
+
+
+      As much as she''d like to grow,
+      you can''t keep her too full all the time or else the soreness will make her
+      upset, but you also shouldn''t keep her completely empty all the time or that
+      may upset her as well, so try to strike a balance.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134010572390375424
+    m_Localized: Serving Customers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134010918655336448
+    m_Localized: 'Also try to watch for the customer''s mood, the people around here
+      seem to love it when a girl looks big and full, so striking that balance for
+      her size should catch the attention of customers as time goes on.
+
+
+      But
+      what''s the point in happy customers?  Well they might like something extra
+      in their drink if their mood allows it!  A special ingredient that''s worth
+      a lot of money...!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134011413927141376
+    m_Localized: Timed Events
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134011680659709952
+    m_Localized: 'Sometimes while playing there will be timed events that appear.
+
+
+      Some
+      of these events add challenge, some give you a needed break, and some are just
+      a bit silly.
+
+      Keep watch of what events are happening, and try not to
+      be caught off guard by them!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134179468267331584
+    m_Localized: 'While playing in arcade mode, the management button is where all
+      your upgrades and customization for your barista is located.  Increasing her
+      capacity and production rate can be found in there.  Along with mood boosters.
+
+
+      It
+      also includes a customization menu with outfit options and color options.
+
+      Some
+      customization options may need unlocked.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134179994149167104
+    m_Localized: Start Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134180089527640064
+    m_Localized: Tutorial Complete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134180290938118144
+    m_Localized: 'That should be about all the important information worth clarifying.
+
+      The
+      game loop should be clear, make drinks, make money, make more drinks, make
+      the barista bigger, make even more money, repeat until moo.
+
+
+      If you
+      want a challenge, try to find clever strategies or upgrade routes to get best
+      times.  If you want to enhance the fun, try unlocking some of the other outfit
+      options!  Either way, enjoy your milky coffee.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135009184603807744
+    m_Localized: Buy?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135009503337357312
+    m_Localized: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135009682803236864
+    m_Localized: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135018668252307456
+    m_Localized: 'Seed:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135037087102115840
+    m_Localized: Open The Drain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143884046088904704
+    m_Localized: 'Time:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893353438224384
+    m_Localized: Perfect!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893532069437440
+    m_Localized: Great!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893677221715968
+    m_Localized: Good!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893751905492992
+    m_Localized: Okay.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893844029186048
+    m_Localized: Meh.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893899951841280
+    m_Localized: Bad...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893970122547200
+    m_Localized: Ruined!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143940038960979968
+    m_Localized: Breast Milk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143959184234881024
+    m_Localized: Milk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143959463068016640
+    m_Localized: Shake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143959642353541120
+    m_Localized: Chocolate Shake
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 5961144360232288257
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00a0398844a3d701

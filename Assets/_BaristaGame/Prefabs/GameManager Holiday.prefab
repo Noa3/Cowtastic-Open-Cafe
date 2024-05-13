@@ -1,0 +1,851 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &250196813632892552
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7878596853692917701}
+  - component: {fileID: 5501573539434583377}
+  - component: {fileID: 1499931314265684027}
+  - component: {fileID: 4035390124498316619}
+  - component: {fileID: 1519714847519055794}
+  - component: {fileID: 4035390125887087565}
+  - component: {fileID: 2199086914143056441}
+  - component: {fileID: 4035390125887087566}
+  - component: {fileID: 462419516008134761}
+  m_Layer: 0
+  m_Name: GameManager Holiday
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &7878596853692917701
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250196813632892552}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5501573539434583377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250196813632892552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e359bed2c36ef23469aef424856acd74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProductionRateText: {fileID: 0}
+  MaxSizeText: {fileID: 0}
+  FundsText: {fileID: 0}
+  FoundsAnimatior: {fileID: 0}
+  GOFoundsAdd: {fileID: 0}
+  ParticleFoundsAdd: {fileID: 0}
+  GOFoundsSub: {fileID: 0}
+  ParticleFoundsSub: {fileID: 0}
+  ParticleHappynessAdd: {fileID: 0}
+  ParticleHappynessSub: {fileID: 0}
+  ParticleMaxSizeAdd: {fileID: 0}
+  ParticleProductionAdd: {fileID: 0}
+  MilkFillText: {fileID: 0}
+  MilkFillImage: {fileID: 0}
+  HappinessText: {fileID: 0}
+  HappinesSprite: {fileID: 0}
+  LevelText: {fileID: 0}
+  ExpSlider: {fileID: 0}
+  CantLevelUp: {fileID: 0}
+  MaxSizeAdditionalSize: 100
+  CanGrow: 0
+  ProductionRate: 150
+  MaxSize: 200
+  MaxSizeMultipler: 5
+  Funds: 200
+  MilkFill: 200
+  CurrentBust: 10
+  CurrentBustMultipler: 25
+  Happiness: 50
+  ParticleHappynessTickTime: 1
+  ExpPercent: 0
+  Level: 1
+  CanLevelUp: 1
+--- !u!114 &1499931314265684027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250196813632892552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05a6fc78bcbb38b4f8b10ac5476f2c05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EffectProductionUpgrade: {fileID: 0}
+  EffectProductionDowngrade: {fileID: 0}
+  EffectMaxSizeUpgarde: {fileID: 0}
+  EffectFillMilk: {fileID: 0}
+  EffectHappynessIncrease: {fileID: 0}
+  EffectFullnesTolleranceUpgrade: {fileID: 0}
+  statsManager: {fileID: 0}
+  baristaController: {fileID: 0}
+  cupController: {fileID: 0}
+  CustomerDialogAnimator: {fileID: 0}
+  BustHappynessDecrease:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.3
+      inSlope: -0.06842305
+      outSlope: -0.06842305
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.1379973
+    - serializedVersion: 3
+      time: 5
+      value: 0.01
+      inSlope: 0.00064006925
+      outSlope: 0.00064006925
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.1519171
+      outWeight: 0.049085487
+    - serializedVersion: 3
+      time: 85
+      value: 0.75
+      inSlope: 0.030415406
+      outSlope: 0.030415406
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.42727172
+    - serializedVersion: 3
+      time: 89.198044
+      value: 0.9937041
+      inSlope: 0.087354854
+      outSlope: 0.087354854
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.17380399
+      outWeight: 0.2040025
+    - serializedVersion: 3
+      time: 95.08465
+      value: 1.8150861
+      inSlope: 0.19682002
+      outSlope: 0.19682002
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.8588247
+    - serializedVersion: 3
+      time: 97.5
+      value: 2.5
+      inSlope: 0.29432246
+      outSlope: 0.29432246
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.15454651
+      outWeight: 0.77270204
+    - serializedVersion: 3
+      time: 100
+      value: 5
+      inSlope: 1.3407743
+      outSlope: 1.3407743
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.1363678
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  HappynessNeededForProduce: 100
+  HappynessIncreaseFromMilkingPerSecond: 0
+  WhileHeadpatingDontDecreaseHappyness: 1
+  HappynessIncreaseHeadPatOneTime: 2
+  HappynessIncreaseHeadPatTickTime: 2
+  HappynessIncreaseHeadPatOverTime: 0.3
+  Money: 100
+  Level: 1
+  ExpCurrent: 0
+  ExpNeedToNextLevel: 3
+  CanLevelUp: 1
+  ProductionRate: 10
+  MaxSize: 200
+  CurrentMaxSize: 10
+  MilkSpeed: 2
+  TargetBustSize: 0
+  BustSize: 0
+  BustSizeSmoothMultipler: 3
+  Fullness: 0
+  Happiness: 100
+  Clothed: 1
+  UpgradeCanGrow: 1
+  Upgradeshappiness: 0
+  UpgradesHappinessValue: 20
+  UpgradesMaxSize: 0
+  UpgradesMaxSizeValue: 5
+  UpgradesProductionRate: 0
+  UpgradesProductionRateValue: 2
+  UpgradesMilkFullness: 0
+  UpgradesMilkFullnesPercentage: 10
+  UpgradeMilkFullnessValueAddOffset: 1
+  UpgradesFullTolerance: 0
+  GameEndSequence: 0
+  GameEndSequenceDuration: 10
+  EventFastMilkFill: 0
+  EventFastMilkFillMultipler: 2
+  EventMilkBurst: 0
+  EventMilkBurstShrinkBack: 0
+  EventMilkBurstBustExpanded: 0
+  EventMilkBurstGrowTickTime: 5
+  EventMilkBurstGrowTickSize: 2
+  EventMoodChange: 0
+  EventMoodToChange: 1
+  EventMoodChangeTickTime: 4
+  TryMilking: 0
+  BeeingMilked: 0
+  MilkingFailed: 0
+  BustHappinessDecreaseTolerance:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  CurrentHappinessDecreasePerFrame: 0
+  CowlevelIncreaseOverTime: 0.083
+  CurrentCowlevel: 0
+  BustGrowMilkFullnessMin: 0.5
+  BustGrowMilkFullnessMax: 0.85
+--- !u!114 &4035390124498316619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250196813632892552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 527edfbce8ce96f47bef083c3375c75f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WaitBetweenOrderMax: 2
+  PunishingMultiplerForWrongIngreedient: 0.55
+  PunishingValueForEmptyCupInOrder: 2
+  FillingSuccecsTollerance: 0.05
+  IngredientValue:
+    Espresso: 10
+    Coffee: 2
+    Chocolate: 5
+    Tea: 3
+    Milk: 1
+    BreastMilk: 7.5
+    Cream: 2
+    Sugar: 1.5
+    Ice: 0.5
+    Boba: 3
+    WhippedCream: 0.75
+    CaramelSauce: 1
+    ChocolateSauce: 1.5
+    Sprinkles: 0.5
+  FinishedOrderCupResetOffset: 0.5
+  customers: []
+  RandomCustomAvatars: []
+  PossibileWeightedOrders:
+  - {fileID: 11400000, guid: d980185edbbdd3f42a95c1e5d31f6a1a, type: 2}
+  - {fileID: 11400000, guid: 6defdc81fc886b147b25744c3dac3af1, type: 2}
+  - {fileID: 11400000, guid: 6defdc81fc886b147b25744c3dac3af1, type: 2}
+  - {fileID: 11400000, guid: 743096a5fca137c4a80774027b69c052, type: 2}
+  - {fileID: 11400000, guid: 6188fabaf6fd4814bba9e256cc0b344f, type: 2}
+  - {fileID: 11400000, guid: c6b2ed49b9a1a974ba1795cea86ff609, type: 2}
+  PossibileFillingPercentages:
+    twoFillings:
+    - value1: 50
+      value2: 50
+    - value1: 75
+      value2: 25
+    - value1: 25
+      value2: 75
+    - value1: 20
+      value2: 80
+    - value1: 80
+      value2: 20
+    - value1: 33
+      value2: 67
+    - value1: 67
+      value2: 33
+    threeFillings:
+    - value1: 50
+      value2: 25
+      value3: 25
+    - value1: 25
+      value2: 50
+      value3: 25
+    - value1: 25
+      value2: 25
+      value3: 50
+    - value1: 33
+      value2: 33
+      value3: 34
+    - value1: 60
+      value2: 20
+      value3: 20
+    - value1: 20
+      value2: 20
+      value3: 60
+    - value1: 80
+      value2: 10
+      value3: 10
+    fourFillings:
+    - value1: 25
+      value2: 25
+      value3: 25
+      value4: 25
+    - value1: 40
+      value2: 20
+      value3: 20
+      value4: 20
+    - value1: 20
+      value2: 20
+      value3: 20
+      value4: 40
+    - value1: 10
+      value2: 30
+      value3: 30
+      value4: 30
+    - value1: 50
+      value2: 20
+      value3: 20
+      value4: 10
+    - value1: 10
+      value2: 20
+      value3: 20
+      value4: 50
+    - value1: 10
+      value2: 15
+      value3: 25
+      value4: 50
+    - value1: 50
+      value2: 25
+      value3: 15
+      value4: 10
+    fiveFillings:
+    - value1: 20
+      value2: 20
+      value3: 20
+      value4: 20
+      value5: 20
+    - value1: 30
+      value2: 20
+      value3: 20
+      value4: 20
+      value5: 10
+    - value1: 10
+      value2: 20
+      value3: 20
+      value4: 20
+      value5: 30
+    - value1: 10
+      value2: 30
+      value3: 20
+      value4: 20
+      value5: 20
+    - value1: 25
+      value2: 25
+      value3: 25
+      value4: 15
+      value5: 10
+    - value1: 10
+      value2: 15
+      value3: 25
+      value4: 25
+      value5: 25
+    - value1: 10
+      value2: 10
+      value3: 10
+      value4: 20
+      value5: 50
+    - value1: 10
+      value2: 15
+      value3: 15
+      value4: 30
+      value5: 30
+    - value1: 10
+      value2: 20
+      value3: 20
+      value4: 25
+      value5: 25
+    sixFillings:
+    - value1: 15
+      value2: 17
+      value3: 17
+      value4: 17
+      value5: 17
+      value6: 17
+    - value1: 15
+      value2: 15
+      value3: 15
+      value4: 15
+      value5: 15
+      value6: 25
+    - value1: 10
+      value2: 10
+      value3: 15
+      value4: 15
+      value5: 25
+      value6: 25
+    - value1: 10
+      value2: 15
+      value3: 15
+      value4: 15
+      value5: 15
+      value6: 30
+    - value1: 10
+      value2: 10
+      value3: 10
+      value4: 20
+      value5: 20
+      value6: 30
+    - value1: 10
+      value2: 10
+      value3: 10
+      value4: 10
+      value5: 10
+      value6: 50
+    - value1: 50
+      value2: 10
+      value3: 10
+      value4: 10
+      value5: 10
+      value6: 10
+    - value1: 10
+      value2: 10
+      value3: 10
+      value4: 10
+      value5: 20
+      value6: 40
+    - value1: 10
+      value2: 10
+      value3: 10
+      value4: 20
+      value5: 10
+      value6: 40
+    sevenFillings:
+    - value1: 16
+      value2: 14
+      value3: 14
+      value4: 14
+      value5: 14
+      value6: 14
+      value7: 14
+    - value1: 25
+      value2: 12.5
+      value3: 12.5
+      value4: 12.5
+      value5: 12.5
+      value6: 12.5
+      value7: 12.5
+    - value1: 12.5
+      value2: 12.5
+      value3: 12.5
+      value4: 12.5
+      value5: 12.5
+      value6: 12.5
+      value7: 25
+    - value1: 12.5
+      value2: 12.5
+      value3: 12.5
+      value4: 12.5
+      value5: 25
+      value6: 12.5
+      value7: 12.5
+    - value1: 12.5
+      value2: 12.5
+      value3: 25
+      value4: 12.5
+      value5: 12.5
+      value6: 12.5
+      value7: 12.5
+    - value1: 10
+      value2: 10
+      value3: 10
+      value4: 10
+      value5: 10
+      value6: 10
+      value7: 40
+    - value1: 40
+      value2: 10
+      value3: 10
+      value4: 10
+      value5: 10
+      value6: 10
+      value7: 10
+    - value1: 10
+      value2: 40
+      value3: 10
+      value4: 10
+      value5: 10
+      value6: 10
+      value7: 10
+    - value1: 10
+      value2: 10
+      value3: 10
+      value4: 10
+      value5: 10
+      value6: 40
+      value7: 10
+    - value1: 10
+      value2: 10
+      value3: 10
+      value4: 10
+      value5: 20
+      value6: 20
+      value7: 20
+    - value1: 10
+      value2: 10
+      value3: 10
+      value4: 20
+      value5: 10
+      value6: 20
+      value7: 20
+    - value1: 20
+      value2: 20
+      value3: 10
+      value4: 10
+      value5: 10
+      value6: 10
+      value7: 20
+    eightFillings:
+    - value1: 12.5
+      value2: 12.5
+      value3: 12.5
+      value4: 12.5
+      value5: 12.5
+      value6: 12.5
+      value7: 12.5
+      value8: 12.5
+    - value1: 10
+      value2: 10
+      value3: 10
+      value4: 10
+      value5: 10
+      value6: 12.5
+      value7: 12.5
+      value8: 25
+    - value1: 25
+      value2: 12.5
+      value3: 12.5
+      value4: 10
+      value5: 10
+      value6: 10
+      value7: 10
+      value8: 10
+    - value1: 10
+      value2: 10
+      value3: 10
+      value4: 10
+      value5: 10
+      value6: 25
+      value7: 12.5
+      value8: 12.5
+    - value1: 12.5
+      value2: 12.5
+      value3: 25
+      value4: 10
+      value5: 10
+      value6: 10
+      value7: 10
+      value8: 10
+    - value1: 10
+      value2: 10
+      value3: 10
+      value4: 10
+      value5: 10
+      value6: 10
+      value7: 10
+      value8: 30
+    - value1: 30
+      value2: 10
+      value3: 10
+      value4: 10
+      value5: 10
+      value6: 10
+      value7: 10
+      value8: 10
+    - value1: 10
+      value2: 10
+      value3: 30
+      value4: 10
+      value5: 10
+      value6: 10
+      value7: 10
+      value8: 10
+    - value1: 10
+      value2: 10
+      value3: 10
+      value4: 10
+      value5: 10
+      value6: 30
+      value7: 10
+      value8: 10
+    - value1: 10
+      value2: 10
+      value3: 10
+      value4: 10
+      value5: 10
+      value6: 10
+      value7: 20
+      value8: 20
+    - value1: 20
+      value2: 20
+      value3: 10
+      value4: 10
+      value5: 10
+      value6: 10
+      value7: 10
+      value8: 10
+    - value1: 10
+      value2: 10
+      value3: 10
+      value4: 20
+      value5: 20
+      value6: 10
+      value7: 10
+      value8: 10
+  IngredientsMultiplier:
+  - 0
+  - 0.15
+  - 0.45
+  - 1
+  - 1.75
+  - 3
+  - 5
+  - 7.5
+  Ratings:
+  - Name: Perfect!
+    MinValue: 0.95
+    MoneyMultipler: 1.15
+    SoundEffect: {fileID: 8300000, guid: 52320e590bf774734a288886eba557ba, type: 3}
+    HappynessChange: 0.5
+    RatingColor: {r: 0.10849059, g: 0.38983303, b: 1, a: 1}
+    isFail: 0
+  - Name: Great!
+    MinValue: 0.9
+    MoneyMultipler: 1.075
+    SoundEffect: {fileID: 8300000, guid: 7bd6b897eb5ca4b7d88a205c4a51640c, type: 3}
+    HappynessChange: 0.25
+    RatingColor: {r: 0, g: 1, b: 0.3158722, a: 1}
+    isFail: 0
+  - Name: Good!
+    MinValue: 0.8
+    MoneyMultipler: 1
+    SoundEffect: {fileID: 8300000, guid: dc6614beca09347ec9b258f12d154bdd, type: 3}
+    HappynessChange: 0.05
+    RatingColor: {r: 0.59701204, g: 1, b: 0, a: 1}
+    isFail: 0
+  - Name: Okay.
+    MinValue: 0.6
+    MoneyMultipler: 0.75
+    SoundEffect: {fileID: 8300000, guid: 5fdb13d3756c84fecac96f5a2d124370, type: 3}
+    HappynessChange: -0.05
+    RatingColor: {r: 1, g: 0.85783035, b: 0, a: 1}
+    isFail: 0
+  - Name: Meh.
+    MinValue: 0.4
+    MoneyMultipler: 0.5
+    SoundEffect: {fileID: 8300000, guid: 79e6baad2fd414b82a6d49ce1568d2e5, type: 3}
+    HappynessChange: -0.5
+    RatingColor: {r: 1, g: 0.5877881, b: 0, a: 1}
+    isFail: 0
+  - Name: Bad...
+    MinValue: 0.2
+    MoneyMultipler: 0.2
+    SoundEffect: {fileID: 8300000, guid: 7bef0064f8567430cac22499c6b93d4f, type: 3}
+    HappynessChange: -1
+    RatingColor: {r: 1, g: 0, b: 0.008642197, a: 1}
+    isFail: 0
+  - Name: Ruined!!
+    MinValue: 0
+    MoneyMultipler: 0
+    SoundEffect: {fileID: 8300000, guid: 7e26c9daf4c32483b9c2790e662d3f1b, type: 3}
+    HappynessChange: -2
+    RatingColor: {r: 0.3301887, g: 0, b: 0, a: 1}
+    isFail: 1
+  MilkingIncreasesFlustered: 1
+  NeedBeFlusteredToIncreaseLevel: 0
+  MilkTimeToIncreaseFlustered: 6
+  PercentagesReplacingBreastMilk:
+    Level0: 0
+    Level1: 0.2
+    Level2: 0.4
+    Level3: 0.6
+    Level4: 0.8
+  EventAlwaysFlustered: 0
+  EventMoreValueSell: 0
+  EventSellMoreValueMultipler: 1.25
+  EventCustomerNotFlustered: 0
+  ChangedIngreedientCount: 0
+  CompletedCups: 0
+  orderIsActive: 0
+  ActiveCustomer: {fileID: 0}
+  ActiveCustomerAvatar: {fileID: 0}
+  ActiveIngreedentPercentages: []
+  FlusteredChance: 0
+  CurrentFlusteredLevel: 0
+  FlusteredLevelActivationMin1: 35
+  FlusteredLevelActivationMin2: 52.5
+  FlusteredLevelActivationMin3: 70
+  FlusteredLevelActivationMin4: 90
+  FlusteredRandomMultiplerMin: 0.25
+  FlusteredRandomMultiplerMax: 1.25
+  isAlwaysFlustered: 0
+--- !u!114 &1519714847519055794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250196813632892552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e581bd0aad0bfda40aff99be343abc1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameOverCanvas: {fileID: 0}
+  GameOverFlood: {fileID: 0}
+  TimeUnderHappynessLimit: 5
+  HappynessLimit: 0.2
+  GameoverAnimationDuration: 3.35
+  FloodEndTrigger: 0.98
+  GameOverTriggered: 0
+--- !u!114 &4035390125887087565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250196813632892552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6828b1e0583c5414cb8426eadb5699f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IconHolder: {fileID: 0}
+  PossibileEvents:
+  - {fileID: 7302213241365009813, guid: 9fe9eb8c91425554bb4dbb7336a74e9f, type: 3}
+  - {fileID: 7302213241365009813, guid: 31d3def6fd1f82344b696046b1e736a3, type: 3}
+  - {fileID: -4898126086121630245, guid: 94b76cf9cb4f9594b8ea9fabc972e4bc, type: 3}
+  - {fileID: -4898126086121630245, guid: 5d7e92b7a1ae23b49840e512e076f5fb, type: 3}
+  - {fileID: -3902914951816125060, guid: 48b9bd13f5718b5408a64f2253fa5269, type: 3}
+  - {fileID: 8092342539778702053, guid: 5578db8878599c8449e6e4aa488faaaf, type: 3}
+  - {fileID: 342804629908770448, guid: be1039caef66f43489a3bc7c8d3a8844, type: 3}
+  - {fileID: 342804629908770448, guid: e73beb4026f691c4aad98b3f202bbe67, type: 3}
+  - {fileID: -3902914951816125060, guid: 0ca4936ee5e47af4b882f272979fc9b3, type: 3}
+  - {fileID: 5130141110780182968, guid: 2a346b0c17995b1468f931156148fab7, type: 3}
+  - {fileID: 6123799642273016361, guid: e75fdf2d7146a1640af097c342e3c274, type: 3}
+  minTimeForFirstEvent: 30
+  minMaxBustStartEvents: 0
+  CompletedCupsNeeded: 1
+  MinTime: 60
+  MaxTime: 240
+  MaxEventsOnSameTime: 10
+  CurrentEvents: []
+  EventFillSpeedMultipler: 8
+  moreIngreedients: 0
+  ForceEventStart: 0
+--- !u!114 &2199086914143056441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250196813632892552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7093a0b2702ccc41bdd8d6f19502db5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlatformSpecificAvatars:
+  - {fileID: 11400000, guid: ba7b1f7620f1e09418d9b4b3ae701054, type: 2}
+  - {fileID: 11400000, guid: 79ae72a8c9963f84f96c03b548dae7bf, type: 2}
+  - {fileID: 11400000, guid: ad936c95676b5764584e2303ced40cd7, type: 2}
+  - {fileID: 11400000, guid: 33b98892c3129664994f067522f5f188, type: 2}
+  - {fileID: 11400000, guid: cd9f51ec6aad5ca44bd7ba62efcfcedb, type: 2}
+  - {fileID: 11400000, guid: 67fd94881e8adc441a76784eb9ae3f04, type: 2}
+  - {fileID: 11400000, guid: ebdfe0468620b0b44b1245c9746038fa, type: 2}
+  - {fileID: 11400000, guid: c92d308b73b0c3740a8cf41619bd7522, type: 2}
+  - {fileID: 11400000, guid: 7a7e2ff127d67fc47880316681f6829b, type: 2}
+  - {fileID: 11400000, guid: e2bbabab0e8e0734e9cb1e5e3024daf8, type: 2}
+  - {fileID: 11400000, guid: 6a48fb8ea15d4b34a8c1f54a11ee3e27, type: 2}
+  PlatformSpecificEvents:
+  - {fileID: 0}
+  - {fileID: -4898126086121630245, guid: 88223dbe378ca9c4ab293496772333df, type: 3}
+--- !u!114 &4035390125887087566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250196813632892552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87ff03428c9b70a4bb235b13ef3b09c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameWonEffect: {fileID: 0}
+  GameWinCanvas: {fileID: 0}
+  ActualTime: {fileID: 0}
+  BestTime: {fileID: 0}
+  ActualEarned: {fileID: 0}
+  BestEarned: {fileID: 0}
+  ActualCustomers: {fileID: 0}
+  BestCustomers: {fileID: 0}
+  ActualMilk: {fileID: 0}
+  BestMilk: {fileID: 0}
+  ObjectsToDeactivateWhileAnimating:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  NeededMaxBustSize: 79.9
+  NeededActualBustSize: 79.9
+  BaristaWonAnimationTime: 10
+  TimeUntilCanvasGotShown: 16
+  GameWon: 0
+  PlayedWinAnimtion: 0
+  MoneyBest: 0
+  CustomerServedBest: 0
+  MilkBest: 0
+  CurrentBestTime: 0
+--- !u!114 &462419516008134761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250196813632892552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96ba676e4b7de414ca0f73e442f87635, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoneyEarned: 0
+  CustomersServed: 0
+  MilcCreated: 0
+  bestTimeManager: {fileID: 0}

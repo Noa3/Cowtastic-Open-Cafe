@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7531eef2b90c2445a75ecc122afe9b3, type: 3}
+  m_Name: Avatar Cat
+  m_EditorClassIdentifier: 
+  Stats:
+    Weighted: 100
+    FlusteredMultipler: 1.3
+  Normal: {fileID: 21300000, guid: 6d83bde14e7346346bc0d1481661a19a, type: 3}
+  Level1: {fileID: 21300000, guid: 277cf3223479f654fa505c22516636f2, type: 3}
+  Level2: {fileID: 21300000, guid: 3ce99f85a0865ce4fbfb7eac2fb15433, type: 3}
+  Level3: {fileID: 21300000, guid: 6e65c98bbafa7fd4bb8d11b8344e1778, type: 3}
+  Level4: {fileID: 21300000, guid: c39b32791e1ace4479160ca0e5b486fd, type: 3}

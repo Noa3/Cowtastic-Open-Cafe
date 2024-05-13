@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7531eef2b90c2445a75ecc122afe9b3, type: 3}
+  m_Name: Avatar Fairy
+  m_EditorClassIdentifier: 
+  Stats:
+    Weighted: 40
+    FlusteredMultipler: 1.5
+    RemoveEventIfCustomerIsFinished: 1
+    CustomerEvent: 0
+  EventToActivate: {fileID: -4898126086121630245, guid: 82adb8754abb8834ba1d952203c7e026, type: 3}
+  Normal: {fileID: 21300000, guid: 3b76f10d701af514987d0bc80a6bc365, type: 3}
+  Level1: {fileID: 21300000, guid: c3a5a7950f7adca4c99bb96d59db599c, type: 3}
+  Level2: {fileID: 21300000, guid: b4992c81c5b842343acd9fcf77401f65, type: 3}
+  Level3: {fileID: 21300000, guid: 6e7153421b7328949b67aaa1f81a7995, type: 3}
+  Level4: {fileID: 21300000, guid: 5bb555b17dc51fb4bac58f21933b1a6f, type: 3}

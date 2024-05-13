@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2457905491183025960
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3854649010284551802, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 4329201659459363593}
+    - target: {fileID: 3854649010284551802, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279744618858633928, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: content
+      value: Reach ???ml to win.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707127849366474124, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707127849366474124, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707127849366474124, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707127849366474124, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707127849366474124, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707127849366474124, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707127849366474124, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707127849366474124, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707127849366474124, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707127849366474124, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707127849366474124, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8757853169180715026, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_Name
+      value: Cafe Visuals Sandbox
+      objectReference: {fileID: 0}
+    - target: {fileID: 8901334316692926337, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: content
+      value: Max is ???
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+--- !u!1 &4329201659459363593 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2164074167885454369, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+  m_PrefabInstance: {fileID: 2457905491183025960}
+  m_PrefabAsset: {fileID: 0}

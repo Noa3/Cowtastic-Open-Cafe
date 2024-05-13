@@ -1,0 +1,287 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3783352476631567132
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 331260290468912049, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: MoneyToUnlock
+      value: 555
+      objectReference: {fileID: 0}
+    - target: {fileID: 331260290955919848, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: header
+      value: Buy Ice for $555
+      objectReference: {fileID: 0}
+    - target: {fileID: 331260290955919848, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: content
+      value: Adds $500 to the order. YOOOO???
+      objectReference: {fileID: 0}
+    - target: {fileID: 331260291037496846, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: content
+      value: Adds $500 to the order
+      objectReference: {fileID: 0}
+    - target: {fileID: 338728848237333381, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1481206064, guid: 24b6e65edc9032f4da370f23ce9da936, type: 3}
+    - target: {fileID: 510166131170545551, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_text
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 675922128391594336, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: MoneyToUnlock
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 675922128843979577, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: header
+      value: Buy Tea for $35
+      objectReference: {fileID: 0}
+    - target: {fileID: 778178175223545197, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_text
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 778178175223545197, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_fontSize
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 778178175223545197, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 987747266352588003, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 26.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 1568852285084588749, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_text
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2262207052817559969, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 23.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2326731699690417919, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 22.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2360363154968095207, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: header
+      value: Buy Chocolate for $160
+      objectReference: {fileID: 0}
+    - target: {fileID: 2360363155621835710, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: MoneyToUnlock
+      value: 160
+      objectReference: {fileID: 0}
+    - target: {fileID: 2457471336643275952, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: MoneyToUnlock
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2457471338227413263, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: content
+      value: Adds $0.08 to the order
+      objectReference: {fileID: 0}
+    - target: {fileID: 2457471338304698089, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: header
+      value: Buy Whipped Cream for $1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2457471338304698089, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: content
+      value: Adds $0.08 to the order
+      objectReference: {fileID: 0}
+    - target: {fileID: 2605294850136013580, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_text
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2677371727598316842, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: MoneyToUnlock
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 2677371728111857813, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: content
+      value: Adds $2 to the order
+      objectReference: {fileID: 0}
+    - target: {fileID: 2677371728151361395, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: header
+      value: Buy Caramel Sauce for $35
+      objectReference: {fileID: 0}
+    - target: {fileID: 2677371728151361395, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: content
+      value: Adds $2 to the order
+      objectReference: {fileID: 0}
+    - target: {fileID: 2975877523430310297, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1261686710, guid: 24b6e65edc9032f4da370f23ce9da936, type: 3}
+    - target: {fileID: 3092672927290885523, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_text
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3092672927290885523, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_fontSize
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3092672927290885523, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147921999250395668, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_text
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279744618858633928, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: content
+      value: Reach 3000ml to win.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4735385356939480989, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: header
+      value: Buy Boba for $7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4735385358601000388, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: MoneyToUnlock
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4772639105705247226, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_text
+      value: 555
+      objectReference: {fileID: 0}
+    - target: {fileID: 4772639105705247226, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_fontSize
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4772639105705247226, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5231641773853846166, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 20.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 5395794054985169133, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1261686710, guid: 24b6e65edc9032f4da370f23ce9da936, type: 3}
+    - target: {fileID: 5507808255080769318, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: MoneyToUnlock
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 5507808255499631999, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: header
+      value: Buy Sugar for $60
+      objectReference: {fileID: 0}
+    - target: {fileID: 5747249638121929515, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_text
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009667048708391046, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: MoneyToUnlock
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009667050437024479, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: header
+      value: Buy Candies for $11
+      objectReference: {fileID: 0}
+    - target: {fileID: 7099031307160019271, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: MoneyToUnlock
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 7099031308798164216, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: content
+      value: Adds $3 to the order
+      objectReference: {fileID: 0}
+    - target: {fileID: 7099031308888652574, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: header
+      value: Buy Cocoa Powder for $50
+      objectReference: {fileID: 0}
+    - target: {fileID: 7099031308888652574, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: content
+      value: Adds $3 to the order
+      objectReference: {fileID: 0}
+    - target: {fileID: 7171104888633390945, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_text
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 7258043008656291579, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_text
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7377669457875233269, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_text
+      value: 160
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707127849366474124, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707127849366474124, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707127849366474124, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707127849366474124, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707127849366474124, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707127849366474124, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707127849366474124, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707127849366474124, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707127849366474124, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707127849366474124, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707127849366474124, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7802608554971537368, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: MoneyToUnlock
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7802608556700190081, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: header
+      value: Buy Espresso for $15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7810323988701908972, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -482623898, guid: 24b6e65edc9032f4da370f23ce9da936, type: 3}
+    - target: {fileID: 7857836736344328287, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: MoneyToUnlock
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 7857836737938641414, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: header
+      value: Buy Vanilla Creamer for $45
+      objectReference: {fileID: 0}
+    - target: {fileID: 8757853169180715026, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: m_Name
+      value: Cafe Visuals Chaos
+      objectReference: {fileID: 0}
+    - target: {fileID: 8901334316692926337, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: content
+      value: Max is 700
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}

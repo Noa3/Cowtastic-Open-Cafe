@@ -1,0 +1,663 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Default_es-ES
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es-ES
+  m_SharedData: {fileID: 11400000, guid: 99f355a02537cb04c821e914e96ec32f, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 2654012272640
+    m_Localized: Salir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224355836850176
+    m_Localized: Opciones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 226539798360064
+    m_Localized: Modo Arcade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227076505694208
+    m_Localized: "Cr\xE9ditos"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227953312362496
+    m_Localized: Agradecimientos Especiales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228206665101312
+    m_Localized: "Cowtastic Caf\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 229470362759168
+    m_Localized: Modo Milky
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230078679445504
+    m_Localized: "Modo Milky Activado: Pon a prueba tu velocidad mientras la Barista
+      se llena cada vez m\xE1s r\xE1pido. \xBFPodras seguirle el ritmo?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231146272419840
+    m_Localized: Tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231298777313280
+    m_Localized: Modo Normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231467803570176
+    m_Localized: "Modo Dif\xEDcil"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231828173975552
+    m_Localized: Modo Casual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233523209662464
+    m_Localized: Tutorial del Arcade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 234141684953088
+    m_Localized: "Consejos para ense\xF1arte a jugar si el ensayo y error no es lo
+      tuyo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 234396560224256
+    m_Localized: Iniciar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 266450740015104
+    m_Localized: Dificultad Normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 266676540370944
+    m_Localized: "Lleva a la Barista a su tama\xF1o m\xE1ximo y evita que se enoje
+      o se ir\xE1."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269021949030400
+    m_Localized: "Modo Dif\xEDcil"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269706832736256
+    m_Localized: Modo Casual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269212714364928
+    m_Localized: "\"Los clientes son m\xE1s exigentes y la barista es m\xE1s enojona,
+      \xA1pero puede crecer a\xFAn m\xE1s!\n \n Un desaf\xEDo un poco m\xE1s dif\xEDcil
+      que el modo normal\"."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269928791109632
+    m_Localized: "A veces est\xE1 bien relajarse.\n \n Precios m\xE1s baratos y consistentes
+      que facilitan jugar con las opciones."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271100448960512
+    m_Localized: "Dificultad Ca\xF3tica"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273385908432896
+    m_Localized: "Oh, no.\n \n Por favor, por amor a todo lo bueno en este mundo,
+      dime que al menos jugaste el Modo Normal primero, \xBFno? \xA1Hazlo por tu
+      propio bien, por favor!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 274592542584832
+    m_Localized: "Dificultad Ultra Ca\xF3tica"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 274821425754112
+    m_Localized: "\xBFEN SERIO? No se supon\xEDa que encontraras esto. Si tienes,
+      aunque sea una pizca de amor propio, no toques esto."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286927487332352
+    m_Localized: Idioma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 312927965245440
+    m_Localized: Inventario de Leche Regular por $50
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316153368244224
+    m_Localized: Leche Regular
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316273224675328
+    m_Localized: $1 por bebida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316555551666176
+    m_Localized: Inventario de Crema de Vainilla por $35
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316559485923328
+    m_Localized: Crema de Vainilla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316567601901568
+    m_Localized: $2 por bebida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536900430819328
+    m_Localized: Inventario de Crema Batida por $15
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536982903418880
+    m_Localized: Crema Batida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537045671178240
+    m_Localized: $0.75 extra al pedido
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537330950959104
+    m_Localized: Inventario de Hielo por $5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537370968813568
+    m_Localized: Hielo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537416976134144
+    m_Localized: $0.50 extra al pedido
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537745180422144
+    m_Localized: "Inventario de Caf\xE9 por $50"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537790525042688
+    m_Localized: "Caf\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537965951807488
+    m_Localized: $2 por bebida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540541439012864
+    m_Localized: "Inventario de T\xE9 por $50"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540592966037504
+    m_Localized: "T\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540631339724800
+    m_Localized: $3 por bebida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540856380911616
+    m_Localized: Inventario de Espresso por $ 150
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540912534253568
+    m_Localized: Espresso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540973469102080
+    m_Localized: $10 por bebida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 541379419009024
+    m_Localized: "Inventario de Az\xFAcar por $15"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 541440546795520
+    m_Localized: "Az\xFAcar"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 541488361861120
+    m_Localized: $1.5 por bebida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 547664034099200
+    m_Localized: Inventario de Chocolate por $100
+    m_Metadata:
+      m_Items: []
+  - m_Id: 547789489926144
+    m_Localized: Chocolate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 547914811535360
+    m_Localized: $5 por bebida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549242392637440
+    m_Localized: Inventario de Tapioca por $5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549277549293568
+    m_Localized: Tapioca
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549324026376192
+    m_Localized: $3 extra al pedido
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549459674361856
+    m_Localized: Inventario de Confites por $10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549533506695168
+    m_Localized: Confites
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549589093806080
+    m_Localized: $0.50 extra al pedido
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549769167859712
+    m_Localized: Inventario de Salsa de Caramelo por $25
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549811962343424
+    m_Localized: Salsa de Caramelo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549846439522304
+    m_Localized: $1 por bebida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 550089201643520
+    m_Localized: Inventario de Cacao en Polvo por $35
+    m_Metadata:
+      m_Items: []
+  - m_Id: 550158147612672
+    m_Localized: Cacao en Polvo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 550208105967616
+    m_Localized: $1.5 por bebida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1640869886521344
+    m_Localized: Rehacer Pedido
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1641101533736960
+    m_Localized: Terminar Orden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1647484102602752
+    m_Localized: "\xA1Bienvenidos al Caf\xE9 Cowtastic!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1647892887859200
+    m_Localized: "Recientemente, en tu granja lechera decidiste probar una nueva
+      estrategia de marketing abriendo un \"caf\xE9 bovino\". Adem\xE1s de ser una
+      excelente forma de promocionar tus productos, es una gran oportunidad para
+      mantener a las nuevas integrantes del reba\xF1o ocupadas mientras las preparas
+      para su tarea en la producci\xF3n de l\xE1cteos.\n Tu primera barista est\xE1
+      muy emocionada por comenzar, y parece tener mucho potencial. Ay\xFAdala a servir
+      a los clientes mientras la entrenas para que alcance todo su potencial lechero.\nComo
+      el caf\xE9 es nuevo, tendr\xE1s que comprar nuevos ingredientes para el men\xFA.
+      Afortunadamente, parece que los clientes de la zona est\xE1n muy interesados
+      en la idea de pagar extra por leche fresca a pedido, si es que est\xE1n de
+      \xE1nimo para ello.\n Si necesitas ayuda mientras trabajas, puedes contar con
+      las ventanas emergentes (Tips) que aparecen cuando pasas el cursor sobre el
+      pedido. \xA1Que tengas \xE9xito en tu nuevo emprendimiento!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648041961811968
+    m_Localized: Continuar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648188082974720
+    m_Localized: "\xBFVolver a Mostar?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648511212154880
+    m_Localized: "\xA1Felicidades!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648740309233664
+    m_Localized: "\xA1Excelente trabajo! Has logrado que la barista alcance todo
+      su potencial, y est\xE1 deseando unirse a tu granja lechera a tiempo completo.
+      Ahora tienes otra chica vaca de calidad en tu equipo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648943238049792
+    m_Localized: Seguir Jugando
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649079095750656
+    m_Localized: Volver a Jugar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649229939699712
+    m_Localized: "Men\xFA Principal"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649493451042816
+    m_Localized: "M\xE1s Estad\xEDsticas"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649612644773888
+    m_Localized: "Menos Estad\xEDsticas"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649997711241216
+    m_Localized: Volver a intentar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1650204792418304
+    m_Localized: "Men\xFA Principal"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1650345817501696
+    m_Localized: "\xA1Ups! Parece que la has presionado demasiado. \xBFLa dejaste
+      llena por mucho tiempo? O \xBFQuiz\xE1s hubo clientes dif\xEDciles?\n Con suerte,
+      cuando se calme, ella vuelva al trabajo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1650511282794496
+    m_Localized: Fin del Juego
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1651431374680064
+    m_Localized: "\xA1Oh, no! \xA1Eso es demasiada leche! \xBFQu\xE9 est\xE1s haciendo?
+      \xA1La has convertido en un pozo sin fondo de leche que inunda las calles!
+      \xA1Es un caos total!\n Bueno, s\xED, ella parece disfrutar esto, pero..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1651623855484928
+    m_Localized: "\xA1Inundaci\xF3n de Leche!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652064190296064
+    m_Localized: PAUSA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652825364197376
+    m_Localized: Ajustes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1653300364931072
+    m_Localized: Reiniciar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1653487506386944
+    m_Localized: Abandonar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1653921176449024
+    m_Localized: "Configuraci\xF3n General"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1654148486754304
+    m_Localized: "Configuraci\xF3n Avanzada"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1654868065742848
+    m_Localized: Sonido
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655167128006656
+    m_Localized: "M\xFAsica"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655301924548608
+    m_Localized: "Resoluci\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655422749863936
+    m_Localized: Pantalla Completa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655796151971840
+    m_Localized: Mostrar Temporizador
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655899071803392
+    m_Localized: "Movimiento de C\xE1mara"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656078697066496
+    m_Localized: Restablecer Tiempo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656215754338304
+    m_Localized: Discord
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656401700417536
+    m_Localized: Calidad de Texturas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656496193892352
+    m_Localized: AntiAliasing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656601168932864
+    m_Localized: Vsync
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1657977076805632
+    m_Localized: 'Ingredientes:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658332258856960
+    m_Localized: "Mostrar Di\xE1logo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658430149718016
+    m_Localized: "Ocultar Di\xE1logo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658553181237248
+    m_Localized: Ver Barista
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658635091800064
+    m_Localized: Ver Juego
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658724845711360
+    m_Localized: Arreglar Ropa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660182504763392
+    m_Localized: Gestionar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660439854673920
+    m_Localized: Caramelo Secreto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660536202031104
+    m_Localized: Tiene Efectos Misteriosos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660668985307136
+    m_Localized: "La Mejor Manera de Empezar el D\xEDa:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660808559161344
+    m_Localized: Gestionar Empleado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660890163539968
+    m_Localized: Mejorar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661003594297344
+    m_Localized: Personalizar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661098758860800
+    m_Localized: Tipo de Leche
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661378443440128
+    m_Localized: Color de Ropa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661452141555712
+    m_Localized: Estilo de Delantal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661525407657984
+    m_Localized: Estilo de Pantalones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1662565540524032
+    m_Localized: "Caf\xE9 con Leche"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1662658687627264
+    m_Localized: "M\xE1s Producci\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1662771174666240
+    m_Localized: "Caramelo El\xE1stico"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1662860714668032
+    m_Localized: "M\xE1s Grandes"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663192102432768
+    m_Localized: Descanso Extra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663268698812416
+    m_Localized: "M\xE1s Felicidad"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663386760081408
+    m_Localized: "Caf\xE9 Amargo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663505232392192
+    m_Localized: "Menos Producci\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663816466526208
+    m_Localized: Latte de Hadas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663875916591104
+    m_Localized: "\xA1M\xE1s Leche, Ahora!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1664405879484416
+    m_Localized: "T\xE9 Calmante"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1664587954221056
+    m_Localized: Mayor tolerancia a los problemas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1676894453198848
+    m_Localized: "Aumenta la velocidad de producci\xF3n de leche de la barista."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677111105777664
+    m_Localized: Aumenta la capacidad de leche de la barista.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677334284693504
+    m_Localized: "Mejora el estado de \xE1nimo de la barista."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677541911130112
+    m_Localized: "Reduce la velocidad de producci\xF3n de leche de la barista."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677736099016704
+    m_Localized: Llena a la barista inmediatamente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677955096211456
+    m_Localized: "La barista pierde felicidad m\xE1s lentamente."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1683396865912832
+    m_Localized: "\xA1Bienvenidos al Caf\xE9 Cowtastic!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1683534711713792
+    m_Localized: "Recientemente, en tu granja lechera decidiste probar una nueva
+      estrategia de marketing abriendo un \"caf\xE9 bovino\". Adem\xE1s de ser una
+      excelente forma de promocionar tus productos, es una gran oportunidad para
+      mantener a las nuevas integrantes del reba\xF1o ocupadas mientras las preparas
+      para su tarea en la producci\xF3n de l\xE1cteos.\n Tu primera barista est\xE1
+      muy emocionada por comenzar, y parece tener mucho potencial. Ay\xFAdala a servir
+      a los clientes mientras la entrenas para que alcance todo su potencial lechero.\nComo
+      el caf\xE9 es nuevo, tendr\xE1s que comprar nuevos ingredientes para el men\xFA.
+      Afortunadamente, parece que los clientes de la zona est\xE1n muy interesados
+      en la idea de pagar extra por leche fresca a pedido, si es que est\xE1n de
+      \xE1nimo para ello.\n Si necesitas ayuda mientras trabajas, puedes contar con
+      las ventanas emergentes (Tips) que aparecen cuando pasas el cursor sobre el
+      pedido. \xA1Que tengas \xE9xito en tu nuevo emprendimiento!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1684438634557440
+    m_Localized: "\xA1Bienvenidos al Caf\xE9 Caotico!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1684540275126272
+    m_Localized: "Parece que hoy debiste haberte quedado en casa. El caf\xE9 est\xE1
+      en completo caos y todo tipo de cosas locas est\xE1n sucediendo aqu\xED. \xBFQu\xE9
+      son estos precios? \xBFPor qu\xE9 suceden todas estas cosas cada vez que un
+      cliente entra?\n Hola, parece que has encontrado nuestro peque\xF1o huevo de
+      Pascua. Si encontraste esto en tu primer intento, quiz\xE1s debas probar otro
+      modo primero. Necesitar\xE1s mucho conocimiento sobre c\xF3mo funciona el juego
+      para superar este caos, o tal vez no... \xBFEs acaso posible ganar? Solo hay
+      una forma de descubrirlo.\n \xA1Gracias por jugar!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1685107663794176
+    m_Localized: "\xA1Bienvenidos al Caf\xE9 Cowtastic!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1713462324850688
+    m_Localized: "Recientemente, en tu granja lechera decidiste probar una nueva
+      estrategia de marketing abriendo un \"caf\xE9 bovino\". Adem\xE1s de ser una
+      excelente forma de promocionar tus productos, es una gran oportunidad para
+      mantener a las nuevas integrantes del reba\xF1o ocupadas mientras las preparas
+      para su tarea en la producci\xF3n de l\xE1cteos.\n Tu primera barista est\xE1
+      muy emocionada por comenzar, y parece tener mucho potencial. Ay\xFAdala a servir
+      a los clientes mientras la entrenas para que alcance todo su potencial lechero.\nComo
+      el caf\xE9 es nuevo, tendr\xE1s que comprar nuevos ingredientes para el men\xFA.
+      Afortunadamente, parece que los clientes de la zona est\xE1n muy interesados
+      en la idea de pagar extra por leche fresca a pedido, si es que est\xE1n de
+      \xE1nimo para ello.\n Si a\xFAn no has aprendido a jugar, prueba primero el
+      Modo Normal."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1713827099275264
+    m_Localized: "\xA1Bienvenidos al Caf\xE9 Caotico!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1713940962045952
+    m_Localized: "Parece que hoy debiste haberte quedado en casa. El caf\xE9 est\xE1
+      en completo caos y todo tipo de cosas locas est\xE1n sucediendo aqu\xED. \xBFQu\xE9
+      son estos precios? \xBFPor qu\xE9 suceden todas estas cosas cada vez que un
+      cliente entra?\n Hola, parece que has encontrado nuestro peque\xF1o huevo de
+      Pascua. Si encontraste esto en tu primer intento, quiz\xE1s debas probar otro
+      modo primero. Necesitar\xE1s mucho conocimiento sobre c\xF3mo funciona el juego
+      para superar este caos, o tal vez no... \xBFEs acaso posible ganar? Solo hay
+      una forma de descubrirlo.\n \xA1Gracias por jugar!"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

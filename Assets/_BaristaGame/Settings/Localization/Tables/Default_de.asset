@@ -1,0 +1,316 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Default_de
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: 99f355a02537cb04c821e914e96ec32f, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 2654012272640
+    m_Localized: Beenden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224355836850176
+    m_Localized: Optionen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 226539798360064
+    m_Localized: Arcade Modus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227076505694208
+    m_Localized: Credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227953312362496
+    m_Localized: Besonderen Dank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228206665101312
+    m_Localized: "Cowtastic Caf\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231298777313280
+    m_Localized: Normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231467803570176
+    m_Localized: Schwer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231828173975552
+    m_Localized: Einfach
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233523209662464
+    m_Localized: "Einf\xFChrung: Arcade"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 234396560224256
+    m_Localized: Starten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269021949030400
+    m_Localized: Schwer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269706832736256
+    m_Localized: Einfach
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271100448960512
+    m_Localized: Chaos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 274592542584832
+    m_Localized: Ultra Chaos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286927487332352
+    m_Localized: Sprache
+    m_Metadata:
+      m_Items: []
+  - m_Id: 229470362759168
+    m_Localized: Milchflut!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230078679445504
+    m_Localized: "Milchflut ist aktiviert! Teste wie schnell du bist - Die Br\xFCste
+      des Barista werden sich immer schneller f\xFCllen! Wie lange wirst du mit ihr
+      Schritt halten?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231146272419840
+    m_Localized: "Einf\xFChrung"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 234141684953088
+    m_Localized: "Ein Modus mit Tips und Erkl\xE4rungen welche dir beibringen, wie
+      das Spielt funktioniert."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 266450740015104
+    m_Localized: Normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269212714364928
+    m_Localized: "Die Kunden sind ausw\xE4hlerisch und die Barista launisch, aber
+      die maximale Kapazit\xE4t ist erh\xF6ht! Eine h\xF6here Schwierigkeit f\xFCr
+      die, die eine Herausforderung wollen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 266676540370944
+    m_Localized: "Spiele bis die Br\xFCste der Barista so gro\xDF werden, wie sie
+      sein k\xF6nnen\u2026 oder bis sie so ungl\xFCcklich wird, dass sie k\xFCndigt."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269928791109632
+    m_Localized: "Manchmal braucht man einfach eine Pause. Die Preise sind niedriger
+      und konsistent - Ideal f\xFCr ein wenig Herumspielen und Testen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273385908432896
+    m_Localized: "Oh\u2026 Oh nein. Tu dir das hier nicht an! \u2026Hast du zumindest
+      auf Normal oder Schwer gespielt?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 274821425754112
+    m_Localized: "Manche Geheimnisse sollten geheim bleiben\u2026 Was auch immer
+      du tust, spiel diesen Modus nicht, er wird dich in den Wahnsinn treiben!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19834399893057536
+    m_Localized: Wochenend modus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652064190296064
+    m_Localized: PAUSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652825364197376
+    m_Localized: Einstellungen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648041961811968
+    m_Localized: Weiter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1653487506386944
+    m_Localized: Aufgeben
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1653921176449024
+    m_Localized: Einstellungen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1654148486754304
+    m_Localized: Erweiterte Einstellungen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132748730527490048
+    m_Localized: Sprache
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655167128006656
+    m_Localized: Musik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655301924548608
+    m_Localized: "Aufl\xF6sung"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655796151971840
+    m_Localized: Zeige Zeit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132752649106333696
+    m_Localized: Sandbox
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132753222291529728
+    m_Localized: Statistiken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132753240020852736
+    m_Localized: Fortschritt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132753744281051136
+    m_Localized: Geheimnisse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132754228769300480
+    m_Localized: 'Milch Produziert:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133847557804236800
+    m_Localized: Weiter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133847671285325824
+    m_Localized: "Zur\xFCck"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133992920209006592
+    m_Localized: Grundlegendes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133847226483580928
+    m_Localized: Beende Tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133995165042450432
+    m_Localized: Drink Erstellung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134011413927141376
+    m_Localized: Zeitliche Events
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134180089527640064
+    m_Localized: "Einf\xFChrung Beendet"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135009184603807744
+    m_Localized: Kaufen?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134179994149167104
+    m_Localized: Starte Spiel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135009503337357312
+    m_Localized: Ja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135009682803236864
+    m_Localized: Nein
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540592966037504
+    m_Localized: Tee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648511212154880
+    m_Localized: Gratulation!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135018668252307456
+    m_Localized: Seed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649997711241216
+    m_Localized: Nochmal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1650204792418304
+    m_Localized: Hauptmenu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1650511282794496
+    m_Localized: Spiel zuende
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143884046088904704
+    m_Localized: 'Zeit:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893353438224384
+    m_Localized: Perfekt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893532069437440
+    m_Localized: Sehr Gut!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893677221715968
+    m_Localized: Gut!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893751905492992
+    m_Localized: Okey!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893844029186048
+    m_Localized: Meh.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893899951841280
+    m_Localized: Schlecht...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893970122547200
+    m_Localized: Ruiniert!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143940038960979968
+    m_Localized: Brust MIlch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143959184234881024
+    m_Localized: Milch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143959463068016640
+    m_Localized: Shake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143959642353541120
+    m_Localized: Chocolate Shake
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

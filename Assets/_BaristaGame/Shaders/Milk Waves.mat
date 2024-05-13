@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Milk Waves
+  m_Shader: {fileID: -6465566751694194690, guid: dc770445e17502e4b80fdcc08d230653, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_93ebacc715f24aa9ba3af2580bdf0ff7_Texture_1:
+        m_Texture: {fileID: 2800000, guid: e2b8e9bf2abdc9143b3ceb5ffe4aadb5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_93ebacc715f24aa9ba3af2580bdf0ff7_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: e2b8e9bf2abdc9143b3ceb5ffe4aadb5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_a15ecdb391404646a028ad95fb1ea14a_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 88882a09a0673a24ab0417708294d575, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_a15ecdb391404646a028ad95fb1ea14a_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 88882a09a0673a24ab0417708294d575, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_a1df1b034b1b49eb96ba825e85be3640_Texture_1:
+        m_Texture: {fileID: 2800000, guid: c3db9571963e5cb42931e7c016cf5f96, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_a1df1b034b1b49eb96ba825e85be3640_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: c3db9571963e5cb42931e7c016cf5f96, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_a2f0b1f7d8fe4888ad494e5317e42c87_Texture_1:
+        m_Texture: {fileID: 2800000, guid: f22a15a963ddd2c4f8e2b35618377d4a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_b822a07be2e74dd188d81809565a61dd_Texture_1:
+        m_Texture: {fileID: 2800000, guid: b7edd656fb73f0e48b6b306cde45d021, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_e95d9dc33dea40948713d8eb18da098b_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 7a30152e41fc6d54e8f6bb64fd11a3c2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_e95d9dc33dea40948713d8eb18da098b_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 7a30152e41fc6d54e8f6bb64fd11a3c2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _EnableExternalAlpha: 0
+    - _Height: 0
+    - _Milk_Type: 0
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Tiling_Speed: 0.25
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Custom_Milk_Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+--- !u!114 &545355678482780328
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7

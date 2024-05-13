@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7531eef2b90c2445a75ecc122afe9b3, type: 3}
+  m_Name: Avatar RichLady
+  m_EditorClassIdentifier: 
+  Stats:
+    Weighted: 60
+    FlusteredMultipler: 0.8
+    RemoveEventIfCustomerIsFinished: 1
+    CustomerEvent: 0
+  EventToActivate: {fileID: 7302213241365009813, guid: e7bec9c07ec580f498692d5c366b5cc1, type: 3}
+  Normal: {fileID: 21300000, guid: a47d1d8a2696fd34fb38c51b78790c6f, type: 3}
+  Level1: {fileID: 21300000, guid: 600fe1d40973d4746965cee214dc8578, type: 3}
+  Level2: {fileID: 21300000, guid: 617158021808d6c4fa2471bea9d237e7, type: 3}
+  Level3: {fileID: 21300000, guid: 51b3b01072988fa48b509f92551c5ac2, type: 3}
+  Level4: {fileID: 21300000, guid: 4ed63d26776d50c469ee1745fa5a6e7b, type: 3}

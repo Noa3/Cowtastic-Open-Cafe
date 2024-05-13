@@ -1,0 +1,486 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8871110522614256511
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1145495428939993556, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: content
+      value: Reach 3500ml to win.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1199917743554097168, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_text
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1271919923812809839, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: header
+      value: Buy Caramel Sauce for $15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1271919925506860598, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: MoneyToUnlock
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1459336431015721122, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: MoneyToUnlock
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1459336432594609425, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1459336432594609437, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: content
+      value: Worth $4 per drink
+      objectReference: {fileID: 0}
+    - target: {fileID: 1459336432676184827, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: header
+      value: Buy Chocolate for $50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1459336432676184827, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: content
+      value: Worth $4 per drink
+      objectReference: {fileID: 0}
+    - target: {fileID: 1498323390644626915, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1498323390644626915, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 24.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1629065157703564789, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: header
+      value: Buy Whipped Cream for $9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1629065157703564789, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: content
+      value: Adds $1 to the order
+      objectReference: {fileID: 0}
+    - target: {fileID: 1629065157773081107, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: content
+      value: Adds $1 to the order
+      objectReference: {fileID: 0}
+    - target: {fileID: 1629065158358443948, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: MoneyToUnlock
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2147473612718344837, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1481206064, guid: 24b6e65edc9032f4da370f23ce9da936, type: 3}
+    - target: {fileID: 2191646271400054415, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_text
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 2242098697641617374, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2242098697641617374, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2242098697641617374, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 5831346437921793501}
+    - target: {fileID: 2242098697641617374, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2242098697641617374, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetUnlockedState
+      objectReference: {fileID: 0}
+    - target: {fileID: 2242098697641617374, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FillingTool, Game
+      objectReference: {fileID: 0}
+    - target: {fileID: 2242098697641617374, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2246875552282384648, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_text
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2397188094898917841, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_text
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3166486508987165947, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: header
+      value: Buy Coffee for $1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3166486508987165947, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: content
+      value: Worth $4 per drink
+      objectReference: {fileID: 0}
+    - target: {fileID: 3166486509081226013, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: content
+      value: Worth $4 per drink
+      objectReference: {fileID: 0}
+    - target: {fileID: 3166486510647539362, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: MoneyToUnlock
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3466070161029827858, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: content
+      value: Adds $0.10 to the order
+      objectReference: {fileID: 0}
+    - target: {fileID: 3466070161103440628, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: header
+      value: Buy Ice for $1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3466070161103440628, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: content
+      value: Adds $0.10 to the order.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3466070162597187757, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: MoneyToUnlock
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3716967695525282963, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_text
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 3716967695525282963, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_fontSize
+      value: 15.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3716967695525282963, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 15.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813660918643236125, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3813660918643236125, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 24.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4121926085278904319, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4121926085278904319, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 24.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458687395307419587, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: content
+      value: Worth $8 per drink
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458687395346919461, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: header
+      value: Buy Tea for $150
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458687395346919461, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: content
+      value: Worth $8 per drink
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458687396940311164, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: MoneyToUnlock
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 4489402617932363377, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_text
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4830842358359384831, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1261686710, guid: 24b6e65edc9032f4da370f23ce9da936, type: 3}
+    - target: {fileID: 5551546385229390606, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_Name
+      value: Cafe Visuals Ultra Chaos
+      objectReference: {fileID: 0}
+    - target: {fileID: 5694466850625283229, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: content
+      value: Max is 800
+      objectReference: {fileID: 0}
+    - target: {fileID: 5780533541256248807, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_text
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972780536767111913, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_text
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972780536767111913, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_fontSize
+      value: 19.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972780536767111913, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 19.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6132626862544715297, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -482623898, guid: 24b6e65edc9032f4da370f23ce9da936, type: 3}
+    - target: {fileID: 6198633504928378882, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: header
+      value: Buy Cocoa Powder for $20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6198633505026635752, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6198633505516055131, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: MoneyToUnlock
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6270641182481022077, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_text
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6359860869262395781, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6359860869262395781, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 24.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397719701999439517, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: header
+      value: Buy Espresso for $75
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397719701999439517, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: content
+      value: Worth $5 per drink
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397719702093990267, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: content
+      value: Worth $5 per drink
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397719702587086020, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: MoneyToUnlock
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 6404949081158976752, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1261686710, guid: 24b6e65edc9032f4da370f23ce9da936, type: 3}
+    - target: {fileID: 6452972072577900284, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: content
+      value: Worth $3 per drink
+      objectReference: {fileID: 0}
+    - target: {fileID: 6452972072625821978, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: header
+      value: Buy Vanilla Creamer for $50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6452972072625821978, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: content
+      value: Worth $3 per drink
+      objectReference: {fileID: 0}
+    - target: {fileID: 6452972073079374659, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: MoneyToUnlock
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6528463687405737611, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6528463687405737611, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 30.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747691236836202257, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747691236836202257, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 27.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806096795483653776, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806096795483653776, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806096795483653776, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806096795483653776, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806096795483653776, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806096795483653776, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806096795483653776, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806096795483653776, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806096795483653776, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806096795483653776, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806096795483653776, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7310268476078307737, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: content
+      value: Worth -$1 per drink
+      objectReference: {fileID: 0}
+    - target: {fileID: 7310268476131081855, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: content
+      value: Worth -$1 per drink
+      objectReference: {fileID: 0}
+    - target: {fileID: 7310268477773407168, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: Unlocked
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7487106146505003459, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: header
+      value: Buy Candies for $15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7487106147092679578, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: MoneyToUnlock
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7490550195416385413, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7490550195416385413, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 28.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7877517251909446889, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_text
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8206167183635766107, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8206167183635766107, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446040322819464920, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: MoneyToUnlock
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446040323396436839, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: content
+      value: Adds $4 to the order
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446040323474244737, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: header
+      value: Buy Boba for $80
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446040323474244737, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: content
+      value: Adds $4 to the order
+      objectReference: {fileID: 0}
+    - target: {fileID: 8555426362201672422, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_text
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8555426362201672422, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_fontSize
+      value: 16.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 8555426362201672422, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 16.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 8714044599940264325, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: content
+      value: Worth $2 per drink
+      objectReference: {fileID: 0}
+    - target: {fileID: 8714044600030656099, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: header
+      value: Buy Sugar for $20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8714044600030656099, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: content
+      value: Worth $2 per drink
+      objectReference: {fileID: 0}
+    - target: {fileID: 8714044601590459450, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: MoneyToUnlock
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8882081498195816503, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_text
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 8882081498195816503, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_fontSize
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8882081498195816503, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8895430080563048767, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 8895430080563048767, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 8895430080563048767, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 8895430080563048767, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8942932189660520842, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8942932189660520842, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 26.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8942932189660520842, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8987951149435317503, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1481206064, guid: 24b6e65edc9032f4da370f23ce9da936, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+--- !u!114 &5831346437921793501 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3166486510647539362, guid: aff4f174afbe34840b1292255451ff79, type: 3}
+  m_PrefabInstance: {fileID: 8871110522614256511}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c363a7407064e343a9a010ab67cdf57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

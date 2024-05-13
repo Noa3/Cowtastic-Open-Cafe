@@ -1,0 +1,47 @@
+You can add as many customers as you'd like to the game.  New customers are made of 5 images that are ideally at least 256x256 pixels in size, each image should depict a happier or more "flustered" mood than the previous.  
+The images should be named:
+1.png
+2.png
+3.png
+4.png
+5.png
+
+To add a new customer find "Cowtastic Cafe_Data/StreamingAssets" in the game files, and then create a new folder in that folder to place your 5 images inside of.
+
+Copying an existing customer folder and renaming it is a good way to start.  Also, not only can you add your own customers, but you can also replace the existing ones.
+
+
+--- Advanced customization ---
+Customers should also have a stat.json file if you want them to be more than just default customers.  The easiest way to make this file is to copy one from an existing customer folder.
+
+The current customizable stats included are:
+"Weighted"                        - Default Value: 1000 - Decides how often a customer appears compared to others.  A value of 1 would be extremely rare, while 2000 would be twice as likely as regular customers.
+"FlusteredMultipler"              - Default Value: 1.0  - Decides how easily flustered the customer can become.  Values too small may mean they cannot reach max fluster, and 0.0 means they will never fluster at all.
+"RemoveEventIfCustomerIsFinished" - Default Value: true - Decides if the Customer Event stops when the customer leaves.  Many events will run forever if this is set to "false".
+"CustomerEvent"                   - Default Value: 0    - Decides which event to play when the customer arrives.  A value of 0 means no event, the other 20 events are listed below.
+
+-Customer Event IDs-
+0  - None.
+1  - 2x Milk Production Speed
+2  - 4x Milk Production Speed
+3  - 8x Milk Production Speed
+4  - Regular Growth Bursts
+5  - Fast Growth Bursts
+6  - Big Growth Bursts
+7  - Milk Drought (Extremely low milk production)
+8  - Barista Mood Decrease
+9  - Barist Mood Increase
+10 - 1.25x Drink Sell Value
+11 - 1.5x Drink Sell Value
+12 - 2x Drink Sell Value
+13 - Set Barista's Milk Type To "Normal"
+14 - Set Barista's Milk Type To "Chocolate"
+15 - Set Barista's Milk Type To "Strawberry"
+16 - Set Barista's Milk Type To "Honey"
+17 - Set Barista's Milk Type To "Blue"
+18 - Set Barista's Milk Type To "Green"
+19 - Set Barista's Milk Type To "Rainbow"
+20 - Set Barista's Milk Type To "Space"
+21 - Set Barista's Milk Type To "Void"
+
+(Check this file again after updates to see if you need to update your custom customers.)

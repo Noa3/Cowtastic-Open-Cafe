@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7531eef2b90c2445a75ecc122afe9b3, type: 3}
+  m_Name: Avatar Adventurer
+  m_EditorClassIdentifier: 
+  Stats:
+    Weighted: 125
+    FlusteredMultipler: 1.25
+    RemoveEventIfCustomerIsFinished: 1
+    CustomerEvent: 0
+  EventToActivate: {fileID: 6123799642273016361, guid: 53e1beedda50a22468bcbb76ef7f0b52, type: 3}
+  Normal: {fileID: 21300000, guid: 779ce2f9935a2cf40ae27b732bc9aece, type: 3}
+  Level1: {fileID: 21300000, guid: 8315c3bd739507141a6edcab3e2e6878, type: 3}
+  Level2: {fileID: 21300000, guid: 43d6ccc337b76c942857f97beae68964, type: 3}
+  Level3: {fileID: 21300000, guid: 83e534949c0943246a910041f2731a44, type: 3}
+  Level4: {fileID: 21300000, guid: 4e5e4570e43d583409fac7f8bba8a32a, type: 3}

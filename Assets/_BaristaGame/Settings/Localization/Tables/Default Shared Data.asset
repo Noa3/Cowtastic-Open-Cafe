@@ -1,0 +1,942 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Default Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Default
+  m_TableCollectionNameGuidString: 99f355a02537cb04c821e914e96ec32f
+  m_Entries:
+  - m_Id: 1654148486754304
+    m_Key: Advanced Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656496193892352
+    m_Key: AntiAliasing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661452141555712
+    m_Key: Apron Style
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549324026376192
+    m_Key: Arcade Boba Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549242392637440
+    m_Key: Arcade Boba Locked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549277549293568
+    m_Key: Arcade Boba Unlocked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549846439522304
+    m_Key: Arcade Caramel Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549769167859712
+    m_Key: Arcade Caramel Locked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549811962343424
+    m_Key: Arcade Caramel Unlocked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1683534711713792
+    m_Key: Arcade Casual StartScreen Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1683396865912832
+    m_Key: Arcade Casual StartScreen Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1684540275126272
+    m_Key: Arcade Chaos StartScreen Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1684438634557440
+    m_Key: Arcade Chaos StartScreen Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 547914811535360
+    m_Key: Arcade Chocolate Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 547664034099200
+    m_Key: Arcade Chocolate Locked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 547789489926144
+    m_Key: Arcade Chocolate Unlocked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 550208105967616
+    m_Key: Arcade ChocolateSauce Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 550089201643520
+    m_Key: Arcade ChocolateSauce Locked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 550158147612672
+    m_Key: Arcade ChocolateSauce Unlocked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537745180422144
+    m_Key: Arcade Coffe  Locked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537965951807488
+    m_Key: Arcade Coffe Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537790525042688
+    m_Key: Arcade Coffe Unlocked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316567601901568
+    m_Key: Arcade Cream Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316555551666176
+    m_Key: Arcade Cream Locked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316559485923328
+    m_Key: Arcade Cream Unlocked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540973469102080
+    m_Key: Arcade Espresso Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540856380911616
+    m_Key: Arcade Espresso Locked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540912534253568
+    m_Key: Arcade Espresso Unlocked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1651431374680064
+    m_Key: Arcade Flood Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1651623855484928
+    m_Key: Arcade Flood Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1713462324850688
+    m_Key: Arcade Hard StartScreen Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1685107663794176
+    m_Key: Arcade Hard StartScreen Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537416976134144
+    m_Key: Arcade Ice  Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537330950959104
+    m_Key: Arcade Ice Locked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537370968813568
+    m_Key: Arcade Ice Unlocked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1650345817501696
+    m_Key: Arcade lost content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1650204792418304
+    m_Key: Arcade lost exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649997711241216
+    m_Key: Arcade lost restart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1650511282794496
+    m_Key: Arcade lost Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316273224675328
+    m_Key: Arcade Milk Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 312927965245440
+    m_Key: Arcade Milk Locked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316153368244224
+    m_Key: Arcade Milk Unlocked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 226539798360064
+    m_Key: Arcade Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549589093806080
+    m_Key: Arcade Sprinklers Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549459674361856
+    m_Key: Arcade Sprinklers Locked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549533506695168
+    m_Key: Arcade Sprinklers Unlocked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1647892887859200
+    m_Key: Arcade StartScreen Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1647484102602752
+    m_Key: Arcade StartScreen Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 541488361861120
+    m_Key: Arcade Sugar Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 541379419009024
+    m_Key: Arcade Sugar Locked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 541440546795520
+    m_Key: Arcade Sugar Unlocked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540631339724800
+    m_Key: Arcade Tea Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540541439012864
+    m_Key: Arcade Tea Locked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540592966037504
+    m_Key: Arcade Tea Unlocked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233523209662464
+    m_Key: Arcade Tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 234141684953088
+    m_Key: Arcade Tutorial Info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1713940962045952
+    m_Key: Arcade Ultra Chaos StartScreen Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1713827099275264
+    m_Key: Arcade Ultra Chaos StartScreen Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537045671178240
+    m_Key: Arcade WhipedCream  Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536900430819328
+    m_Key: Arcade WhipedCream  Locked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536982903418880
+    m_Key: Arcade WhipedCream Unlocked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648740309233664
+    m_Key: Arcade win Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648943238049792
+    m_Key: Arcade win continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649229939699712
+    m_Key: Arcade win Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649612644773888
+    m_Key: Arcade win Less Stats
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649493451042816
+    m_Key: Arcade win More Stats
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649079095750656
+    m_Key: Arcade win restart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648511212154880
+    m_Key: Arcade win Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132749943507623936
+    m_Key: Auto-Fix Outfit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133847671285325824
+    m_Key: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133992920209006592
+    m_Key: Basics
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133054867663593472
+    m_Key: 'Best Time: '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663386760081408
+    m_Key: Bitter Coffee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660668985307136
+    m_Key: Buy Candy Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035131357732864
+    m_Key: Buy every outfit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1664405879484416
+    m_Key: Calming Tea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655899071803392
+    m_Key: Camera Movement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132868178831843328
+    m_Key: Casual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269928791109632
+    m_Key: Casual Difficulty Info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269706832736256
+    m_Key: Casual Difficulty Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231828173975552
+    m_Key: Casual Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870694181117952
+    m_Key: Chaos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273385908432896
+    m_Key: Chaos Difficulty Info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271100448960512
+    m_Key: Chaos Difficulty Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648041961811968
+    m_Key: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228206665101312
+    m_Key: "Cowtastic Caf\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227076505694208
+    m_Key: Credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133034814415151104
+    m_Key: Cup Seller
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132865428639293440
+    m_Key: Cups Sold
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661003594297344
+    m_Key: Customize
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656215754338304
+    m_Key: Discord
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133995165042450432
+    m_Key: Drink Making
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035279336972288
+    m_Key: Earn $10,000.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2654012272640
+    m_Key: Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133847226483580928
+    m_Key: Exit Tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663192102432768
+    m_Key: Extra Break
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663816466526208
+    m_Key: Fairy Latte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035857651802112
+    m_Key: Familiar Faces
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133037143440859136
+    m_Key: Find a truly cursed difficulty.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035644203671552
+    m_Key: Find the secret Chaos Difficulty.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1641101533736960
+    m_Key: Finish Order
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658724845711360
+    m_Key: Fix Outfit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035056309051392
+    m_Key: Full Wardrobe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1664587954221056
+    m_Key: Fullness Tolerance+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655422749863936
+    m_Key: Fullscreen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132753240020852736
+    m_Key: Game Progress
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1653921176449024
+    m_Key: General Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132753222291529728
+    m_Key: General Stats
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1653487506386944
+    m_Key: Give Up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663268698812416
+    m_Key: Happiness+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677334284693504
+    m_Key: Happiness+ Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870565030109184
+    m_Key: Hard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269212714364928
+    m_Key: Hard Difficulty Info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269021949030400
+    m_Key: Hard Difficulty Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231467803570176
+    m_Key: Hard Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660536202031104
+    m_Key: Has Mysterious Effects
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658430149718016
+    m_Key: Hide Dialogue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19834399893057536
+    m_Key: Holiday Gamemode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1657977076805632
+    m_Key: Ingredients
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286927487332352
+    m_Key: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036188431392768
+    m_Key: Make a drink that has it all.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036853224382464
+    m_Key: Make milk until the cafe floods.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036805832941568
+    m_Key: Make Waves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660808559161344
+    m_Key: Manage Employee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660182504763392
+    m_Key: Management
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1662860714668032
+    m_Key: Max Size+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677111105777664
+    m_Key: Max Size+ Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1662565540524032
+    m_Key: Milk Coffee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677736099016704
+    m_Key: Milk Fullness+ Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133031481403088896
+    m_Key: Milk Lover
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132754228769300480
+    m_Key: Milk Produced
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661098758860800
+    m_Key: Milk Type
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132867783132815360
+    m_Key: Milky
+    m_Metadata:
+      m_Items: []
+  - m_Id: 229470362759168
+    m_Key: Milky Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230078679445504
+    m_Key: Milky Mode Info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132865505260838912
+    m_Key: Money Earned
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035228871106560
+    m_Key: Moonopoly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663875916591104
+    m_Key: More Milk, Now!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655167128006656
+    m_Key: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133998653654802432
+    m_Key: Managing Your Barista
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133998700043804672
+    m_Key: Tutorial Step 6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133998785406279680
+    m_Key: Tutorial Step 7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133998822622339072
+    m_Key: New Entry 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133847557804236800
+    m_Key: Next
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133055089148010496
+    m_Key: No Record
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870450861154304
+    m_Key: Normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 266676540370944
+    m_Key: Normal Difficulty Info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 266450740015104
+    m_Key: Normal Difficulty Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231298777313280
+    m_Key: Normal Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036121565798400
+    m_Key: One Of Everything
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224355836850176
+    m_Key: Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661378443440128
+    m_Key: Outfit Color
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661525407657984
+    m_Key: Pants Style
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652064190296064
+    m_Key: Paused
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133034562396200960
+    m_Key: Play the game for a long time.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133031655290544128
+    m_Key: Produce over 100 L Milk.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663505232392192
+    m_Key: Production-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677541911130112
+    m_Key: Production- Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1662658687627264
+    m_Key: Production+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1676894453198848
+    m_Key: Production+ Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036731409211392
+    m_Key: Reach her true largest size.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132867593416056832
+    m_Key: Regular
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1640869886521344
+    m_Key: Reset Cup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656078697066496
+    m_Key: Reset Times
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655301924548608
+    m_Key: Resolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1653300364931072
+    m_Key: Restart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132752649106333696
+    m_Key: Sandbox
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036482359828480
+    m_Key: Sandbox Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132752870515253248
+    m_Key: Scores & Stats
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660439854673920
+    m_Key: Secret Candy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132753744281051136
+    m_Key: Secrets Found
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036011389820928
+    m_Key: See all the crossover customers.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133034908078153728
+    m_Key: Sell 1000 Drinks.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652825364197376
+    m_Key: Setting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658332258856960
+    m_Key: Show Dialogue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648188082974720
+    m_Key: Show Next time again?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655796151971840
+    m_Key: Show Timer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1654868065742848
+    m_Key: Sounds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227953312362496
+    m_Key: Special Thanks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 234396560224256
+    m_Key: 'Start
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1662771174666240
+    m_Key: Stretchy Candy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036677680177152
+    m_Key: Supersized
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656401700417536
+    m_Key: Texture Quality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132865470217428992
+    m_Key: Time Played
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677955096211456
+    m_Key: Tollerance+ Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231146272419840
+    m_Key: Tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133992199195566080
+    m_Key: Tutorial Step 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133993158466445312
+    m_Key: Tutorial Step 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133995531494596608
+    m_Key: Tutorial Step 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133996458540638208
+    m_Key: Tutorial Step 4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133997655410450432
+    m_Key: Tutorial Step 5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870790192930816
+    m_Key: Ultra Chaos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 274821425754112
+    m_Key: Ultra Chaos Difficulty Info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 274592542584832
+    m_Key: Ultra Chaos Difficulty Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133037091288883200
+    m_Key: Ultra Chaos...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036564937285632
+    m_Key: Unlock the secret Sandbox Mode.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660890163539968
+    m_Key: Upgrade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658553181237248
+    m_Key: View Barista
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658635091800064
+    m_Key: View Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132748730527490048
+    m_Key: Voice Lines
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656601168932864
+    m_Key: Vsync
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133991633908244480
+    m_Key: Welcome to Arcade Mode's Tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133034372322926592
+    m_Key: Working Overtime
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134010572390375424
+    m_Key: Serving Customers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134010918655336448
+    m_Key: Tutorial Step 8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134011413927141376
+    m_Key: Timed Events
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134011680659709952
+    m_Key: Tutorial Step 8-1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134179468267331584
+    m_Key: Tutorial Step 9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134179994149167104
+    m_Key: Start Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134180089527640064
+    m_Key: Tutorial Complete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134180290938118144
+    m_Key: Tutorial Step 10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135009184603807744
+    m_Key: Buy?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135009503337357312
+    m_Key: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135009682803236864
+    m_Key: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135018668252307456
+    m_Key: Seed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135037087102115840
+    m_Key: Open The Drain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143884046088904704
+    m_Key: 'Time:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893353438224384
+    m_Key: Perfect!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893532069437440
+    m_Key: Great!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893677221715968
+    m_Key: Good!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893751905492992
+    m_Key: Okay.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893844029186048
+    m_Key: Meh.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893899951841280
+    m_Key: Bad...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893970122547200
+    m_Key: Ruined!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143940038960979968
+    m_Key: Breast Milk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143959184234881024
+    m_Key: Milk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143959463068016640
+    m_Key: Shake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143959642353541120
+    m_Key: Chocolate Shake
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8396151390677762120
+  references:
+    version: 2
+    RefIds:
+    - rid: 8396151390677762120
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1678403519572
