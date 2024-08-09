@@ -34,12 +34,7 @@ public class BaristaController : MonoBehaviour
 
     public SoundEffectVariation SoundVariationClothes;
 
-    [Header("References Optional")]
-    public TMP_Dropdown MilkSelector;
-
     [Header("Settings")]
-    public MilkTypes MilkType = 0;
-    public Color MilkColor = Color.white;
 
     public ClothColors[] BaristaColors;
 
@@ -123,15 +118,6 @@ public class BaristaController : MonoBehaviour
         if (BaristaAnimator == null)
         {
             BaristaAnimator = GetComponent<Animator>();
-        }
-
-        if (MilkSelector != null)
-        {
-            MilkColor = new Color(PlayerPrefs.GetFloat(Consts.PlayerPrefMilkColorR, MilkColor.r), PlayerPrefs.GetFloat(Consts.PlayerPrefMilkColorG, MilkColor.g), PlayerPrefs.GetFloat(Consts.PlayerPrefMilkColorB, MilkColor.b));
-
-            //Debug.Log("barista: " + PlayerPrefs.GetInt(Statics.PlayerPrefMilkBarista, 0));
-            MilkSelector.value = PlayerPrefs.GetInt(Consts.PlayerPrefMilkBarista, 0);
-            ChangeMilk(MilkSelector.value);
         }
 
         ApronSkinnedMeshRenderer = BaristaApron.GetComponent<SkinnedMeshRenderer>();
@@ -285,127 +271,21 @@ public class BaristaController : MonoBehaviour
         CheckArchievemnt();
     }
 
-    public void SetMilkPreset(int preset = 0)
+    public void SetMilkTypeAndColor(int milkType, Color milkColor)
     {
-        switch (preset)
-        {
-            default:
-            case 0:
-                //Basic
-                ChangeMilkWithColor(0);
-                ChangeMilk(0);
-                break;
-            case 1:
-                //Thick
-                ChangeMilkWithColor(1);
-                break;
-            case 2:
-                //Creamy
-                ChangeMilkWithColor(2);
-                break;
-            case 3:
-                //Chocolate
-                ChangeMilkWithColor(3);
-                break;
-            case 4:
-                //Strawberry
-                ChangeMilkWithColor(0);
-                ChangeMilk(3);
-                break;
-            case 5:
-                //Honey
-                ChangeMilkWithColor(0);
-                ChangeMilk(2);
-                break;
-            case 6:
-                //Blue
-                ChangeMilkWithColor(4);
-                break;
-            case 7:
-                //Green
-                ChangeMilkWithColor(5);
-                break;
-            case 8:
-                //Raspberry
-                ChangeMilkWithColor(7);
-                break;
-            case 9:
-                //Rainbow
-                ChangeMilkWithColor(0);
-                ChangeMilk(4);
-                break;
-            case 10:
-                //Space
-                ChangeMilkWithColor(0);
-                ChangeMilk(1);
-                break;
-            case 11:
-                //Void
-                ChangeMilkWithColor(6);
-                break;
-        }
-
+        SetMilkParticle(milkType, milkColor);
     }
 
-    //public void ChangeMilk(MilkTypes type)
-    //{
-    //    ChangeMilk(type);
-    //}
-    public void ChangeMilk(MilkTypes type)
-    {
-        ChangeMilk(type);
-    }
-    public void ChangeMilk(int type)
-    {
-        MilkType = (MilkTypes)type;
-        SetMilkParticle(type);
-    }
-
-    public void ChangeMilkWithColor(int MilkColorCnt)
-    {
-        int type = 0;
-        switch (MilkColorCnt)
-        {
-            case 1:
-                MilkColor = Statics.MilkColor_Thick;
-                break;
-            case 2:
-                MilkColor = Statics.MilkColor_Creamy;
-                break;
-            case 3:
-                MilkColor = Statics.MilkColor_Chocolate;
-                break;
-            case 4:
-                MilkColor = Statics.MilkColor_Blue;
-                break;
-            case 5:
-                MilkColor = Statics.MilkColor_Green;
-                break;
-            case 6:
-                MilkColor = Statics.MilkColor_Void;
-                break;
-            case 7:
-                MilkColor = Statics.MilkColor_Raspberry;
-                break;
-            default:
-                MilkColor = Color.white;
-                break;
-        }
-
-        MilkType = (MilkTypes)0;
-        SetMilkParticle(type);
-    }
-
-    private void SetMilkParticle(int type = 0)
+    private void SetMilkParticle(int type, Color milkColor)
     {
         for (int i = 0; i < MilkParticle.Length; i++)
         {
-            MilkParticle[i].material.SetColor(Consts.CupShader_MilkTypeColor, MilkColor);
+            MilkParticle[i].material.SetColor(Consts.CupShader_MilkTypeColor, milkColor);
             MilkParticle[i].material.SetInt(Consts.CupShader_MilkType, type);
 
             if (MilkParticle[i].trailMaterial != null)
             {
-                MilkParticle[i].trailMaterial.SetColor(Consts.CupShader_MilkTypeColor, MilkColor);
+                MilkParticle[i].trailMaterial.SetColor(Consts.CupShader_MilkTypeColor, milkColor);
                 MilkParticle[i].trailMaterial.SetInt(Consts.CupShader_MilkType, type);
             }
 

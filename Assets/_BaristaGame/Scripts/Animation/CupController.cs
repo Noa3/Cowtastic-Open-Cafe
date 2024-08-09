@@ -28,7 +28,7 @@ public class CupController : MonoBehaviour
     public LocalizedString StringCandies;
 
     [Header("Settings")]
-    public MilkTypes MilkType = 0;
+    public int MilkType = 0;
     public Color MilkColor = Color.white;
     public float FillVolume = 0.2f;
     [Tooltip("This multiples/devides the time for the cup filling from the breast milk")]
@@ -37,9 +37,6 @@ public class CupController : MonoBehaviour
     //[ReadOnly()]
     [Range(0,1f)]
     public float Fullness = 0;
-
-    [Header("References Optional")]
-    public TMP_Dropdown MilkSelector;
 
     [Header("Filling")]
     [Range(0, 1f)]
@@ -97,17 +94,6 @@ public class CupController : MonoBehaviour
     {
         instance = this;
         cupFillingMaterial = CupFiling.material;
-
-        if (MilkSelector != null)
-        {
-            //Debug.Log("Cup: " + PlayerPrefs.GetInt(Statics.PlayerPrefMilkCup, 0));
-            MilkSelector.value = PlayerPrefs.GetInt(Consts.PlayerPrefMilkCup,0);
-
-            MilkColor = new Color(PlayerPrefs.GetFloat(Consts.PlayerPrefMilkColorR, MilkColor.r), PlayerPrefs.GetFloat(Consts.PlayerPrefMilkColorG, MilkColor.g), PlayerPrefs.GetFloat(Consts.PlayerPrefMilkColorB, MilkColor.b));
-
-
-            ChangeMilk(MilkSelector.value);
-        }
     }
 
     private void CreateLocalizationEvents()
@@ -138,7 +124,7 @@ public class CupController : MonoBehaviour
     {
         cupFillingMaterial.SetFloat(Consts.CupShader_Fullness, Fullness);
 
-        cupFillingMaterial.SetInt(Consts.CupShader_MilkType, (int)MilkType);
+        cupFillingMaterial.SetInt(Consts.CupShader_MilkType, MilkType);
         cupFillingMaterial.SetColor(Consts.CupShader_MilkTypeColor, MilkColor);
 
 
@@ -464,124 +450,18 @@ public class CupController : MonoBehaviour
         volume_Sugar = 0;
     }
 
-    public void SetMilkPreset(int preset = 0)
-    {
-        switch (preset)
-        {
-            default:
-            case 0:
-                //Basic
-                ChangeMilkWithColor(0);
-                ChangeMilk(0);
-                break;
-            case 1:
-                //Thick
-                ChangeMilkWithColor(1);
-                break;
-            case 2:
-                //Creamy
-                ChangeMilkWithColor(2);
-                break;
-            case 3:
-                //Chocolate
-                ChangeMilkWithColor(3);
-                break;
-            case 4:
-                //Strawberry
-                ChangeMilkWithColor(0);
-                ChangeMilk(3);
-                break;
-            case 5:
-                //Honey
-                ChangeMilkWithColor(0);
-                ChangeMilk(2);
-                break;
-            case 6:
-                //Blue
-                ChangeMilkWithColor(4);
-                break;
-            case 7:
-                //Green
-                ChangeMilkWithColor(5);
-                break;
-            case 8:
-                //Raspberry
-                ChangeMilkWithColor(7);
-                break;
-            case 9:
-                //Rainbow
-                ChangeMilkWithColor(0);
-                ChangeMilk(4);
-                break;
-            case 10:
-                //Space
-                ChangeMilkWithColor(0);
-                ChangeMilk(1);
-                break;
-            case 11:
-                //Void
-                ChangeMilkWithColor(6);
-                break;
-        }
-    }
-
     [BurstCompile]
     public void ChangeMilk(MilkTypes type)
     {
         ChangeMilk(type);
     }
 
-    [BurstCompile]
-    public void ChangeMilk(int type)
+    public void SetMilkTypeAndColor(int milkType, Color milkColor)
     {
-        MilkType = (MilkTypes)type;
-        MilkColor = Color.white;
-        //Debug.Log("Cup: " + type);
-        PlayerPrefs.SetInt(Consts.PlayerPrefMilkCup, type);
-        PlayerPrefs.SetFloat(Consts.PlayerPrefMilkColorR, MilkColor.r);
-        PlayerPrefs.SetFloat(Consts.PlayerPrefMilkColorG, MilkColor.g);
-        PlayerPrefs.SetFloat(Consts.PlayerPrefMilkColorB, MilkColor.b);
-    }
-
-    [BurstCompile]
-    public void ChangeMilkWithColor(int MilkColorCnt)
-    {
-        int type = 0;
-        MilkType = (MilkTypes)type;
-
-        switch (MilkColorCnt)
-        {
-            case 1:
-                MilkColor = Statics.MilkColor_Thick;
-                break;
-            case 2:
-                MilkColor = Statics.MilkColor_Creamy;
-                break;
-            case 3:
-                MilkColor = Statics.MilkColor_Chocolate;
-                break;
-            case 4:
-                MilkColor = Statics.MilkColor_Blue;
-                break;
-            case 5:
-                MilkColor = Statics.MilkColor_Green;
-                break;
-            case 6:
-                MilkColor = Statics.MilkColor_Void;
-                break;
-            case 7:
-                MilkColor = Statics.MilkColor_Raspberry;
-                break;
-            default:
-                MilkColor = Color.white;
-                break;
-        }
-
-        Debug.Log("Cup: " + type);
-        PlayerPrefs.SetInt(Consts.PlayerPrefMilkCup, type);
-        PlayerPrefs.SetFloat(Consts.PlayerPrefMilkColorR, MilkColor.r);
-        PlayerPrefs.SetFloat(Consts.PlayerPrefMilkColorG, MilkColor.g);
-        PlayerPrefs.SetFloat(Consts.PlayerPrefMilkColorB, MilkColor.b);
+        MilkType = milkType;
+        MilkColor.r = milkColor.r;
+        MilkColor.g = milkColor.g;
+        MilkColor.b = milkColor.b;
     }
 
     public void DoFadeAway()
@@ -636,14 +516,4 @@ public enum Toppings
     CaramelSauce,
     ChocolateSauce,
     Sprinkles
-}
-
-public enum MilkTypes
-{
-    Milk = 0,
-    Galaxy = 1,
-    Lava = 2,
-    Raspberry = 3,
-    Rainbow = 4,
-    Strawberry = 5,
 }
