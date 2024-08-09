@@ -84,7 +84,7 @@ public class GameMode_Arcade : BaseGameMode
 
     public void CalcNextTimeMilkyUpgrade()
     {
-        NextTimeUpgrade = Time.timeSinceLevelLoad + Random.Range(TimeUntilNextUpgradeMin, TimeUntilNextUpgradeMax);
+        NextTimeUpgrade = Time.timeSinceLevelLoad + Statics.GetRandomRange(TimeUntilNextUpgradeMin, TimeUntilNextUpgradeMax, Statics.MilkyRNG());
     }
 
     public void DoMilkyModeStepUp()

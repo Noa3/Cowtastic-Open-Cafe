@@ -85,7 +85,7 @@ public class EventBase : MonoBehaviour
     public void SetEventEndTime(float min, float max)
     {
         float curLevelTime = Time.timeSinceLevelLoad;
-        TimeEventEnd = Random.Range(curLevelTime + min, curLevelTime + max);
+        TimeEventEnd = Statics.GetRandomRange(curLevelTime + min, curLevelTime + max, Statics.EventDurationRNG());
     }
 
 

@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using Unity.Burst;
+using System;
 
 public static class Statics
 {
@@ -819,13 +820,6 @@ public static class Statics
     #region Logic
 
     [BurstCompile]
-    public static bool RandomBool(float chanceOfSuccess = 0.5f)
-    {
-        return GetRandom().NextBool();
-        //return GetRandom().NextFloat() < chanceOfSuccess;
-    }
-
-    [BurstCompile]
     public static T GetRandomFromArray<T>(T[] fromArray)
     {
         if (fromArray == null || fromArray.Length == 0)
@@ -851,7 +845,7 @@ public static class Statics
 
         for (int i = array.Count - 1; i > 0; i--)
         {
-            int j = GetRandom().NextInt(i + 1);
+            int j = MainRNG().Next(i + 1);
 
             T temp = array[j];
             array[j] = array[i];
@@ -860,102 +854,182 @@ public static class Statics
     }
 
     [BurstCompile]
-    public static Unity.Mathematics.Random GetRandom()
+    public static void Shuffle<T>(this IList<T> array, System.Random RNG)
     {
-        if (ranSeed == 0)
+        if (array == null || array.Count <= 1)
         {
-            ranSeed = getRandomSeed();
+            return;
         }
-        else if (ranSeed < 1 || ranSeed == uint.MaxValue)
-        {
-            ranSeed = 1;
-        }
-        ranSeed++;
-        ranSeed = ranSeed / 7 * 11;
 
-        return new Unity.Mathematics.Random(ranSeed);
+        for (int i = array.Count - 1; i > 0; i--)
+        {
+            int j = RNG.Next(i + 1);
+
+            T temp = array[j];
+            array[j] = array[i];
+            array[i] = temp;
+        }
+    }
+
+    private static System.Random mainRNG;
+    [BurstCompile]
+    public static System.Random MainRNG()
+    {
+        if (mainRNG == null)
+        {
+            mainRNG = new System.Random();
+        }
+        return mainRNG;
+    }
+
+    private static System.Random drinkRNG;
+    [BurstCompile]
+    public static System.Random DrinkRNG()
+    {
+        if (drinkRNG == null)
+        {
+            drinkRNG = new System.Random();
+        }
+        return drinkRNG;
+    }
+
+    private static System.Random specificDrinkRNG;
+    [BurstCompile]
+    public static System.Random SpecificDrinkRNG()
+    {
+        if (specificDrinkRNG == null)
+        {
+            specificDrinkRNG = new System.Random();
+        }
+        return specificDrinkRNG;
+    }
+
+    private static System.Random eventTypeRNG;
+    [BurstCompile]
+    public static System.Random EventTypeRNG()
+    {
+        if (eventTypeRNG == null)
+        {
+            eventTypeRNG = new System.Random();
+        }
+        return eventTypeRNG;
+    }
+
+    private static System.Random eventDurationRNG;
+    [BurstCompile]
+    public static System.Random EventDurationRNG()
+    {
+        if (eventDurationRNG == null)
+        {
+            eventDurationRNG = new System.Random();
+        }
+        return eventDurationRNG;
+    }
+
+    private static System.Random eventGapRNG;
+    [BurstCompile]
+    public static System.Random EventGapRNG()
+    {
+        if (eventGapRNG == null)
+        {
+            eventGapRNG = new System.Random();
+        }
+        return eventGapRNG;
+    }
+
+    private static System.Random milkyRNG;
+    [BurstCompile]
+    public static System.Random MilkyRNG()
+    {
+        if (milkyRNG == null)
+        {
+            milkyRNG = new System.Random();
+        }
+        return milkyRNG;
     }
 
     [BurstCompile]
-    private static uint getRandomSeed()
+    public static void SeedMechanicalRNG(Int32 seed)
     {
-        if (PlayerPrefs.HasKey(Consts.PlayerPrefRandomSeed))
-        {
-            return (uint)PlayerPrefs.GetInt(Consts.PlayerPrefRandomSeed);
-        }
-        else
-        {
-            return (uint)Time.realtimeSinceStartup * 7711;
-        }
+        // There's no particular reason why we use the drinkRNG to seed the others.
+        // We just don't necessarily want all RNGs to start with the same seed
+        // So we use the passed in seed for one of them, then pull random numbers from it
+        // to seed the rest.
+        drinkRNG = new System.Random(seed);
+        eventDurationRNG = new System.Random(drinkRNG.Next());
+        eventTypeRNG = new System.Random(drinkRNG.Next());
+        eventGapRNG = new System.Random(drinkRNG.Next());
+        milkyRNG = new System.Random(drinkRNG.Next());
+    }
+
+    [BurstCompile]
+    public static void SeedSpecificDrinkRNG()
+    {
+        // When orders are generated, there are a lot of draws from RNG. There
+        // may be times where different numbers of draws are made per drink (for instance,
+        // a drink with 5 ingredients may have more draws than a drink with 2 ingredients
+        // because fill levels are determined individually).
+
+        // To make the RNG more stable, we have drinkRNG and specificDrinkRNG.
+        // Every drink draws exactly once from drinkRNG, and that pull then seeds a new
+        // specificDrinkRNG which is used for the rest of the draws for that drink.
+
+        // This way, on a particular seed, drink #100 will always be the same if you have
+        // the same unlocks when the customer is generated.
+        specificDrinkRNG = new System.Random(DrinkRNG().Next());
+    }
+
+    [BurstCompile]
+    public static bool RandomBool()
+    {
+        return MainRNG().NextDouble() < 0.5;
     }
 
     [BurstCompile]
     public static int GetRandomRange(int minValue, int maxValue)
     {
-        if (minValue == maxValue)
-        {
-            return minValue;
-        }
-        else
-        if (maxValue > minValue) //Security check that min is always smaler than max
-        {
-            return (GetRandom().NextInt(minValue - 1, maxValue) + 1);
-        }
-        else
-        {
-            return (GetRandom().NextInt(maxValue - 1, minValue) + 1);
-        }
-
-#pragma warning disable CS0162
-        Debug.LogWarning("Code shouldnt be executed here!");
-#pragma warning restore CS0162
-        return 0;
+        return GetRandomRange(minValue, maxValue, MainRNG());
     }
 
     [BurstCompile]
-    public static uint GetRandomRange(uint minValue, uint maxValue)
+    public static int GetRandomRange(int minValue, int maxValue, System.Random RNG)
     {
-        if (minValue == maxValue)
+        if (minValue > maxValue)
         {
-            return minValue;
+            // Then swap the values to ensure min is lower
+            var temp = minValue;
+            minValue = maxValue;
+            maxValue = temp;
+        }
+        int difference = maxValue - minValue;
+        if (difference < int.MaxValue)
+        {
+            difference += 1;
         }
 
-        if (maxValue >= minValue)
-        {
-            return GetRandom().NextUInt(minValue, maxValue);
-        }
-        else
-        {
-            return GetRandom().NextUInt(maxValue, minValue);
-        }
-
+        return RNG.Next(difference) + minValue;
     }
 
     [BurstCompile]
     public static float GetRandomRange(float minValue, float maxValue)
     {
-        if (maxValue >= minValue)
-        {
-            return GetRandom().NextFloat(minValue, maxValue);
-        }
-        else
-        {
-            return GetRandom().NextFloat(maxValue, minValue);
-        }
-
+        return GetRandomRange(minValue, maxValue, MainRNG());
     }
 
     [BurstCompile]
-    public static byte GetRandomRange(byte minValue, byte maxValue)
+    public static float GetRandomRange(float minValue, float maxValue, System.Random RNG)
     {
-        if (maxValue >= minValue)
+        if (minValue > maxValue)
         {
-            return (byte)(GetRandom().NextInt(minValue - 1, maxValue) + 1);
+            // Then swap the values to ensure min is lower
+            var temp = minValue;
+            minValue = maxValue;
+            maxValue = temp;
         }
-        else
-        {
-            return (byte)(GetRandom().NextInt(maxValue - 1, minValue) + 1);
-        }
+
+        float difference = maxValue - minValue;
+
+        return (float)RNG.NextDouble() * difference + minValue;
     }
 
     [BurstCompile]

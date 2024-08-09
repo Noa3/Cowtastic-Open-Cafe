@@ -13,7 +13,7 @@ public class ShowSeedAsText : MonoBehaviour
         SeedText = GetComponent<TextMeshProUGUI>();
         if (SeedText != null)
         {
-            SeedText.text = PlayerPrefs.GetInt(Consts.PlayerPrefRandomSeed,-1).ToString();
+            SeedText.text = PlayerPrefs.GetInt(Consts.PlayerPrefCurrentSeed,-1).ToString();
         }
         else
         {

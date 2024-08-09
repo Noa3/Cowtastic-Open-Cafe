@@ -151,7 +151,7 @@ public class EventManager : MonoBehaviour
             }
             else
             {
-                int rnd = Mathf.RoundToInt(UnityEngine.Random.Range(0, PossibileEvents.Count()));
+                int rnd = Statics.GetRandomRange(0, PossibileEvents.Count()-1, Statics.EventTypeRNG());
                 EventToStart = PossibileEvents[rnd];
             }
 
@@ -263,7 +263,7 @@ public class EventManager : MonoBehaviour
     [BurstCompile]
     private void SetNextEventTime()
     {
-        NextEventTime = Time.timeSinceLevelLoad + UnityEngine.Random.Range(MinTime, MaxTime) ;
+        NextEventTime = Time.timeSinceLevelLoad + Statics.GetRandomRange(MinTime, MaxTime, Statics.EventGapRNG());
     }
 
 }
