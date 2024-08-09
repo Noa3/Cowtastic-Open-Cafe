@@ -210,6 +210,8 @@ public class OrderManager : MonoBehaviour
         orderIsActive = true;
         ActiveCustomer = custom;
 
+        Statics.SeedSpecificDrinkRNG();
+
 
         //Need the Fulstered Value Before Generate the CUstomer because the text Generation
         //CurrentFlusteredLevel = CalcFlusteredLevel();
@@ -273,25 +275,25 @@ public class OrderManager : MonoBehaviour
                 fillingValues.Add(100);
                 break;
             case 2:
-                rndcnt = Statics.GetRandomRange(0, PossibileFillingPercentages.twoFillings.Length - 1);
+                rndcnt = Statics.GetRandomRange(0, PossibileFillingPercentages.twoFillings.Length - 1, Statics.SpecificDrinkRNG());
                 fillingValues.Add(PossibileFillingPercentages.twoFillings[rndcnt].value1);
                 fillingValues.Add(PossibileFillingPercentages.twoFillings[rndcnt].value2);
                 break;
             case 3:
-                rndcnt = Statics.GetRandomRange(0, PossibileFillingPercentages.threeFillings.Length - 1);
+                rndcnt = Statics.GetRandomRange(0, PossibileFillingPercentages.threeFillings.Length - 1, Statics.SpecificDrinkRNG());
                 fillingValues.Add(PossibileFillingPercentages.threeFillings[rndcnt].value1);
                 fillingValues.Add(PossibileFillingPercentages.threeFillings[rndcnt].value2);
                 fillingValues.Add(PossibileFillingPercentages.threeFillings[rndcnt].value3);
                 break;
             case 4:
-                rndcnt = Statics.GetRandomRange(0, PossibileFillingPercentages.fourFillings.Length - 1);
+                rndcnt = Statics.GetRandomRange(0, PossibileFillingPercentages.fourFillings.Length - 1, Statics.SpecificDrinkRNG());
                 fillingValues.Add(PossibileFillingPercentages.fourFillings[rndcnt].value1);
                 fillingValues.Add(PossibileFillingPercentages.fourFillings[rndcnt].value2);
                 fillingValues.Add(PossibileFillingPercentages.fourFillings[rndcnt].value3);
                 fillingValues.Add(PossibileFillingPercentages.fourFillings[rndcnt].value4);
                 break;
             case 5:
-                rndcnt = Statics.GetRandomRange(0, PossibileFillingPercentages.fiveFillings.Length - 1);
+                rndcnt = Statics.GetRandomRange(0, PossibileFillingPercentages.fiveFillings.Length - 1, Statics.SpecificDrinkRNG());
                 fillingValues.Add(PossibileFillingPercentages.fiveFillings[rndcnt].value1);
                 fillingValues.Add(PossibileFillingPercentages.fiveFillings[rndcnt].value2);
                 fillingValues.Add(PossibileFillingPercentages.fiveFillings[rndcnt].value3);
@@ -299,7 +301,7 @@ public class OrderManager : MonoBehaviour
                 fillingValues.Add(PossibileFillingPercentages.fiveFillings[rndcnt].value5);
                 break;
             case 6:
-                rndcnt = Statics.GetRandomRange(0, PossibileFillingPercentages.sixFillings.Length - 1);
+                rndcnt = Statics.GetRandomRange(0, PossibileFillingPercentages.sixFillings.Length - 1, Statics.SpecificDrinkRNG());
                 fillingValues.Add(PossibileFillingPercentages.sixFillings[rndcnt].value1);
                 fillingValues.Add(PossibileFillingPercentages.sixFillings[rndcnt].value2);
                 fillingValues.Add(PossibileFillingPercentages.sixFillings[rndcnt].value3);
@@ -308,7 +310,7 @@ public class OrderManager : MonoBehaviour
                 fillingValues.Add(PossibileFillingPercentages.sixFillings[rndcnt].value6);
                 break;
             case 7:
-                rndcnt = Statics.GetRandomRange(0, PossibileFillingPercentages.sevenFillings.Length - 1);
+                rndcnt = Statics.GetRandomRange(0, PossibileFillingPercentages.sevenFillings.Length - 1, Statics.SpecificDrinkRNG());
                 fillingValues.Add(PossibileFillingPercentages.sevenFillings[rndcnt].value1);
                 fillingValues.Add(PossibileFillingPercentages.sevenFillings[rndcnt].value2);
                 fillingValues.Add(PossibileFillingPercentages.sevenFillings[rndcnt].value3);
@@ -318,7 +320,7 @@ public class OrderManager : MonoBehaviour
                 fillingValues.Add(PossibileFillingPercentages.sevenFillings[rndcnt].value7);
                 break;
             case 8:
-                rndcnt = Statics.GetRandomRange(0, PossibileFillingPercentages.eightFillings.Length - 1);
+                rndcnt = Statics.GetRandomRange(0, PossibileFillingPercentages.eightFillings.Length - 1, Statics.SpecificDrinkRNG());
                 fillingValues.Add(PossibileFillingPercentages.eightFillings[rndcnt].value1);
                 fillingValues.Add(PossibileFillingPercentages.eightFillings[rndcnt].value2);
                 fillingValues.Add(PossibileFillingPercentages.eightFillings[rndcnt].value3);
@@ -516,7 +518,7 @@ public class OrderManager : MonoBehaviour
         }
         else
         {
-            return possibileOrder[Statics.GetRandomRange(0, possibileOrder.Count - 1)];
+            return possibileOrder[Statics.GetRandomRange(0, possibileOrder.Count - 1, Statics.SpecificDrinkRNG())];
         }
 
         //Debug.LogError("No Fitting Order Found!");
@@ -551,7 +553,6 @@ public class OrderManager : MonoBehaviour
 
         List<Fillings> generatedFillings = new List<Fillings>(); //this will be used to determine what will be added
 
-
         List<WeightedFillings> PossibileFillings = new List<WeightedFillings>();
         PossibileOrder possibileOrderCombo = GetPossibileOrderCombo(UnlockedFillings);
         if (possibileOrderCombo == null)
@@ -581,16 +582,16 @@ public class OrderManager : MonoBehaviour
         //int numChangedFillingsCount = 0;
         //bool canTopping = false;
 
-        byte minFillingCount = 0;
-        byte maxFillingCount = (byte)(PossibileFillings.Count);
-        byte minToppingCount = 0;
+        var minFillingCount = 0;
+        var maxFillingCount = PossibileFillings.Count;
+        var minToppingCount = 0;
         if (ChangedIngreedientCount != 0)
         {
             if (ChangedIngreedientCount > 0) //if the event wants more ingreedients
             {
                 if (ChangedIngreedientCount <= maxFillingCount)
                 {
-                    minFillingCount = (byte)ChangedIngreedientCount;
+                    minFillingCount = ChangedIngreedientCount;
                 }
                 else
                 {
@@ -602,7 +603,7 @@ public class OrderManager : MonoBehaviour
             {
                 if ( (ChangedIngreedientCount + maxFillingCount) > minToppingCount)
                 {
-                    maxFillingCount = (byte)(maxFillingCount + ChangedIngreedientCount);
+                    maxFillingCount = (maxFillingCount + ChangedIngreedientCount);
                 }
                 else
                 {
@@ -611,20 +612,16 @@ public class OrderManager : MonoBehaviour
             }
         }
 
+        int RandomCount = Statics.GetRandomRange(minFillingCount, maxFillingCount, Statics.SpecificDrinkRNG());
 
-        byte RandomCount = Statics.GetRandomRange(minFillingCount, maxFillingCount);
-        //int RandomCount = Random.Range(minFillingCount, maxFillingCount);
-        //Debug.Log("RandomCount: " + RandomCount + ", max: " + PossibileFillings.Count);
         if (RandomCount == 1 && PossibileFillings.Count == 1)
         {
-            //Debug.Log("Added: " + PossibileFillings[0].Filling);
             generatedFillings.Add(PossibileFillings[0].Filling);
         }
         else
         {
             for (int i = 0; i < RandomCount; i++)
             {
-                //int possibileFillingToAdd = Random.Range(0, PossibileFillings.Count);
                 int maxValue = 0;
                 for (int i2 = 0; i2 < PossibileFillings.Count; i2++)
                 {
@@ -632,9 +629,9 @@ public class OrderManager : MonoBehaviour
                 }
 
                 //Weighting
-                int result = 0; //Wich fill should be added value
+                int result = 0; //Which fill should be added value
                 int total = 0;
-                int randVal = Statics.GetRandomRange(0, maxValue+1);
+                int randVal = Statics.GetRandomRange(0, maxValue+1, Statics.SpecificDrinkRNG());
                 for (result = 0; result < PossibileFillings.Count; result++)
                 {
                     total += PossibileFillings[result].Weighting;
@@ -672,7 +669,7 @@ public class OrderManager : MonoBehaviour
                 }
             }
 
-            RandomCount = Statics.GetRandomRange(minToppingCount, (byte)(PossibileToppings.Count));
+            RandomCount = Statics.GetRandomRange(minToppingCount, PossibileToppings.Count, Statics.SpecificDrinkRNG());
 
             //Here work more
             if (RandomCount > 0)
@@ -688,7 +685,7 @@ public class OrderManager : MonoBehaviour
                     //Weighting
                     int result = 0; //Wich fill should be added value
                     int total = 0;
-                    int randVal = Statics.GetRandomRange(0, maxValue+1);
+                    int randVal = Statics.GetRandomRange(0, maxValue+1, Statics.SpecificDrinkRNG());
                     for (result = 0; result < PossibileFillings.Count; result++)
                     {
                         total += PossibileFillings[result].Weighting;
@@ -744,7 +741,7 @@ public class OrderManager : MonoBehaviour
             //Weighting
             int result = 0; //Wich fill should be added value
             int total = 0;
-            int randVal = Statics.GetRandomRange(0, maxValue + 1);
+            int randVal = Statics.GetRandomRange(0, maxValue + 1, Statics.SpecificDrinkRNG());
             for (result = 0; result < RandomCustomAvatars.Count; result++)
             {
                 total += RandomCustomAvatars[result].Stats.Weighted;
@@ -864,7 +861,7 @@ public class OrderManager : MonoBehaviour
 
         List<Fillings> OrderFillings = new List<Fillings>(ActiveCustomer.OrderFillings);
         OrderFillings.Remove(Fillings.BreastMilk);
-        OrderFillings.Shuffle();
+        OrderFillings.Shuffle(Statics.SpecificDrinkRNG());
 
 
         for (int i = 0; i < OrderFillings.Count+1; i++)
@@ -1037,7 +1034,7 @@ public class OrderManager : MonoBehaviour
         //Lets tryout the "Substract Method"
 
         //Shuffle Fillings to substract Randomly
-        OrderFillings.Shuffle();
+        OrderFillings.Shuffle(Statics.SpecificDrinkRNG());
 
         for (int i = 0; i < OrderFillings.Count; i++)
         {
@@ -1863,36 +1860,9 @@ public class OrderManager : MonoBehaviour
     }
 
     [BurstCompile]
-    public bool CheckIfFlustered()
-    {
-        if (isAlwaysFlustered == true || EventAlwaysFlustered == true )
-        {
-            return true;
-        }
-        else if (EventCustomerNotFlustered == true)
-        {
-            return false;
-        }
-
-        FlusteredChance = gamemode.Fullness + gamemode.TargetBustSize; //Fullness and MaxSize gives together 200
-        float rnd = Statics.GetRandom().NextFloat(0f, 175f); //the 175 here need maybe to adjust to depend the game difficulty
-        Debug.Log("Flustered Chance: " + FlusteredChance + " ? > " + rnd +  " || Fullness: " + gamemode.Fullness + " || BustSize: " + gamemode.TargetBustSize);
-
-        if (FlusteredChance > rnd)
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
-
-    }
-
-    [BurstCompile]
     public int CalcFlusteredLevel(float multipler = 1f) //Depending on fullness?
     {
-        float randomNumber = ((gamemode.Fullness + gamemode.TargetBustSize) / 2 * multipler) * Statics.GetRandom().NextFloat(FlusteredRandomMultiplerMin, FlusteredRandomMultiplerMax);
+        float randomNumber = ((gamemode.Fullness + gamemode.TargetBustSize) / 2 * multipler) * Statics.GetRandomRange(FlusteredRandomMultiplerMin, FlusteredRandomMultiplerMax, Statics.SpecificDrinkRNG());
 
         if (randomNumber > FlusteredLevelActivationMin4)
         {

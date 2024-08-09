@@ -5,28 +5,43 @@ public class SetSeed : MonoBehaviour
 {
     public TMP_InputField input;
 
-    private int newSeed;
+    private int chosenSeed;
     // Start is called before the first frame update
     void Start()
     {
-        newSeed = Statics.GetRandomRange(100, int.MaxValue);
-
-        if (input != null)
+        var chooseRandomSeed = true;
+        if(PlayerPrefs.HasKey(Consts.PlayerPrefRandomSeed))
         {
-            input.text = newSeed.ToString();
+            chosenSeed = PlayerPrefs.GetInt(Consts.PlayerPrefRandomSeed);
+            if(chosenSeed >= 0)
+            {
+                chooseRandomSeed = false;
+                PlayerPrefs.SetInt(Consts.PlayerPrefCurrentSeed, chosenSeed);
+            }
         }
-        SeedSet(newSeed.ToString());
+        if (chooseRandomSeed)
+        {
+            chosenSeed = Statics.GetRandomRange(0, int.MaxValue);
+            PlayerPrefs.SetInt(Consts.PlayerPrefCurrentSeed, chosenSeed);
+        }
+
+        input.text = chosenSeed.ToString();
     }
 
     public void SeedSet(string seed)
     {
         if (string.IsNullOrWhiteSpace(seed) == true)
         {
-            PlayerPrefs.SetInt(Consts.PlayerPrefRandomSeed, newSeed);
+            chosenSeed = Statics.GetRandomRange(0, int.MaxValue);
+            PlayerPrefs.SetInt(Consts.PlayerPrefRandomSeed, -1);
         }
         else
         {
-            PlayerPrefs.SetInt(Consts.PlayerPrefRandomSeed, Mathf.Abs(int.Parse(seed)));
+            chosenSeed = Mathf.Abs(int.Parse(seed));
+            PlayerPrefs.SetInt(Consts.PlayerPrefRandomSeed, chosenSeed);
         }
+        PlayerPrefs.SetInt(Consts.PlayerPrefCurrentSeed, chosenSeed);
+
+        input.text = chosenSeed.ToString();
     }
 }

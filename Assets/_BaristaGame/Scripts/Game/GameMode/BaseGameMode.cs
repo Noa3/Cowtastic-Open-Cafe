@@ -167,6 +167,8 @@ public class BaseGameMode : MonoBehaviour
         soundEffectManager = SoundEffectManager.instance;
         statisticsHolder = StatisticsHolder.instance;
         baristaTalkManager = BaristaTalkManager.instance;
+
+        Statics.SeedMechanicalRNG(PlayerPrefs.GetInt(Consts.PlayerPrefCurrentSeed));
     }
 
     // Update is called once per frame

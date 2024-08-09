@@ -97,6 +97,7 @@ public static class Consts
 
     //Etc Prefs
     public const string PlayerPrefRandomSeed = "RandomSeed";
+    public const string PlayerPrefCurrentSeed = "CurrentSeed";
     public const string PlayerPrefSceneWon = "SceneWon_";
 
     //Archievement

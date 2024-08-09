@@ -279,7 +279,7 @@ public class BaristaController : MonoBehaviour
     {
         if (ChangeRandomSeed == true)
         {
-            BaristaAnimator.SetFloat(Consts.Random, Random.value);
+            BaristaAnimator.SetFloat(Consts.Random, Statics.GetRandomRange(0f, 1f));
         }
 
         CheckArchievemnt();
