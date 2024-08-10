@@ -1,7 +1,4 @@
-using System.Collections;
 using System.Collections.Generic;
-using TMPro;
-using UnityEditor.Build.Content;
 using UnityEngine;
 
 public class MilkTypeController : MonoBehaviour
@@ -10,9 +7,58 @@ public class MilkTypeController : MonoBehaviour
 
     public int lastMilkPreset;
 
+    public UnityEngine.UI.Button[] buttons;
+
+#if UNITY_EDITOR
+    // This is an editor-only function to populate the buttons array.
+    // Each scene currently has enough overrides of other scenes and prefabs
+    // That it makes sense to assign buttons programmatically rather than manually.
+    // Rather than adding button listeners one by one through the unity editor,
+    // We use an editor only function to build a reference list of buttons
+    // and then during OnAwake, add a listener to for each button.
+
+    // To run this function, click the "Find Buttons" button in the custom
+    // inspector for MilkTypeController. Note that since it is using GameObject.Find,
+    // Buttons (and their Unity parents) need to be enabled to be found, though
+    // they can be disabled again right after.
+    public void FindButtons()
+    {
+        List<string> objectsToFind = new List<string>();
+        objectsToFind.Add("Milk Types Box/Basic");
+        objectsToFind.Add("Milk Types Box/Thick/Thick Unlocked");
+        objectsToFind.Add("Milk Types Box/Creamy/Creamy");
+        objectsToFind.Add("Milk Types Box/Chocolate/Chocolate");
+        objectsToFind.Add("Milk Types Box/Strawberry/Strawberry");
+        objectsToFind.Add("Milk Types Box/Honey/Honey");
+        objectsToFind.Add("Milk Types Box/Blue/Blue");
+        objectsToFind.Add("Milk Types Box/Green/Green");
+        objectsToFind.Add("Milk Types Box/Raspberry/Raspberry");
+        objectsToFind.Add("Milk Types Box/Rainbow/Rainbow");
+        objectsToFind.Add("Milk Types Box/Space/Space");
+        objectsToFind.Add("Milk Types Box/Void/Void");
+        buttons = new UnityEngine.UI.Button[objectsToFind.Count];
+        for (int i = 0; i < objectsToFind.Count; i++)
+        {
+            var go = GameObject.Find(objectsToFind[i]);
+            buttons[i] = go.GetComponent<UnityEngine.UI.Button>();
+        }
+    }
+#endif
+
+    private void AttachToCustomizationMenuButtons()
+    {
+        for (int i=0; i< buttons.Length; i++)
+        {
+            var presetNumber = i;
+            buttons[i].onClick.RemoveAllListeners();
+            buttons[i].onClick.AddListener(() => MilkPresetButtonClicked(presetNumber));
+        }
+    }
+
     void Awake()
     {
         instance = this;
+        AttachToCustomizationMenuButtons();
     }
 
     private void Start()
@@ -28,6 +74,11 @@ public class MilkTypeController : MonoBehaviour
     {
         int preset = PlayerPrefs.GetInt(Consts.PlayerPrefMilkPreset, 0);
         SetMilkByPreset(preset);
+    }
+
+    public void MilkPresetButtonClicked(int preset)
+    {
+        SetMilkByPresetAndSavePreference(preset);
     }
 
     public void SetMilkByPresetAndSavePreference(int preset)
