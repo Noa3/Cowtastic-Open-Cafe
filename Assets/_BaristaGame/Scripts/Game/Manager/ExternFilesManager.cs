@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
+using System.Linq;
 
 public class ExternFilesManager : MonoBehaviour
 {
@@ -96,11 +97,14 @@ public class ExternFilesManager : MonoBehaviour
             }
 
         }
+
+        orderManager.RandomCustomAvatars = orderManager.RandomCustomAvatars.OrderBy(x => x.name).ToList();
     }
 
     public void AddSpecificAvatars(List<CustomerAvatar> customers)
     {
         orderManager.RandomCustomAvatars.AddRange(customers);
+        orderManager.RandomCustomAvatars = orderManager.RandomCustomAvatars.OrderBy(x => x.name).ToList();
     }
 
     /// <summary>

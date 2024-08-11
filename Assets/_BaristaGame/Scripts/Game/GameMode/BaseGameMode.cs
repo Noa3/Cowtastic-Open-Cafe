@@ -376,6 +376,10 @@ public class BaseGameMode : MonoBehaviour
     public void CalcBust()
     {
         double valueToIncrease = ProductionRate * (Time.deltaTime / TimeToReachProductionRate);
+        if (!UpgradeCanGrow)
+        {
+            valueToIncrease = 0;
+        }
 
         if (EventFastMilkFill == true)
         {

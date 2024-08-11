@@ -52,11 +52,8 @@ public static class Consts
     public const string PlayerPrefMusic = "Music";
     public const string PlayerPrefTalk = "Talk";
     public const string PlayerPrefMilkBarista = "MilkBarista";
-    public const string PlayerPrefMilkCup = "MilkCup";
 
-    public const string PlayerPrefMilkColorR = "MilkColorR";
-    public const string PlayerPrefMilkColorG = "MilkColorG";
-    public const string PlayerPrefMilkColorB = "MilkColorB";
+    public const string PlayerPrefMilkPreset = "MilkPreset";
 
     public const string PlayerPrefCanMoveCamera = "MoveCamera";
     public const string PlayerPrefShowBestTimes = "ShowBestTimes";
