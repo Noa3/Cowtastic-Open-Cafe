@@ -170,7 +170,7 @@ public class CupController : MonoBehaviour
         //bool isFirstPercentage = true;
         if (Chocolate > 0.01f)
         {
-            tooltipContent.AppendLine(Statics.Chocolate + ": " + (Mathf.Round((Chocolate / Fullness * 100))).ToString() + "%");
+            tooltipContent.AppendLine(Statics.Chocolate + ": " + (Mathf.Round((Chocolate * Fullness * 100))).ToString() + "%");
         }
 
         if (Milk > 0.01f)
