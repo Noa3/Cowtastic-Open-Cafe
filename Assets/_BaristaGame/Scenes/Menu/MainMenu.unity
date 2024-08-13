@@ -2988,6 +2988,10 @@ PrefabInstance:
       propertyPath: m_fontSizeBase
       value: 80
       objectReference: {fileID: 0}
+    - target: {fileID: 9120165736882561393, guid: 67def015ce30b8d4ebc178b6b2b7e312, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 41d0f88a098a6e448a5634de8de7e161, type: 3}
     - target: {fileID: 9120165737219060206, guid: 67def015ce30b8d4ebc178b6b2b7e312, type: 3}
       propertyPath: m_fontSize
       value: 56
@@ -3036,10 +3040,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 9120165737405066302, guid: 67def015ce30b8d4ebc178b6b2b7e312, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2832f573e4c6ac8459c909ca9b1b4c7b, type: 3}
     - target: {fileID: 9120165737604735469, guid: 67def015ce30b8d4ebc178b6b2b7e312, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1534141744}
+    - target: {fileID: 9120165737916478646, guid: 67def015ce30b8d4ebc178b6b2b7e312, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8f118591a84720d46b1157c9bd288046, type: 3}
     m_RemovedComponents:
     - {fileID: 0}
     m_RemovedGameObjects:
