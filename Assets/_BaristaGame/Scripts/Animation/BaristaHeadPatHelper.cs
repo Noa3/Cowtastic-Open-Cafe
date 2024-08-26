@@ -16,14 +16,23 @@ public class BaristaHeadPatHelper : MonoBehaviour
     private float TimeLastHeadpat = 0;
     private bool FailedToPat = false;
 
+    public static BaristaHeadPatHelper instance;
+
     private void Start()
     {
         barsita = BaristaController.instance;
         talkManager = FindObjectOfType<BaristaTalkManager>();
         gameMode = BaseGameMode.instance;
+        instance = this;
     }
 
     void OnMouseDown()
+    {
+        KeyBindingManager.instance.DisableKeyBinding();
+        StartHeadPat();
+    }
+
+    public void StartHeadPat()
     {
         if (Time.timeSinceLevelLoad > (TimeLastHeadpat + HeadpatCooldown) && FailedToPat == false)
         {
@@ -50,10 +59,11 @@ public class BaristaHeadPatHelper : MonoBehaviour
 
     private void OnMouseUp()
     {
-        ResetMouse();
+        KeyBindingManager.instance.EnableKeyBinding();
+        StopHeadPat();
     }
 
-    public void ResetMouse()
+    public void StopHeadPat()
     {
         FailedToPat = false;
         MouseHoldDown = false;

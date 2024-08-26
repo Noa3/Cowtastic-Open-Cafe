@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System.Collections.Generic;
 
 public class ButtonUpgrade : MonoBehaviour
 {
@@ -37,6 +38,58 @@ public class ButtonUpgrade : MonoBehaviour
     private float currentCost = 0;
 
     private Button button;
+
+    private AudioSource audioSource;
+    public AudioClip clickClip;
+
+    public static Dictionary<KeyBindingManager.BindableActions, ButtonUpgrade> buttonUpgrades;
+
+    private void ReplaceButtonUpgradeInDictionary(KeyBindingManager.BindableActions bind)
+    {
+        if(buttonUpgrades.ContainsKey(bind))
+        {
+            buttonUpgrades.Remove(bind);
+        }
+        buttonUpgrades.Add(bind, this);
+    }
+
+    public void Initialize()
+    {
+        audioSource = Camera.main.GetComponent<AudioSource>();
+        if (buttonUpgrades == null)
+        {
+            buttonUpgrades = new Dictionary<KeyBindingManager.BindableActions, ButtonUpgrade> ();
+        }
+        switch(TypeOfUpgrade)
+        {
+            case UpgradeType.Production:
+                if(UpgradeTimes > 0)
+                {
+                    ReplaceButtonUpgradeInDictionary(KeyBindingManager.BindableActions.productionUpgrade);
+                }
+                else
+                {
+                    ReplaceButtonUpgradeInDictionary(KeyBindingManager.BindableActions.productionDowngrade);
+                }
+                break;
+            case UpgradeType.MaxSize:
+                ReplaceButtonUpgradeInDictionary(KeyBindingManager.BindableActions.sizeUpgrade);
+                break;
+            case UpgradeType.Happyness:
+                ReplaceButtonUpgradeInDictionary(KeyBindingManager.BindableActions.happinessPurchase);
+                break;
+            case UpgradeType.MilkFullness:
+                ReplaceButtonUpgradeInDictionary(KeyBindingManager.BindableActions.milkNowUpgrade);
+                break;
+            case UpgradeType.TolleranceBeeingFull:
+                ReplaceButtonUpgradeInDictionary(KeyBindingManager.BindableActions.toleranceUpgrade);
+                break;
+            case UpgradeType.InitialUpgarde:
+                ReplaceButtonUpgradeInDictionary(KeyBindingManager.BindableActions.initialUpgrade);
+                break;
+        }
+        UpdateReferences();
+    }
 
     public void OnEnable()
     {
@@ -151,6 +204,8 @@ public class ButtonUpgrade : MonoBehaviour
         {
             case UpgradeType.InitialUpgarde:
                 manager.BuyInitialUpgarde();
+                audioSource.PlayOneShot(clickClip);
+                CafeVisualsController.instance.SetStatsLightning(true);
                 break;
             case UpgradeType.Production:
                 gamemode.BuyUpgradeProduction(UpgradeTimes);
@@ -172,6 +227,11 @@ public class ButtonUpgrade : MonoBehaviour
         }
 
 
+    }
+
+    private void OnDestroy()
+    {
+        buttonUpgrades = null;
     }
 
     public enum UpgradeType

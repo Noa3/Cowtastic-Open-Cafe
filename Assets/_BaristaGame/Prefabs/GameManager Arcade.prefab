@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 516822319478608481}
   - component: {fileID: 3527416383356456968}
   - component: {fileID: 3922014865810031616}
+  - component: {fileID: 8657163048229815305}
   m_Layer: 0
   m_Name: GameManager Arcade
   m_TagString: Untagged
@@ -96,12 +97,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e0f51d7b00fb144983a40fbeb0bf6ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EffectProductionUpgrade: {fileID: 0}
-  EffectProductionDowngrade: {fileID: 0}
-  EffectMaxSizeUpgarde: {fileID: 0}
-  EffectFillMilk: {fileID: 0}
-  EffectHappynessIncrease: {fileID: 0}
-  EffectFullnesTolleranceUpgrade: {fileID: 0}
   statsManager: {fileID: 0}
   baristaController: {fileID: 0}
   cupController: {fileID: 0}
@@ -958,7 +953,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87ff03428c9b70a4bb235b13ef3b09c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GameWonEffect: {fileID: 0}
   GameWinCanvas: {fileID: 0}
   ActualTime: {fileID: 0}
   BestTime: {fileID: 0}
@@ -1008,3 +1002,15 @@ MonoBehaviour:
   SawHero: 0
   SawKnight: 0
   bestTimeManager: {fileID: 0}
+--- !u!114 &8657163048229815305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6478525205531407372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dc52ab8eb7c0424893315b9786b7ca1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

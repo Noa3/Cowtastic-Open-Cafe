@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class BaristaMilkingHelper : MonoBehaviour
 {
+    public static BaristaMilkingHelper instance;
 
-    //private BaristaController barsita;
     private BaseGameMode gamemode;
 
     public static float WaitBetweenMilkings = 0.2f;
@@ -13,26 +13,26 @@ public class BaristaMilkingHelper : MonoBehaviour
 
     private void Start()
     {
-        //barsita = BaristaController.instance;
+        instance = this;
         gamemode = BaseGameMode.instance;
     }
 
     void OnMouseDown()
     {
-        //Debug.Log("Pressed somethhing!");
+        KeyBindingManager.instance.DisableKeyBinding();
+        StartMilking();
+    }
 
+    public void StartMilking()
+    {
         if (Time.timeSinceLevelLoad > (TimelastMilking + WaitBetweenMilkings) && MilkingFailed == false)
         {
-            //barsita.BeeingMilked = true;
             gamemode.TryMilking = true;
         }
         else
         {
             MilkingFailed = true;
         }
-
-        //barsita.BeeingMilked = true;
-        //gamemode.BeeingMilked = true;
     }
 
     private void OnMouseDrag()
@@ -47,9 +47,8 @@ public class BaristaMilkingHelper : MonoBehaviour
         //gamemode.BeeingMilked = true;
     }
 
-    private void OnMouseUp()
+    public void StopMilking()
     {
-        //barsita.BeeingMilked = false;
         gamemode.TryMilking = false;
 
         if (MilkingFailed == false)
@@ -57,7 +56,12 @@ public class BaristaMilkingHelper : MonoBehaviour
             TimelastMilking = Time.timeSinceLevelLoad;
         }
 
-
         MilkingFailed = false;
+    }
+
+    private void OnMouseUp()
+    {
+        KeyBindingManager.instance.EnableKeyBinding();
+        StopMilking();
     }
 }
