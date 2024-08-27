@@ -110,6 +110,7 @@ public class GamePauseManager : MonoBehaviour
             Time.timeScale = 0;
             Pausepanel.SetActive(true);
             SettingsButton.SetActive(false);
+            KeyBindingManager.instance.DisableKeyBinding();
         }
         else
         {
@@ -117,6 +118,7 @@ public class GamePauseManager : MonoBehaviour
             Pausepanel.SetActive(false);
             SettingsButton.SetActive(true);
             SaveValues();
+            KeyBindingManager.instance.EnableKeyBinding();
         }
     }
 
