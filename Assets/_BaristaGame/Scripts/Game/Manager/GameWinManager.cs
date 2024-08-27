@@ -209,12 +209,15 @@ public class GameWinManager : MonoBehaviour
         #endregion
 
         SaveSceneWon();
+
+        KeyBindingManager.instance.DisableKeyBinding();
     }
 
 
     public void KeepPlayingPressed()
     {
         RestoreOrginalValues();
+        KeyBindingManager.instance.EnableKeyBinding();
     }
 
     public void RestoreOrginalValues()

@@ -101,6 +101,7 @@ public class GameOver_Arcade : MonoBehaviour
         orderManager.enabled = false;
         gameMode.TargetBustSize = 0;
         baristaTalkManager.DoBaristaEventBadEnd();
+        KeyBindingManager.instance.DisableKeyBinding();
     }
 
     public void StartGameoverFloodSequence()
@@ -109,6 +110,7 @@ public class GameOver_Arcade : MonoBehaviour
         orderManager.enabled = false;
         gameMode.TargetBustSize = 0;
         GameOverFlood.SetActive(true);
+        KeyBindingManager.instance.DisableKeyBinding();
 
         Archievements.UnlockArchievement(Archievements.ArchievementID.Make_Waves);
     }
