@@ -1,11 +1,7 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using static System.Runtime.CompilerServices.RuntimeHelpers;
-using static UnityEditor.Progress;
-using UnityEngine.UIElements;
 
 public class KeyBindingIO : MonoBehaviour
 {
