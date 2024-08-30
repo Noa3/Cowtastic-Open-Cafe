@@ -105,8 +105,16 @@ public class KeyBindingManager : MonoBehaviour
             if (PlayerPrefs.HasKey(playerPrefsKey))
             {
                 var keyCodeAsString = PlayerPrefs.GetString(playerPrefsKey);
-                KeyCode keyCode = (KeyCode)Enum.Parse(typeof(KeyCode), keyCodeAsString);
-                bindings.Add(keyCode, item);
+                KeyCode keyCode;
+                try
+                {
+                    keyCode = (KeyCode)Enum.Parse(typeof(KeyCode), keyCodeAsString);
+                    bindings.Add(keyCode, item);
+                }
+                catch
+                {
+                    // String did not parse (probably an empty string, ignore and do not bind)
+                }
             }
         }
     }
