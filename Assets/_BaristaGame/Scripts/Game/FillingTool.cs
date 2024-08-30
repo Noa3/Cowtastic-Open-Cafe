@@ -210,7 +210,7 @@ public class FillingTool : MonoBehaviour
             return;
 
         StartFilling();
-        KeyBindingManager.instance.DisableKeyBinding();
+        KeyBindingManager.instance.MouseDown();
     }
 
     private void OnMouseDrag()
@@ -249,7 +249,7 @@ public class FillingTool : MonoBehaviour
     private void OnMouseUp()
     {
         StopFilling();
-        KeyBindingManager.instance.EnableKeyBinding();
+        KeyBindingManager.instance.MouseUp();
     }
 
     private void OnDestroy()

@@ -19,7 +19,7 @@ public class BaristaMilkingHelper : MonoBehaviour
 
     void OnMouseDown()
     {
-        KeyBindingManager.instance.DisableKeyBinding();
+        KeyBindingManager.instance.MouseDown();
         StartMilking();
     }
 
@@ -61,7 +61,7 @@ public class BaristaMilkingHelper : MonoBehaviour
 
     private void OnMouseUp()
     {
-        KeyBindingManager.instance.EnableKeyBinding();
+        KeyBindingManager.instance.MouseUp();
         StopMilking();
     }
 }

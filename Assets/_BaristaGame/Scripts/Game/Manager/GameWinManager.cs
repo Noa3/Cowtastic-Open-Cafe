@@ -210,14 +210,14 @@ public class GameWinManager : MonoBehaviour
 
         SaveSceneWon();
 
-        KeyBindingManager.instance.DisableKeyBinding();
+        KeyBindingManager.instance.Paused();
     }
 
 
     public void KeepPlayingPressed()
     {
         RestoreOrginalValues();
-        KeyBindingManager.instance.EnableKeyBinding();
+        KeyBindingManager.instance.UnPaused();
     }
 
     public void RestoreOrginalValues()

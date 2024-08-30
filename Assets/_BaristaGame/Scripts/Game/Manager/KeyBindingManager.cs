@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
@@ -7,6 +8,8 @@ public class KeyBindingManager : MonoBehaviour
 {
     public static KeyBindingManager instance;
 
+    private bool mouseIsDown = false;
+    private bool gameIsPaused = false;
     private bool keyBindingEnabled = true;
     private KeyCode currentKeyCode = KeyCode.None;
     private KeyCode queuedKeyCode = KeyCode.None;
@@ -16,27 +19,60 @@ public class KeyBindingManager : MonoBehaviour
     public enum BindableActions
     {
         headpat, breastMilk,
+
         boba, sprinkles, caramelSauce, chocolateSauce,
         coffee, tea, espresso, sugar, chocolate,
         milk, cream, whippedCream, ice,
+
         finishOrder, resetCup,
 
         productionUpgrade, sizeUpgrade, happinessPurchase,
         productionDowngrade, milkNowUpgrade, toleranceUpgrade,
+
         initialUpgrade
     }
 
     private Dictionary<KeyCode, BindableActions> bindings = new Dictionary<KeyCode, BindableActions>();
 
-    public void EnableKeyBinding()
+    public void MouseDown()
     {
-        keyBindingEnabled = true;
+        mouseIsDown = true;
+        UpdateKeyBindingEnable();
     }
 
-    public void DisableKeyBinding()
+    public void MouseUp()
     {
-        StopCurrentAction();
-        keyBindingEnabled = false;
+        mouseIsDown=false;
+        UpdateKeyBindingEnable();
+    }
+
+    public void Paused()
+    {
+        gameIsPaused = true;
+        UpdateKeyBindingEnable();
+    }
+
+    public void UnPaused()
+    {
+        gameIsPaused = false;
+        UpdateKeyBindingEnable();
+    }
+
+    public void UpdateKeyBindingEnable()
+    {
+        keyBindingEnabled = true;
+        if (mouseIsDown)
+        {
+            StopCurrentAction();
+            keyBindingEnabled = false;
+            return;
+        }
+        if (gameIsPaused)
+        {
+            StopCurrentAction();
+            keyBindingEnabled = false;
+            return;
+        }
     }
 
     private void Awake()
@@ -60,35 +96,19 @@ public class KeyBindingManager : MonoBehaviour
         }
     }
 
-    private void LoadKeyBindings()
+    public void LoadKeyBindings()
     {
-        //KeyCode code = (KeyCode)System.Enum.Parse(typeof(KeyCode), item.Key);
-        bindings.Add(KeyCode.S, BindableActions.headpat);
-        bindings.Add(KeyCode.X, BindableActions.breastMilk);
-
-        bindings.Add(KeyCode.T, BindableActions.boba);
-        bindings.Add(KeyCode.Y, BindableActions.sprinkles);
-        bindings.Add(KeyCode.U, BindableActions.caramelSauce);
-        bindings.Add(KeyCode.I, BindableActions.chocolateSauce);
-        bindings.Add(KeyCode.F, BindableActions.coffee);
-        bindings.Add(KeyCode.G, BindableActions.tea);
-        bindings.Add(KeyCode.H, BindableActions.espresso);
-        bindings.Add(KeyCode.J, BindableActions.sugar);
-        bindings.Add(KeyCode.K, BindableActions.chocolate);
-        bindings.Add(KeyCode.V, BindableActions.milk);
-        bindings.Add(KeyCode.B, BindableActions.cream);
-        bindings.Add(KeyCode.N, BindableActions.whippedCream);
-        bindings.Add(KeyCode.M, BindableActions.ice);
-
-        bindings.Add(KeyCode.Space, BindableActions.finishOrder);
-        bindings.Add(KeyCode.Backspace, BindableActions.resetCup);
-
-        bindings.Add(KeyCode.Alpha1, BindableActions.productionUpgrade);
-        bindings.Add(KeyCode.Alpha2, BindableActions.sizeUpgrade);
-        bindings.Add(KeyCode.Alpha3, BindableActions.happinessPurchase);
-        bindings.Add(KeyCode.Alpha4, BindableActions.productionDowngrade);
-        bindings.Add(KeyCode.Alpha5, BindableActions.milkNowUpgrade);
-        bindings.Add(KeyCode.Alpha6, BindableActions.toleranceUpgrade);
+        bindings = new Dictionary<KeyCode, BindableActions>();
+        foreach (BindableActions item in Enum.GetValues(typeof(BindableActions)))
+        {
+            var playerPrefsKey = "KeyBind:" + item.ToString();
+            if (PlayerPrefs.HasKey(playerPrefsKey))
+            {
+                var keyCodeAsString = PlayerPrefs.GetString(playerPrefsKey);
+                KeyCode keyCode = (KeyCode)Enum.Parse(typeof(KeyCode), keyCodeAsString);
+                bindings.Add(keyCode, item);
+            }
+        }
     }
 
     private bool IsButtonUpgrade(BindableActions bindableAction)

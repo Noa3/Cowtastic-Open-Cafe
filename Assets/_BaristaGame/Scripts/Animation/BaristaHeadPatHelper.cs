@@ -28,7 +28,7 @@ public class BaristaHeadPatHelper : MonoBehaviour
 
     void OnMouseDown()
     {
-        KeyBindingManager.instance.DisableKeyBinding();
+        KeyBindingManager.instance.MouseDown();
         StartHeadPat();
     }
 
@@ -59,7 +59,7 @@ public class BaristaHeadPatHelper : MonoBehaviour
 
     private void OnMouseUp()
     {
-        KeyBindingManager.instance.EnableKeyBinding();
+        KeyBindingManager.instance.MouseUp();
         StopHeadPat();
     }
 
