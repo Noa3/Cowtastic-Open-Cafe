@@ -127,8 +127,6 @@ public class ButtonUpgrade : MonoBehaviour
     {
         if (MaxUpgrades > 0 && UpgradedTimes >= MaxUpgrades)
         {
-            Debug.Log("Upgrade Times Limit Reached");
-
             button.interactable = false;
             button.enabled = false;
             button.targetGraphic.color = ColorReachedMaxUpgrades;
@@ -190,6 +188,10 @@ public class ButtonUpgrade : MonoBehaviour
     {
         CalcCurrentCost();
 
+        if (MaxUpgrades > 0 && UpgradedTimes >= MaxUpgrades)
+        {
+            return;
+        }
         if (currentCost > gamemode.Money)
         {
             return;

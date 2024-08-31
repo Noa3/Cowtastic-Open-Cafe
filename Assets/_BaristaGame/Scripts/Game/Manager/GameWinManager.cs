@@ -97,6 +97,7 @@ public class GameWinManager : MonoBehaviour
         {
             if (gameMode.CurrentMaxSize >= NeededMaxBustSize && (gameMode.BustSize - gameMode.EventMilkBurstBustExpanded) >= NeededActualBustSize)
             {
+                KeyBindingManager.instance.Paused();
                 GameWon = true;
                 //ShowWinScreen();
                 GameOverArcade.enabled = false;
