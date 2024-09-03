@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Unity.Burst;
 using UnityEngine;
 
@@ -31,7 +32,6 @@ public class FillingTool : MonoBehaviour
     public bool Unlocked = true;
 
     [Header("Logic")]
-    public bool IgnoreJustUnlockedLogic = true;
 
     private bool CupFilledWithTopping = false;
 
@@ -40,11 +40,75 @@ public class FillingTool : MonoBehaviour
     private bool justUnlock = false;
     private UpgradeManager upgradeManager;
 
+    public static Dictionary<KeyBindingManager.BindableActions, FillingTool> fillingTools;
+    public static Dictionary<KeyBindingManager.BindableActions, UnityEngine.UI.Image> fillingToolGlows;
 
+    private void AddFillingToolToStaticList(KeyBindingManager.BindableActions key)
+    {
+        fillingTools.Add(key, this);
+        fillingToolGlows.Add(key, transform.Find("KeyboardGlow").GetComponent<UnityEngine.UI.Image>());
+    }
 
     private void Awake()
     {
         SetUnlockedState(Unlocked);
+        if (fillingTools == null)
+        {
+            fillingTools = new Dictionary<KeyBindingManager.BindableActions, FillingTool>();
+            fillingToolGlows = new Dictionary<KeyBindingManager.BindableActions, UnityEngine.UI.Image>();
+        }
+
+        if (isTopping)
+        {
+            switch(CupToppings)
+            {
+                default:
+                    AddFillingToolToStaticList(KeyBindingManager.BindableActions.boba);
+                    break;
+                case Toppings.Sprinkles:
+                    AddFillingToolToStaticList(KeyBindingManager.BindableActions.sprinkles);
+                    break;
+                case Toppings.CaramelSauce:
+                    AddFillingToolToStaticList(KeyBindingManager.BindableActions.caramelSauce);
+                    break;
+                case Toppings.ChocolateSauce:
+                    AddFillingToolToStaticList(KeyBindingManager.BindableActions.chocolateSauce);
+                    break;
+                case Toppings.WhipedCream:
+                    AddFillingToolToStaticList(KeyBindingManager.BindableActions.whippedCream);
+                    break;
+                case Toppings.Ice:
+                    AddFillingToolToStaticList(KeyBindingManager.BindableActions.ice);
+                    break;
+            }
+        }
+        else
+        {
+            switch (MashineFilling)
+            {
+                default:
+                    AddFillingToolToStaticList(KeyBindingManager.BindableActions.coffee);
+                    break;
+                case Fillings.Tea:
+                    AddFillingToolToStaticList(KeyBindingManager.BindableActions.tea);
+                    break;
+                case Fillings.Espresso:
+                    AddFillingToolToStaticList(KeyBindingManager.BindableActions.espresso);
+                    break;
+                case Fillings.Sugar:
+                    AddFillingToolToStaticList(KeyBindingManager.BindableActions.sugar);
+                    break;
+                case Fillings.Chocolate:
+                    AddFillingToolToStaticList(KeyBindingManager.BindableActions.chocolate);
+                    break;
+                case Fillings.Milk:
+                    AddFillingToolToStaticList(KeyBindingManager.BindableActions.milk);
+                    break;
+                case Fillings.Cream:
+                    AddFillingToolToStaticList(KeyBindingManager.BindableActions.cream);
+                    break;
+            }
+        }
     }
 
     // Start is called before the first frame update
@@ -131,40 +195,22 @@ public class FillingTool : MonoBehaviour
         if (Unlocked == false)
         {
             UnlockTool();
-            if (IgnoreJustUnlockedLogic == false)
-            {
-                justUnlock = true;
-            }
-
         }
     }
 
     void OnMouseDown()
     {
+        if (upgradeManager == null)
+            return;
 
-        if (upgradeManager != null && upgradeManager.UpgardePanelVisibility == false)
-        {
-            if (IgnoreJustUnlockedLogic == true)
-            {
-                if (Unlocked == true)
-                {
-                    FillCup = true;
-                }
-            }
-            else
-            {
-                if (Unlocked == true && justUnlock == false)
-                {
-                    FillCup = true;
-                }
-                /*else
-                {
-                    UnlockTool();
-                    justUnlock = true;
-                }*/
-            }
+        if (upgradeManager.UpgardePanelVisibility == true)
+            return;
 
-        }
+        if (Unlocked == false)
+            return;
+
+        StartFilling();
+        KeyBindingManager.instance.MouseDown();
     }
 
     private void OnMouseDrag()
@@ -175,17 +221,40 @@ public class FillingTool : MonoBehaviour
         }
     }
 
-    private void OnMouseUp()
+    public void StartFillingOrTryUnlock()
+    {
+        if (Unlocked == false)
+        {
+            UnlockTool();
+        }
+        else
+        {
+            StartFilling();
+        }
+    }
+
+    public void StartFilling()
+    {
+        FillCup = true;
+    }
+
+    public void StopFilling()
     {
         FillCup = false;
-
-        if (IgnoreJustUnlockedLogic == false)
-        {
-            justUnlock = false;
-        }
 
         SoundVariation.EndLoop();
         CupFilledWithTopping = false;
     }
 
+    private void OnMouseUp()
+    {
+        StopFilling();
+        KeyBindingManager.instance.MouseUp();
+    }
+
+    private void OnDestroy()
+    {
+        fillingTools = null;
+        fillingToolGlows = null;
+    }
 }

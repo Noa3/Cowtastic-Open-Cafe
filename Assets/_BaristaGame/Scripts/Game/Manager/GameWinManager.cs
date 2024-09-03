@@ -97,6 +97,7 @@ public class GameWinManager : MonoBehaviour
         {
             if (gameMode.CurrentMaxSize >= NeededMaxBustSize && (gameMode.BustSize - gameMode.EventMilkBurstBustExpanded) >= NeededActualBustSize)
             {
+                KeyBindingManager.instance.Paused();
                 GameWon = true;
                 //ShowWinScreen();
                 GameOverArcade.enabled = false;
@@ -209,12 +210,15 @@ public class GameWinManager : MonoBehaviour
         #endregion
 
         SaveSceneWon();
+
+        KeyBindingManager.instance.Paused();
     }
 
 
     public void KeepPlayingPressed()
     {
         RestoreOrginalValues();
+        KeyBindingManager.instance.UnPaused();
     }
 
     public void RestoreOrginalValues()

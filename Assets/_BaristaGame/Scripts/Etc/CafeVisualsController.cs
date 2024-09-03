@@ -7,7 +7,12 @@ public class CafeVisualsController : MonoBehaviour
 
     //[Header("Settings")]
 
+    public static CafeVisualsController instance;
 
+    private void Start()
+    {
+        instance = this;
+    }
 
     public bool StatsLightning
     {

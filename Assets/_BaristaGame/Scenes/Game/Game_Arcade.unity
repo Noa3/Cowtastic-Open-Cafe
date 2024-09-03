@@ -530,11 +530,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c508bc07534add489105c8343826abd, type: 3}
---- !u!82 &432739190 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 416650935595172741, guid: 9c508bc07534add489105c8343826abd, type: 3}
-  m_PrefabInstance: {fileID: 432739189}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &432739191 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7342687562657837043, guid: 9c508bc07534add489105c8343826abd, type: 3}
@@ -1363,14 +1358,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1692761764454332503, guid: 72f7fde8e66148245a171f79f12a2939, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 432739190}
-    - target: {fileID: 1692761764454332503, guid: 72f7fde8e66148245a171f79f12a2939, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
-      value: 
-      objectReference: {fileID: 2128388914}
     - target: {fileID: 1692761765351447890, guid: 72f7fde8e66148245a171f79f12a2939, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -2626,6 +2613,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1730584409609312155, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: pitchMin
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1730584409609312155, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: volumeMax
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1730584409609312155, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: volumeMin
+      value: 0.8
+      objectReference: {fileID: 0}
     - target: {fileID: 3441895396652951348, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
       propertyPath: BypassEffects
       value: 0
@@ -2650,6 +2649,10 @@ PrefabInstance:
       propertyPath: SoundVariation
       value: 
       objectReference: {fileID: 895958647}
+    - target: {fileID: 6892611224297151478, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
+      propertyPath: volumeMin
+      value: 0.8
+      objectReference: {fileID: 0}
     - target: {fileID: 7707127849366474124, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -2707,17 +2710,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
---- !u!114 &2128388914 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3591822676254169231, guid: 8da479aacc7ae8e4f80c3c1bbbd822ad, type: 3}
-  m_PrefabInstance: {fileID: 2128388913}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3b543c63b14cbd419c04d7ff1b9f5c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &2611244689329184182
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2786,10 +2778,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 853431435121471253, guid: beee51f05e7aa39498afe1e59f871bb7, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1273195615747636298, guid: beee51f05e7aa39498afe1e59f871bb7, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -2900,10 +2888,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2611244688589443992, guid: beee51f05e7aa39498afe1e59f871bb7, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2611244688694150086, guid: beee51f05e7aa39498afe1e59f871bb7, type: 3}
-      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2611244688734268969, guid: beee51f05e7aa39498afe1e59f871bb7, type: 3}

@@ -110,6 +110,7 @@ public class GamePauseManager : MonoBehaviour
             Time.timeScale = 0;
             Pausepanel.SetActive(true);
             SettingsButton.SetActive(false);
+            KeyBindingManager.instance.Paused();
         }
         else
         {
@@ -117,6 +118,7 @@ public class GamePauseManager : MonoBehaviour
             Pausepanel.SetActive(false);
             SettingsButton.SetActive(true);
             SaveValues();
+            KeyBindingManager.instance.UnPaused();
         }
     }
 
@@ -226,4 +228,6 @@ public class GamePauseManager : MonoBehaviour
         PlayerPrefs.DeleteKey(Consts.PlayerPrefMostServed);
         PlayerPrefs.DeleteKey(Consts.PlayerPrefMostMilk);
     }
+
+
 }
