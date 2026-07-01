@@ -1,0 +1,4 @@
+﻿<Solution>
+  <Project Path="Game.csproj" />
+  <Project Path="Game_Attributes_Editor.csproj" />
+</Solution>
