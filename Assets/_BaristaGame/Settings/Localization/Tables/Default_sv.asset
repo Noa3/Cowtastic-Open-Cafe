@@ -1,0 +1,1814 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Default_sv
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: sv
+  m_SharedData: {fileID: 11400000, guid: 99f355a02537cb04c821e914e96ec32f, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1654148486754304
+    m_Localized: "Avancerade inst\xE4llningar"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656496193892352
+    m_Localized: AntiAliasing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661452141555712
+    m_Localized: "F\xF6rkl\xE4de stil"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549324026376192
+    m_Localized: "L\xE4gger till $3 till best\xE4llningen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549242392637440
+    m_Localized: "K\xF6p Boba f\xF6r $75"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549277549293568
+    m_Localized: Boba
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549846439522304
+    m_Localized: "L\xE4gger till $1 till best\xE4llningen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549769167859712
+    m_Localized: "K\xF6p kolas\xE5s f\xF6r $25"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549811962343424
+    m_Localized: "Karamells\xE5s"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1683534711713792
+    m_Localized: "Din mj\xF6lkg\xE5rd har nyligen best\xE4mt sig f\xF6r att f\xF6rs\xF6ka
+      \xF6ppna ett \"kocaf\xE9\" f\xF6r att hj\xE4lpa till med marknadsf\xF6ringen,
+      tillsammans med det verkar det ocks\xE5 vara ett bra s\xE4tt att ge nya koflickor
+      n\xE5got att g\xF6ra medan du f\xF6rbereder dem f\xF6r mejeritj\xE4nstg\xF6ring.\n\nDin
+      f\xF6rsta barista \xE4r exalterad \xF6ver att komma ig\xE5ng och verkar full
+      av potential, hj\xE4lp henne att betj\xE4na kunder samtidigt som du arbetar
+      mot hennes fulla mj\xF6lkkraft!\n\nCaf\xE9et \xE4r nytt, s\xE5 du m\xE5ste
+      ocks\xE5 k\xF6pa nya r\xE5varor p\xE5 v\xE4gen.\nSom tur \xE4r verkar det som
+      att kunderna h\xE4r \xE4r v\xE4ldigt mottagliga f\xF6r tanken p\xE5 att betala
+      extra f\xF6r lite f\xE4rsk mj\xF6lk p\xE5 beg\xE4ran om de \xE4r p\xE5 r\xE4tt
+      hum\xF6r.\n\nOm du beh\xF6ver mer hj\xE4lp medan du spelar, finns det verktygstips
+      som sv\xE4var \xF6ver."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1683396865912832
+    m_Localized: "V\xE4lkommen till Cowtastic Cafe!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1684540275126272
+    m_Localized: "Du kanske borde ha stannat hemma idag, hela kaf\xE9et \xE4r i kaos
+      eftersom alla m\xF6jliga galna grejer p\xE5g\xE5r h\xE4r!  Vilka \xE4r dessa
+      priser?  Varf\xF6r h\xE4nder alla dessa saker varje g\xE5ng en kund kommer
+      in?\n\nHej, det verkar som att du hittat v\xE5rt lilla p\xE5sk\xE4gg, du kanske
+      vill spela ett annat l\xE4ge f\xF6rst om du p\xE5 n\xE5got s\xE4tt hittade
+      det h\xE4r p\xE5 ditt f\xF6rsta f\xF6rs\xF6k.\n\nDu beh\xF6ver mycket kunskap
+      om hur spelet fungerar f\xF6r att \xF6vervinna detta kaos, eller inte... \xC4r
+      det h\xE4r ens g\xE5 att sl\xE5?  Bara ett s\xE4tt att ta reda p\xE5 det.\n\nTack
+      ocks\xE5 f\xF6r att du spelar!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1684438634557440
+    m_Localized: "V\xE4lkommen till KAOS Caf\xE9!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 547914811535360
+    m_Localized: "V\xE4rt $5 per drink"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 547664034099200
+    m_Localized: "K\xF6p choklad f\xF6r 100 kr"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 547789489926144
+    m_Localized: Choklad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 550208105967616
+    m_Localized: "L\xE4gger till $1,5 till best\xE4llningen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 550089201643520
+    m_Localized: "K\xF6p kakaopulver f\xF6r $35"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 550158147612672
+    m_Localized: Kakao pulver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537745180422144
+    m_Localized: "K\xF6p kaffe f\xF6r $50"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537965951807488
+    m_Localized: "V\xE4rt $2 per drink"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537790525042688
+    m_Localized: Kaffe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316567601901568
+    m_Localized: "V\xE4rt $2 per drink"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316555551666176
+    m_Localized: "K\xF6p vaniljkr\xE4m f\xF6r $35"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316559485923328
+    m_Localized: "Vaniljkr\xE4m"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540973469102080
+    m_Localized: "V\xE4rt $10 per drink"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540856380911616
+    m_Localized: "K\xF6p Espresso f\xF6r $150"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540912534253568
+    m_Localized: Espresso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1651431374680064
+    m_Localized: "Oj oj oj det \xE4r alldeles f\xF6r mycket mj\xF6lk!  Vad g\xF6r
+      du ens???  Du har f\xF6rvandlat henne till en bottenl\xF6s brunn av mj\xF6lk,
+      som sv\xE4mmar \xF6ver gatorna utan n\xE5got slut i sikte!  Det \xE4r kaos!\n\nJag
+      menar visst, hon tycker fortfarande om det, men..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1651623855484928
+    m_Localized: "Mj\xF6lkflod!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1713462324850688
+    m_Localized: "Din mj\xF6lkg\xE5rd har nyligen best\xE4mt sig f\xF6r att f\xF6rs\xF6ka
+      \xF6ppna ett \"kocaf\xE9\" f\xF6r att hj\xE4lpa till med marknadsf\xF6ringen,
+      tillsammans med det verkar det ocks\xE5 vara ett bra s\xE4tt att ge nya koflickor
+      n\xE5got att g\xF6ra medan du f\xF6rbereder dem f\xF6r mejeritj\xE4nstg\xF6ring.\n\nDin
+      f\xF6rsta barista \xE4r exalterad \xF6ver att komma ig\xE5ng och verkar full
+      av potential, hj\xE4lp henne att betj\xE4na kunder samtidigt som du arbetar
+      mot hennes fulla mj\xF6lkkraft!\n\nCaf\xE9et \xE4r nytt, s\xE5 du m\xE5ste
+      ocks\xE5 k\xF6pa nya r\xE5varor p\xE5 v\xE4gen.\nSom tur \xE4r verkar det som
+      att kunderna h\xE4r \xE4r v\xE4ldigt mottagliga f\xF6r tanken p\xE5 att betala
+      extra f\xF6r lite f\xE4rsk mj\xF6lk p\xE5 beg\xE4ran om de \xE4r p\xE5 r\xE4tt
+      hum\xF6r.\n\nOm du inte har l\xE4rt dig att spela, prova normalt l\xE4ge f\xF6rst."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1685107663794176
+    m_Localized: "V\xE4lkommen till Cowtastic Cafe!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537416976134144
+    m_Localized: "L\xE4gger till $0,50 till best\xE4llningen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537330950959104
+    m_Localized: "K\xF6p Ice f\xF6r $5"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537370968813568
+    m_Localized: Is
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1650345817501696
+    m_Localized: "hoppsan!  Det verkar som att du skjutit henne lite f\xF6r l\xE5ngt. 
+      L\xE4mnade du henne m\xE4tt f\xF6r l\xE4nge?  Kanske n\xE5gon sv\xE5r kundservice?\n\nF\xF6rhoppningsvis
+      kommer hon tillbaka f\xF6r att ge jobbet ett nytt f\xF6rs\xF6k efter att hon
+      svalnat."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1650204792418304
+    m_Localized: Huvudmeny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649997711241216
+    m_Localized: "F\xF6rs\xF6k igen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1650511282794496
+    m_Localized: Game Over
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316273224675328
+    m_Localized: "V\xE4rt $1 per drink"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 312927965245440
+    m_Localized: "K\xF6p vanlig mj\xF6lk f\xF6r 50 USD"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316153368244224
+    m_Localized: "Vanlig mj\xF6lk"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 226539798360064
+    m_Localized: "Arkadl\xE4ge"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549589093806080
+    m_Localized: "L\xE4gger till $0,50 till best\xE4llningen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549459674361856
+    m_Localized: "K\xF6p godis f\xF6r $10"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549533506695168
+    m_Localized: Godis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1647892887859200
+    m_Localized: "Din mj\xF6lkg\xE5rd har nyligen best\xE4mt sig f\xF6r att f\xF6rs\xF6ka
+      \xF6ppna ett \"kocaf\xE9\" f\xF6r att hj\xE4lpa till med marknadsf\xF6ringen,
+      tillsammans med det verkar det ocks\xE5 vara ett bra s\xE4tt att ge nya koflickor
+      n\xE5got att g\xF6ra medan du f\xF6rbereder dem f\xF6r mejeritj\xE4nstg\xF6ring.\n\nDin
+      f\xF6rsta barista \xE4r exalterad \xF6ver att komma ig\xE5ng och verkar full
+      av potential, hj\xE4lp henne att betj\xE4na kunder samtidigt som du arbetar
+      mot hennes fulla mj\xF6lkkraft!\n\nCaf\xE9et \xE4r nytt, s\xE5 du m\xE5ste
+      ocks\xE5 k\xF6pa nya r\xE5varor p\xE5 v\xE4gen.\nSom tur \xE4r verkar det som
+      att kunderna h\xE4r \xE4r v\xE4ldigt mottagliga f\xF6r tanken p\xE5 att betala
+      extra f\xF6r lite f\xE4rsk mj\xF6lk p\xE5 beg\xE4ran om de \xE4r p\xE5 r\xE4tt
+      hum\xF6r.\n\nOm du beh\xF6ver mer hj\xE4lp medan du spelar, finns det verktygstips
+      som sv\xE4var \xF6ver."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1647484102602752
+    m_Localized: "V\xE4lkommen till Cowtastic Cafe!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 541488361861120
+    m_Localized: "V\xE4rt $1,5 per drink"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 541379419009024
+    m_Localized: "K\xF6p socker f\xF6r $15"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 541440546795520
+    m_Localized: Socker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540631339724800
+    m_Localized: "V\xE4rt $3 per drink"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540541439012864
+    m_Localized: "K\xF6p te f\xF6r $50"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540592966037504
+    m_Localized: Te
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233523209662464
+    m_Localized: "Handledning f\xF6r arkad"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 234141684953088
+    m_Localized: "Tips och instruktioner som hj\xE4lper dig att l\xE4ra dig spela
+      om trial and error inte \xE4r din kopp kaffe."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1713940962045952
+    m_Localized: "Du kanske borde ha stannat hemma idag, hela kaf\xE9et \xE4r i kaos
+      eftersom alla m\xF6jliga galna grejer p\xE5g\xE5r h\xE4r!  Vilka \xE4r dessa
+      priser?  Varf\xF6r h\xE4nder alla dessa saker varje g\xE5ng en kund kommer
+      in?\n\nHej, det verkar som att du hittat v\xE5rt lilla p\xE5sk\xE4gg, du kanske
+      vill spela ett annat l\xE4ge f\xF6rst om du p\xE5 n\xE5got s\xE4tt hittade
+      det h\xE4r p\xE5 ditt f\xF6rsta f\xF6rs\xF6k.\n\nDu beh\xF6ver mycket kunskap
+      om hur spelet fungerar f\xF6r att \xF6vervinna detta kaos, eller inte... \xC4r
+      det h\xE4r ens g\xE5 att sl\xE5?  Bara ett s\xE4tt att ta reda p\xE5 det.\n\nTack
+      ocks\xE5 f\xF6r att du spelar!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1713827099275264
+    m_Localized: "V\xE4lkommen till KAOS Caf\xE9!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537045671178240
+    m_Localized: "L\xE4gger till $0,75 till best\xE4llningen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536900430819328
+    m_Localized: "K\xF6p vispad gr\xE4dde f\xF6r $15"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536982903418880
+    m_Localized: "Vispgr\xE4dde"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648740309233664
+    m_Localized: "Du har gjort din Barista s\xE5 stor hon kan bli!  Efter att ha
+      n\xE5tt sin fulla potential \xE4r hon glad \xF6ver att g\xE5 med i ditt mejeri
+      p\xE5 heltid och l\xE4gga till ytterligare en kvalitetskoflicka till din personal!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648943238049792
+    m_Localized: "Forts\xE4tta spela"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649229939699712
+    m_Localized: Huvudmeny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649612644773888
+    m_Localized: Mindre statistik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649493451042816
+    m_Localized: Mer statistik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649079095750656
+    m_Localized: Spela igen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648511212154880
+    m_Localized: Grattis!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132749943507623936
+    m_Localized: Auto-fix outfit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133847671285325824
+    m_Localized: Tillbaka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133992920209006592
+    m_Localized: Grunderna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133054867663593472
+    m_Localized: "L\xE4mpligast tid: "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663386760081408
+    m_Localized: Bitter kaffe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660668985307136
+    m_Localized: "B\xE4sta s\xE4ttet att b\xF6rja en dag:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035131357732864
+    m_Localized: "K\xF6p varje outfit."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1664405879484416
+    m_Localized: Lugnande te
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655899071803392
+    m_Localized: "Kamerar\xF6relse"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132868178831843328
+    m_Localized: "Tillf\xE4llig"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269928791109632
+    m_Localized: "Ibland \xE4r det okej att vilja koppla av.\nBilligare & konsekventa
+      priser som g\xF6r det enkelt att leka med olika alternativ."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269706832736256
+    m_Localized: "Casual sv\xE5righetsgrad"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231828173975552
+    m_Localized: Casual Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870694181117952
+    m_Localized: Kaos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273385908432896
+    m_Localized: "\xC5 nej.\nSn\xE4lla, f\xF6r k\xE4rleken till allt som \xE4r bra
+      i den h\xE4r v\xE4rlden, s\xE4g mig att du \xE5tminstone har spelat Normal
+      Mode f\xF6rst eller hur?  F\xF6r ditt eget b\xE4sta... sn\xE4lla!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271100448960512
+    m_Localized: "Kaos sv\xE5righet"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648041961811968
+    m_Localized: "Forts\xE4tta"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228206665101312
+    m_Localized: "Cowtastic Caf\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227076505694208
+    m_Localized: Krediter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133034814415151104
+    m_Localized: "Cup s\xE4ljare"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132865428639293440
+    m_Localized: "S\xE5lda koppar:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661003594297344
+    m_Localized: Anpassa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656215754338304
+    m_Localized: Disharmoni
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133995165042450432
+    m_Localized: Dryckstillverkning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035279336972288
+    m_Localized: "Tj\xE4na $10 000."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2654012272640
+    m_Localized: "Utg\xE5ng"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133847226483580928
+    m_Localized: "Avsluta sj\xE4lvstudiekursen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663192102432768
+    m_Localized: Extra paus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663816466526208
+    m_Localized: Fairy Latte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035857651802112
+    m_Localized: Bekanta ansikten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133037143440859136
+    m_Localized: "Hitta en riktigt f\xF6rbannad sv\xE5righet."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035644203671552
+    m_Localized: "Hitta den hemliga kaossv\xE5righeten."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1641101533736960
+    m_Localized: "Avsluta best\xE4llning"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658724845711360
+    m_Localized: Fixa outfit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035056309051392
+    m_Localized: Full garderob
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1664587954221056
+    m_Localized: Fullness Tolerance+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655422749863936
+    m_Localized: "Fullsk\xE4rm"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132753240020852736
+    m_Localized: Spelets framsteg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1653921176449024
+    m_Localized: "Allm\xE4nna Inst\xE4llningar"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132753222291529728
+    m_Localized: "Allm\xE4n statistik"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1653487506386944
+    m_Localized: Ge upp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663268698812416
+    m_Localized: Lycka+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677334284693504
+    m_Localized: "F\xF6rb\xE4ttra Baristas hum\xF6r."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870565030109184
+    m_Localized: "H\xE5rd"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269212714364928
+    m_Localized: "Kunderna \xE4r kr\xE4snare och baristan \xE4r hum\xF6rigare, men
+      hon kan bli \xE4nnu st\xF6rre den h\xE4r g\xE5ngen!\nEn lite sv\xE5rare utmaning
+      \xE4n Normal Mode."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269021949030400
+    m_Localized: "H\xE5rd Sv\xE5righetsgrad"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231467803570176
+    m_Localized: "Sv\xE5rt l\xE4ge"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660536202031104
+    m_Localized: Har mystiska effekter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658430149718016
+    m_Localized: "D\xF6lj dialog"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19834399893057536
+    m_Localized: "Semesterl\xE4ge"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1657977076805632
+    m_Localized: 'Ingredienser:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286927487332352
+    m_Localized: "Spr\xE5k"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036188431392768
+    m_Localized: "G\xF6r en drink som har allt."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036853224382464
+    m_Localized: "G\xF6r mj\xF6lk tills caf\xE9et sv\xE4mmar \xF6ver."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036805832941568
+    m_Localized: "G\xF6ra v\xE5gor"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660808559161344
+    m_Localized: "Hantera anst\xE4lld"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660182504763392
+    m_Localized: "F\xF6rvaltning"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1662860714668032
+    m_Localized: Max storlek+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677111105777664
+    m_Localized: "\xD6ka Barista mj\xF6lkkapacitet."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1662565540524032
+    m_Localized: "Mj\xF6lk kaffe"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677736099016704
+    m_Localized: Fyll Barista omedelbart.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133031481403088896
+    m_Localized: "Mj\xF6lk\xE4lskare"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132754228769300480
+    m_Localized: "Producerad mj\xF6lk:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661098758860800
+    m_Localized: "Mj\xF6lktyp"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132867783132815360
+    m_Localized: "Mj\xF6lkig"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 229470362759168
+    m_Localized: Milky Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230078679445504
+    m_Localized: "Milky Mode aktiverat:\nTesta din hastighet n\xE4r Barista fylls
+      snabbare och snabbare.  Kan du h\xE4nga med henne?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132865505260838912
+    m_Localized: "Pengar tj\xE4nade:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035228871106560
+    m_Localized: Moonopol
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663875916591104
+    m_Localized: "Mer mj\xF6lk nu!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655167128006656
+    m_Localized: musik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133998653654802432
+    m_Localized: Hantera din barista
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133998700043804672
+    m_Localized: "Ditt yttersta m\xE5l \xE4r att f\xE5 din barista till sin fulla
+      potential, men du kan inte f\xF6rsumma hennes lycka medan hon arbetar.  Hon
+      tog det h\xE4r jobbet i hopp om att f\xE5 en befordran till en mejeritj\xE4nst,
+      men \xE4ven om detta \xE4r hennes dr\xF6mjobb kommer hon inte att stanna kvar
+      om hon blir f\xF6r olycklig.\n\nBalansera hennes hum\xF6r samtidigt som hon
+      g\xF6r framsteg i hennes storlek och mj\xF6lkproduktion, g\xF6r kunderna n\xF6jda
+      och se till att regelbundet t\xF6mma henne hj\xE4lper till att h\xE5lla hum\xF6ret
+      h\xF6gt."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133998785406279680
+    m_Localized: "Du kan h\xE5lla reda p\xE5 din baristas lycka och fyllighet h\xE4r. 
+      Om hennes lycka sjunker till 0, slutar hon.\n\nS\xE5 mycket som hon skulle
+      vilja v\xE4xa, kan du inte h\xE5lla henne f\xF6r m\xE4tt hela tiden, annars
+      kommer \xF6mheten att g\xF6ra henne uppr\xF6rd, men du b\xF6r inte heller h\xE5lla
+      henne helt tom hela tiden, annars kan det ocks\xE5 g\xF6ra henne uppr\xF6rd
+      , s\xE5 f\xF6rs\xF6k att hitta en balans."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133847557804236800
+    m_Localized: "N\xE4sta"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133055089148010496
+    m_Localized: Inget rekord
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870450861154304
+    m_Localized: Vanligt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 266676540370944
+    m_Localized: "Spela tills din Barista \xE4r s\xE5 stor som hon kan bli, eller
+      tills hon blir arg och slutar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 266450740015104
+    m_Localized: "Normal sv\xE5righetsgrad"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231298777313280
+    m_Localized: "Normalt l\xE4ge"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036121565798400
+    m_Localized: En av allt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224355836850176
+    m_Localized: alternativ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661378443440128
+    m_Localized: "Outfit f\xE4rg"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661525407657984
+    m_Localized: Byxstil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652064190296064
+    m_Localized: PAUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133034562396200960
+    m_Localized: "Spela spelet l\xE4nge."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133031655290544128
+    m_Localized: "Producera \xF6ver 100 L mj\xF6lk."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663505232392192
+    m_Localized: Produktion-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677541911130112
+    m_Localized: "L\xE4gre produktion av Barista mj\xF6lk."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1662658687627264
+    m_Localized: Produktion+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1676894453198848
+    m_Localized: "\xD6ka produktionen av Barista mj\xF6lk."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036731409211392
+    m_Localized: "N\xE5 hennes st\xF6rsta storlek."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132867593416056832
+    m_Localized: Regelbunden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1640869886521344
+    m_Localized: "\xC5terst\xE4ll Cup"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656078697066496
+    m_Localized: "\xC5terst\xE4ll tider"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655301924548608
+    m_Localized: "Uppl\xF6sning"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1653300364931072
+    m_Localized: Omstart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132752649106333696
+    m_Localized: "Sandl\xE5da"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036482359828480
+    m_Localized: "sandl\xE5del\xE4ge"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132752870515253248
+    m_Localized: "Po\xE4ng & statistik"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660439854673920
+    m_Localized: Hemligt godis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132753744281051136
+    m_Localized: Hemligheter hittade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036011389820928
+    m_Localized: Se alla crossover-kunder.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133034908078153728
+    m_Localized: "S\xE4lj 1000 drinkar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652825364197376
+    m_Localized: "Milj\xF6"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658332258856960
+    m_Localized: Visa dialog
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648188082974720
+    m_Localized: Visa igen?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655796151971840
+    m_Localized: Visa timer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1654868065742848
+    m_Localized: Ljud
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227953312362496
+    m_Localized: Speciellt tack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 234396560224256
+    m_Localized: Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1662771174666240
+    m_Localized: Stretchigt godis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036677680177152
+    m_Localized: Supersized
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656401700417536
+    m_Localized: Textur kvalitet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132865470217428992
+    m_Localized: 'Tid spelad:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677955096211456
+    m_Localized: "Barista f\xF6rlorar lyckan l\xE5ngsammare."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231146272419840
+    m_Localized: Handledning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133992199195566080
+    m_Localized: "Efter att nyligen ha \xF6ppnat ett nytt kaf\xE9 och anst\xE4llt
+      den h\xE4r fr\xE4scha nya kotjejen som din f\xF6rsta barista h\xE4r, \xE4r
+      ditt jobb att hj\xE4lpa din barista att betj\xE4na kunder samtidigt som du
+      ser till att h\xE5lla henne n\xF6jd.  Det \xE4r viktigt att se till att hon
+      inte slutar, eftersom hon verkar intresserad av att ta en befordran till en
+      mj\xF6lkigare position p\xE5 din g\xE5rd n\xE4r hon \xE4r redo f\xF6r det.\n\nOm
+      det \xE4r n\xE5got med spelet som verkar oklart b\xF6r du f\xF6rhoppningsvis
+      kunna hitta hj\xE4lp i den h\xE4r handledningen.  Annars kan du ocks\xE5 prova
+      att hoppa direkt in och b\xF6rja l\xE4ra dig spelet genom att trial and error."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133993158466445312
+    m_Localized: "En mus ska vara allt du beh\xF6ver f\xF6r att spela, inga andra
+      knappar kr\xE4vs.\n\nOm det finns n\xE5gon extra information du beh\xF6ver
+      f\xF6r n\xE5got, har Normall\xE4ge verktygstips som sv\xE4var \xF6ver som ger
+      massor av anv\xE4ndbar information.\nDu kanske kan ta reda p\xE5 de flesta
+      mekaniker bara med hj\xE4lp av verktygstipset.\n\n(Touch Controls har inte
+      testats, men om du ser detta p\xE5 en telefon m\xE5ste de \xE5tminstone delvis
+      fungera antar jag?)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133995531494596608
+    m_Localized: "Huvuduppgiften under spelet \xE4r att blanda drinkar.\n\nVarje
+      kund har ett portr\xE4tt som visar deras hum\xF6r och ber om en best\xE4llning
+      som representeras av denna grafik.\n\nVar uppm\xE4rksam p\xE5 fyllningsm\xE4ngderna
+      f\xF6r varje ingrediens och vilka extrafunktioner de vill ha till den."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133996458540638208
+    m_Localized: "H\xE4r \xE4r dina ingredienser.  N\xE4r du spelar klickar du bara
+      och h\xE5ller ned f\xF6r att b\xF6rja fylla en kopp, eller f\xF6r vissa ingredienser
+      klicka en g\xE5ng f\xF6r att l\xE4gga till den i drycken.\n\nDitt kaf\xE9 \xE4r
+      ny\xF6ppnat och beh\xF6ver fortfarande ha n\xE5gra ingredienser p\xE5 lager. 
+      F\xF6rs\xF6k att tj\xE4na tillr\xE4ckligt f\xF6r att l\xE5sa upp dem alla.\n\nAtt
+      k\xF6pa nya ingredienser \xE4r viktigt f\xF6r att tj\xE4na mer pengar, ju mer
+      komplex dryck desto h\xF6gre v\xE4rde."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133997655410450432
+    m_Localized: "Det h\xE4r \xE4r koppen du fyller f\xF6r din kund, medan du g\xF6r
+      drycker kan du anv\xE4nda fyllningslinjerna f\xF6r att j\xE4mf\xF6ra hur exakt
+      din drink \xE4r med kundens \xF6nskem\xE5l.\n\nDryckens noggrannhet p\xE5verkar
+      betyget och hur mycket pengar den s\xE4ljs f\xF6r."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870790192930816
+    m_Localized: Ultra kaos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 274821425754112
+    m_Localized: "Okej den h\xE4r g\xE5ngen skulle du SERI\xD6ST inte hitta det h\xE4r. 
+      Om du har n\xE5gon sj\xE4lvk\xE4rlek kvar i ditt hj\xE4rta, f\xF6rs\xF6k inte
+      ens den h\xE4r."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 274592542584832
+    m_Localized: "Sv\xE5righet med ultrakaos"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133037091288883200
+    m_Localized: Ultra kaos...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036564937285632
+    m_Localized: "L\xE5s upp det hemliga sandl\xE5del\xE4get."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660890163539968
+    m_Localized: Uppgradera
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658553181237248
+    m_Localized: Se Barista
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658635091800064
+    m_Localized: Se spelet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132748730527490048
+    m_Localized: "R\xF6stlinjer"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656601168932864
+    m_Localized: Vsync
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133991633908244480
+    m_Localized: "V\xE4lkommen till Arcade Modes handledning"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133034372322926592
+    m_Localized: "Jobbar \xF6vertid"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134010572390375424
+    m_Localized: "Betj\xE4nar kunder"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134010918655336448
+    m_Localized: "F\xF6rs\xF6k ocks\xE5 att se efter kundens hum\xF6r, m\xE4nniskorna
+      h\xE4r runt verkar \xE4lska det n\xE4r en tjej ser stor och full ut, s\xE5
+      att balansen f\xF6r hennes storlek borde f\xE5nga kundernas uppm\xE4rksamhet
+      allt eftersom.\n\nMen vad \xE4r po\xE4ngen med n\xF6jda kunder?  De kanske
+      gillar n\xE5got extra i drinken om deras hum\xF6r till\xE5ter det!  En speciell
+      ingrediens som \xE4r v\xE4rd mycket pengar...!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134011413927141376
+    m_Localized: "Tidsinst\xE4llda h\xE4ndelser"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134011680659709952
+    m_Localized: "Ibland n\xE4r du spelar kommer det att dyka upp tidsinst\xE4llda
+      h\xE4ndelser.\n\nVissa av dessa evenemang ger utmaningar, vissa ger dig en
+      n\xF6dv\xE4ndig paus, och vissa \xE4r bara lite dumma.\nH\xE5ll koll p\xE5
+      vilka h\xE4ndelser som h\xE4nder och f\xF6rs\xF6k att inte bli \xF6verraskad
+      av dem!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134179468267331584
+    m_Localized: "N\xE4r du spelar i arkadl\xE4ge \xE4r hanteringsknappen d\xE4r
+      alla dina uppgraderingar och anpassningar f\xF6r din barista finns.  Att \xF6ka
+      hennes kapacitet och produktionstakt kan hittas d\xE4r.  Tillsammans med hum\xF6rh\xF6jare.\n\nDen
+      inneh\xE5ller ocks\xE5 en anpassningsmeny med outfitalternativ och f\xE4rgalternativ.\nVissa
+      anpassningsalternativ kan beh\xF6va l\xE5sas upp."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134179994149167104
+    m_Localized: Starta spelet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134180089527640064
+    m_Localized: Handledning klar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134180290938118144
+    m_Localized: "Det borde handla om all viktig information som \xE4r v\xE4rd att
+      f\xF6rtydliga.\nSpelslingan ska vara tydlig, g\xF6ra drinkar, tj\xE4na pengar,
+      g\xF6ra mer drinkar, g\xF6ra baristan st\xF6rre, tj\xE4na \xE4nnu mer pengar,
+      upprepa tills moo.\n\nOm du vill ha en utmaning, f\xF6rs\xF6k hitta smarta
+      strategier eller uppgradera rutter f\xF6r att f\xE5 b\xE4sta tider.  Om du
+      vill f\xF6rb\xE4ttra det roliga, prova att l\xE5sa upp n\xE5gra av de andra
+      outfitalternativen!  Hur som helst, njut av ditt mj\xF6lkiga kaffe."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135009184603807744
+    m_Localized: "K\xF6pa?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135009503337357312
+    m_Localized: Ja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135009682803236864
+    m_Localized: Nej
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135018668252307456
+    m_Localized: "Uts\xE4de:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135037087102115840
+    m_Localized: "\xD6ppna avloppet"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143884046088904704
+    m_Localized: 'Tid:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893353438224384
+    m_Localized: Perfekt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893532069437440
+    m_Localized: Bra!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893677221715968
+    m_Localized: Bra!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893751905492992
+    m_Localized: Okej.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893844029186048
+    m_Localized: Meh.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893899951841280
+    m_Localized: "D\xE5lig..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893970122547200
+    m_Localized: "F\xF6rst\xF6rd!!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143940038960979968
+    m_Localized: "Br\xF6stmj\xF6lk"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143959184234881024
+    m_Localized: "Mj\xF6lk"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143959463068016640
+    m_Localized: Skaka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143959642353541120
+    m_Localized: Chokladshake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 162454964742496256
+    m_Localized: "Du har gjort din Barista s\xE5 stor hon kan bli!  Efter att ha
+      n\xE5tt sin fulla potential \xE4r hon glad \xF6ver att g\xE5 med i ditt mejeri
+      p\xE5 heltid och l\xE4gga till ytterligare en kvalitetskoflicka till din personal!\n\nbtw,
+      \xF6verst till v\xE4nster i Arcade Mode. ;)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 162455432189288448
+    m_Localized: "Vad...?  Tja eh... Grattis till att du lyckades sl\xE5 vad som
+      helst p\xE5 det h\xE4r s\xE4ttet.  Wow.\n\nDessutom finns det ytterligare ett
+      hemligt l\xE4ge.  ;P"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167524481055608832
+    m_Localized: Krediter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167524677856546816
+    m_Localized: Speciellt tack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167525775212302336
+    m_Localized: "Mj\xF6lk kaffe"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167525900873650176
+    m_Localized: Produktion+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167525982276702208
+    m_Localized: Stretchigt godis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526055043682304
+    m_Localized: Max storlek+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526161428008960
+    m_Localized: Extra paus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526229631586304
+    m_Localized: Lycka+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526294421000192
+    m_Localized: Bitter kaffe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526376109264896
+    m_Localized: Produktion-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526646520238080
+    m_Localized: Fairy Latte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526696562479104
+    m_Localized: "Mer mj\xF6lk nu!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526716435091456
+    m_Localized: Lugnande te
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526736756494336
+    m_Localized: Fullness Tolerance+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167535336119881728
+    m_Localized: "Hej!; Hej.; Ey! sk\xF6nhet.; Hej.; Hej.; Hej!; Hej...; Hm...; Uuuh...;
+      \xD6h...; Aha!; Yo.; Hej...; H\xE4lsningar.; Hej unga dam. ; Eyo.; Sup.; Uhuh...;
+      Hej d\xE4r!; Hej!; Hej! Vad h\xE4nder?; God dag!; Hej!; Hej! Fr\xE4mling.;
+      H\xE4lsningar!; Tja! Hej d\xE4r!; Hej! hur m\xE5r du?; hej! Kul att se dig!;
+      Hej! L\xE4nge inte sett!; Hej! Vad lagar mat?; Hej! Hur g\xE5r det?; hej! Trevligt
+      att tr\xE4ffa dig!; Hej! Vad \xE4r nytt?; Hej! Hur \xE4r livet?; hej! Hur \xE4r
+      allt?; hej! Hur \xE4r din dag?; Hej! Hur g\xE5r din dag?; hej! Hur g\xE5r allt?;
+      Hej! Hur har du varit?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167615756777836544
+    m_Localized: "Jag vill ha n\xE5gra ; Kan jag f\xE5 n\xE5gra ; Har du ; Kan jag
+      best\xE4lla ; Kan jag f\xE5 ; Jag \xE4r intresserad av ; Skulle det vara m\xF6jligt
+      att f\xE5 ; V\xE4nligen ge mig "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233249931448320
+    m_Localized: Espresso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233545151729664
+    m_Localized: Kaffe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233690199150592
+    m_Localized: Choklad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233779009343488
+    m_Localized: Te
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233839474429952
+    m_Localized: "Mj\xF6lk"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233903475314688
+    m_Localized: "Br\xF6stmj\xF6lk"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234029493178368
+    m_Localized: "Gr\xE4dde"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234081343164416
+    m_Localized: Socker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234138335367168
+    m_Localized: Is
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234186334982144
+    m_Localized: Boba
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234253527732224
+    m_Localized: Fluffig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234331545980928
+    m_Localized: Fint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234412265361408
+    m_Localized: Choklad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234481072918528
+    m_Localized: Roligt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175274055513952256
+    m_Localized: "Tack!; Jag nj\xF6t av servicen och drinken.; Det var bra!; Jag
+      \xE4lskade det!; Utm\xE4rkt betj\xE4ning!; L\xE4cker drink!; Rekommenderas
+      starkt!; Underbar upplevelse!; Fantastisk!; Fantastisk service!; \xC4lskade
+      varje klunk!; Toppklass!; Kunde inte bli b\xE4ttre!; Perfekt drink!; Fantastisk
+      service!; Precis vad jag beh\xF6vde!; Bra jobbat!; Forts\xE4tt s\xE5!; Kommer
+      definitivt tillbaka!; Imponerad!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175274128738111488
+    m_Localized: "Detta var inte vad jag best\xE4llde.; Jag bad inte om detta.; Det
+      h\xE4r var inte vad jag ville.; F\xF6rl\xE5t, men detta \xE4r felaktigt.; Urs\xE4kta
+      mig, men det h\xE4r \xE4r inte r\xE4tt.; Jag \xE4r ledsen, men min best\xE4llning
+      \xE4r fel.; Kan vi fixa detta?; Kan du kontrollera min best\xE4llning igen?;
+      Jag tror att det har skett ett misstag.; Jag best\xE4llde n\xE5got annat.;
+      Detta \xE4r inte vad jag f\xF6rv\xE4ntade mig.; Kan vi l\xF6sa det h\xE4r problemet?;
+      Finns det en sammanblandning?; Kan du dubbelkolla?; Jag \xE4r lite besviken.;
+      Kan du fixa detta \xE5t mig?; Jag \xE4r inte n\xF6jd med detta.; Det h\xE4r
+      \xE4r inte vad jag f\xF6rv\xE4ntade mig."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175601404604338176
+    m_Localized: "Utan; Nej; Exklusive; , Utel\xE4mna; , H\xE5ll; Inkludera inte;
+      Fri fr\xE5n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175608705562202112
+    m_Localized: "Mj\xF6lkproduktionshastighet"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175609102947340288
+    m_Localized: Max storlek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175609289581285376
+    m_Localized: Pengar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175639638851997696
+    m_Localized: Lycka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175639931622805504
+    m_Localized: "Hon kommer att sluta om detta n\xE5r noll."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175640078645743616
+    m_Localized: Fullhet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175640229514858496
+    m_Localized: "N\xE5 2000 ml f\xF6r att vinna."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175641060461006848
+    m_Localized: "Cup f\xF6r din best\xE4llning"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175650030386958336
+    m_Localized: "Nytt jobb, nytt liv.@Intro_NewJobNewLife; Jag hoppas att folk h\xE4r
+      \xE4r trevliga.@Intro_IHopePeopleAreNice; Jag kan inte v\xE4nta med att b\xF6rja!@Intro_ICantWaitToStart;
+      F\xF6rsta dagen p\xE5 jobbet.@Intro_FirstDayOnTheJob"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175651777658507264
+    m_Localized: "Hall\xE5!; Hall\xE5 d\xE4r!; V\xE4lkommen!; Kan jag f\xE5 dig n\xE5got?;
+      Den vanliga?; Hur kan jag hj\xE4lpa dig?; Vad kan jag f\xE5?; V\xE4lkommen!
+      Vad kan jag f\xE5 dig idag?; Du ser bra ut idag! Vad kan jag ge dig?; Dagens
+      special: F\xE4rsk mj\xF6lk!; Har du testat boba milk \xE4n?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175662100285247488
+    m_Localized: "Jag vill ha den d\xE4r kakan!; Den kakan ser god ut.; Jag undrar
+      hur den d\xE4r kakan smakar...?; Jag undrar om hela kakan f\xE5r plats i min
+      mun?; N\xE4r f\xE5r jag den magiska kakan?; Det h\xE4r jobbet lovade vissa
+      f\xF6rdelar, eller hur?; Jag vill v\xE4xa...; Cookiesug kommer in!; Cookie-varning!
+      Jag upprepar, cookie alert!; Jag har f\xE5tt \xF6gonen p\xE5 den kakan!; Dags
+      att tillfredsst\xE4lla mitt kaksug!; Cookieuppdrag: Aktivera!; Cookie radar
+      inkopplad!; Jag ska byta kaffe mot en kaka!; Att kaka eller inte att kaka?
+      Det \xE4r fr\xE5gan.; Motst\xE5nd \xE4r meningsl\xF6st... n\xE4r det kommer
+      till kakor!; Sug efter kakor: 100% n\xF6jd garanterat!; Cookietid \xE4r den
+      b\xE4sta tiden!; Cookiedr\xF6mmar \xE4r gjorda av detta!; F\xF6rv\xE4ntningsniv\xE5
+      f\xF6r cookies: Max!; Min s\xF6tnos ropar efter den d\xE4r kakan!; Den d\xE4r
+      kakan ropar mitt namn!; Jag har ett ensp\xE5rigt sinne... och det \xE4r p\xE5
+      den kakan!; Cookiebesatthet: Aktiverad!; Allt jag vill ha f\xF6r nu \xE4r den
+      d\xE4r kakan!; Ett litet steg f\xF6r en barista, ett gigantiskt steg f\xF6r
+      kaka!; Cookiesug: Att uppn\xE5 toppniv\xE5er!; Jag vet att du har magi f\xF6r
+      mig~"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175662781700263936
+    m_Localized: "Mmm! Det smakar gott!~; N\xE5got k\xE4nns annorlunda...?; Jag vill
+      ha mer!; Det smakar mj\xF6lk!; Nu kommer vi n\xE5gonstans!; Oj, det k\xE4nns
+      bra!; Jag \xF6nskar att vi hade fler s\xE5dana.; Cookie-questen var v\xE4rt
+      det! Uts\xF6kt!; Den d\xE4r kakan tr\xE4ffade pl\xF6tsligt! Mer tack!; Cookien\xF6jdhet
+      uppn\xE5dd!; Jag \xE4r i kakhimlen just nu!; Mmm! B\xE4sta beslutet n\xE5gonsin!;
+      Cookie bliss! Kan inte f\xE5 nog!; Denna cookie \xE4r en gamechanger!; Kakmagi
+      p\xE5 jobbet! Jag \xE4lskar det!; Vem visste att en kaka kunde ge s\xE5 mycket
+      gl\xE4dje?; Nu \xE4r detta vad jag kallar ett m\xE4sterverk f\xF6r kakor!;
+      Cookieparadis hittat!; Smaken av seger... och kakor!; Den kakan f\xF6rtj\xE4nar
+      en guldmedalj!; Jag \xE4r p\xE5 moln nio med den h\xE4r kakan!; Mj\xF6lk och
+      kakor, den perfekta kombon!; En tugga och jag \xE4r fast! Mer tack!; Cookie
+      perfektion uppn\xE5dd!; Cookie-magi aktiverad! Kan inte sluta \xE4ta!; Denna
+      kaka \xE4r en smaksensation!; Jag beh\xF6ver en livsl\xE5ng tillg\xE5ng p\xE5
+      dessa kakor!; Monch Munch"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175663362036748288
+    m_Localized: "F\xF6rkl\xE4det b\xF6rjar k\xE4nnas lite tight...; Har vi ett st\xF6rre
+      f\xF6rkl\xE4de baktill?; Jag hoppas att jag kan f\xE5 bort dessa fl\xE4ckar
+      igen...; Oj oj det h\xE5ller p\xE5 att bl\xE5sa!; Mitt f\xF6rkl\xE4de klarar
+      inte mer av detta!; \xC4ntligen!~ Snap bara redan~; Jag tror att vi har ett
+      st\xF6rre f\xF6rkl\xE4de i ryggen, men...; Det \xE4r dags."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175664029996437504
+    m_Localized: "Jag k\xE4nner mig s\xE5 full!; Sn\xE4lla sprick inte p\xE5 mig.;
+      Slappar de runt?; De har redan blivit s\xE5 stora!; Uuuuhm, kan du g\xF6ra
+      n\xE5got \xE5t \u200B\u200Bdetta?; Jag har mycket mer mj\xF6lk \xE4n du tror.
+      Det \xE4r precis vad jag kan f\xE5 i koppen.; Eh, chef... Kan du hj\xE4lpa
+      mig med det h\xE4r?; Vill inte n\xE5gra kunder ha n\xE5got av detta? Jag \xE4r
+      s\xE5 m\xE4tt...; Jag kan inte bli mycket m\xE4ttare \xE4n s\xE5 h\xE4r...;
+      Hj\xE4lp? Sn\xE4lla du?; Jag k\xE4nner att jag kommer att spricka...; Jag vill
+      bli stor, men det h\xE4r \xE4r lite obehagligt...; Jag beh\xF6ver en h\xF6gre
+      kapacitet innan jag kan h\xE5lla mig s\xE5 h\xE4r full l\xE4nge...; Gah! Bara
+      mj\xF6lka mig redan!; Mj\xF6lk mig! Mj\xF6lk mig! Sn\xE4lla du!; Om det h\xE4r
+      inte var s\xE5 obehagligt skulle jag \xE4lska det h\xE4r...; Jag har inget
+      emot om de tittar, bara t\xF6m mig sn\xE4lla...; Jag k\xE4nner mig s\xE5 svullen!;
+      Jag hoppas att jag inte sv\xE4mmar \xF6ver!; K\xE4nner mig som en mj\xF6lkfylld
+      ballong!; Jag \xE4r r\xE4dd f\xF6r att r\xF6ra p\xE5 mig f\xF6r mycket!; \xD6verfl\xF6de
+      \xF6verh\xE4ngande! SOS!; Mina koppar rinner \xF6ver, bokstavligen...; Tror
+      du att n\xE5gon skulle m\xE4rka om jag l\xE4ckte?; Jag m\xE5ste l\xE4tta lite,
+      snabbt!; K\xE4nner mig som en mj\xF6lkfabrik p\xE5 \xF6verv\xE4xel!; Kan inte
+      fokusera med all denna mj\xF6lk som skvalpar runt!; K\xE4nns som att de h\xE5ller
+      p\xE5 att spricka ur mitt br\xF6st!; Hj\xE4lp mig h\xE4r, de n\xE5r kritisk
+      massa!; \xC4r detta vad de menar med \"mj\xF6lkat till perfektion\"?; K\xE4nns
+      som att jag b\xE4r en mj\xF6lkg\xE5rd!; \xD6versv\xE4mningsvarning! Fara, fara!;
+      Jag \xE4r en mj\xF6lkvulkan redo att f\xE5 utbrott!; Kan inte fokusera med
+      denna mj\xF6lkiga distraktion!; M\xE5ste bara hitta ett s\xE4tt att sl\xE4ppa
+      ut all denna mj\xF6lk!; Dessa mj\xF6lkkannor \xE4r redo att explodera!; Jag
+      kommer att explodera."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175664836233940992
+    m_Localized: "Dags f\xF6r en uppgradering kanske?; Att investera i uppgraderingar
+      l\xE5ter som en plan!; L\xE5t oss se vilka uppgraderingar som finns tillg\xE4ngliga.;
+      Det kan vara dags att h\xF6ja v\xE5r verksamhet.; Att f\xF6rb\xE4ttra v\xE5r
+      verksamhet kan vara f\xF6rdelaktigt.; Jag undrar om det finns n\xE5gra v\xE4rda
+      uppgraderingar.; Med tanke p\xE5 n\xE5gra uppgraderingar f\xF6r v\xE5rt caf\xE9.;
+      Att utforska uppgraderingsalternativ verkar vara en bra id\xE9.; L\xE5t oss
+      \xF6ka v\xE5r effektivitet med n\xE5gra uppgraderingar!; Uppgraderingar kan
+      ge oss en f\xF6rdel p\xE5 marknaden.; Ska vi k\xF6pa n\xE5got?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175666128926822400
+    m_Localized: "Det var allt, jag slutar!; S\xE4msta chefen n\xE5gonsin... Jag
+      \xE4r h\xE4rifr\xE5n.; Jag har alldeles f\xF6r ont f\xF6r att jobba, hejd\xE5...;
+      Jag \xE4r klar med detta kaos! Jag slutar!; Jag orkar inte mer! Jag g\xE5r!;
+      Jag f\xF6rtj\xE4nar b\xE4ttre \xE4n s\xE5 h\xE4r! Jag \xE4r ute!; Det h\xE4r
+      jobbet \xE4r inte v\xE4rt stressen. Jag \xE4r klar!; Ingen m\xE4ngd kaffe \xE4r
+      v\xE4rt detta kr\xE5ngel. Jag \xE4r borta!; Jag har f\xE5tt nog! Dags att hitta
+      en b\xE4ttre m\xF6jlighet.; Jag v\xE4grar att arbeta under dessa f\xF6rh\xE5llanden.
+      Jag slutar!; Livet \xE4r f\xF6r kort f\xF6r detta nonsens. Jag g\xE5r.; F\xF6rl\xE5t,
+      men jag har spelat f\xE4rdig barista. Jag drar h\xE4rifr\xE5n!; Jag har inte
+      anm\xE4lt mig till detta! Jag slutar!; Gl\xF6m det h\xE4r, jag g\xE5r hem."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175674616369401856
+    m_Localized: Produktion+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175674851527249920
+    m_Localized: "\xD6ka produktionen av Barista mj\xF6lk."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181788866099826688
+    m_Localized: "Hej d\xE4r, underbara.; Hej vackraste.; Hej solsken.; Hej, du ser
+      fantastisk ut.; Hej fina.; Hej, fantastiska.; Hej vackra dam.; Hej s\xF6tnos.;
+      Hej snygging.; Hej charm.; Hej \xE4ngel.; Hej, docka.; Hej s\xF6tnos.; Hej,
+      du ser vacker ut idag.; Hej snygging.; Hej \xE4lskling.; Hall\xE5 snygging.;
+      Hej, fint leende.; Hej, f\xF6rtrollande.; Hej, du lyser upp baren."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181789087093510144
+    m_Localized: "Hej, vackra, kan du g\xF6ra min dag b\xE4ttre med ett leende?;
+      Hej, underbara, vad \xE4r din hemlighet f\xF6r att du ser s\xE5 bra ut?; Hej,
+      fantastiska, n\xE5gon chans att du \xE4r p\xE5 menyn?; Hej, vackra dam, har
+      du en speciell drink som matchar ditt utseende?; Hej charm, ditt leende \xE4r
+      min dags h\xF6jdpunkt.; Hej, \xE4ngel, din sk\xF6nhet kan lysa upp det m\xF6rkaste
+      rummet.; Hej, docka, har du n\xE5gra trolldrycker f\xF6r ett ensamt hj\xE4rta?;
+      Hej, s\xF6tnos, g\xF6r du alla drycker lika s\xF6ta som du?; Hej, \xE4lskling,
+      din sk\xF6nhet \xE4r berusande.; Hej, snygging, din n\xE4rvaro \xE4r det b\xE4sta
+      h\xE4r."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181789098002894848
+    m_Localized: "Hej, vackra, ditt leende och de d\xE4r kurvorna f\xE5r mitt hj\xE4rta
+      att rasa.; Hej, underbara, serverar du n\xE5got s\xE5 f\xE4ngslande som dina
+      \xF6gon?; Hej, fantastiskt, din figur \xE4r den verkliga grejen h\xE4r.; Hej,
+      vackra dam, ditt utseende kan f\xE5 vilken drink som helst att smaka b\xE4ttre.;
+      Hej charm, din sk\xF6nhet \xE4r mer uppfriskande \xE4n n\xE5gon cocktail.;
+      Hej, \xE4ngel, med en kropp som din, vem beh\xF6ver en drink?; Hej, docka,
+      dina kurvor \xE4r den perfekta blandningen av sk\xF6nhet.; Hej \xE4lskling,
+      din figur \xE4r den b\xE4sta delen av den h\xE4r baren.; Hej, \xE4lskling,
+      din fantastiska blick g\xF6r mig yr.; Hej, snygging, din n\xE4rvaro g\xF6r
+      allt s\xF6tare."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181789109562396672
+    m_Localized: "Hej, vackra, har du n\xE5gon chans att l\xE4gga till lite av din
+      magi till mitt kaffe?; Hej, underbara, serverar du n\xE5got annat \xE4n drinkar
+      med de d\xE4r kurvorna?; Hej, fantastiska, din byst kan vara den b\xE4sta delen
+      av mitt kaffe.; Hej, vackra dam, erbjuder du n\xE5got utanf\xF6r menyn, som
+      ett leende eller en dejt?; Hej charm, med en kropp som din skulle jag best\xE4lla
+      vad som helst.; Hej, \xE4ngel, din sk\xF6nhet \xE4r den perfekta ingrediensen
+      f\xF6r alla drycker.; Hej, docka, kan jag ta en kaffe med en touch av din charm?;
+      Hej \xE4lskling, din byst \xE4r dagens verkliga specialitet.; Hej, babe, din
+      n\xE4rvaro h\xE4r g\xF6r varje drink b\xE4ttre.; Hej, snygging, erbjuder du
+      ett leende med den d\xE4r underbara figuren?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182195982329466880
+    m_Localized: "\xD6ka Barista mj\xF6lkkapacitet."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196090546704384
+    m_Localized: Max storlek+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196364988403712
+    m_Localized: "F\xF6rb\xE4ttra Baristas hum\xF6r."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196409754210304
+    m_Localized: Lycka+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196602868355072
+    m_Localized: Produktion-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196626104799232
+    m_Localized: "L\xE4gre produktion av Barista mj\xF6lk."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196763497615360
+    m_Localized: "Mer mj\xF6lk nu!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196807076433920
+    m_Localized: Fyll Barista omedelbart.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196916119949312
+    m_Localized: Fullness Tolerance+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196947719835648
+    m_Localized: "Barista f\xF6rlorar lyckan l\xE5ngsammare."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182201446488363008
+    m_Localized: "Max \xE4r 500"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182205256204046336
+    m_Localized: "Var f\xF6rsiktig, det \xE4r fortfarande lite varmt!; H\xE4r! Det
+      \xE4r lite speciellt, bara f\xF6r dig!; \xC4r detta r\xE4tt?; Best\xE4ll!~;
+      Njut av din drink!; Jag hoppas du tycker om det.; Vars\xE5god, ha en bra dag!;
+      D\xE4r har du, kom tillbaka snart!~; Voil! Din skr\xE4ddarsydda skapelse, bara
+      f\xF6r dig!; Jag l\xE4gger lite extra k\xE4rlek i den h\xE4r, njut!; H\xE4r
+      \xE4r din dryck, gjord med omsorg!; Din best\xE4llning, serverad med ett leende!;
+      M\xE5 denna drink ge lite gl\xE4dje till din dag!; Perfektion i en kopp, bara
+      f\xF6r dig!; Njut av din klunk av lycka!; Din drink v\xE4ntar! Smutta och njut!;
+      Tillverkad med omsorg, bara f\xF6r dig!; Din best\xE4llning \xE4r klar, njut
+      av smaken!; H\xE4r \xE4r din dryck, gjord till perfektion!; Jag hoppas att
+      den h\xE4r drinken g\xF6r din dag lite ljusare!; Sk\xE4m bort dig i denna lilla
+      fr\xF6jd, allt \xE4r ditt!; Njut av smaken! Det \xE4r bryggt bara f\xF6r dig!;
+      H\xE4r har du! Drick upp och njut!; Din perfekta kopp, serverad med ett leende!;
+      Ta en klunk och l\xE5t v\xE4rlden sm\xE4lta bort!; Jag hoppas att denna drink
+      \xF6vertr\xE4ffar dina f\xF6rv\xE4ntningar!; M\xE5 din dag bli lika h\xE4rlig
+      som denna drink!; M\xE5 din dag bli lika h\xE4rlig som denna drink!; Smutta,
+      njut och njut! Den \xE4r gjord just f\xF6r dig!; H\xE4r \xE4r den, ska vara
+      precis som du vill ha den.;"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427788485054464
+    m_Localized: "Det var inte r\xE4tt...@Spoken_Ah; Jag borde f\xF6rs\xF6ka igen!@Spoken_Ah;
+      N\xE4sta g\xE5ng blir det b\xE4ttre!@Spoken_Ah; Oj! L\xE5t mig f\xF6rs\xF6ka
+      igen...@Spoken_Ah; Det \xE4r inte helt r\xE4tt...@Spoken_Ah; Kommer det att
+      dras av fr\xE5n min l\xF6n?@Spoken_Ah; L\xE5t oss f\xF6rs\xF6ka igen.@Spoken_Ah;
+      Det verkar som om jag beh\xF6ver mer \xF6vning.@Spoken_Ah; Oj! Det gick inte
+      enligt planen.@Spoken_Ah; \xD6vning g\xF6r m\xE4staren, eller hur?@Spoken_Ah;
+      Den h\xE4r g\xE5ngen kommer jag att g\xF6ra det r\xE4tt, se!@Spoken_Ah; Vi
+      ska inte fastna i det f\xF6rflutna, l\xE5t oss g\xE5 vidare till n\xE4sta!@Spoken_Ah;
+      Jag kommer att kompensera det med n\xE4sta kopp!@Spoken_Ah; Ett litet steg
+      bak\xE5t, men jag kommer tillbaka!@Spoken_Ah; Nja, det tr\xE4ffade inte m\xE5let.@Spoken_Ah;
+      Tillbaka till ritbordet, tror jag.@Spoken_Ah; Hmm, l\xE5t mig justera det.@Spoken_Ah;
+      Det \xE4r bara ett litet misslyckande i mitt skapande av m\xE4sterverk.@Spoken_Ah;
+      Det \xE4r inte exakt vad jag hade t\xE4nkt, men jag kommer att n\xE5 det.@Spoken_Ah;
+      Oj, l\xE5t oss f\xF6rs\xF6ka igen, okej?@Spoken_Ah; Nja, det var ov\xE4ntat.
+      L\xE5t oss f\xF6rs\xF6ka igen.@Spoken_Ah; Inte varje kopp kan vara en vinnare,
+      eller hur?@Spoken_Ah; Det \xE4r dags att aktivera min inre perfektionist!@Spoken_Ah;
+      Resan till den perfekta koppen forts\xE4tter!@Spoken_Ah; L\xE5t oss omvandla
+      detta misstag till ett m\xE4sterverk!@Spoken_Ah; Det verkar som om jag beh\xF6ver
+      f\xF6rb\xE4ttra mina f\xE4rdigheter.@Spoken_Ah; Ett litet steg bak\xE5t kommer
+      inte att stoppa mig!@Spoken_Ah; Fram\xE5t! N\xE4sta kopp, jag kommer!@Spoken_Ah;
+      T\xE5lamod och \xF6vning, det \xE4r nyckeln!@Spoken_Ah; Jag \xE4r inte d\xE4r
+      \xE4n, men jag kommer n\xE4rmare.@Spoken_Ah; Det \xE4r dags f\xF6r rehabilitering
+      med n\xE4sta kopp!@Spoken_Ah; Jag kommer att kompensera det med extra anstr\xE4ngning!@Spoken_Ah;
+      S\xF6kandet efter den perfekta drycken forts\xE4tter!@Spoken_Ah; Misslyckande
+      \xE4r bara n\xE4sta steg mot framg\xE5ng!@Spoken_Ah; En g\xE5ng till!@Spoken_Ah"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427829996081152
+    m_Localized: "Aaghh! St\xF6rsta delen missade koppen!@Spoken_Sigh_Happy; Hmmnnn~
+      ... N\xE5gon s\xE5g?@Spoken_Sigh_Happy; \xC5h nej, min mj\xF6lk f\xF6ll i drycken!@Spoken_Sigh_Happy;
+      Barbra anv\xE4nde mj\xF6lkning... det \xE4r super effektivt!@Reactions_Ooooh;
+      Vi ska f\xF6rs\xF6ka f\xE5 det i koppen den h\xE4r g\xE5ngen.@Spoken_Sigh_Happy;
+      \xC5h Det k\xE4nns bra~@Reactions_mmmm; S\xF6t l\xE4ttnad.@Reactions_mmmm;
+      Hhngg!@Reactions_mmmm; Ooooh!@Reactions_Ooooh; Muuuh!@Moo_Happier; M-muuuh@Moo_Surprised;
+      Det b\xE4sta med jobbet~@Spoken_Sigh_Happy; \xC5h, lite mj\xF6lk bara f\xF6r
+      r\xE4tt m\xE4ngd!@Spoken_Sigh_Happy; Min mj\xF6lk magi l\xE4gger till en extra
+      smak!@Reactions_Ooooh; Jag l\xE4gger till min speciella touch f\xF6r att h\xF6ja
+      den h\xE4r drycken!@Spoken_Sigh_Happy; Lite mj\xF6lk, mycket k\xE4rlek!@Reactions_mmmm;
+      Mj\xF6lk, det hemliga ingrediensen f\xF6r fullkomlighet!@Spoken_Sigh_Happy;
+      H\xE4r, ett underbart exempel p\xE5 mj\xF6lk!@Reactions_mmmm; Min mj\xF6lk
+      magi \xE4r mycket stark idag!@Reactions_Ooooh; En touch av kr\xE4mighet, precis
+      som du vill ha det!@Spoken_Sigh_Happy; Mj\xF6lk \xE4r, och mj\xF6lk kommer
+      att vara!@Spoken_Sigh_Happy; Precisions mj\xF6lkning p\xE5 h\xF6gsta niv\xE5!@Spoken_Sigh_Happy;
+      Muu-velous! En till droppe i koppen.@Moo_Happier; Var f\xF6rsiktig med mj\xF6lken!
+      Den \xE4r hal!@Spoken_Sigh_Happy; Bara en touch av lycka fr\xE5n kossan!@Reactions_mmmm;
+      Mycket gott, du h\xE5ller inte med?@Spoken_Sigh_Happy; En str\xE5le av mj\xF6lk
+      som kommer snart!@Moo_Surprised; Mj\xF6lk, den ok\xE4nda hj\xE4lten f\xF6r
+      varje kopp!@Spoken_Sigh_Happy; L\xE4gg till en touch av kr\xE4mighet till din
+      dryckesupplevelse!@Reactions_Ooooh; Mj\xF6lk g\xF6r allt b\xE4ttre, eller hur?@Spoken_Sigh_Happy;
+      Vi ska pressa ut den sista droppen~@Spoken_Sigh_Happy"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427845133324288
+    m_Localized: "Vad vill du?@Interaction_WhatDoYouWant; Ja, dumhuvud?@Interaction_YesSilly;
+      skrattar@Spoken_Giggles; Muu...?@Moo_Curious; Hm, beh\xF6ver du n\xE5got?@Interaction_DoYouNeedSomething;
+      \xC4r du ledig efter arbetet?@Interaction_FreeAfterWork; Tack f\xF6r att du
+      gav mig det h\xE4r jobbet.@Interaction_ThanksForTheJob; Sparar du till n\xE5got?@Money_SavingUpForSomething;
+      Kan du k\xF6pa n\xE5got \xE5t mig?@Interaction_CouldYouBuyMeSomething; Jag
+      m\xE5ste ge Mewth mj\xF6lk senare...@Casual_MewthMilk; Ig\xE5r kunde jag inte
+      mj\xF6lka. Det var ett totalt misslyckande.@Jokes_UdderFailure; Jag kan inte
+      v\xE4nta p\xE5 att tr\xE4ffa de andra ko-flickorna.@Casual_MeetTheOtherCowGirls;
+      F\xE5r du en milkshake om du hoppar p\xE5 en pogo stick?@Jokes_MilkshakePogoStick;
+      Hoppas att det inte regnar i eftermiddag.@Casual_RainThisAfterNoon; Ko till
+      mj\xF6lken: 'Jag \xE4r din mamma'.@Jokes_CowToTheMilk; Det h\xE4r \xE4r bara
+      b\xF6rjan.@OnlyTheBeginning; Min pappa fick ett nytt jobb p\xE5 mejeriet. Han
+      \xE4r ko-koordinatorn.@Jokes_DadAtTheDairy; Min v\xE4ninna f\xF6rs\xF6ker alltid
+      skr\xE4mma sina andra v\xE4nner. Hon \xE4r en fan av milkshakes.@Jokes_FriendScaringOtherFriends;
+      Min v\xE4ninna tror att hon producerar mandelmj\xF6lk. Hon m\xE5ste vara galen.@Jokes_AlmondMilk;
+      Har vi fortfarande n\xE5gra koppar bakom?@Casual_CupsInTheBack; Det d\xE5liga
+      mj\xF6lket fick alltid vad det ville.@Jokes_SpoiledMilkAlwaysGotWhatItWanted;
+      Idag h\xE4nder det mycket.@Casual_LotGoingOn; En man attackerade mig med gr\xE4dde,
+      sm\xF6r och mj\xF6lk. Vilka mejeriprodukter?@Jokes_HowDairy; Jag var en ko
+      som du, tills jag fick en flaska i br\xF6stet.@Jokes_ACowLikeYou; Jag k\xE4nner
+      mig produktiv.@Casual_FeelingProductive; Kan du ta mer kaffe bakom?@Casual_CoffeeFromTheBack;
+      Kaffet luktar s\xE5 gott.@Casual_CoffeeSmellsNice; Kunderna kommer hela tiden.@Casual_CustomersRollingIn;
+      Tror du att de gillar mig?@Casual_DoTheyLikeMe; Bara en vanlig arbetsdag.@Casual_NormalDayAtTheJob;
+      Hej! Var f\xF6rsiktig!@Reactions_HeyCareful"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427953908404224
+    m_Localized: "Om arbetet \xE4r s\xE5 d\xE5ligt, \xE4r det inte v\xE4rt att v\xE4xa...@Upset_GrowingBiggerIsntWorthIt;
+      Argade kor \xE4r vanligtvis ansvariga f\xF6r sur mj\xF6lk.@Jokes_AngryCowsSourMilk;
+      Jag \xE4r tr\xF6tt p\xE5 det h\xE4r jobbet!@Spoken_Grunt; Ugh! Jag \xE4r n\xE4ra
+      att ge upp!@Reactions_Bleh; Det h\xE4r jobbet \xE4r hemskt!@Spoken_Grunt; Jag
+      vill g\xE5 hem...@Spoken_Grunt; Jag f\xE5r inte tillr\xE4ckligt betalt f\xF6r
+      det h\xE4r...@Spoken_Grunt; Uuugh...@Spoken_Grunt; Det h\xE4r jobbet m\xE5ste
+      f\xF6rb\xE4ttras snart...@Reactions_Bleh; Du b\xF6r l\xE5ta mig ta en paus.@Spoken_Grunt;
+      Jag har en d\xE5lig dag...@Reactions_Bleh; Var s\xE5 god och tryck p\xE5 mig
+      eller g\xF6r n\xE5got...@Reactions_Bleh; Jag ville bara vara en mj\xF6lkko...@Spoken_Grunt;
+      Muu...@Moo_Tired; Jag kan inte hantera den h\xE4r arbetsb\xF6rdan...@Spoken_Grunt;
+      Jag k\xE4nner mig p\xE5 gr\xE4nsen...@Reactions_Bleh; \xC4r det dags att g\xE5
+      hem?@Spoken_Grunt; Varje dag \xE4r en kamp...@Spoken_Grunt; Jag \xE4r p\xE5
+      gr\xE4nsen till utmattning...@Reactions_Bleh; Jag \xE4r s\xE5 tr\xF6tt p\xE5
+      den h\xE4r rutinen...@Spoken_Grunt; Jag k\xE4nner mig som fast i en ond cirkel...@Reactions_Bleh;
+      Jag kan knappt \xF6ppna \xF6gonen...@Spoken_Grunt; N\xE4r kommer den h\xE4r
+      skiftet att ta slut?@Reactions_Bleh; Jag m\xE5ste bara h\xE5lla ut en dag till...@Spoken_Grunt;
+      Jag beh\xF6ver semester... eller ett mirakel.@Reactions_Bleh; Jag hoppas p\xE5
+      en str\xE5le av ljus i den h\xE4r m\xF6rkret...@Spoken_Grunt; Jag kan inte
+      bli av med den h\xE4r tr\xF6ttheten...@Reactions_Bleh; Jag b\xF6rjar tappa
+      motivationen...@Spoken_Grunt; Allt k\xE4nns s\xE5 \xF6verv\xE4ldigande...@Reactions_Bleh;
+      Jag vet inte hur l\xE4nge jag kan h\xE5lla ut...@Spoken_Grunt; Jag f\xF6rs\xF6ker
+      bara \xF6verleva...@Reactions_Bleh; Det h\xE4r jobbet suger livet ur mig...@Spoken_Grunt;
+      Jag k\xE4nner mig som fast i en evig cirkel...@Reactions_Bleh; Jag \xE4r utmattad...
+      k\xE4nslom\xE4ssigt och fysiskt.@Spoken_Grunt; Jag hoppas p\xE5 en f\xF6r\xE4ndring
+      i min lycka... och mitt hum\xF6r.@Reactions_Bleh; Jag r\xE4knar bara minuter
+      tills jag kan g\xE5...@Spoken_Grunt; Jag \xE4r n\xE4ra att ge upp...@Reactions_Bleh;
+      Jag k\xE4nner mig som om jag har n\xE5tt botten...@Spoken_Grunt; Jag vill bara
+      g\xF6mma mig i min s\xE4ng och inte komma ut...@Reactions_Bleh; Jag k\xE4nner
+      mig som om jag \xE4r tom...@Spoken_Grunt; Jag beh\xF6ver desperat hj\xE4lp...@Reactions_Bleh;
+      Jag m\xE5ste bara forts\xE4tta...@Spoken_Grunt; Jag hoppas p\xE5 en liten energi
+      f\xF6r att forts\xE4tta...@Reactions_Bleh; \xC4r det f\xF6r mycket att be om
+      en paus?@Spoken_Grunt; Kanske skulle jag ber\xE4tta sk\xE4mt om jag var i ett
+      b\xE4ttre hum\xF6r...@Moo_Tired"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427974720540672
+    m_Localized: "\xC4r det h\xE4r jobbet alltid s\xE5 sv\xE5rt?@Spoken_Sigh; Spoiler-varning!
+      MJ\xF6lken har g\xE5tt ut.@Spoken_Sigh; Jag hoppas att det inte regnar i eftermiddag.@Casual_RainThisAfterNoon;
+      Jag beh\xF6ver en paus...@Reactions_Bleh; R\xE4tt kaffe i fel mj\xF6lk kan
+      g\xF6ra stor skillnad i koppen.@Spoken_Sigh; H\xE5ll dig lugn, Barbra, f\xF6rdelarna
+      \xE4r v\xE4rda det...@Spoken_Sigh; Bleh...@Reactions_Bleh; Det h\xE4r \xE4r
+      tr\xF6ttsamt.@Spoken_Sigh; Jag vill att det h\xE4r jobbet skulle vara lite
+      trevligare.@Spoken_Sigh; Det h\xE4r st\xE4llet \xE4r verkligen mycket upptaget,
+      eller hur?@Spoken_Sigh; Jag m\xE5ste fylla p\xE5 lagret.@Spoken_Sigh; Kan jag
+      ta en paus?@Spoken_Sigh; Det finns s\xE5 mycket arbete att g\xF6ra!@Spoken_Sigh;
+      Kan jag ha en snabb lunch?@Spoken_Sigh; Andas in... Andas ut...@Reactions_Bleh;
+      Det h\xE4r \xE4r inte s\xE5 mycket annorlunda \xE4n mitt f\xF6rra jobb.@Spoken_Sigh;
+      Jag beh\xF6ver lite mer uppm\xE4rksamhet.@Spoken_Grunt; Muu...?@Moo_Curious;
+      Jag k\xE4nner mig lite \xF6verv\xE4ldigad idag.@Spoken_Sigh; Jag hoppas att
+      saker och ting blir b\xE4ttre snart...@Spoken_Sigh; Jag f\xF6rs\xF6ker bara
+      h\xE5lla huvudet ovanf\xF6r vattenytan...@Reactions_Bleh; \xC4r det bara jag
+      eller verkar det som att dagen p\xE5g\xE5r i evighet?@Spoken_Sigh; Jag k\xE4nner
+      mig lite tr\xF6tt...@Reactions_Bleh; Jag f\xF6rs\xF6ker h\xE5lla en positiv
+      attityd, men det \xE4r sv\xE5rt...@Spoken_Sigh; Jag beh\xF6ver lite luft...
+      det h\xE4r jobbet \xE4r tr\xF6ttsamt.@Spoken_Sigh; Jag vill ha lite tur...@Reactions_Bleh;
+      Det h\xE4r arbetsvolymen \xE4r verkligen p\xE5 gr\xE4nsen till mina f\xF6rm\xE5gor...@Spoken_Sigh;
+      Jag k\xE4nner mig lite \xF6verv\xE4ldigad...@Reactions_Bleh; Jag m\xE5ste bara
+      forts\xE4tta, tror jag...@Spoken_Sigh; Jag vill ha lite mer energi f\xF6r det
+      h\xE4r...@Spoken_Sigh; \xC4r det dags att g\xE5 hem?@Spoken_Sigh; Jag beh\xF6ver
+      verkligen en stund f\xF6r att ladda batterierna...@Reactions_Bleh; Jag k\xE4nner
+      mig lite fast...@Spoken_Sigh; Jag hoppas att imorgon blir en b\xE4ttre dag...@Spoken_Sigh;
+      Jag k\xE4nner mig lite tr\xF6tt...@Reactions_Bleh; Jag f\xF6rs\xF6ker h\xE5lla
+      motivationen, men det \xE4r sv\xE5rt...@Spoken_Sigh; Jag kan inte bli av med
+      den h\xE4r tr\xF6ttheten...@Reactions_Bleh; Jag vill ha lite tur...@Spoken_Sigh;
+      Jag trodde aldrig att att le skulle kunna vara s\xE5 tr\xF6ttsamt.@Spoken_Sigh"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427987508973568
+    m_Localized: "Jag undrar vad Lacti h\xE5ller p\xE5 med?@Spoken_Hm; Har vi fortfarande
+      n\xE5gra koppar kvar bakom?@Casual_CupsInTheBack; Det f\xF6rst\xF6rda mj\xF6lken
+      fick alltid vad den ville.@Jokes_SpoiledMilkAlwaysGotWhatItWanted; Det finns
+      mycket att g\xF6ra idag.@Casual_LotGoingOn; En man attackerade mig med gr\xE4dde,
+      sm\xF6r och mj\xF6lk. Vad mj\xF6lkigt.@Jokes_HowDairy; Jag var en ko som du,
+      tills jag tog en flaska i br\xF6stet.@Jokes_ACowLikeYou; Jag k\xE4nner mig
+      produktiv.@Casual_FeelingProductive; Kan du h\xE4mta mer kaffe bakom?@Casual_CoffeeFromTheBack;
+      Kaffet luktar s\xE5 gott.@Casual_CoffeeSmellsNice; Kunderna forts\xE4tter att
+      komma.@Casual_CustomersRollingIn; Tror du att de gillar mig?@Casual_DoTheyLikeMe;
+      Bara en vanlig dag p\xE5 jobbet.@Casual_NormalDayAtTheJob; Bra, disken \xE4r
+      ren igen.@Spoken_Hm; Jag kan bli lite l\xE4ttirriterad n\xE4r jag \xE4r tr\xF6tt.@Spoken_Hm;
+      Jag beh\xF6ver alltid mer uppm\xE4rksamhet, om du vill.@Spoken_Hm; Hur anv\xE4nder
+      jag kaffemaskinen igen?@Spoken_Hm; Beh\xF6ver vi verkligen s\xE4lja vanligt
+      mj \xF6lk?@Spoken_Hm; Jag k\xE4nner mig bra idag!@Spoken_Hm; Det verkar som
+      att det kommer att bli en underbar dag!@Spoken_Hm; Jag \xE4r p\xE5 toppen idag!@Spoken_Hm;
+      Jag k\xE4nner mig full av energi och redo att ta itu med allt!@Spoken_Hm; Jag
+      \xE4lskar atmosf\xE4ren p\xE5 caf\xE9et idag!@Spoken_Hm; Det \xE4r en f\xF6rm\xE5n
+      att arbeta i en s\xE5dan vacker milj\xF6!@Spoken_Hm; Lyckan \xE4r smittsam,
+      eller hur?@Spoken_Hm; Redo att f\xF6rbereda l\xE4ckra drycker!@Spoken_Hm; Jag
+      k\xE4nner mig mycket bra idag!@Spoken_Hm; Vi ska beh\xE5lla den goda st\xE4mningen!@Spoken_Hm;
+      Jag k\xE4nner att jag kan g\xF6ra allt!@Spoken_Hm; Allt verkar mer ljust n\xE4r
+      jag \xE4r p\xE5 gott hum\xF6r!@Spoken_Hm; Jag har ett leende p\xE5 ansiktet
+      och kaffe i handen!@Spoken_Hm; Kaffet smakar \xE4nnu b\xE4ttre n\xE4r jag \xE4r
+      lycklig!@Spoken_Hm; Jag \xE4r som en solstr\xE5le idag!@Spoken_Hm; Det verkar
+      som att det kommer att bli en underbar dag f\xF6r att g\xF6ra kaffe!@Spoken_Hm;
+      Jag \xE4r i mitt element n\xE4r jag \xE4r p\xE5 gott hum\xF6r!@Spoken_Hm; Redo
+      att sprida lyckan, kopp f\xF6r kopp!@Spoken_Hm; Jag k\xE4nner mig lycklig och
+      redo att ta itu med dagen!@Spoken_Hm; Lyckan \xE4r det hemliga ingrediensen
+      i varje dryck!@Spoken_Hm; Muu... ?@Moo_Curious; V\xE4nta, \xE4r det inte normalt
+      att kaffe och socker f\xE5r en ko att v\xE4xa?@Spoken_Hm"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428000616173568
+    m_Localized: "Jag hoppas att Lacti kan smita fr\xE5n jobbet f\xF6r att se mig
+      idag.@Spoken_Sigh_Happy; Min v\xE4n f\xF6rs\xF6ker alltid skr\xE4mma sina andra
+      v\xE4nner. Hon \xE4r en fan av milkshakes.@Jokes_FriendScaringOtherFriends;
+      Min v\xE4n tror att hon producerar mandelmj\xF6lk. Hon m\xE5ste vara galen.@Jokes_AlmondMilk;
+      Hur m\xE5r du, chef?@Spoken_Sigh_Happy; Vill du g\xE5 n\xE5gonstans efter jobbet
+      idag?@Spoken_Sigh_Happy; Det h\xE4r jobbet \xE4r f\xF6rv\xE5nansv\xE4rt roligt!@Spoken_Sigh_Happy;
+      Finns det n\xE5got jag kan g\xF6ra f\xF6r dig?@Spoken_Sigh_Happy; Kunderna
+      verkar gilla mig.@Spoken_Sigh_Happy; Hmm hm hmm hhm hmmm!@Spoken_Humming; Vad
+      fint v\xE4der!@Spoken_Sigh_Happy; Titta p\xE5 det h\xE4r trick jag kan g\xF6ra
+      med muggarna.@Spoken_Giggles; Du har varit en utm\xE4rkt chef.@Spoken_Sigh_Happy;
+      Hum\xF6rsv\xE4ngningar? Nej, om du forts\xE4tter behandla mig s\xE5 bra!@Spoken_Sigh_Happy;
+      Kor kan bli lite MOOdy om de inte behandlas s\xE5 bra som du behandlar mig.@Spoken_Sigh_Happy;
+      Jag k\xE4nner mig som om jag vore p\xE5 toppen av v\xE4rlden idag!@Spoken_Sigh_Happy;
+      \xC4r det inte bra att ha ett jobb som f\xE5r dig att le?@Spoken_Sigh_Happy;
+      Jag k\xE4nner mig s\xE5 n\xF6jd och glad nu!@Spoken_Sigh_Happy; Varje dag verkar
+      vara en bra dag n\xE4r jag \xE4r p\xE5 gott hum\xF6r!@Spoken_Sigh_Happy; Jag
+      kunde dansa av gl\xE4dje nu!@Spoken_Sigh_Happy; Mitt hj\xE4rta \xE4r l\xE4tta
+      och glada idag!@Spoken_Sigh_Happy; Jag har ett l\xE4tta steg och ett leende
+      p\xE5 ansiktet!@Spoken_Sigh_Happy; Det verkar som om stj\xE4rnorna \xE4r i
+      linje idag!@Spoken_Sigh_Happy; \xC4r inte livet underbart n\xE4r man k\xE4nner
+      sig s\xE5 bra?@Spoken_Sigh_Happy; Jag k\xE4nner mig som om jag kunde er\xF6vra
+      v\xE4rlden nu!@Spoken_Sigh_Happy; Jag har ett glatt hj\xE4rta och en kopp kaffe!@Spoken_Sigh_Happy;
+      Idag \xE4r en otrolig dag!@Spoken_Sigh_Happy; Jag k\xE4nner mig s\xE5 tacksam
+      f\xF6r allt nu!@Spoken_Sigh_Happy; Allt verkar s\xE5 r\xE4tt idag!@Spoken_Sigh_Happy;
+      Jag k\xE4nner mig som om jag str\xE5lade av gl\xE4dje!@Spoken_Sigh_Happy; Jag
+      \xE4r s\xE5 glad att jag n\xE4stan exploderar!@Spoken_Sigh_Happy; Lyckan \xE4r
+      smittsam, eller hur?@Spoken_Sigh_Happy; \xC4r inte livet underbart n\xE4r man
+      k\xE4nner sig s\xE5 bra?@Spoken_Sigh_Happy; Jag k\xE4nner mig som om jag gick
+      p\xE5 luft idag!@Spoken_Sigh_Happy; Jag k\xE4nner mig s\xE5 v\xE4lsignad och
+      glad nu!@Spoken_Sigh_Happy; Muu!@Moo_Happy; Jag k\xE4nner mig mycket avslappnad.@Spoken_Sigh_Happy"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428017326280704
+    m_Localized: "Jag k\xE4nner mig super!@Spoken_Giggles; Kon till mj\xF6lk: 'Jag
+      \xE4r din mamma'.@Jokes_CowToTheMilk; Min pappa fick ett nytt jobb p\xE5 en
+      mejeri. Han \xE4r koordinator f\xF6r kor.@Jokes_DadAtTheDairy; Jag presenterade
+      choklad till mj\xF6lk. De gjorde en chokladmilkshake.@Spoken_Giggles; Mj\xF6lken
+      gillade inte min sista sk\xE4mt. Den var inte a-meu-sad.@Spoken_Giggles; Jag
+      \xE4lskar det h\xE4r jobbet!@Spoken_Giggles; Kan min dag bli \xE4nnu b\xE4ttre?@Spoken_Giggles;
+      Kunderna \xE4r mycket sn\xE4lla mot mig idag.@Spoken_Giggles; Vill du g\xE5
+      och dricka n\xE5got med mig senare?@Spoken_Giggles; Vi g\xF6r det bra!@Spoken_Giggles;
+      Eeee!@Reactions_Eeeee; Ahaha!@Spoken_Giggles; Muu!@Moo_Happiest; Vill du krama
+      mig?@Spoken_Giggles; Jag ska se till att spara mer mj\xF6lk till dig senare!@Spoken_Giggles;
+      Jag sv\xE4var n\xE4stan i luften!@Spoken_Giggles; Jag har ett leende som inte
+      slutar!@Spoken_Giggles; Idag \xE4r en s\xE5dan fin dag, det verkar som en dr\xF6m!@Spoken_Giggles;
+      \xC4r detta ren lycka? Det \xE4r otroligt!@Spoken_Giggles; Jag str\xE5lar positivitet
+      och gl\xE4dje!@Spoken_Giggles; Jag k\xE4nner mig som om jag vore p\xE5 sjunde
+      himlen idag!@Spoken_Giggles; Mitt hj\xE4rta \xE4r fullt av lycka!@Spoken_Giggles;
+      Jag \xE4r s\xE5 glad, jag kan n\xE4stan explodera i s\xE5ng!@Spoken_Giggles;
+      Jag ler fr\xE5n \xF6ra till \xF6ra idag!@Spoken_Giggles; Idag \xE4r en perfekt
+      dag!@Spoken_Giggles; Jag \xE4r full av gl\xE4dje och skratt!@Spoken_Giggles;
+      Jag lever mitt b\xE4sta liv!@Spoken_Giggles; Jag k\xE4nner mig som v\xE4rldens
+      lyckligaste barista!@Spoken_Giggles; Idag \xE4r s\xE5 underbart, jag vill komma
+      ih\xE5g det f\xF6r alltid!@Spoken_Giggles; Kan du k\xE4nna lyckan jag str\xE5lar
+      ut?@Spoken_Giggles; Jag k\xE4nner mig som om jag vunnit lyckans jackpot!@Spoken_Giggles;
+      Jag \xE4r s\xE5 glad!@Spoken_Giggles; Varje \xF6gonblick idag verkar som en
+      present!@Spoken_Giggles; Jag \xE4r s\xE5 tacksam f\xF6r all lycka i mitt liv!@Spoken_Giggles;
+      Jag \xE4r full av sol och regnb\xE5ge idag!@Spoken_Giggles; Jag k\xE4nner mig
+      som om jag kunde er\xF6vra v\xE4rlden med denna lycka!@Spoken_Giggles; Livet
+      \xE4r en underbar melodi, och idag dansar jag till den lyckligaste s\xE5ngen!@Spoken_Giggles;
+      Jag str\xE5lar gl\xE4dje!@Spoken_Giggles; Idag verkar som en saga som blivit
+      verklighet!@Spoken_Giggles; Jag sprider lycka som konfetti!@Spoken_Giggles;
+      Jag k\xE4nner mig som om jag vore inlindad i en varm och mjuk lyckokappa!@Spoken_Giggles;
+      Jag \xE4r s\xE5 glad, jag kan n\xE4stan krama hela v\xE4rlden!@Spoken_Giggles;
+      Lyckoniv\xE5n idag: utanf\xF6r skalan!@Spoken_Giggles; Jag str\xE5lar s\xE5
+      mycket lycka, jag kan n\xE4stan orsaka ett \xF6verskott av gl\xE4dje!@Spoken_Giggles;
+      Jag har tillr\xE4ckligt med lycka f\xF6r att lysa upp hela staden!@Spoken_Giggles;
+      Jag \xE4r s\xE5 glad, jag kan n\xE4stan g\xF6ra en gl\xE4djedans h\xE4r och
+      nu!@Spoken_Giggles; Idag verkar som en dr\xF6m jag inte vill vakna upp fr\xE5n!@Spoken_Giggles;
+      Jag \xE4r s\xE5 full av gl\xE4dje, varje dag verkar som min f\xF6delsedag!@Spoken_Giggles;
+      Jag \xE4r full av lycka idag!@Spoken_Giggles; Muu!@Moo_Happier"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428063652368384
+    m_Localized: "Jag k\xE4nner mig s\xE5 liten.@Spoken_Ah; Du lovade att hj\xE4lpa
+      mig att v\xE4xa, eller hur?@Spoken_Ah; V\xE4ntar fortfarande p\xE5 att de d\xE4r
+      speciella f\xF6rdelarna ska b\xF6rja g\xE4lla...@Spoken_Ah; Kan du k\xF6pa
+      mig n\xE5got?@Spoken_Ah; Vi kan alltid g\xF6ra b\xE4ttre.@Spoken_Ah; Jag kan
+      knappt k\xE4nna deras vikt.@Spoken_Ah; Jag undrar om jag kommer att bli lika
+      stor som de andra kossorna.@Spoken_Ah"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428070547804160
+    m_Localized: "Nu b\xF6rjar vi g\xF6ra bra framsteg.@Spoken_Hm; Det h\xE4r \xE4r
+      bara b\xF6rjan.@Spoken_Hm; Nu b\xF6rjar jag k\xE4nna en trevlig vikt p\xE5
+      mig.@Spoken_Hm; L\xE5t oss h\xE5lla mj\xF6lken fl\xF6dande!@Spoken_Hm; Det
+      h\xE4r jobbet har n\xE5gra riktigt bra f\xF6rm\xE5ner.@Spoken_Hm; Du sa att
+      du ocks\xE5 \xE4ger en g\xE5rd, eller hur?@Spoken_Hm; Har du n\xE5gon lotion?@Spoken_Hm"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428089740939264
+    m_Localized: "Det h\xE4r h\xE5ller p\xE5 att g\xE5 \xF6verstyr, och jag \xE4r
+      helt f\xF6r det!@Spoken_Sigh_Happy; Jag kunde inte mj\xF6lka ig\xE5r. Det var
+      ett totalt misslyckande.@Jokes_UdderFailure; Jag \xE4lskar mj\xF6lk n\xE4r
+      den \xE4r vispad. S\xE5 blir det sm\xF6r.@Spoken_Giggles; Mer!@Reactions_More;
+      St\xF6rre!@Reactions_Bigger; Vi kan alltid g\xE5 st\xF6rre!@Spoken_Sigh_Happy;
+      Min rygg \xE4r extremt stark, jag kan b\xE4ra allt detta utan problem!@Spoken_Sigh_Happy;
+      Om jag bara kunde bli s\xE5 k\xF6ttig som jag kan bli mj\xF6lkig.@Spoken_Sigh_Happy;
+      Kunderna verkar verkligen gilla mig.@Spoken_Sigh_Happy; Dessa underverk kan
+      g\xF6ra mer \xE4n bara mj\xF6lk.@Spoken_Sigh_Happy; \xC4r jag en av dina b\xE4sta
+      tjejer? Du smickrar mig!~@Spoken_Sigh_Happy; Jag kan inte v\xE4nta med att
+      tr\xE4ffa de andra ko-tjejerna.@Casual_MeetTheOtherCowGirls"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428109055709184
+    m_Localized: "\u0130\xE7ecekleri sunamayacak kadar b\xFCy\xFCd\xFC\u011F\xFCmde
+      terfi al\u0131yorum, de\u011Fil mi?@Spoken_Giggles; Bir pogo \xFCzerinde z\u0131plarsam
+      bir milkshake al\u0131yor muyum?@Jokes_MilkshakePogoStick; Daha sonra Mewth'e
+      biraz s\xFCt vermem gerekiyor...@Casual_MewthMilk; Bug\xFCn m\xFC\u015Fteriler
+      bana tuhaf bak\u0131yor... y\xFCz\xFCmde bir \u015Fey mi var?@Spoken_Giggles;
+      S\xFCtle ilgili bir \u015Faka s\xF6ylemek isterdim ama \xE7ok cheesy.@Spoken_Giggles;
+      B\xFCy\xFCkl\xFC\u011Fe bu kadar yak\u0131n!@Spoken_Giggles; G\xFC\xE7le dolup
+      ta\u015F\u0131yorum! Ve s\xFCt.@Spoken_Giggles; Daha! Daha!@Reactions_MoreMore;
+      L\xFCtfen! Sadece biraz daha b\xFCy\xFCk!@Reactions_Bigger; Ben bile daha b\xFCy\xFCk\xFCn\xFC
+      kald\u0131ramam.@Spoken_Giggles; Kendi s\xFCt markam\u0131 satmak i\xE7in sab\u0131rs\u0131zlan\u0131yorum~@Spoken_Giggles;
+      Daha b\xFCy\xFCk! Daha b\xFCy\xFCk!~@Reactions_Bigger; Bu s\xFCt ak\u0131\u015F\u0131
+      asla sona ermeyecek!@Spoken_Giggles; Son yak\u0131n.@Spoken_Giggles; \xD6nce
+      kafe, sonra d\xFCnya!@Spoken_Giggles; Devam filminde \u015Fehir boyutuna ula\u015Fmay\u0131
+      umuyorum.@Spoken_Giggles; Lacti \xE7ok k\u0131skanacak.@Spoken_Giggles; S\xFCt\xFC
+      her g\xFCn bu kadar m\u0131 sa\u011Fabilirim? Hayat bir nimet.@Spoken_Giggles"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428124268449792
+    m_Localized: "Vi borde k\xF6pa n\xE5got. @Spoken_Hm; Kan du k\xF6pa mig n\xE5got?
+      @Interaction_CouldYouBuyMeSomething; Jag skulle verkligen vilja ha n\xE5got
+      fr\xE5n baksidan. @Spoken_Hm; Finns det n\xE5got vi kan l\xE4gga till i butiken?
+      @Spoken_Hm; Vi tj\xE4nar mycket extra pengar. @Spoken_Hm; Jag undrar vad vi
+      borde k\xF6pa? @Spoken_Hm"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428146145939456
+    m_Localized: "Sparar du till n\xE5got? @Money_SavingUpForSomething; Finns det
+      n\xE5got stort du vill k\xF6pa? @Spoken_Hm; Vi har tj\xE4nat mycket idag. @Spoken_Hm;
+      Titta p\xE5 alla de pengarna. @Spoken_Hm; Vi rullar i kontanter idag! @Spoken_Hm;
+      Jag visste inte att vi kunde ha s\xE5 mycket pengar! @Spoken_Hm; V\xE5ra vinster
+      \xE4r genom taket! @Spoken_Hm; Jag k\xE4nner att vi simmar i en pool av pengar!
+      @Spoken_Hm; Ser ut som att vi tr\xE4ffade jackpotten idag! @Spoken_Hm; Vem
+      visste att servera kaffe kunde vara s\xE5 l\xF6nsamt? @Spoken_Hm; Vi har mer
+      pengar \xE4n vi vet vad vi ska g\xF6ra med! @Spoken_Hm; Jag trodde aldrig att
+      vi skulle ha s\xE5 mycket pengar i v\xE5r kassa! @Spoken_Hm; Jag b\xF6rjar
+      t\xE4nka att vi \xE4r i fel bransch med alla dessa pengar! @Spoken_Hm; V\xE5ra
+      vinster \xE4r skyh\xF6ga idag! @Spoken_Hm; Det \xE4r som om vi driver en penningtryckeri
+      ist\xE4llet f\xF6r ett caf\xE9! @Spoken_Hm; Vi har mer pengar \xE4n vi vet
+      vad vi ska g\xF6ra med! @Spoken_Hm; Jag har aldrig sett s\xE5 mycket pengar
+      p\xE5 en och samma plats f\xF6rut! @Spoken_Hm; Vi h\xE5ller p\xE5 att drunkna
+      i pengar idag! @Spoken_Hm; Med alla dessa pengar skulle vi kunna k\xF6pa hela
+      staden! @Spoken_Hm; Eh chef, du kommer ih\xE5g att du kan spendera pengar,
+      va? @Spoken_Hm"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

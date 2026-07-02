@@ -1,0 +1,1807 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Default_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 99f355a02537cb04c821e914e96ec32f, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1654148486754304
+    m_Localized: "Configuraci\xF3n Avanzada"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656496193892352
+    m_Localized: AntiAliasing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661452141555712
+    m_Localized: Estilo de Delantal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549324026376192
+    m_Localized: $3 extra al pedido
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549242392637440
+    m_Localized: Inventario de Tapioca por $5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549277549293568
+    m_Localized: Tapioca
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549846439522304
+    m_Localized: $1 por bebida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549769167859712
+    m_Localized: Inventario de Salsa de Caramelo por $25
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549811962343424
+    m_Localized: Salsa de Caramelo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1683534711713792
+    m_Localized: "Recientemente, en tu granja lechera decidiste probar una nueva
+      estrategia de marketing abriendo un \"caf\xE9 bovino\". Adem\xE1s de ser una
+      excelente forma de promocionar tus productos, es una gran oportunidad para
+      mantener a las nuevas integrantes del reba\xF1o ocupadas mientras las preparas
+      para su tarea en la producci\xF3n de l\xE1cteos.\n Tu primera barista est\xE1
+      muy emocionada por comenzar, y parece tener mucho potencial. Ay\xFAdala a servir
+      a los clientes mientras la entrenas para que alcance todo su potencial lechero.\nComo
+      el caf\xE9 es nuevo, tendr\xE1s que comprar nuevos ingredientes para el men\xFA.
+      Afortunadamente, parece que los clientes de la zona est\xE1n muy interesados
+      en la idea de pagar extra por leche fresca a pedido, si es que est\xE1n de
+      \xE1nimo para ello.\n Si necesitas ayuda mientras trabajas, puedes contar con
+      las ventanas emergentes (Tips) que aparecen cuando pasas el cursor sobre el
+      pedido. \xA1Que tengas \xE9xito en tu nuevo emprendimiento!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1683396865912832
+    m_Localized: "\xA1Bienvenidos al Caf\xE9 Cowtastic!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1684540275126272
+    m_Localized: "Parece que hoy debiste haberte quedado en casa. El caf\xE9 est\xE1
+      en completo caos y todo tipo de cosas locas est\xE1n sucediendo aqu\xED. \xBFQu\xE9
+      son estos precios? \xBFPor qu\xE9 suceden todas estas cosas cada vez que un
+      cliente entra?\n Hola, parece que has encontrado nuestro peque\xF1o huevo de
+      Pascua. Si encontraste esto en tu primer intento, quiz\xE1s debas probar otro
+      modo primero. Necesitar\xE1s mucho conocimiento sobre c\xF3mo funciona el juego
+      para superar este caos, o tal vez no... \xBFEs acaso posible ganar? Solo hay
+      una forma de descubrirlo.\n \xA1Gracias por jugar!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1684438634557440
+    m_Localized: "\xA1Bienvenidos al Caf\xE9 Caotico!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 547914811535360
+    m_Localized: $5 por bebida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 547664034099200
+    m_Localized: Inventario de Chocolate por $100
+    m_Metadata:
+      m_Items: []
+  - m_Id: 547789489926144
+    m_Localized: Chocolate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 550208105967616
+    m_Localized: $1.5 por bebida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 550089201643520
+    m_Localized: Inventario de Cacao en Polvo por $35
+    m_Metadata:
+      m_Items: []
+  - m_Id: 550158147612672
+    m_Localized: Cacao en Polvo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537745180422144
+    m_Localized: "Inventario de Caf\xE9 por $50"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537965951807488
+    m_Localized: $2 por bebida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537790525042688
+    m_Localized: "Caf\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316567601901568
+    m_Localized: $2 por bebida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316555551666176
+    m_Localized: Inventario de Crema de Vainilla por $35
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316559485923328
+    m_Localized: Crema de Vainilla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540973469102080
+    m_Localized: $10 por bebida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540856380911616
+    m_Localized: Inventario de Espresso por $ 150
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540912534253568
+    m_Localized: Espresso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1651431374680064
+    m_Localized: "\xA1Oh, no! \xA1Eso es demasiada leche! \xBFQu\xE9 est\xE1s haciendo?
+      \xA1La has convertido en un pozo sin fondo de leche que inunda las calles!
+      \xA1Es un caos total!\n Bueno, s\xED, ella parece disfrutar esto, pero..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1651623855484928
+    m_Localized: "\xA1Inundaci\xF3n de Leche!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1713462324850688
+    m_Localized: "Recientemente, en tu granja lechera decidiste probar una nueva
+      estrategia de marketing abriendo un \"caf\xE9 bovino\". Adem\xE1s de ser una
+      excelente forma de promocionar tus productos, es una gran oportunidad para
+      mantener a las nuevas integrantes del reba\xF1o ocupadas mientras las preparas
+      para su tarea en la producci\xF3n de l\xE1cteos.\n Tu primera barista est\xE1
+      muy emocionada por comenzar, y parece tener mucho potencial. Ay\xFAdala a servir
+      a los clientes mientras la entrenas para que alcance todo su potencial lechero.\nComo
+      el caf\xE9 es nuevo, tendr\xE1s que comprar nuevos ingredientes para el men\xFA.
+      Afortunadamente, parece que los clientes de la zona est\xE1n muy interesados
+      en la idea de pagar extra por leche fresca a pedido, si es que est\xE1n de
+      \xE1nimo para ello.\n Si a\xFAn no has aprendido a jugar, prueba primero el
+      Modo Normal."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1685107663794176
+    m_Localized: "\xA1Bienvenidos al Caf\xE9 Cowtastic!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537416976134144
+    m_Localized: $0.50 extra al pedido
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537330950959104
+    m_Localized: Inventario de Hielo por $5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537370968813568
+    m_Localized: Hielo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1650345817501696
+    m_Localized: "\xA1Ups! Parece que la has presionado demasiado. \xBFLa dejaste
+      llena por mucho tiempo? O \xBFQuiz\xE1s hubo clientes dif\xEDciles?\n Con suerte,
+      cuando se calme, ella vuelva al trabajo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1650204792418304
+    m_Localized: "Men\xFA Principal"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649997711241216
+    m_Localized: Volver a intentar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1650511282794496
+    m_Localized: Fin del Juego
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316273224675328
+    m_Localized: $1 por bebida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 312927965245440
+    m_Localized: Inventario de Leche Regular por $50
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316153368244224
+    m_Localized: Leche Regular
+    m_Metadata:
+      m_Items: []
+  - m_Id: 226539798360064
+    m_Localized: Modo Arcade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549589093806080
+    m_Localized: $0.50 extra al pedido
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549459674361856
+    m_Localized: Inventario de Confites por $10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549533506695168
+    m_Localized: Confites
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1647892887859200
+    m_Localized: "Recientemente, en tu granja lechera decidiste probar una nueva
+      estrategia de marketing abriendo un \"caf\xE9 bovino\". Adem\xE1s de ser una
+      excelente forma de promocionar tus productos, es una gran oportunidad para
+      mantener a las nuevas integrantes del reba\xF1o ocupadas mientras las preparas
+      para su tarea en la producci\xF3n de l\xE1cteos.\n Tu primera barista est\xE1
+      muy emocionada por comenzar, y parece tener mucho potencial. Ay\xFAdala a servir
+      a los clientes mientras la entrenas para que alcance todo su potencial lechero.\nComo
+      el caf\xE9 es nuevo, tendr\xE1s que comprar nuevos ingredientes para el men\xFA.
+      Afortunadamente, parece que los clientes de la zona est\xE1n muy interesados
+      en la idea de pagar extra por leche fresca a pedido, si es que est\xE1n de
+      \xE1nimo para ello.\n Si necesitas ayuda mientras trabajas, puedes contar con
+      las ventanas emergentes (Tips) que aparecen cuando pasas el cursor sobre el
+      pedido. \xA1Que tengas \xE9xito en tu nuevo emprendimiento!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1647484102602752
+    m_Localized: "\xA1Bienvenidos al Caf\xE9 Cowtastic!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 541488361861120
+    m_Localized: $1.5 por bebida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 541379419009024
+    m_Localized: "Inventario de Az\xFAcar por $15"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 541440546795520
+    m_Localized: "Az\xFAcar"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540631339724800
+    m_Localized: $3 por bebida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540541439012864
+    m_Localized: "Inventario de T\xE9 por $50"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540592966037504
+    m_Localized: "T\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233523209662464
+    m_Localized: Tutorial del Arcade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 234141684953088
+    m_Localized: "Consejos para ense\xF1arte a jugar si el ensayo y error no es lo
+      tuyo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1713940962045952
+    m_Localized: "Parece que hoy debiste haberte quedado en casa. El caf\xE9 est\xE1
+      en completo caos y todo tipo de cosas locas est\xE1n sucediendo aqu\xED. \xBFQu\xE9
+      son estos precios? \xBFPor qu\xE9 suceden todas estas cosas cada vez que un
+      cliente entra?\n Hola, parece que has encontrado nuestro peque\xF1o huevo de
+      Pascua. Si encontraste esto en tu primer intento, quiz\xE1s debas probar otro
+      modo primero. Necesitar\xE1s mucho conocimiento sobre c\xF3mo funciona el juego
+      para superar este caos, o tal vez no... \xBFEs acaso posible ganar? Solo hay
+      una forma de descubrirlo.\n \xA1Gracias por jugar!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1713827099275264
+    m_Localized: "\xA1Bienvenidos al Caf\xE9 Caotico!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537045671178240
+    m_Localized: $0.75 extra al pedido
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536900430819328
+    m_Localized: Inventario de Crema Batida por $15
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536982903418880
+    m_Localized: Crema Batida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648740309233664
+    m_Localized: "\xA1Excelente trabajo! Has logrado que la barista alcance todo
+      su potencial, y est\xE1 deseando unirse a tu granja lechera a tiempo completo.
+      Ahora tienes otra chica vaca de calidad en tu equipo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648943238049792
+    m_Localized: Seguir Jugando
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649229939699712
+    m_Localized: "Men\xFA Principal"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649612644773888
+    m_Localized: "Menos Estad\xEDsticas"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649493451042816
+    m_Localized: "M\xE1s Estad\xEDsticas"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649079095750656
+    m_Localized: Volver a Jugar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648511212154880
+    m_Localized: "\xA1Felicidades!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132749943507623936
+    m_Localized: "Equipo de reparaci\xF3n autom\xE1tica"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133847671285325824
+    m_Localized: "Atr\xE1s"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133992920209006592
+    m_Localized: Lo esencial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133054867663593472
+    m_Localized: 'Mejor tiempo: '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663386760081408
+    m_Localized: "Caf\xE9 Amargo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660668985307136
+    m_Localized: "La Mejor Manera de Empezar el D\xEDa:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035131357732864
+    m_Localized: Compra todos los conjuntos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1664405879484416
+    m_Localized: "T\xE9 Calmante"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655899071803392
+    m_Localized: "Movimiento de C\xE1mara"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132868178831843328
+    m_Localized: Casual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269928791109632
+    m_Localized: "A veces est\xE1 bien relajarse.\n \n Precios m\xE1s baratos y consistentes
+      que facilitan jugar con las opciones."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269706832736256
+    m_Localized: Modo Casual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231828173975552
+    m_Localized: Modo Casual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870694181117952
+    m_Localized: Caos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273385908432896
+    m_Localized: "Oh, no.\n \n Por favor, por amor a todo lo bueno en este mundo,
+      dime que al menos jugaste el Modo Normal primero, \xBFno? \xA1Hazlo por tu
+      propio bien, por favor!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271100448960512
+    m_Localized: "Dificultad Ca\xF3tica"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648041961811968
+    m_Localized: Continuar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228206665101312
+    m_Localized: "Cowtastic Caf\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227076505694208
+    m_Localized: "Cr\xE9ditos"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133034814415151104
+    m_Localized: Vendedor de tazas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132865428639293440
+    m_Localized: 'Tazas vendidas:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661003594297344
+    m_Localized: Personalizar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656215754338304
+    m_Localized: Discord
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133995165042450432
+    m_Localized: "Elaboraci\xF3n de bebidas"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035279336972288
+    m_Localized: Gana $10,000.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2654012272640
+    m_Localized: Salir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133847226483580928
+    m_Localized: Salir del tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663192102432768
+    m_Localized: Descanso Extra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663816466526208
+    m_Localized: Latte de Hadas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035857651802112
+    m_Localized: Rostros familiares
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133037143440859136
+    m_Localized: Encuentra una dificultad verdaderamente maldita.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035644203671552
+    m_Localized: Encuentra la dificultad secreta del Caos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1641101533736960
+    m_Localized: Terminar Orden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658724845711360
+    m_Localized: Arreglar Ropa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035056309051392
+    m_Localized: Armario completo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1664587954221056
+    m_Localized: Mayor tolerancia a los problemas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655422749863936
+    m_Localized: Pantalla Completa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132753240020852736
+    m_Localized: Progreso del juego
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1653921176449024
+    m_Localized: "Configuraci\xF3n General"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132753222291529728
+    m_Localized: "Estad\xEDsticas generales"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1653487506386944
+    m_Localized: Abandonar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663268698812416
+    m_Localized: "M\xE1s Felicidad"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677334284693504
+    m_Localized: "Mejora el estado de \xE1nimo de la barista."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870565030109184
+    m_Localized: Duro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269212714364928
+    m_Localized: "\"Los clientes son m\xE1s exigentes y la barista es m\xE1s enojona,
+      \xA1pero puede crecer a\xFAn m\xE1s!\n \n Un desaf\xEDo un poco m\xE1s dif\xEDcil
+      que el modo normal\"."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269021949030400
+    m_Localized: "Modo Dif\xEDcil"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231467803570176
+    m_Localized: "Modo Dif\xEDcil"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660536202031104
+    m_Localized: Tiene Efectos Misteriosos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658430149718016
+    m_Localized: "Ocultar Di\xE1logo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19834399893057536
+    m_Localized: Modo vacaciones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1657977076805632
+    m_Localized: 'Ingredientes:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286927487332352
+    m_Localized: Idioma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036188431392768
+    m_Localized: Prepara una bebida que lo tenga todo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036853224382464
+    m_Localized: "Haz leche hasta que el caf\xE9 se inunde."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036805832941568
+    m_Localized: Hacer olas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660808559161344
+    m_Localized: Gestionar Empleado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660182504763392
+    m_Localized: Gestionar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1662860714668032
+    m_Localized: "M\xE1s Grandes"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677111105777664
+    m_Localized: Aumenta la capacidad de leche de la barista.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1662565540524032
+    m_Localized: "Caf\xE9 con Leche"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677736099016704
+    m_Localized: Llena a la barista inmediatamente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133031481403088896
+    m_Localized: Amante de la leche
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132754228769300480
+    m_Localized: 'Leche producida:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661098758860800
+    m_Localized: Tipo de Leche
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132867783132815360
+    m_Localized: lechoso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 229470362759168
+    m_Localized: Modo Milky
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230078679445504
+    m_Localized: "Modo Milky Activado: Pon a prueba tu velocidad mientras la Barista
+      se llena cada vez m\xE1s r\xE1pido. \xBFPodras seguirle el ritmo?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132865505260838912
+    m_Localized: 'Dinero ganado:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035228871106560
+    m_Localized: Moonopolio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663875916591104
+    m_Localized: "\xA1M\xE1s Leche, Ahora!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655167128006656
+    m_Localized: "M\xFAsica"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133998653654802432
+    m_Localized: Manejando a tu barista
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133998700043804672
+    m_Localized: "Tu objetivo final es llevar a tu barista a su m\xE1ximo potencial,
+      pero no puedes descuidar su felicidad mientras trabaja.  Acept\xF3 este trabajo
+      con la esperanza de obtener un ascenso a un puesto en una lecher\xEDa, pero
+      incluso si este es el trabajo de sus sue\xF1os, no se quedar\xE1 si se siente
+      demasiado infeliz.\n\nEquilibra su estado de \xE1nimo mientras progresas en
+      su tama\xF1o y producci\xF3n de leche, hacer felices a los clientes y asegurarte
+      de vaciarla regularmente ayudar\xE1 a mantener su estado de \xE1nimo alto."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133998785406279680
+    m_Localized: "Puedes realizar un seguimiento de la felicidad y plenitud de tu
+      barista aqu\xED.  Si su felicidad cae a 0, renuncia.\n\nPor mucho que le gustar\xEDa
+      crecer, no puedes mantenerla demasiado llena todo el tiempo o el dolor la molestar\xE1,
+      pero tampoco debes mantenerla completamente vac\xEDa todo el tiempo o eso tambi\xE9n
+      podr\xEDa molestarla. , as\xED que intenta lograr un equilibrio."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133847557804236800
+    m_Localized: "Pr\xF3ximo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133055089148010496
+    m_Localized: Sin registro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870450861154304
+    m_Localized: Normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 266676540370944
+    m_Localized: "Lleva a la Barista a su tama\xF1o m\xE1ximo y evita que se enoje
+      o se ir\xE1."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 266450740015104
+    m_Localized: Dificultad Normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231298777313280
+    m_Localized: Modo Normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036121565798400
+    m_Localized: uno de todo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224355836850176
+    m_Localized: Opciones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661378443440128
+    m_Localized: Color de Ropa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661525407657984
+    m_Localized: Estilo de Pantalones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652064190296064
+    m_Localized: PAUSA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133034562396200960
+    m_Localized: Juega durante mucho tiempo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133031655290544128
+    m_Localized: "Produce m\xE1s de 100 L de Leche."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663505232392192
+    m_Localized: "Menos Producci\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677541911130112
+    m_Localized: "Reduce la velocidad de producci\xF3n de leche de la barista."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1662658687627264
+    m_Localized: "M\xE1s Producci\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1676894453198848
+    m_Localized: "Aumenta la velocidad de producci\xF3n de leche de la barista."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036731409211392
+    m_Localized: "Alcanza su verdadero tama\xF1o m\xE1s grande."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132867593416056832
+    m_Localized: Regular
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1640869886521344
+    m_Localized: Rehacer Pedido
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656078697066496
+    m_Localized: Restablecer Tiempo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655301924548608
+    m_Localized: "Resoluci\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1653300364931072
+    m_Localized: Reiniciar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132752649106333696
+    m_Localized: Salvadera
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036482359828480
+    m_Localized: modo sandbox
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132752870515253248
+    m_Localized: "Puntuaciones y estad\xEDsticas"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660439854673920
+    m_Localized: Caramelo Secreto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132753744281051136
+    m_Localized: Secretos encontrados
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036011389820928
+    m_Localized: Ver todos los clientes crossover.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133034908078153728
+    m_Localized: Vende 1000 bebidas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652825364197376
+    m_Localized: Ajustes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658332258856960
+    m_Localized: "Mostrar Di\xE1logo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648188082974720
+    m_Localized: "\xBFVolver a Mostar?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655796151971840
+    m_Localized: Mostrar Temporizador
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1654868065742848
+    m_Localized: Sonido
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227953312362496
+    m_Localized: Agradecimientos Especiales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 234396560224256
+    m_Localized: Iniciar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1662771174666240
+    m_Localized: "Caramelo El\xE1stico"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036677680177152
+    m_Localized: "De gran tama\xF1o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656401700417536
+    m_Localized: Calidad de Texturas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132865470217428992
+    m_Localized: 'Tiempo jugado:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677955096211456
+    m_Localized: "La barista pierde felicidad m\xE1s lentamente."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231146272419840
+    m_Localized: Tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133992199195566080
+    m_Localized: "Despu\xE9s de haber abierto recientemente una nueva cafeter\xEDa
+      y haber contratado a esta nueva vaquera como su primera barista aqu\xED, su
+      trabajo es ayudar a su barista a atender a los clientes y, al mismo tiempo,
+      asegurarse de mantenerla contenta.  Es importante asegurarse de que no renuncie,
+      ya que parece interesada en aceptar un ascenso a un puesto m\xE1s lechero en
+      su granja una vez que est\xE9 lista para ello.\n\nSi hay algo sobre el juego
+      que no parece claro, es de esperar que puedas encontrar ayuda en este tutorial. 
+      De lo contrario, tambi\xE9n puedes intentar saltar y comenzar a aprender el
+      juego mediante prueba y error."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133993158466445312
+    m_Localized: "Un mouse debe ser todo lo que necesitas para jugar, no se requieren
+      otros botones.\n\nSi necesita informaci\xF3n adicional para algo, el modo normal
+      tiene informaci\xF3n sobre herramientas que brinda mucha informaci\xF3n \xFAtil.\nEs
+      posible que puedas descubrir la mayor\xEDa de las mec\xE1nicas simplemente
+      con la ayuda de la informaci\xF3n sobre herramientas.\n\n(Los controles t\xE1ctiles
+      no se han probado, pero si ves esto en un tel\xE9fono, supongo que deben funcionar
+      al menos parcialmente)."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133995531494596608
+    m_Localized: "La tarea principal durante el juego es mezclar bebidas.\n\nCada
+      cliente tiene un retrato que muestra su estado de \xE1nimo y solicita un pedido
+      representado por este gr\xE1fico.\n\nPreste mucha atenci\xF3n a las cantidades
+      de relleno de cada ingrediente y a los extras que quieren agregarle."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133996458540638208
+    m_Localized: "Aqu\xED est\xE1n tus ingredientes.  Mientras juegas, simplemente
+      haz clic y mant\xE9n presionado para comenzar a llenar una taza, o para ciertos
+      ingredientes, haz clic una vez para agregarlo a la bebida.\n\nSu cafeter\xEDa
+      acaba de abrir y todav\xEDa necesita abastecerse de algunos ingredientes. 
+      Intenta ganar lo suficiente para desbloquearlos todos.\n\nComprar nuevos ingredientes
+      es importante para ganar m\xE1s dinero; cuanto m\xE1s compleja sea la bebida,
+      mayor ser\xE1 su valor."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133997655410450432
+    m_Localized: "Esta es la taza que est\xE1 llenando para su cliente; mientras
+      prepara bebidas, puede usar las l\xEDneas de llenado para comparar la precisi\xF3n
+      de su bebida con la solicitud del cliente.\n\nLa precisi\xF3n de la bebida
+      afecta la calificaci\xF3n y el precio por el que se vende."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870790192930816
+    m_Localized: Ultra Caos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 274821425754112
+    m_Localized: "\xBFEN SERIO? No se supon\xEDa que encontraras esto. Si tienes,
+      aunque sea una pizca de amor propio, no toques esto."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 274592542584832
+    m_Localized: "Dificultad Ultra Ca\xF3tica"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133037091288883200
+    m_Localized: Ultra Caos...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036564937285632
+    m_Localized: Desbloquea el modo Sandbox secreto.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660890163539968
+    m_Localized: Mejorar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658553181237248
+    m_Localized: Ver Barista
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658635091800064
+    m_Localized: Ver Juego
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132748730527490048
+    m_Localized: "L\xEDneas de voz"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656601168932864
+    m_Localized: Vsync
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133991633908244480
+    m_Localized: Bienvenido al tutorial del modo Arcade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133034372322926592
+    m_Localized: Trabajando horas extra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134010572390375424
+    m_Localized: Sirviendo a los clientes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134010918655336448
+    m_Localized: "Tambi\xE9n trate de observar el estado de \xE1nimo del cliente,
+      a la gente de aqu\xED parece encantarle cuando una chica se ve grande y llena,
+      por lo que el equilibrio entre su tama\xF1o deber\xEDa captar la atenci\xF3n
+      de los clientes a medida que pasa el tiempo.\n\nPero, \xBFqu\xE9 sentido tiene
+      tener clientes satisfechos?  Bueno, \xA1puede que les guste algo extra en su
+      bebida si su estado de \xE1nimo lo permite!  \xA1Un ingrediente especial que
+      vale mucho dinero...!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134011413927141376
+    m_Localized: Eventos cronometrados
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134011680659709952
+    m_Localized: "A veces, mientras juegas, aparecer\xE1n eventos cronometrados.\n\nAlgunos
+      de estos eventos a\xF1aden desaf\xEDos, otros te dan un descanso necesario
+      y otros son un poco tontos.\n\xA1Est\xE9 atento a los eventos que est\xE1n
+      sucediendo y trate de que no lo tomen desprevenido!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134179468267331584
+    m_Localized: "Mientras juegas en el modo arcade, el bot\xF3n de administraci\xF3n
+      es donde se encuentran todas las actualizaciones y personalizaciones para tu
+      barista.  All\xED se puede encontrar un aumento de su capacidad y tasa de producci\xF3n. 
+      Junto con estimulantes del estado de \xE1nimo.\n\nTambi\xE9n incluye un men\xFA
+      de personalizaci\xF3n con opciones de vestimenta y opciones de color.\nEs posible
+      que sea necesario desbloquear algunas opciones de personalizaci\xF3n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134179994149167104
+    m_Localized: Empezar juego
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134180089527640064
+    m_Localized: Tutorial completo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134180290938118144
+    m_Localized: "Esa deber\xEDa ser toda la informaci\xF3n importante que vale la
+      pena aclarar.\nEl ciclo del juego debe ser claro: hacer tragos, ganar dinero,
+      hacer m\xE1s tragos, hacer al barista m\xE1s grande, ganar a\xFAn m\xE1s dinero,
+      repetir hasta que muu.\n\nSi quieres un desaf\xEDo, intenta encontrar estrategias
+      inteligentes o mejorar rutas para conseguir los mejores tiempos.  Si quieres
+      mejorar la diversi\xF3n, \xA1intenta desbloquear algunas de las otras opciones
+      de vestimenta!  De cualquier manera, disfruta de tu caf\xE9 con leche."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135009184603807744
+    m_Localized: "\xBFComprar?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135009503337357312
+    m_Localized: "S\xED"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135009682803236864
+    m_Localized: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135018668252307456
+    m_Localized: 'Semilla:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135037087102115840
+    m_Localized: abrir el drenaje
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143884046088904704
+    m_Localized: 'Tiempo:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893353438224384
+    m_Localized: "\xA1Perfecto!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893532069437440
+    m_Localized: "\xA1Excelente!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893677221715968
+    m_Localized: "\xA1Bien!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893751905492992
+    m_Localized: Bueno.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893844029186048
+    m_Localized: Bueno.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893899951841280
+    m_Localized: Malo...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893970122547200
+    m_Localized: "\xA1\xA1Arruinado!!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143940038960979968
+    m_Localized: La leche materna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143959184234881024
+    m_Localized: Leche
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143959463068016640
+    m_Localized: Agitar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143959642353541120
+    m_Localized: Batido de chocolate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 162454964742496256
+    m_Localized: "\xA1Has hecho que tu barista sea lo m\xE1s grande posible!  Habiendo
+      alcanzado su m\xE1ximo potencial, est\xE1 feliz de unirse a su lecher\xEDa
+      a tiempo completo, \xA1agregando otra vaca de calidad a su personal!\n\nPor
+      cierto, arriba a la izquierda del modo Arcade. ;)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 162455432189288448
+    m_Localized: "Qu\xE9...?  Bueno, uh... Felicitaciones por vencer lo que sea de
+      esta manera.  Guau.\n\nAdem\xE1s, hay un modo secreto m\xE1s.  ;PAG"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167524481055608832
+    m_Localized: "Cr\xE9ditos"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167524677856546816
+    m_Localized: Gracias especiales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167525775212302336
+    m_Localized: "Caf\xE9 con leche"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167525900873650176
+    m_Localized: "Producci\xF3n+"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167525982276702208
+    m_Localized: "Caramelo el\xE1stico"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526055043682304
+    m_Localized: "Tama\xF1o m\xE1ximo+"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526161428008960
+    m_Localized: Descanso adicional
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526229631586304
+    m_Localized: Felicidad+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526294421000192
+    m_Localized: "Caf\xE9 amargo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526376109264896
+    m_Localized: "Producci\xF3n-"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526646520238080
+    m_Localized: "Caf\xE9 con leche de hadas"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526696562479104
+    m_Localized: "\xA1M\xE1s leche, ahora!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526716435091456
+    m_Localized: "T\xE9 calmante"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526736756494336
+    m_Localized: Tolerancia de plenitud+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167535336119881728
+    m_Localized: "\xA1Hola!; Hola.; \xA1Ey! belleza.; Oye.; Hola.; \xA1Hola!; Hola...;
+      Hm...; Uuuh...; Uh...; \xA1Aj\xE1!; Yo.; Hola...; Saludos.; Hola se\xF1orita.
+      ; Eyo.; Sup.; Uhuh...; \xA1Hola!; \xA1Hola!; \xA1Hola! \xBFQu\xE9 tal?; \xA1Buenos
+      d\xEDas!; \xA1Hola!; \xA1Oye! Forastero.; \xA1Saludos!; \xA1Bien! \xA1Hola!;
+      \xA1Hola! \xBFC\xF3mo est\xE1s?; \xA1Oye! \xA1Qu\xE9 bueno verte!; \xA1oye!
+      \xA1Cu\xE1nto tiempo sin verte!; \xA1oye! \xBFQu\xE9 se est\xE1 cocinando?;
+      \xA1Oye! \xBFC\xF3mo te va?; \xA1Oye! \xA1Encantado de conocerte!; \xA1Oye!
+      \xBFQu\xE9 hay de nuevo?; \xA1Oye! \xBFC\xF3mo va la vida?; \xA1Oye! \xBFQu\xE9
+      tal todo?; \xA1Oye! \xBFQu\xE9 tal tu d\xEDa?; \xA1Oye! \xBFC\xF3mo va tu d\xEDa?;
+      \xA1Oye! \xBFC\xF3mo va todo?; \xA1Oye! \xBFC\xF3mo has estado?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167615756777836544
+    m_Localized: "Quiero un poco; \xBFPuedo conseguirlo? \xBFTienes? \xBFPuedo hacer
+      un pedido? \xBFPuedo tenerlo? Estoy interesado en \xBFSer\xEDa posible conseguirlo?
+      Por favor; damelo. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233249931448320
+    m_Localized: "Caf\xE9 expr\xE9s"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233545151729664
+    m_Localized: "Caf\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233690199150592
+    m_Localized: Chocolate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233779009343488
+    m_Localized: "T\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233839474429952
+    m_Localized: Leche
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233903475314688
+    m_Localized: La leche materna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234029493178368
+    m_Localized: Crema
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234081343164416
+    m_Localized: "Az\xFAcar"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234138335367168
+    m_Localized: Hielo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234186334982144
+    m_Localized: boba
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234253527732224
+    m_Localized: Esponjoso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234331545980928
+    m_Localized: Elegante
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234412265361408
+    m_Localized: Chocolate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234481072918528
+    m_Localized: Divertido
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175274055513952256
+    m_Localized: "\xA1Gracias!; Disfrut\xE9 el servicio y la bebida.; \xA1Fue grandioso!;
+      \xA1Me encant\xF3!; \xA1Excelente servicio!; \xA1Deliciosa bebida!; \xA1Altamente
+      recomendado!; \xA1Experiencia maravillosa!; \xA1Fant\xE1stico!; \xA1Servicio
+      incre\xEDble!; \xA1Me encant\xF3 cada sorbo!; \xA1De primera categor\xEDa!;
+      \xA1No podr\xEDa ser mejor!; \xA1Bebida perfecta!; \xA1Servicio impresionante!;
+      \xA1Justo lo que necesitaba!; \xA1Gran trabajo!; \xA1Avanza!; \xA1Definitivamente
+      regresar\xE9!; \xA1Impresionado!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175274128738111488
+    m_Localized: "Esto no fue lo que ped\xED.; Yo no ped\xED esto.; Esto no es lo
+      que quer\xEDa.; Lo sentimos, pero esto es incorrecto.; Disculpe, pero esto
+      no est\xE1 bien.; Lo siento, pero mi pedido es incorrecto.; \xBFPodemos arreglar
+      esto?; \xBFPodr\xEDas revisar mi pedido nuevamente?; Creo que ha habido un
+      error.; Ped\xED algo m\xE1s.; Esto no es lo que esperaba.; \xBFPodemos resolver
+      este problema?; \xBFHay alguna confusi\xF3n?; \xBFPodr\xEDas volver a comprobarlo?;
+      Estoy un poco decepcionado.; \xBFPuedes arreglar esto por m\xED?; No estoy
+      satisfecho con esto.; Esto no es lo que esperaba."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175601404604338176
+    m_Localized: Sin; No; Excluyendo; , Dejar fuera; , Sostener el; No incluya; Libre
+      de
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175608705562202112
+    m_Localized: "Velocidad de producci\xF3n de leche"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175609102947340288
+    m_Localized: "Tama\xF1o m\xE1ximo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175609289581285376
+    m_Localized: Dinero
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175639638851997696
+    m_Localized: Felicidad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175639931622805504
+    m_Localized: "Renunciar\xE1 si esto llega a cero."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175640078645743616
+    m_Localized: Plenitud
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175640229514858496
+    m_Localized: Alcanza los 2000 ml para ganar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175641060461006848
+    m_Localized: Taza para tu pedido
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175650030386958336
+    m_Localized: "Nuevo trabajo, nueva vida.@Intro_NewJobNewLife; Espero que la gente
+      aqu\xED sea amable.@Intro_IHopePeopleAreNice; \xA1No puedo esperar para comenzar!@Intro_ICantWaitToStart;
+      Primer d\xEDa en el trabajo.@Intro_FirstDayOnTheJob"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175651777658507264
+    m_Localized: "\xA1Hola!; \xA1Hola!; \xA1Bienvenido!; \xBFPuedo traerte algo?;
+      \xBFEl regular?; \xBFComo puedo ayudarte?; \xBFQu\xE9 puedo conseguir?; \xA1Bienvenido!
+      \xBFQu\xE9 puedo conseguirte hoy?; \xA1Te ves bien hoy! \xBFQu\xE9 te puedo
+      traer?; Especial de hoy: \xA1Leche fresca!; \xBFYa probaste la leche de boba?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175662100285247488
+    m_Localized: "\xA1Quiero esa galleta!; Esa galleta se ve deliciosa.; \xBFMe pregunto
+      c\xF3mo sabe esa galleta...?; \xBFMe pregunto si toda la galleta cabr\xE1 en
+      mi boca?; \xBFCu\xE1ndo recibir\xE9 la galleta m\xE1gica?; Este trabajo promet\xEDa
+      ciertos beneficios, \xBFno?; Quiero crecer...; \xA1Se acerca el antojo de galletas!;
+      \xA1Alerta de cookies! Repito, \xA1alerta de cookies!; \xA1Tengo mis ojos puestos
+      en esa galleta!; \xA1Es hora de satisfacer mis antojos de galletas!; Misi\xF3n
+      de las cookies: \xA1Activar!; \xA1Radar de galletas activado!; \xA1Cambio un
+      caf\xE9 por una galleta!; \xBFCookie o no cookie? Esa es la pregunta.; La resistencia
+      es in\xFAtil... \xA1cuando se trata de galletas!; Antojos de galletas: \xA1100%
+      de satisfacci\xF3n garantizada!; \xA1La hora de las galletas es el mejor momento!;
+      \xA1Los sue\xF1os de galletas est\xE1n hechos de esto!; Nivel de anticipaci\xF3n
+      de cookies: \xA1M\xE1ximo!; \xA1Mi goloso pide esa galleta!; \xA1Esa galleta
+      est\xE1 llamando mi nombre!; Tengo una mente unidireccional... \xA1y est\xE1
+      en esa galleta!; Obsesi\xF3n por las cookies: \xA1activada!; \xA1Lo \xFAnico
+      que quiero por ahora es esa galleta!; \xA1Un peque\xF1o paso para un barista,
+      un gran salto para las galletas!; Antojos de galletas: \xA1alcanzando niveles
+      m\xE1ximos!; S\xE9 que tienes magia para m\xED ~"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175662781700263936
+    m_Localized: "\xA1Mmm! \xA1Sabe bien!~; \xBFAlgo se siente diferente...?; \xA1Quiero
+      m\xE1s!; \xA1Sabe a leche!; \xA1Ahora estamos llegando a alguna parte!; \xA1Vaya,
+      eso se siente genial!; Ojal\xE1 tuvi\xE9ramos m\xE1s de esos.; \xA1La b\xFAsqueda
+      de las galletas vali\xF3 la pena! \xA1Delicioso!; \xA1Esa galleta dio en el
+      clavo! \xA1Mas por favor!; \xA1Satisfacci\xF3n con las cookies lograda!; \xA1Estoy
+      en el para\xEDso de las galletas ahora mismo!; \xA1Mmm! \xA1La mejor decisi\xF3n
+      jam\xE1s tomada!; \xA1Felicidad de las galletas! \xA1No puedo tener suficiente!;
+      \xA1Esta cookie cambia las reglas del juego!; \xA1La magia de las galletas
+      en acci\xF3n! \xA1Me encanta!; \xBFQui\xE9n dir\xEDa que una galleta podr\xEDa
+      traer tanta alegr\xEDa?; \xA1Esto es lo que yo llamo una obra maestra de las
+      galletas!; \xA1Encontrado el para\xEDso de las galletas!; El sabor de la victoria\u2026
+      \xA1y de las galletas!; \xA1Esa galleta merece una medalla de oro!; \xA1Estoy
+      en la nube nueve con esta galleta!; Leche y galletas, \xA1la combinaci\xF3n
+      perfecta!; \xA1Un bocado y estoy enganchado! \xA1Mas por favor!; \xA1Se logr\xF3
+      la perfecci\xF3n de las galletas!; \xA1Magia de galletas activada! \xA1No puedo
+      dejar de comer!; \xA1Esta galleta es una sensaci\xF3n de sabor!; \xA1Necesito
+      un suministro de por vida de estas galletas!; Munch Munch"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175663362036748288
+    m_Localized: "El delantal empieza a sentirse un poco apretado...; \xBFTenemos
+      un delantal m\xE1s grande en la parte trasera?; Espero poder sacar estas manchas
+      nuevamente...; \xA1Uh oh est\xE1 a punto de estallar!; \xA1Mi delantal no aguanta
+      m\xE1s de esto!; \xA1Finalmente! ~ Simplemente dispara ya ~; Creo que tenemos
+      un delantal m\xE1s grande atr\xE1s, pero...; Es la hora."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175664029996437504
+    m_Localized: "\xA1Me siento tan Pleno!; Por favor, no explotes conmigo.; \xBFChapotean?;
+      \xA1Ya han crecido tanto!; Uuuuhm, \xBFpuedes hacer algo al respecto?; Tengo
+      mucha m\xE1s leche de la que crees. Eso es justo lo que puedo conseguir en
+      la taza.; Uh, jefe... \xBFPuedes ayudarme con esto?; \xBFNing\xFAn cliente
+      quiere algo de esto? Estoy tan lleno...; No puedo estar mucho m\xE1s lleno
+      que esto...; \xBFAyuda? \xBFPor favor?; Siento que voy a estallar\u2026; Quiero
+      hacerme grande, pero esto es un poco inc\xF3modo...; Necesito una mayor capacidad
+      antes de poder permanecer as\xED de lleno por mucho tiempo...; \xA1Ah! \xA1Solo
+      orde\xF1ame ya!; \xA1Orde\xF1ame! \xA1Orde\xF1ame! \xA1Por favor!; Si esto
+      no fuera tan inc\xF3modo me encantar\xEDa esto...; No me importa si miran,
+      solo vac\xEDame por favor...; \xA1Me siento tan hinchada!; \xA1Espero no desbordarme!;
+      \xA1Sentirse como un globo lleno de leche!; \xA1Tengo miedo de moverme demasiado!;
+      \xA1Desbordamiento inminente! \xA1LLAMADA DE SOCORRO!; Mis copas rebosan, literalmente...;
+      \xBFCrees que alguien se dar\xEDa cuenta si filtrara?; Necesito aliviar un
+      poco la presi\xF3n, \xA1r\xE1pido!; \xA1Me siento como una f\xE1brica de leche
+      a toda marcha!; \xA1No puedo concentrarme con toda esta leche chapoteando!;
+      \xA1Se siente como si estuvieran a punto de estallar fuera de mi pecho!; \xA1Ay\xFAdenme
+      aqu\xED, est\xE1n alcanzando una masa cr\xEDtica!; \xBFEs esto lo que quieren
+      decir con 'orde\xF1ado a la perfecci\xF3n'?; \xA1Se siente como si estuviera
+      cargando una granja lechera!; \xA1Advertencia de desbordamiento! \xA1Peligro
+      PELIGRO!; \xA1Soy un volc\xE1n de leche listo para hacer erupci\xF3n!; \xA1No
+      puedo concentrarme con esta distracci\xF3n lechosa!; \xA1Solo falta encontrar
+      la manera de liberar toda esta leche!; \xA1Estas jarras de leche est\xE1n listas
+      para explotar!; Voy a explotar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175664836233940992
+    m_Localized: "\xBFEs hora de una actualizaci\xF3n, tal vez?; \xA1Invertir en
+      mejoras suena como un plan!; Veamos qu\xE9 actualizaciones est\xE1n disponibles.;
+      Quiz\xE1s sea hora de mejorar nuestras operaciones.; Mejorar nuestro negocio
+      podr\xEDa ser beneficioso.; Me pregunto si hay alguna mejora que valga la pena.;
+      Estamos considerando algunas mejoras para nuestra cafeter\xEDa.; Explorar opciones
+      de actualizaci\xF3n parece una buena idea.; \xA1Aumentemos nuestra eficiencia
+      con algunas actualizaciones!; Las actualizaciones podr\xEDan darnos una ventaja
+      en el mercado.; \xBFDeber\xEDamos comprar algo?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175666128926822400
+    m_Localized: "\xA1Ya est\xE1, lo dejo!; El peor jefe de todos los tiempos...
+      Me largo de aqu\xED.; Estoy demasiado adolorido para trabajar, adi\xF3s...;
+      \xA1Ya termin\xE9 de lidiar con este caos! \xA1Lo dejo!; \xA1No lo soporto
+      m\xE1s! \xA1Me voy!; \xA1Merezco algo mejor que esto! \xA1Estoy fuera!; Este
+      trabajo no vale la pena. \xA1He terminado!; Ninguna cantidad de caf\xE9 merece
+      esta molestia. \xA1Me fu\xED!; \xA1He tenido suficiente! Es hora de encontrar
+      una mejor oportunidad.; Me niego a trabajar en estas condiciones. \xA1Lo dejo!;
+      La vida es demasiado corta para estas tonter\xEDas. Me voy.; Lo siento, pero
+      ya dej\xE9 de hacer de barista. \xA1Me voy de aqu\xED!; \xA1No me registr\xE9
+      para esto! \xA1Lo dejo!; Olv\xEDdalo, me voy a casa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175674616369401856
+    m_Localized: "Producci\xF3n+"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175674851527249920
+    m_Localized: "Incrementar la tasa de producci\xF3n de leche de barista."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181788866099826688
+    m_Localized: "Hola, preciosa.; Hola hermosa.; Hola Luz de sol.; Oye, te ves incre\xEDble.;
+      Hola amorcito.; Hola, impresionante.; Hey bella dama.; Hola, cari\xF1o.; Hey
+      guapo.; Hola, encanto.; Hola \xC1ngel.; Oye, mu\xF1eca.; Hola cari\xF1o.; Oye,
+      est\xE1s preciosa hoy.; Hola guapa.; Hola beb\xE9.; Hola bomb\xF3n.; Oye, linda
+      sonrisa.; Hola, encantadora.; Oye, alegras el bar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181789087093510144
+    m_Localized: "Oye hermosa, \xBFpuedes alegrarme el d\xEDa con una sonrisa?; Hola
+      preciosa, \xBFcu\xE1l es tu secreto para lucir tan bien?; Hola, impresionante,
+      \xBFhay alguna posibilidad de que est\xE9s en el men\xFA?; Oye, bella dama,
+      \xBFtienes una bebida especial que combine con tu apariencia?; Hola encanto,
+      tu sonrisa es lo m\xE1s destacado de mi d\xEDa.; Hola \xE1ngel, tu belleza
+      podr\xEDa iluminar la habitaci\xF3n m\xE1s oscura.; Oye mu\xF1eca, \xBFtienes
+      alguna poci\xF3n m\xE1gica para un coraz\xF3n solitario?; Hola cari\xF1o, \xBFhaces
+      todas las bebidas tan dulces como t\xFA?; Oye, nena, tu belleza es embriagadora.;
+      Hola bomb\xF3n, tu presencia es lo mejor aqu\xED."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181789098002894848
+    m_Localized: "Oye hermosa, tu sonrisa y esas curvas hacen que mi coraz\xF3n se
+      acelere.; Hola preciosa, \xBFte sirve algo tan cautivador como tus ojos?; Hola,
+      impresionante, tu figura es la aut\xE9ntica aqu\xED.; Oye, bella dama, tu apariencia
+      podr\xEDa hacer que cualquier bebida sepa mejor.; Hola encanto, tu belleza
+      es m\xE1s refrescante que cualquier c\xF3ctel.; Hola \xE1ngel, con un cuerpo
+      como el tuyo, \xBFa qui\xE9n le hace falta un trago?; Oye mu\xF1eca, tus curvas
+      son la combinaci\xF3n perfecta de belleza.; Hola cari\xF1o, tu figura es la
+      mejor parte de este bar.; Oye, nena, tu impresionante apariencia me est\xE1
+      mareando.; Hola bomb\xF3n, tu presencia hace que todo sea m\xE1s dulce."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181789109562396672
+    m_Localized: "Oye hermosa, \xBFhay alguna posibilidad de que le agregues un poco
+      de tu magia a mi caf\xE9?; Hola preciosa, \xBFsirves algo m\xE1s que bebidas
+      con esas curvas?; Hola guap\xEDsima, tu busto podr\xEDa ser la mejor parte
+      de mi caf\xE9.; Oye se\xF1orita, \xBFofreces algo fuera de men\xFA, como una
+      sonrisa o una cita?; Hola encanto, con un cuerpo como el tuyo pedir\xEDa cualquier
+      cosa.; Hola \xE1ngel, tu belleza es el ingrediente perfecto para cualquier
+      bebida.; Oye mu\xF1eca, \xBFpuedo tomar un caf\xE9 con un toque de tu encanto?;
+      Hola cari\xF1o, tu busto es el verdadero especial del d\xEDa.; Oye, nena, tu
+      presencia aqu\xED hace que cada trago sea mejor.; Hola bomb\xF3n, \xBFofreces
+      una sonrisa con esa hermosa figura?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182195982329466880
+    m_Localized: Aumenta la capacidad de leche de Barista.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196090546704384
+    m_Localized: "Tama\xF1o m\xE1ximo+"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196364988403712
+    m_Localized: "Mejora el estado de \xE1nimo del barista."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196409754210304
+    m_Localized: Felicidad+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196602868355072
+    m_Localized: "Producci\xF3n-"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196626104799232
+    m_Localized: "Menor tasa de producci\xF3n de leche de barista."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196763497615360
+    m_Localized: "\xA1M\xE1s leche, ahora!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196807076433920
+    m_Localized: Llene al Barista inmediatamente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196916119949312
+    m_Localized: Tolerancia de plenitud+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196947719835648
+    m_Localized: "El barista pierde la felicidad m\xE1s lentamente."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182201446488363008
+    m_Localized: "m\xE1ximo es 500"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182205256204046336
+    m_Localized: "\xA1Cuidado, todav\xEDa hace un poco de calor!; \xA1Aqu\xED! \xA1Es
+      un poco especial, s\xF3lo para ti!; \xBFEs esto correcto?; \xA1Ordene! ~; \xA1Disfruta
+      tu bebida!; Espero que te guste.; \xA1Aqu\xED tienes, que tengas un gran d\xEDa!;
+      \xA1Ah\xED tienes, vuelve pronto!~; \xA1Vaya! Tu creaci\xF3n personalizada,
+      \xA1solo para ti!; Le puse un poco m\xE1s de amor a este, \xA1disfr\xFAtalo!;
+      \xA1Aqu\xED tienes tu bebida, hecha con mimo!; \xA1Tu pedido, servido con una
+      sonrisa!; \xA1Que esta bebida traiga un poco de alegr\xEDa a tu d\xEDa!; \xA1Perfecci\xF3n
+      en una taza, solo para ti!; \xA1Disfruta de tu sorbo de felicidad!; \xA1Tu
+      bebida te espera! \xA1Bebe y saborea!; \xA1Elaborado con cuidado, solo para
+      ti!; Tu pedido est\xE1 listo, \xA1disfruta el sabor!; \xA1Aqu\xED est\xE1 tu
+      bebida, hecha a la perfecci\xF3n!; \xA1Espero que esta bebida te alegre un
+      poco el d\xEDa!; Disfruta de esta peque\xF1a delicia, \xA1es toda tuya!; \xA1Saborea
+      el sabor! \xA1Est\xE1 elaborado solo para ti!; \xA1Aqu\xED tienes! \xA1Bebe
+      y disfruta!; \xA1Tu taza perfecta, servida con una sonrisa!; \xA1Toma un sorbo
+      y deja que el mundo se derrita!; \xA1Espero que esta bebida supere tus expectativas!;
+      \xA1Que tu d\xEDa sea tan delicioso como esta bebida!; \xA1Que tu d\xEDa sea
+      tan delicioso como esta bebida!; \xA1Bebe, saborea y disfruta! \xA1Est\xE1
+      hecho solo para ti!; Aqu\xED est\xE1, debe quedar como a ti te gusta.;"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427788485054464
+    m_Localized: "Eso no estaba bien...@Spoken_Ah; \xA1Deber\xEDa intentarlo de nuevo!@Spoken_Ah;
+      \xA1La pr\xF3xima vez ser\xE1 mejor!@Spoken_Ah; \xA1Ups! D\xE9jame intentarlo
+      de nuevo...@Spoken_Ah; Eso no es del todo correcto...@Spoken_Ah; \xBFEso se
+      descontar\xE1 de mi salario?@Spoken_Ah; Vamos a intentarlo de nuevo.@Spoken_Ah;
+      Parece que necesito m\xE1s pr\xE1ctica.@Spoken_Ah; \xA1Ups! Eso no sali\xF3
+      como estaba planeado.@Spoken_Ah; La pr\xE1ctica hace al maestro, \xBFverdad?@Spoken_Ah;
+      Esta vez lo har\xE9 bien, \xA1mira!@Spoken_Ah; No nos quedemos en el pasado,
+      \xA1vamos al siguiente!@Spoken_Ah; \xA1Lo compensar\xE9 en la pr\xF3xima taza!@Spoken_Ah;
+      Un peque\xF1o contratiempo, pero volver\xE9.@Spoken_Ah; Bueno, eso no dio en
+      el blanco.@Spoken_Ah; De vuelta a la mesa de dibujo, supongo.@Spoken_Ah; Hmm,
+      d\xE9jame recalibrar.@Spoken_Ah; Solo un peque\xF1o tropiezo en mi proceso
+      de creaci\xF3n de la obra maestra.@Spoken_Ah; No es exactamente lo que ten\xEDa
+      en mente, pero llegar\xE9.@Spoken_Ah; \xA1Ups, intent\xE9moslo de nuevo, \xBFs\xED?!@Spoken_Ah;
+      Bueno, eso fue inesperado. Intent\xE9moslo de nuevo.@Spoken_Ah; No todas las
+      tazas pueden ser ganadoras, \xBFverdad?@Spoken_Ah; \xA1Es hora de canalizar
+      a mi perfeccionista interior!@Spoken_Ah; \xA1El viaje hacia la taza perfecta
+      contin\xFAa!@Spoken_Ah; \xA1Convirtamos este error en una obra maestra!@Spoken_Ah;
+      Parece que necesito perfeccionar mis habilidades.@Spoken_Ah; \xA1Un peque\xF1o
+      contratiempo no me detendr\xE1!@Spoken_Ah; \xA1Adelante! \xA1Pr\xF3xima taza,
+      all\xE1 voy!@Spoken_Ah; \xA1Paciencia y pr\xE1ctica, esa es la clave!@Spoken_Ah;
+      A\xFAn no estoy all\xED, pero me estoy acercando.@Spoken_Ah; \xA1Es hora de
+      redimirme con la pr\xF3xima taza!@Spoken_Ah; \xA1Lo compensar\xE9 con un esfuerzo
+      extra!@Spoken_Ah; La b\xFAsqueda de la infusi\xF3n perfecta contin\xFAa!@Spoken_Ah;
+      \xA1El fracaso es solo otro paso hacia el \xE9xito!@Spoken_Ah; \xA1Una vez
+      m\xE1s!@Spoken_Ah"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427829996081152
+    m_Localized: "Aag hh! La mayor parte perdi\xF3 la taza!@Spoken_Sigh_Happy; Hmmnnn~
+      ... \xBFAlguien estaba mirando?@Spoken_Sigh_Happy; \xA1Ay, caramba! Mi leche
+      cay\xF3 en la bebida!@Spoken_Sigh_Happy; Barbra us\xF3 la orde\xF1a... \xA1es
+      super eficaz!@Reactions_Ooooh; Vamos a intentar poner eso en la taza esta vez.@Spoken_Sigh_Happy;
+      \xA1Ah! \xA1Esto se siente bien~@Reactions_mmmm; Dulce alivio.@Reactions_mmmm;
+      \xA1Hhngg!@Reactions_mmmm; \xA1Ooooh!@Reactions_Ooooh; \xA1Muuuh!@Moo_Happier;
+      \xA1M-muuuh@Moo_Surprised; La mejor parte del trabajo~@Spoken_Sigh_Happy; \xA1Ah,
+      un poco de leche solo para la medida correcta!@Spoken_Sigh_Happy; \xA1Mi magia
+      de la leche a\xF1ade un toque de sabor!@Reactions_Ooooh; \xA1A\xF1ado mi toque
+      especial para elevar esta bebida!@Spoken_Sigh_Happy; \xA1Un poco de leche,
+      mucho amor!@Reactions_mmmm; \xA1La leche, el ingrediente secreto de la perfecci\xF3n!@Spoken_Sigh_Happy;
+      \xA1Aqu\xED, un ejemplo maravilloso de leche!@Reactions_mmmm; \xA1Mi magia
+      de la leche es muy fuerte hoy!@Reactions_Ooooh; \xA1Un toque de cremosidad,
+      exactamente como te gusta!@Spoken_Sigh_Happy; \xA1La leche es, y la leche ser\xE1!@Spoken_Sigh_Happy;
+      \xA1La orde\xF1a de precisi\xF3n en su mejor momento!@Spoken_Sigh_Happy; \xA1Muu-velous!
+      \xA1Otra gota en la taza!@Moo_Happier; \xA1Cuidado con la leche! \xA1Es resbalosa!@Spoken_Sigh_Happy;
+      \xA1Solo un toque de felicidad bovina!@Reactions_mmmm; \xA1Muy delicioso, no
+      est\xE1s de acuerdo?@Spoken_Sigh_Happy; \xA1Un chorro de leche que viene pronto!@Moo_Surprised;
+      \xA1La leche, el h\xE9roe desconocido de cada taza!@Spoken_Sigh_Happy; \xA1A\xF1adir
+      un toque de cremosidad a tu experiencia de bebida!@Reactions_Ooooh; \xA1La
+      leche hace que todo sea mejor, \xBFno?@Spoken_Sigh_Happy; \xA1Vamos a exprimir
+      hasta la \xFAltima gota~@Spoken_Sigh_Happy"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427845133324288
+    m_Localized: "\xBFQu\xE9 quieres?@Interaction_WhatDoYouWant; S\xED, tonto?@Interaction_YesSilly;
+      risas@Spoken_Giggles; Muuu...?@Moo_Curious; Hm, \xBFnecesitas algo?@Interaction_DoYouNeedSomething;
+      \xBFEst\xE1s libre despu\xE9s del trabajo?@Interaction_FreeAfterWork; Gracias
+      por ofrecerme este trabajo.@Interaction_ThanksForTheJob; \xBFEst\xE1s ahorrando
+      para algo?@Money_SavingUpForSomething; \xBFPuedes comprarme algo?@Interaction_CouldYouBuyMeSomething;
+      Necesito darle leche a Mewth m\xE1s tarde...@Casual_MewthMilk; Ayer no pude
+      orde\xF1ar la leche. Fue un fracaso total.@Jokes_UdderFailure; Estoy ansioso
+      por conocer a las otras vacas.@Casual_MeetTheOtherCowGirls; \xBFObtienes un
+      milkshake si saltas en un pogo stick?@Jokes_MilkshakePogoStick; Espero que
+      no llueva esta tarde.@Casual_RainThisAfterNoon; Vaca para la leche: 'Soy tu
+      madre'.@Jokes_CowToTheMilk; Esto es solo el comienzo.@OnlyTheBeginning; Mi
+      padre encontr\xF3 un nuevo trabajo en la f\xE1brica de l\xE1cteos. \xC9l es
+      el coordinador de vacas.@Jokes_DadAtTheDairy; Mi amiga siempre intenta asustar
+      a sus otras amigas. Ella es fan de los milkshakes.@Jokes_FriendScaringOtherFriends;
+      Mi amiga cree que produce leche de almendras. Ella debe estar loca.@Jokes_AlmondMilk;
+      \xBFTenemos a\xFAn algunos vasos atr\xE1s?@Casual_CupsInTheBack; La leche estropeada
+      siempre consig ui\xF3 lo que quer\xEDa.@Jokes_SpoiledMilkAlwaysGotWhatItWanted;
+      Hoy hay muchas cosas que est\xE1n sucediendo.@Casual_LotGoingOn; Un hombre
+      me atac\xF3 con crema, mantequilla y leche. \xBFQu\xE9 l\xE1cteos?@Jokes_HowDairy;
+      Yo era una vaca como t\xFA, hasta que recib\xED una botella en el pecho.@Jokes_ACowLikeYou;
+      Me siento productivo.@Casual_FeelingProductive; \xBFPuedes tomar m\xE1s caf\xE9
+      atr\xE1s?@Casual_CoffeeFromTheBack; El caf\xE9 tiene un olor tan bueno.@Casual_CoffeeSmellsNice;
+      Los clientes siguen llegando.@Casual_CustomersRollingIn; \xBFCrees que me gustan?@Casual_DoTheyLikeMe;
+      Solo un d\xEDa normal de trabajo.@Casual_NormalDayAtTheJob; \xA1Ey! \xA1Cuidado!@Reactions_HeyCareful"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427953908404224
+    m_Localized: "Si el trabajo es tan malo, no vale la pena crecer...@Upset_GrowingBiggerIsntWorthIt;
+      Las vacas enfadadas son generalmente responsables de la leche agria.@Jokes_AngryCowsSourMilk;
+      Estoy harto de este trabajo!@Spoken_Grunt; Ugh! Estoy a punto de rendirme!@Reactions_Bleh;
+      Este trabajo es terrible!@Spoken_Grunt; Quiero ir a casa...@Spoken_Grunt; No
+      me pagan lo suficiente por esto...@Spoken_Grunt; Uuugh...@Spoken_Grunt; Este
+      trabajo debe mejorar pronto...@Reactions_Bleh; Debes dejarme hacer una pausa.@Spoken_Grunt;
+      Estoy teniendo un mal d\xEDa...@Reactions_Bleh; Por favor, apri\xE9tame o haz
+      algo...@Reactions_Bleh; Solo quer\xEDa ser una vaca lechera...@Spoken_Grunt;
+      Muu...@Moo_Tired; No puedo manejar esta carga de trabajo...@Spoken_Grunt; Me
+      siento al l\xEDmite...@Reactions_Bleh; \xBFEs hora de irse?@Spoken_Grunt; Cada
+      d\xEDa es una lucha...@Spoken_Grunt; Estoy al l\xEDmite aqu\xED...@Reactions_Bleh;
+      Estoy tan cansado de esta rutina...@Spoken_Grunt; Me siento atrapado en un
+      ciclo vicioso...@Reactions_Bleh; Casi no puedo abrir los ojos...@Spoken_Grunt;
+      \xBFCu\xE1ndo terminar\xE1 este turno?@Reactions_Bleh; Solo necesito aguantar
+      un d\xEDa m\xE1s...@Spoken_Grunt; Necesito vacaciones... o un milagro.@Reactions_Bleh;
+      Espero un rayo de luz en esta oscuridad...@Spoken_Grunt; No puedo quitarme
+      esta fatiga...@Reactions_Bleh; Estoy empezando a perder la motivaci\xF3n...@Spoken_Grunt;
+      Todo parece tan opresivo...@Reactions_Bleh; No s\xE9 cu\xE1nto tiempo m\xE1s
+      puedo aguantar...@Spoken_Grunt; Solo estoy intentando sobrevivir...@Reactions_Bleh;
+      Este trabajo me est\xE1 consumiendo...@Spoken_Grunt; Me siento atrapado en
+      un ciclo sin fin...@Reactions_Bleh; Estoy exhausto... emocionalmente y f\xEDsicamente.@Spoken_Grunt;
+      Espero un cambio en mi suerte... y en mi humor.@Reactions_Bleh; Solo estoy
+      contando los minutos hasta que pueda irme...@Spoken_Grunt; Estoy a punto de
+      rendirme...@Reactions_Bleh; Me siento como si hubiera llegado al fondo...@Spoken_Grunt;
+      Solo quiero esconderme en mi cama y no salir...@Reactions_Bleh; Me siento como
+      si estuviera vac\xEDo...@Spoken_Grunt; Necesito ayuda desesperadamente...@Reactions_Bleh;
+      Solo necesito seguir adelante...@Spoken_Grunt; Espero un poco de energ\xEDa
+      para seguir...@Reactions_Bleh; \xBFEs demasiado pedir un descanso?@Spoken_Grunt;
+      Tal vez contar\xEDa chistes si estuviera en un mejor humor...@Moo_Tired"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427974720540672
+    m_Localized: "\xBFEste trabajo es siempre tan dif\xEDcil?@Spoken_Sigh; \xA1Atenci\xF3n
+      spoiler! La leche se ha estropeado.@Spoken_Sigh; Espero que no llueva esta
+      tarde.@Casual_RainThisAfterNoon; Necesito un descanso...@Reactions_Bleh; El
+      caf\xE9 correcto en la leche incorrecta puede hacer una gran diferencia en
+      la taza.@Spoken_Sigh; Mant\xE9n la calma, Barbra, los beneficios valen la pena...@Spoken_Sigh;
+      Bleh...@Reactions_Bleh; Esto es agotador.@Spoken_Sigh; Me gustar\xEDa que este
+      trabajo fuera un poco m\xE1s agradable.@Spoken_Sigh; Este lugar est\xE1 realmente
+      muy ocupado, \xBFno?@Spoken_Sigh; Necesito reabastecer los suministros.@Spoken_Sigh;
+      \xBFPuedo hacer una pausa?@Spoken_Sigh; \xA1Hay tanto trabajo que hacer!@Spoken_Sigh;
+      \xBFPuedo tener un refrigerio?@Spoken_Sigh; Respira... Exhala...@Reactions_Bleh;
+      Esto no es muy diferente de mi \xFAltimo trabajo.@Spoken_Sigh; Necesito un
+      poco m\xE1s de atenci\xF3n.@Spoken_Grunt; Muu...?@Moo_Curious; Me siento un
+      poco abrumado hoy.@Spoken_Sigh; Espero que las cosas mejoren pronto...@Spoken_Sigh;
+      Estoy solo intentando mantener la cabeza por encima del agua...@Reactions_Bleh;
+      \xBFEs solo yo o este d\xEDa parece durar una eternidad?@Spoken_Sigh; Me siento
+      un poco agotado...@Reactions_Bleh ; Estoy intentando mantener una actitud positiva,
+      pero es dif\xEDcil...@Spoken_Sigh; Necesito un poco de aire... este trabajo
+      es agotador.@Spoken_Sigh; Me gustar\xEDa tener un poco de suerte...@Reactions_Bleh;
+      Este volumen de trabajo est\xE1 realmente en el l\xEDmite de mis capacidades...@Spoken_Sigh;
+      Me siento un poco abrumado...@Reactions_Bleh; Necesito solo seguir adelante,
+      creo...@Spoken_Sigh; Me gustar\xEDa tener un poco m\xE1s de energ\xEDa para
+      esto...@Spoken_Sigh; \xBFEs hora de irse?@Spoken_Sigh; Necesito realmente un
+      momento para recargar...@Reactions_Bleh; Me siento un poco atrapado...@Spoken_Sigh;
+      Espero que ma\xF1ana sea un mejor d\xEDa...@Spoken_Sigh; Me siento un poco
+      agotado...@Reactions_Bleh; Estoy intentando mantener la motivaci\xF3n, pero
+      es dif\xEDcil...@Spoken_Sigh; No puedo quitarme esta fatiga...@Reactions_Bleh;
+      Me gustar\xEDa tener un poco de suerte...@Spoken_Sigh; Nunca pens\xE9 que sonre\xEDr
+      pudiera ser tan agotador.@Spoken_Sigh"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427987508973568
+    m_Localized: "Me pregunto qu\xE9 est\xE1 haciendo Lacti?@Spoken_Hm; \xBFTenemos
+      algunas tazas m\xE1s atr\xE1s?@Casual_CupsInTheBack; La leche estropeada siempre
+      consigui\xF3 lo que quer\xEDa.@Jokes_SpoiledMilkAlwaysGotWhatItWanted; Hoy
+      hay mucho que hacer.@Casual_LotGoingOn; Un hombre me atac\xF3 con crema, mantequilla
+      y leche. Qu\xE9 l\xE1cteo.@Jokes_HowDairy; Yo era una vaca como t\xFA, hasta
+      que tom\xE9 una botella en el pecho.@Jokes_ACowLikeYou; Me siento productiva.@Casual_FeelingProductive;
+      \xBFPuedes traerme m\xE1s caf\xE9 de atr\xE1s?@Casual_CoffeeFromTheBack; El
+      caf\xE9 huele muy bien.@Casual_CoffeeSmellsNice; Los clientes siguen llegando.@Casual_CustomersRollingIn;
+      \xBFCrees que me gustan?@Casual_DoTheyLikeMe; Solo un d\xEDa normal de trabajo.@Casual_NormalDayAtTheJob;
+      Bueno, el mostrador est\xE1 limpio de nuevo.@Spoken_Hm; Puedo ser un poco lun\xE1tica
+      cuando estoy cansada.@Spoken_Hm; Siempre necesito m\xE1s atenci\xF3n, si quieres.@Spoken_Hm;
+      \xBFC\xF3mo usar la cafetera de nuevo?@Spoken_Hm; \xBFDe verdad necesitamos
+      vender leche normal?@Spoken_Hm; Me siento bien hoy!@Spoken_Hm; Parece que ser\xE1
+      un d\xEDa incre\xEDble!@Spoken_Hm; Estoy en la cima hoy!@Spoken_Hm; Me siento
+      llena de energ\xEDa y lista para todo!@Spoken_Hm; Me encanta el ambiente del
+      caf\xE9 hoy!@Spoken_Hm; Es un placer trabajar en un entorno tan bonito!@Spoken_Hm;
+      La felicidad es contagiosa, \xBFverdad?@Spoken_Hm; \xA1Lista para preparar
+      bebidas deliciosas!@Spoken_Hm; Me siento muy bien hoy!@Spoken_Hm; \xA1Vamos
+      a mantener la buena atm\xF3sfera!@Spoken_Hm; Me siento capaz de hacer todo!@Spoken_Hm;
+      Todo parece m\xE1s brillante cuando estoy de buen humor!@Spoken_Hm; Tengo una
+      sonrisa en la cara y caf\xE9 en la mano!@Spoken_Hm; El caf\xE9 tiene un sabor
+      a\xFAn mejor cuando estoy feliz!@Spoken_Hm; Soy como un rayo de sol hoy!@Spoken_Hm;
+      Parece que ser\xE1 un d\xEDa incre\xEDble para hacer caf\xE9!@Spoken_Hm; Estoy
+      en mi elemento cuando estoy de buen humor!@Spoken_Hm; \xA1Lista para difundir
+      la felicidad, taza a taza!@Spoken_Hm; Me siento feliz y lista para enfrentar
+      el d\xEDa!@Spoken_Hm; La felicidad es el ingrediente secreto en cada bebida!@Spoken_Hm;
+      Muu... ?@Moo_Curious; \xBFEspera, no es normal que el caf\xE9 y el az\xFAcar
+      hagan que una vaca crezca?@Spoken_Hm"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428000616173568
+    m_Localized: "Espero que Lacti pueda escapar del trabajo para verme hoy.@Spoken_Sigh_Happy;
+      Mi amiga siempre intenta asustar a sus otros amigos. Es una fan de los milkshakes.@Jokes_FriendScaringOtherFriends;
+      Mi amiga piensa que produce leche de almendras. Debe estar loca.@Jokes_AlmondMilk;
+      \xBFC\xF3mo te sientes, jefe?@Spoken_Sigh_Happy; \xBFQuieres ir a alg\xFAn
+      lugar despu\xE9s del trabajo hoy?@Spoken_Sigh_Happy; \xA1Este trabajo es sorprendentemente
+      divertido!@Spoken_Sigh_Happy; \xBFHay algo que pueda hacer por ti?@Spoken_Sigh_Happy;
+      Los clientes parecen gustarme.@Spoken_Sigh_Happy; Hmm hm hmm hhm hmmm!@Spoken_Humming;
+      \xA1Qu\xE9 d\xEDa m\xE1s lindo!@Spoken_Sigh_Happy; Mira este truco que puedo
+      hacer con las tazas.@Spoken_Giggles; T\xFA has sido un jefe excelente.@Spoken_Sigh_Happy;
+      \xBFCambios de humor? No, si sigues trat\xE1ndome tan bien!@Spoken_Sigh_Happy;
+      Las vacas pueden volverse un poco MOOdy si no se les trata tan bien como t\xFA
+      me tratas.@Spoken_Sigh_Happy; Me siento como si estuviera en la cima del mundo
+      hoy!@Spoken_Sigh_Happy; \xBFNo es bueno tener un trabajo que te hace sonre\xEDr?@Spoken_Sigh_Happy;
+      Me siento tan satisfecha y feliz ahora!@Spoken_Sigh_Happy; Cada d\xEDa parece
+      ser un buen d\xEDa cuando estoy de buen humor!@Spoken_Sigh_Happy; \xA1Podr\xEDa
+      bailar de alegr\xEDa ahora!@ Spoken_Sigh_Happy; Mi coraz\xF3n es ligero y feliz
+      hoy!@Spoken_Sigh_Happy; Tengo un paso ligero y una sonrisa en la cara!@Spoken_Sigh_Happy;
+      \xA1Parece que las estrellas est\xE1n alineadas hoy!@Spoken_Sigh_Happy; \xBFLa
+      vida no es maravillosa cuando te sientes tan bien?@Spoken_Sigh_Happy; Me siento
+      como si pudiera conquistar el mundo ahora!@Spoken_Sigh_Happy; Tengo un coraz\xF3n
+      feliz y un caf\xE9!@Spoken_Sigh_Happy; \xA1Hoy es un d\xEDa incre\xEDble!@Spoken_Sigh_Happy;
+      Me siento tan agradecida por todo ahora!@Spoken_Sigh_Happy; \xA1Todo parece
+      tan correcto hoy!@Spoken_Sigh_Happy; Me siento como si estuviera brillando
+      de felicidad!@Spoken_Sigh_Happy; Estoy tan feliz que casi exploto!@Spoken_Sigh_Happy;
+      La felicidad es contagiosa, \xBFverdad?@Spoken_Sigh_Happy; \xBFLa vida no es
+      maravillosa cuando te sientes tan bien?@Spoken_Sigh_Happy; Me siento como si
+      estuviera caminando en el aire hoy!@Spoken_Sigh_Happy; Me siento tan bendecida
+      y feliz ahora!@Spoken_Sigh_Happy; \xA1Muu!@Moo_Happy; Me siento muy relajada.@Spoken_Sigh_Happy"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428017326280704
+    m_Localized: "Me siento super bien!@Spoken_Giggles; La vaca a la leche: 'Soy
+      tu madre'.@Jokes_CowToTheMilk; Mi padre encontr\xF3 un nuevo trabajo en una
+      f\xE1brica de l\xE1cteos. Es el coordinador de vacas.@Jokes_D adAtTheDairy;
+      Present\xE9 el chocolate a la leche. Hicieron un milkshake de chocolate.@Spoken_Giggles;
+      La leche no le gust\xF3 mi \xFAltima broma. No estaba a-meu-sada.@Spoken_Giggles;
+      \xA1Me encanta este trabajo!@Spoken_Giggles; \xBFPuede mi d\xEDa ser a\xFAn
+      mejor?@Spoken_Giggles; Los clientes son muy amables conmigo hoy.@Spoken_Giggles;
+      \xBFQuieres ir a beber algo conmigo m\xE1s tarde?@Spoken_Giggles; \xA1Estamos
+      haciendo bien!@Spoken_Giggles; \xA1Eeee!@Reactions_Eeeee; \xA1Ahaha!@Spoken_Giggles;
+      \xA1Muu!@Moo_Happiest; \xBFQuieres abrazarme?@Spoken_Giggles; \xA1Me asegurar\xE9
+      de guardar m\xE1s leche para ti m\xE1s tarde!@Spoken_Giggles; \xA1Estoy casi
+      flotando en el aire!@Spoken_Giggles; \xA1Tengo una sonrisa que no para!@Spoken_Giggles;
+      \xA1Hoy es un d\xEDa tan lindo, parece un sue\xF1o!@Spoken_Giggles; \xBFEs
+      esta la felicidad pura? \xA1Es incre\xEDble!@Spoken_Giggles; \xA1Estoy irradiando
+      positividad y alegr\xEDa!@Spoken_Giggles; \xA1Me siento como si estuviera en
+      el s\xE9ptimo cielo hoy!@Spoken_Giggles; \xA1Mi coraz\xF3n est\xE1 lleno de
+      felicidad!@Spoken_Giggles; \xA1Estoy tan feliz, que casi puedo explotar en
+      canci\xF3n!@Spoken_Giggles; \xA1Estoy sonriendo de oreja a oreja hoy!@Spoken_Giggles;
+      \xA1Hoy es un d\xEDa perfecto!@Spoken_Giggles; \xA1Estoy llena de alegr\xEDa
+      y risas!@Spoken_Giggles; \xA1Estoy viviendo mi mejor vida!@Spoken_Giggles;
+      \xA1Me siento como la barista m\xE1s feliz del mundo!@Spoken_Giggles; \xA1Hoy
+      es tan maravilloso, que quiero recordarlo para siempre!@Spoken_Giggles; \xBFPuedes
+      sentir la felicidad que estoy irradiando?@Spoken_Giggles; \xA1Me siento como
+      si hubiera ganado el jackpot de la felicidad!@Spoken_Giggles; \xA1Estoy tan
+      feliz!@Spoken_Giggles; \xA1Cada momento de hoy parece un regalo!@Spoken_Giggles;
+      \xA1Estoy tan agradecida por toda la felicidad en mi vida!@Spoken_Giggles;
+      \xA1Estoy llena de sol y arco\xEDris hoy!@Spoken_Giggles; \xA1Me siento como
+      si pudiera conquistar el mundo con esta felicidad!@Spoken_Giggles; \xA1La vida
+      es una melod\xEDa maravillosa, y hoy estoy bailando con la canci\xF3n m\xE1s
+      feliz!@Spoken_Giggles; \xA1Estoy irradiando alegr\xEDa!@Spoken_Giggles; \xA1Hoy
+      parece un cuento de hadas que se ha vuelto realidad!@Spoken_Giggles; \xA1Estoy
+      esparciendo felicidad como confeti!@Spoken_Giggles; \xA1Me siento como si estuviera
+      envuelta en una manta de felicidad c\xE1lida y suave!@Spoken_Giggles; \xA1Estoy
+      tan feliz, que casi puedo abrazar al mundo entero!@Spoken_Giggles; \xA1El nivel
+      de felicidad de hoy: \xA1fuera de escala!@Spoken_Giggles; \xA1Estoy irradiando
+      tanta felicidad, que casi puedo causar un exceso de alegr\xEDa!@Spoken_Giggles;
+      \xA1Tengo suficiente felicidad para iluminar toda la ciudad!@Spoken_Giggles;
+      \xA1Estoy tan feliz, que casi puedo hacer una danza de alegr\xEDa aqu\xED y
+      ahora!@Spoken_Giggles; \xA1Hoy parece un sue\xF1o del que no quiero despertar!@Spoken_Giggles;
+      \xA1Estoy tan llena de alegr\xEDa, que cada d\xEDa parece mi cumplea\xF1os!@Spoken_Giggles;
+      \xA1Estoy llena de felicidad hoy!@Spoken_Giggles; \xA1Muu!@Moo_Happier"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428063652368384
+    m_Localized: "Me siento tan peque\xF1a.@Spoken_Ah; Prometiste ayudarme a crecer,
+      \xBFverdad?@Spoken_Ah; Sigo esperando que esos beneficios especiales empiecen
+      a funcionar...@Spoken_Ah; \xBFPuedes comprarme algo?@Spoken_Ah; Siempre podemos
+      hacer mejor.@Spoken_Ah; Apenas puedo sentir su peso.@Spoken_Ah; Me pregunto
+      si ser\xE9 tan grande como las otras vaquitas.@Spoken_Ah"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428070547804160
+    m_Localized: "Ahora estamos empezando a hacer buenos progresos.@Spoken_Hm; Esto
+      es solo el comienzo.@Spoken_Hm; Ahora empiezo a sentir un buen peso sobre m\xED.@Spoken_Hm;
+      \xA1Sigamos dejando fluir la leche!@Spoken_Hm; Este trabajo tiene grandes beneficios.@Spoken_Hm;
+      Dijiste que tambi\xE9n posees una granja, \xBFverdad?@Spoken_Hm; \xBFTienes
+      loci\xF3n?@Spoken_Hm"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428089740939264
+    m_Localized: "\xA1Esto se est\xE1 saliendo de control, y estoy totalmente a favor!@Spoken_Sigh_Happy;
+      No pude orde\xF1ar ayer. Fue un fracaso total.@Jokes_UdderFailure; Me encanta
+      la leche cuando est\xE1 batida. As\xED se convierte en mantequilla.@Spoken_Giggles;
+      \xA1M\xE1s!@Reactions_More; \xA1M\xE1s grande!@Reactions_Bigger; \xA1Siempre
+      podemos ir a lo grande!@Spoken_Sigh_Happy; Mi espalda es extremadamente fuerte,
+      \xA1puedo llevar todo esto sin problema!@Spoken_Sigh_Happy; Si tan solo pudiera
+      ser tan carnosa como puedo ser cremosa.@Spoken_Sigh_Happy; Los clientes parecen
+      realmente gustar de m\xED.@Spoken_Sigh_Happy; Estas maravillas pueden hacer
+      m\xE1s que solo leche.@Spoken_Sigh_Happy; \xBFSoy una de tus mejores chicas?
+      \xA1Me halagas!~@Spoken_Sigh_Happy; No puedo esperar para conocer a las otras
+      chicas vacas.@Casual_MeetTheOtherCowGirls"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428109055709184
+    m_Localized: "Me promocionan cuando soy demasiado grande para servir bebidas,
+      \xBFverdad?@Spoken_Giggles; \xBFTe dan un batido si salto en un pogo?@Jokes_MilkshakePogoStick;
+      M\xE1s tarde tengo que darle un poco de leche a Mewth...@Casual_MewthMilk;
+      Los clientes me est\xE1n mirando extra\xF1amente hoy... \xBFtengo algo en la
+      cara?@Spoken_Giggles; Te contar\xEDa un chiste sobre la leche, pero es demasiado
+      cheesy.@Spoken_Giggles; \xA1Tan cerca de la grandeza!@Spoken_Giggles; \xA1Estoy
+      desbordando poder! Y leche.@Spoken_Giggles; \xA1M\xE1s! \xA1M\xE1s!@Reactions_MoreMore;
+      \xA1Por favor! \xA1Solo un poco m\xE1s grande!@Reactions_Bigger; Ni yo puedo
+      soportar algo mucho m\xE1s grande.@Spoken_Giggles; No puedo esperar para vender
+      mi propia marca de leche~@Spoken_Giggles; \xA1M\xE1s grande! \xA1M\xE1s grande!~@Reactions_Bigger;
+      \xA1Este flujo de leche nunca terminar\xE1!@Spoken_Giggles; El final est\xE1
+      cerca.@Spoken_Giggles; Primero la cafeter\xEDa, luego el mundo!@Spoken_Giggles;
+      Espero conseguir un tama\xF1o de ciudad en la secuela.@Spoken_Giggles; Lacti
+      estar\xE1 tan celosa.@Spoken_Giggles; \xA1Viva la leche!@Spoken_Giggles; \xBFPuedo
+      ser orde\xF1ado as\xED todos los d\xEDas? La vida es una bendici\xF3n.@Spoken_Giggles"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428124268449792
+    m_Localized: "Deber\xEDamos comprar algo. @Spoken_Hm; \xBFPodr\xEDas comprarme
+      algo? @Interaction_CouldYouBuyMeSomething; Realmente me gustar\xEDa algo de
+      atr\xE1s. @Spoken_Hm; \xBFHay algo que podamos agregar a la tienda? @Spoken_Hm;
+      Estamos ganando mucho dinero extra. @Spoken_Hm; Me pregunto qu\xE9 deber\xEDamos
+      comprar. @Spoken_Hm"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428146145939456
+    m_Localized: "\xBFEst\xE1s ahorrando para algo? @Money_SavingUpForSomething;
+      \xBFHay algo grande que quieras comprar? @Spoken_Hm; Hoy hemos hecho mucho.
+      @Spoken_Hm; Mira todo ese dinero. @Spoken_Hm; \xA1Hoy estamos nadando en efectivo!
+      @Spoken_Hm; Nunca supe que podr\xEDamos tener tanto dinero. @Spoken_Hm; \xA1Nuestros
+      beneficios est\xE1n por las nubes! @Spoken_Hm; \xA1Siento que estamos nadando
+      en una piscina de dinero! @Spoken_Hm; \xA1Parece que hoy hemos dado en el jackpot!
+      @Spoken_Hm; \xBFQui\xE9n sab\xEDa que servir caf\xE9 podr\xEDa ser tan lucrativo?
+      @Spoken_Hm; \xA1Tenemos m\xE1s dinero del que sabemos qu\xE9 hacer! @Spoken_Hm;
+      Nunca pens\xE9 que tendr\xEDamos tanto dinero en nuestras arcas. @Spoken_Hm;
+      \xA1Empiezo a pensar que estamos en el negocio equivocado con todo este dinero!
+      @Spoken_Hm; \xA1Nuestros beneficios son alt\xEDsimos hoy! @Spoken_Hm; \xA1Es
+      como si estuvi\xE9ramos manejando una operaci\xF3n de impresi\xF3n de dinero
+      en lugar de una cafeter\xEDa! @Spoken_Hm; \xA1Tenemos m\xE1s dinero del que
+      sabemos qu\xE9 hacer! @Spoken_Hm; \xA1Nunca he visto tanto dinero en un solo
+      lugar! @Spoken_Hm; \xA1Hoy pr\xE1cticamente estamos ahog\xE1ndonos en dinero!
+      @Spoken_Hm; Con todo este dinero, podr\xEDamos comprar toda la ciudad. @Spoken_Hm;
+      Eh, jefe, \xBFrecuerdas que puedes gastar dinero, verdad? @Spoken_Hm"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

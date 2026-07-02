@@ -918,7 +918,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 143959184234881024
-    m_Key: Milk
+    m_Key: milk
     m_Metadata:
       m_Items: []
   - m_Id: 143959463068016640
@@ -927,6 +927,346 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 143959642353541120
     m_Key: Chocolate Shake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 162454964742496256
+    m_Key: Arcade win Content Hard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 162455432189288448
+    m_Key: Arcade win Content Chaos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167524481055608832
+    m_Key: Credits_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167524677856546816
+    m_Key: SpecialThanks_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167525775212302336
+    m_Key: UpgradeMenu_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167525900873650176
+    m_Key: UpgradeMenu_1_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167525982276702208
+    m_Key: UpgradeMenu_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526055043682304
+    m_Key: UpgradeMenu_2_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526161428008960
+    m_Key: UpgradeMenu_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526229631586304
+    m_Key: UpgradeMenu_3_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526294421000192
+    m_Key: UpgradeMenu_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526376109264896
+    m_Key: UpgradeMenu_4_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526646520238080
+    m_Key: UpgradeMenu_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526696562479104
+    m_Key: UpgradeMenu_5_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526716435091456
+    m_Key: UpgradeMenu_6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526736756494336
+    m_Key: UpgradeMenu_6_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167535336119881728
+    m_Key: CustomerDialogStartGreetings1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167615756777836544
+    m_Key: CustomerDialogStartPre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233249931448320
+    m_Key: DrinkModifierEspresso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233545151729664
+    m_Key: DrinkModifierCoffee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233690199150592
+    m_Key: DrinkModifierChocolate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233779009343488
+    m_Key: DrinkModifierTea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233839474429952
+    m_Key: DrinkModifierMilk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233903475314688
+    m_Key: DrinkModifierBreastMilk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234029493178368
+    m_Key: DrinkModifierCream
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234081343164416
+    m_Key: DrinkModifierSugar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234138335367168
+    m_Key: DrinkModifierIce
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234186334982144
+    m_Key: DrinkModifierBoba
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234253527732224
+    m_Key: DrinkModifierWhippedCream
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234331545980928
+    m_Key: DrinkModifierCaramelSauce
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234412265361408
+    m_Key: DrinkModifierChocolateSauce
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234481072918528
+    m_Key: DrinkModifierSprinkles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175274055513952256
+    m_Key: CustomerDialogSuccess
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175274128738111488
+    m_Key: CustomerDialogFailed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175601404604338176
+    m_Key: CustomerDialogDrinkWithNoIngredient
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175608705562202112
+    m_Key: ChartRightMilkProductionSpeed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175609102947340288
+    m_Key: ChartRightMaxSizeHeader
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175609289581285376
+    m_Key: ChartRightMoney
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175639638851997696
+    m_Key: ChartLeftHappyFaces
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175639931622805504
+    m_Key: ChartLeftHappyFacesContent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175640078645743616
+    m_Key: ChartLeftMilkBottle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175640229514858496
+    m_Key: ChartLeftMilkBottleContent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175641060461006848
+    m_Key: CupHeader
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175650030386958336
+    m_Key: BaristaTalkStartGameArcade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175651777658507264
+    m_Key: BaristaTalkWelcomeNewCustomer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175662100285247488
+    m_Key: BaristaTalkCookie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175662781700263936
+    m_Key: BaristaTalkCookieBuyed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175663362036748288
+    m_Key: BaristaTalkApronLimit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175664029996437504
+    m_Key: BaristaTalkTooFull
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175664836233940992
+    m_Key: BaristaTalkBuyUpgrade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175666128926822400
+    m_Key: BaristaTalkBadEnd
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175674616369401856
+    m_Key: UpgradeMenu1Header
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175674851527249920
+    m_Key: UpgradeMenu1Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181788866099826688
+    m_Key: CustomerDialogStartGreetings2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181789087093510144
+    m_Key: CustomerDialogStartGreetings3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181789098002894848
+    m_Key: CustomerDialogStartGreetings4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181789109562396672
+    m_Key: CustomerDialogStartGreetings5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182195982329466880
+    m_Key: UpgradeMenu2Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196090546704384
+    m_Key: UpgradeMenu2Header
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196364988403712
+    m_Key: UpgradeMenu3Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196409754210304
+    m_Key: UpgradeMenu3Header
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196602868355072
+    m_Key: UpgradeMenu4Header
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196626104799232
+    m_Key: UpgradeMenu4Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196763497615360
+    m_Key: UpgradeMenu5Header
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196807076433920
+    m_Key: UpgradeMenu5Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196916119949312
+    m_Key: UpgradeMenu6Header
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196947719835648
+    m_Key: UpgradeMenu6Content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182201446488363008
+    m_Key: ChartRightMaxSizeContent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182205256204046336
+    m_Key: BaristaTalkFinishCup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427788485054464
+    m_Key: StringBaristaTalk_ResetCup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427829996081152
+    m_Key: StringBaristaTalk_AddMilk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427845133324288
+    m_Key: StringBaristaTalk_PatHead
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427953908404224
+    m_Key: StringBaristaTalk_Idle_Mood_20
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427974720540672
+    m_Key: StringBaristaTalk_Idle_Mood_40
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427987508973568
+    m_Key: StringBaristaTalk_Idle_Mood_60
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428000616173568
+    m_Key: StringBaristaTalk_Idle_Mood_80
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428017326280704
+    m_Key: StringBaristaTalk_Idle_Mood_100
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428063652368384
+    m_Key: StringBaristaTalk_Idle_Bust_20
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428070547804160
+    m_Key: StringBaristaTalk_Idle_Bust_50
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428089740939264
+    m_Key: StringBaristaTalk_Idle_Bust_80
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428109055709184
+    m_Key: StringBaristaTalk_Idle_Bust_100
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428124268449792
+    m_Key: BaristaTalk_Idle_Money_Above_25
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428146145939456
+    m_Key: BaristaTalk_Idle_Money_Above_100
+    m_Metadata:
+      m_Items: []
+  - m_Id: 325830863843557376
+    m_Key: Chaos Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 325831043217162240
+    m_Key: Ultra Chaos Mode
     m_Metadata:
       m_Items: []
   m_Metadata:

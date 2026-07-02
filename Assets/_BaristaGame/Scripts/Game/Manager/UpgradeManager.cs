@@ -115,18 +115,15 @@ public class UpgradeManager : MonoBehaviour
     public void BuyInitialUpgarde()
     {
         Debug.Log("Buy Upgrade: Initial");
-        if (gamemode == null)
-        {
-            gamemode = BaseGameMode.instance;
-        }
-        gamemode.UpgradeCanGrow = true;
-        if (UpgardePanelVisibility)
-        {
+            if (gamemode == null)
+            {
+                gamemode = BaseGameMode.instance;
+            }
+            gamemode.UpgradeCanGrow = true;
             TogglePanelActive();
-        }
-        HasInitialUpgrade = true;
-        InitialUpgradePanel.SetActive(false);
-        UpdateButtonsVisuals();
+            HasInitialUpgrade = true;
+            InitialUpgradePanel.SetActive(false);
+            UpdateButtonsVisuals();
     }
 
     void UpdateButtonsVisuals()

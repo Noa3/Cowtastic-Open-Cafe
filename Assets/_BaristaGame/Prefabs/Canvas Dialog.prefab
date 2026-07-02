@@ -4564,6 +4564,213 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3e7c513ad25787448fcd0c495ad8322, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  StringBaristaTalkStartGameArcade:
+    m_TableReference:
+      m_TableCollectionName: GUID:99f355a02537cb04c821e914e96ec32f
+    m_TableEntryReference:
+      m_KeyId: 175650030386958336
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  StringBaristaTalkCookie:
+    m_TableReference:
+      m_TableCollectionName: GUID:99f355a02537cb04c821e914e96ec32f
+    m_TableEntryReference:
+      m_KeyId: 175662100285247488
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  StringBaristaTalkCookieBuyed:
+    m_TableReference:
+      m_TableCollectionName: GUID:99f355a02537cb04c821e914e96ec32f
+    m_TableEntryReference:
+      m_KeyId: 175662781700263936
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  StringBaristaTalkApronLimit:
+    m_TableReference:
+      m_TableCollectionName: GUID:99f355a02537cb04c821e914e96ec32f
+    m_TableEntryReference:
+      m_KeyId: 175663362036748288
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  StringBaristaTalkTooFull:
+    m_TableReference:
+      m_TableCollectionName: GUID:99f355a02537cb04c821e914e96ec32f
+    m_TableEntryReference:
+      m_KeyId: 175664029996437504
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  StringBaristaTalkBuyUpgrade:
+    m_TableReference:
+      m_TableCollectionName: GUID:99f355a02537cb04c821e914e96ec32f
+    m_TableEntryReference:
+      m_KeyId: 175664836233940992
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  StringBaristaTalkWelcomeNewCustomer:
+    m_TableReference:
+      m_TableCollectionName: GUID:99f355a02537cb04c821e914e96ec32f
+    m_TableEntryReference:
+      m_KeyId: 175651777658507264
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  StringBaristaTalkBadEnd:
+    m_TableReference:
+      m_TableCollectionName: GUID:99f355a02537cb04c821e914e96ec32f
+    m_TableEntryReference:
+      m_KeyId: 175666128926822400
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  StringBaristaTalkFinishCup:
+    m_TableReference:
+      m_TableCollectionName: GUID:99f355a02537cb04c821e914e96ec32f
+    m_TableEntryReference:
+      m_KeyId: 182205256204046336
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  StringBaristaTalk_ResetCup:
+    m_TableReference:
+      m_TableCollectionName: GUID:99f355a02537cb04c821e914e96ec32f
+    m_TableEntryReference:
+      m_KeyId: 219427788485054464
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  StringBaristaTalk_AddMilk:
+    m_TableReference:
+      m_TableCollectionName: GUID:99f355a02537cb04c821e914e96ec32f
+    m_TableEntryReference:
+      m_KeyId: 219427829996081152
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  StringBaristaTalk_PatHead:
+    m_TableReference:
+      m_TableCollectionName: GUID:99f355a02537cb04c821e914e96ec32f
+    m_TableEntryReference:
+      m_KeyId: 219427845133324288
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  StringBaristaTalk_Idle_Mood_20:
+    m_TableReference:
+      m_TableCollectionName: GUID:99f355a02537cb04c821e914e96ec32f
+    m_TableEntryReference:
+      m_KeyId: 219427953908404224
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  StringBaristaTalk_Idle_Mood_40:
+    m_TableReference:
+      m_TableCollectionName: GUID:99f355a02537cb04c821e914e96ec32f
+    m_TableEntryReference:
+      m_KeyId: 219427974720540672
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  StringBaristaTalk_Idle_Mood_60:
+    m_TableReference:
+      m_TableCollectionName: GUID:99f355a02537cb04c821e914e96ec32f
+    m_TableEntryReference:
+      m_KeyId: 219427987508973568
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  StringBaristaTalk_Idle_Mood_80:
+    m_TableReference:
+      m_TableCollectionName: GUID:99f355a02537cb04c821e914e96ec32f
+    m_TableEntryReference:
+      m_KeyId: 219428000616173568
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  StringBaristaTalk_Idle_Mood_100:
+    m_TableReference:
+      m_TableCollectionName: GUID:99f355a02537cb04c821e914e96ec32f
+    m_TableEntryReference:
+      m_KeyId: 219428017326280704
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  StringBaristaTalk_Idle_Bust_20:
+    m_TableReference:
+      m_TableCollectionName: GUID:99f355a02537cb04c821e914e96ec32f
+    m_TableEntryReference:
+      m_KeyId: 219428063652368384
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  StringBaristaTalk_Idle_Bust_50:
+    m_TableReference:
+      m_TableCollectionName: GUID:99f355a02537cb04c821e914e96ec32f
+    m_TableEntryReference:
+      m_KeyId: 219428070547804160
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  StringBaristaTalk_Idle_Bust_80:
+    m_TableReference:
+      m_TableCollectionName: GUID:99f355a02537cb04c821e914e96ec32f
+    m_TableEntryReference:
+      m_KeyId: 219428089740939264
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  StringBaristaTalk_Idle_Bust_100:
+    m_TableReference:
+      m_TableCollectionName: GUID:99f355a02537cb04c821e914e96ec32f
+    m_TableEntryReference:
+      m_KeyId: 219428109055709184
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  BaristaTalk_Idle_Money_Above_25:
+    m_TableReference:
+      m_TableCollectionName: GUID:99f355a02537cb04c821e914e96ec32f
+    m_TableEntryReference:
+      m_KeyId: 219428124268449792
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  BaristaTalk_Idle_Money_Above_100:
+    m_TableReference:
+      m_TableCollectionName: GUID:99f355a02537cb04c821e914e96ec32f
+    m_TableEntryReference:
+      m_KeyId: 219428146145939456
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   DialogueManager: {fileID: 4851622064007204393}
   SoundVariationAngry: {fileID: 0}
   SoundVariationSigh: {fileID: 0}
@@ -4575,8 +4782,8 @@ MonoBehaviour:
   EventGreetNewCustomer: 1
   EventIdle: 1
   EventCookie: 1
-  EventIdleMinTime: 10
-  EventIdleMaxTime: 80
+  EventIdleMinTime: 60
+  EventIdleMaxTime: 100
   EventIdleRandomTime: 0
   EventCookieBuyed: 1
   EventAppron: 1
@@ -4590,11 +4797,14 @@ MonoBehaviour:
   EventResetCup: 1
   EventResetCupMinTime: 40
   EventPatHead: 1
-  EventPatHeadMinTime: 3
+  EventPatHeadMinTime: 20
   EventBreastMilkAdd: 1
   EventBreastMilkAddMin: 20
   EventBreastMilkAddMax: 60
   TimeLastSentence: 0
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &4851622064043388881
 GameObject:
   m_ObjectHideFlags: 0

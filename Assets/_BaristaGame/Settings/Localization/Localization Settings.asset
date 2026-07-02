@@ -15,7 +15,6 @@ MonoBehaviour:
   m_StartupSelectors:
   - rid: 8396151390677762096
   - rid: 5961144360232288264
-  - rid: 5961144360232288267
   - rid: 5961144360232288266
   m_AvailableLocales:
     rid: 8396151390677762099
@@ -43,9 +42,6 @@ MonoBehaviour:
       data:
         m_LocaleId:
           m_Code: en
-    - rid: 5961144360232288267
-      type: {class: SystemLocaleSelector, ns: UnityEngine.Localization.Settings, asm: Unity.Localization}
-      data: 
     - rid: 8396151390677762096
       type: {class: CommandLineLocaleSelector, ns: UnityEngine.Localization.Settings, asm: Unity.Localization}
       data:
@@ -62,6 +58,7 @@ MonoBehaviour:
           rid: -2
         m_CustomTablePostprocessor:
           rid: -2
+        m_AsynchronousBehaviour: 0
         m_UseFallback: 0
     - rid: 8396151390677762101
       type: {class: LocalizedStringDatabase, ns: UnityEngine.Localization.Settings, asm: Unity.Localization}
@@ -72,6 +69,7 @@ MonoBehaviour:
           rid: -2
         m_CustomTablePostprocessor:
           rid: -2
+        m_AsynchronousBehaviour: 0
         m_UseFallback: 1
         m_MissingTranslationState: 0
         m_NoTranslationFoundMessage: No translation found for '{key}' in {table.TableCollectionName}

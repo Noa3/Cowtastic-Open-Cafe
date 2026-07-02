@@ -1,0 +1,1868 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Default_tr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: tr
+  m_SharedData: {fileID: 11400000, guid: 99f355a02537cb04c821e914e96ec32f, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1654148486754304
+    m_Localized: "Geli\u015Fmi\u015F Ayarlar"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656496193892352
+    m_Localized: "Kenar Yumu\u015Fatma"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661452141555712
+    m_Localized: "\xD6nl\xFCk Stili"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549324026376192
+    m_Localized: "Sipari\u015Fe 3$ eklenir"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549242392637440
+    m_Localized: "Boba'y\u0131 75$'a sat\u0131n al\u0131n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549277549293568
+    m_Localized: "Boba'n\u0131n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549846439522304
+    m_Localized: "Sipari\u015Fe 1$ eklenir"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549769167859712
+    m_Localized: "Karamel Sosunu 25 Dolara Sat\u0131n Al"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549811962343424
+    m_Localized: karamel sosu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1683534711713792
+    m_Localized: "Mand\u0131ra \xE7iftli\u011Finiz yak\u0131n zamanda pazarlamaya
+      yard\u0131mc\u0131 olmak i\xE7in bir \"inek kafesi\" a\xE7maya karar verdi;
+      bununla birlikte, bu ayn\u0131 zamanda siz onlar\u0131 s\xFCt g\xF6revine haz\u0131rlarken
+      yeni inek k\u0131zlar\u0131na yapacak bir \u015Feyler vermenin harika bir yolu
+      gibi g\xF6r\xFCn\xFCyor.\n\n\u0130lk baristan\u0131z ba\u015Flaman\u0131n heyecan\u0131n\u0131
+      ya\u015F\u0131yor ve potansiyel dolu g\xF6r\xFCn\xFCyor, tam s\xFCt g\xFCc\xFCne
+      ula\u015Fmaya \xE7al\u0131\u015F\u0131rken m\xFC\u015Fterilere hizmet etmesine
+      yard\u0131mc\u0131 olun!\n\nKafe yeni oldu\u011Fundan yol boyunca yeni malzemeler
+      de sat\u0131n alman\u0131z gerekecek.\nNeyse ki buradaki m\xFC\u015Fteriler,
+      e\u011Fer ruh halleri iyiyse, iste\u011Fe ba\u011Fl\u0131 taze s\xFCt i\xE7in
+      fazladan \xF6deme yapma fikrine olduk\xE7a s\u0131cak bak\u0131yorlar.\n\nOynarken
+      daha fazla yard\u0131ma ihtiyac\u0131n\u0131z olursa, \xFCzerine gelindi\u011Finde
+      Ara\xE7 \u0130pu\xE7lar\u0131 bulunur."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1683396865912832
+    m_Localized: "Cowtastic Cafe'ye ho\u015F geldiniz!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1684540275126272
+    m_Localized: "Belki de bug\xFCn evde kalmal\u0131yd\u0131n, t\xFCm kafe kaos
+      i\xE7inde, burada her t\xFCrl\xFC \xE7\u0131lg\u0131n \u015Fey oluyor!  Bu
+      fiyatlar nedir?  Neden her m\xFC\u015Fteri geldi\u011Finde t\xFCm bunlar oluyor?\n\nMerhaba,
+      g\xF6r\xFCn\xFC\u015Fe g\xF6re k\xFC\xE7\xFCk paskalya yumurtam\u0131z\u0131
+      bulmu\u015Fsun, e\u011Fer bunu bir \u015Fekilde ilk denemende bulursan, \xF6nce
+      farkl\u0131 bir mod oynamak isteyebilirsin.\n\nBu kaosun \xFCstesinden gelmek
+      i\xE7in oyunun nas\u0131l \xE7al\u0131\u015Ft\u0131\u011F\u0131na dair \xE7ok
+      fazla bilgiye ihtiyac\u0131n\u0131z olacak ya da olmas\u0131n... D\xFCr\xFCst
+      olmak gerekirse, bu yenilebilir mi?  Bulman\u0131n bir yolu var.\n\nAyr\u0131ca
+      oynad\u0131\u011F\u0131n\u0131z i\xE7in te\u015Fekk\xFCrler!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1684438634557440
+    m_Localized: "CHAOS Cafe'ye ho\u015F geldiniz!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 547914811535360
+    m_Localized: "\u0130\xE7ecek ba\u015F\u0131na 5 dolar de\u011Ferinde"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 547664034099200
+    m_Localized: "100$'a \xC7ikolata Sat\u0131n Al"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 547789489926144
+    m_Localized: "\xC7ikolata"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 550208105967616
+    m_Localized: "Sipari\u015Fe 1,5$ eklenir"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 550089201643520
+    m_Localized: "Kakao Tozu'nu 35$'a sat\u0131n al\u0131n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 550158147612672
+    m_Localized: Kakao tozu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537745180422144
+    m_Localized: "50$'a Kahve Sat\u0131n Al\u0131n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537965951807488
+    m_Localized: "\u0130\xE7ecek ba\u015F\u0131na 2 dolar de\u011Ferinde"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537790525042688
+    m_Localized: Kahve
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316567601901568
+    m_Localized: "\u0130\xE7ecek ba\u015F\u0131na 2 dolar de\u011Ferinde"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316555551666176
+    m_Localized: "Vanilyal\u0131 Kremay\u0131 35$'a sat\u0131n al\u0131n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316559485923328
+    m_Localized: "Vanilyal\u0131 Kremal\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540973469102080
+    m_Localized: "\u0130\xE7ecek ba\u015F\u0131na 10 dolar de\u011Ferinde"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540856380911616
+    m_Localized: "Espressoyu 150$'a sat\u0131n al\u0131n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540912534253568
+    m_Localized: Espresso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1651431374680064
+    m_Localized: "Vay vay vay bu \xE7ok fazla s\xFCt!  Sen ne yap\u0131yorsun??? 
+      Onu dipsiz bir s\xFCt kuyusuna \xE7evirdin, sonu gelmez bir \u015Fekilde sokaklar\u0131
+      sular alt\u0131nda b\u0131rakt\u0131n!  Bu kaos!\n\nDemek istedi\u011Fim, h\xE2l\xE2
+      bundan ho\u015Flan\u0131yor ama..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1651623855484928
+    m_Localized: "S\xFCt Sel!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1713462324850688
+    m_Localized: "Mand\u0131ra \xE7iftli\u011Finiz yak\u0131n zamanda pazarlamaya
+      yard\u0131mc\u0131 olmak i\xE7in bir \"inek kafesi\" a\xE7maya karar verdi;
+      bununla birlikte, bu ayn\u0131 zamanda siz onlar\u0131 s\xFCt g\xF6revine haz\u0131rlarken
+      yeni inek k\u0131zlar\u0131na yapacak bir \u015Feyler vermenin harika bir yolu
+      gibi g\xF6r\xFCn\xFCyor.\n\n\u0130lk baristan\u0131z ba\u015Flaman\u0131n heyecan\u0131n\u0131
+      ya\u015F\u0131yor ve potansiyel dolu g\xF6r\xFCn\xFCyor, tam s\xFCt g\xFCc\xFCne
+      ula\u015Fmaya \xE7al\u0131\u015F\u0131rken m\xFC\u015Fterilere hizmet etmesine
+      yard\u0131mc\u0131 olun!\n\nKafe yeni oldu\u011Fundan yol boyunca yeni malzemeler
+      de sat\u0131n alman\u0131z gerekecek.\nNeyse ki buradaki m\xFC\u015Fteriler,
+      e\u011Fer ruh halleri iyiyse, iste\u011Fe ba\u011Fl\u0131 taze s\xFCt i\xE7in
+      fazladan \xF6deme yapma fikrine olduk\xE7a s\u0131cak bak\u0131yorlar.\n\nOynamay\u0131
+      \xF6\u011Frenmediyseniz \xF6nce Normal Modu deneyin."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1685107663794176
+    m_Localized: "Cowtastic Cafe'ye ho\u015F geldiniz!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537416976134144
+    m_Localized: "Sipari\u015Fe 0,50$ eklenir"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537330950959104
+    m_Localized: "5$'a Buz sat\u0131n al"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537370968813568
+    m_Localized: buz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1650345817501696
+    m_Localized: "Hata!  G\xF6r\xFCn\xFC\u015Fe g\xF6re onu biraz fazla ileri g\xF6t\xFCrd\xFCn. 
+      Onu \xE7ok mu uzun s\xFCre tok b\u0131rakt\u0131n?  Belki biraz zor m\xFC\u015Fteri
+      hizmetleri?\n\nUmar\u0131m sakinle\u015Ftikten sonra i\u015Fi tekrar denemek
+      i\xE7in geri d\xF6ner."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1650204792418304
+    m_Localized: "Ana men\xFC"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649997711241216
+    m_Localized: Tekrar deneyin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1650511282794496
+    m_Localized: Oyun bitti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316273224675328
+    m_Localized: "\u0130\xE7ecek ba\u015F\u0131na 1 dolar de\u011Ferinde"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 312927965245440
+    m_Localized: "50 Dolara Normal S\xFCt Sat\u0131n Al\u0131n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316153368244224
+    m_Localized: "Normal S\xFCt"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 226539798360064
+    m_Localized: Arcade Modu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549589093806080
+    m_Localized: "Sipari\u015Fe 0,50$ eklenir"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549459674361856
+    m_Localized: "10 Dolara \u015Eeker Sat\u0131n Al"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549533506695168
+    m_Localized: "\u015Eekerler"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1647892887859200
+    m_Localized: "Mand\u0131ra \xE7iftli\u011Finiz yak\u0131n zamanda pazarlamaya
+      yard\u0131mc\u0131 olmak i\xE7in bir \"inek kafesi\" a\xE7maya karar verdi;
+      bununla birlikte, bu ayn\u0131 zamanda siz onlar\u0131 s\xFCt g\xF6revine haz\u0131rlarken
+      yeni inek k\u0131zlar\u0131na yapacak bir \u015Feyler vermenin harika bir yolu
+      gibi g\xF6r\xFCn\xFCyor.\n\n\u0130lk baristan\u0131z ba\u015Flaman\u0131n heyecan\u0131n\u0131
+      ya\u015F\u0131yor ve potansiyel dolu g\xF6r\xFCn\xFCyor, tam s\xFCt g\xFCc\xFCne
+      ula\u015Fmaya \xE7al\u0131\u015F\u0131rken m\xFC\u015Fterilere hizmet etmesine
+      yard\u0131mc\u0131 olun!\n\nKafe yeni oldu\u011Fundan yol boyunca yeni malzemeler
+      de sat\u0131n alman\u0131z gerekecek.\nNeyse ki buradaki m\xFC\u015Fteriler,
+      e\u011Fer ruh halleri iyiyse, iste\u011Fe ba\u011Fl\u0131 taze s\xFCt i\xE7in
+      fazladan \xF6deme yapma fikrine olduk\xE7a s\u0131cak bak\u0131yorlar.\n\nOynarken
+      daha fazla yard\u0131ma ihtiyac\u0131n\u0131z olursa, \xFCzerine gelindi\u011Finde
+      Ara\xE7 \u0130pu\xE7lar\u0131 bulunur."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1647484102602752
+    m_Localized: "Cowtastic Cafe'ye ho\u015F geldiniz!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 541488361861120
+    m_Localized: "\u0130\xE7ecek ba\u015F\u0131na 1,5 dolar de\u011Ferinde"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 541379419009024
+    m_Localized: "15 Dolara \u015Eeker Sat\u0131n Al"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 541440546795520
+    m_Localized: "\u015Eeker"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540631339724800
+    m_Localized: "\u0130\xE7ecek ba\u015F\u0131na 3 dolar de\u011Ferinde"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540541439012864
+    m_Localized: "50$'a \xC7ay Al"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540592966037504
+    m_Localized: "\xC7ay"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233523209662464
+    m_Localized: "Atari E\u011Fitimi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 234141684953088
+    m_Localized: "Deneme yan\u0131lma sizin i\u015Finiz de\u011Filse oynamay\u0131
+      \xF6\u011Frenmenize yard\u0131mc\u0131 olacak ipu\xE7lar\u0131 ve talimatlar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1713940962045952
+    m_Localized: "Belki de bug\xFCn evde kalmal\u0131yd\u0131n, t\xFCm kafe kaos
+      i\xE7inde, burada her t\xFCrl\xFC \xE7\u0131lg\u0131n \u015Fey oluyor!  Bu
+      fiyatlar nedir?  Neden her m\xFC\u015Fteri geldi\u011Finde t\xFCm bunlar oluyor?\n\nMerhaba,
+      g\xF6r\xFCn\xFC\u015Fe g\xF6re k\xFC\xE7\xFCk paskalya yumurtam\u0131z\u0131
+      bulmu\u015Fsun, e\u011Fer bunu bir \u015Fekilde ilk denemende bulursan, \xF6nce
+      farkl\u0131 bir mod oynamak isteyebilirsin.\n\nBu kaosun \xFCstesinden gelmek
+      i\xE7in oyunun nas\u0131l \xE7al\u0131\u015Ft\u0131\u011F\u0131na dair \xE7ok
+      fazla bilgiye ihtiyac\u0131n\u0131z olacak ya da olmas\u0131n... D\xFCr\xFCst
+      olmak gerekirse, bu yenilebilir mi?  Bulman\u0131n bir yolu var.\n\nAyr\u0131ca
+      oynad\u0131\u011F\u0131n\u0131z i\xE7in te\u015Fekk\xFCrler!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1713827099275264
+    m_Localized: "CHAOS Cafe'ye ho\u015F geldiniz!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537045671178240
+    m_Localized: "Sipari\u015Fe 0,75$ eklenir"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536900430819328
+    m_Localized: "15 Dolara Krem \u015Eanti Sat\u0131n Al\u0131n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536982903418880
+    m_Localized: "Krem \u015Fanti"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648740309233664
+    m_Localized: "Barista'n\u0131z\u0131 olabildi\u011Fince b\xFCy\xFCtt\xFCn\xFCz! 
+      Tam potansiyeline ula\u015Ft\u0131ktan sonra mand\u0131ran\u0131za tam zamanl\u0131
+      olarak kat\u0131lmaktan ve ekibinize kaliteli bir inek k\u0131z daha eklemekten
+      mutluluk duyuyor!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648943238049792
+    m_Localized: Oynamaya devam et
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649229939699712
+    m_Localized: "Ana men\xFC"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649612644773888
+    m_Localized: "Daha Az \u0130statistik"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649493451042816
+    m_Localized: "Daha Fazla \u0130statistik"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649079095750656
+    m_Localized: Tekrar oyna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648511212154880
+    m_Localized: Tebrikler!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132749943507623936
+    m_Localized: "Otomatik D\xFCzeltme K\u0131yafeti"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133847671285325824
+    m_Localized: Geri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133992920209006592
+    m_Localized: Temel bilgiler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133054867663593472
+    m_Localized: 'En iyi zaman: '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663386760081408
+    m_Localized: "Ac\u0131 Kahve"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660668985307136
+    m_Localized: "G\xFCne Ba\u015Flaman\u0131n En \u0130yi Yolu:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035131357732864
+    m_Localized: "Her k\u0131yafeti sat\u0131n al\u0131n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1664405879484416
+    m_Localized: "Sakinle\u015Ftirici \xC7ay"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655899071803392
+    m_Localized: Kamera Hareketi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132868178831843328
+    m_Localized: "G\xFCndelik"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269928791109632
+    m_Localized: "Bazen rahatlamak istemekte sorun yoktur.\nFarkl\u0131 se\xE7eneklerle
+      oynaman\u0131z\u0131 kolayla\u015Ft\u0131ran daha ucuz ve tutarl\u0131 fiyatlar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269706832736256
+    m_Localized: "Basit E\u011Flence Zorluk"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231828173975552
+    m_Localized: "G\xFCnl\xFCk Mod"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870694181117952
+    m_Localized: Kaos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273385908432896
+    m_Localized: "Oh hay\u0131r.\nL\xFCtfen, bu d\xFCnyada iyi olan her \u015Feyin
+      a\u015Fk\u0131na, bana en az\u0131ndan \xF6nce Normal Modu oynad\u0131\u011F\u0131n\u0131z\u0131
+      s\xF6yleyin, de\u011Fil mi?  Kendi iyili\u011Fin i\xE7in... l\xFCtfen!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271100448960512
+    m_Localized: "Kaos Zorlu\u011Fu"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648041961811968
+    m_Localized: Devam etmek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228206665101312
+    m_Localized: Cowtastic Kafe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227076505694208
+    m_Localized: Kredi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133034814415151104
+    m_Localized: "Kupa Sat\u0131c\u0131s\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132865428639293440
+    m_Localized: "Sat\u0131lan Bardaklar:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661003594297344
+    m_Localized: "\xD6zelle\u015Ftirmek"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656215754338304
+    m_Localized: "Anla\u015Fmazl\u0131k"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133995165042450432
+    m_Localized: "\u0130\xE7ecek Yap\u0131m\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035279336972288
+    m_Localized: "10.000$ kazan\u0131n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2654012272640
+    m_Localized: "\xE7\u0131k\u0131\u015F"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133847226483580928
+    m_Localized: "E\u011Fiticiden \xC7\u0131k"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663192102432768
+    m_Localized: Ekstra Mola
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663816466526208
+    m_Localized: Peri Latte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035857651802112
+    m_Localized: "Tan\u0131d\u0131k y\xFCzler"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133037143440859136
+    m_Localized: "Ger\xE7ekten lanetli bir zorluk bulun."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035644203671552
+    m_Localized: "Gizli Kaos Zorlu\u011Funu bulun."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1641101533736960
+    m_Localized: "Sipari\u015Fi Bitir"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658724845711360
+    m_Localized: "K\u0131yafeti Onar"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035056309051392
+    m_Localized: "Tam Gard\u0131rop"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1664587954221056
+    m_Localized: "Doluluk Tolerans\u0131+"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655422749863936
+    m_Localized: Tam ekran
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132753240020852736
+    m_Localized: "Oyun \u0130lerlemesi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1653921176449024
+    m_Localized: Genel Ayarlar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132753222291529728
+    m_Localized: "Genel \u0130statistikler"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1653487506386944
+    m_Localized: Pes etmek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663268698812416
+    m_Localized: Mutluluk+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677334284693504
+    m_Localized: "Barista'n\u0131n ruh halini iyile\u015Ftirin."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870565030109184
+    m_Localized: Zor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269212714364928
+    m_Localized: "M\xFC\u015Fteriler daha se\xE7ici, Barista ise daha karamsar ama
+      bu sefer daha da b\xFCy\xFCyebilir!\nNormal Mod'dan biraz daha zorlu bir m\xFCcadele."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269021949030400
+    m_Localized: Zor Zorluk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231467803570176
+    m_Localized: Zor Mod
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660536202031104
+    m_Localized: "Gizemli Etkileri Vard\u0131r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658430149718016
+    m_Localized: "Diyalo\u011Fu Gizle"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19834399893057536
+    m_Localized: Tatil Modu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1657977076805632
+    m_Localized: "\u0130\xE7indekiler:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286927487332352
+    m_Localized: Dil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036188431392768
+    m_Localized: "Her \u015Feye sahip bir i\xE7ecek haz\u0131rlay\u0131n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036853224382464
+    m_Localized: "Kafe su basana kadar s\xFCt yap."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036805832941568
+    m_Localized: Dalgalar Yarat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660808559161344
+    m_Localized: "\xC7al\u0131\u015Fan\u0131 Y\xF6net"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660182504763392
+    m_Localized: "Y\xF6netmek"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1662860714668032
+    m_Localized: Maksimum Boyut+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677111105777664
+    m_Localized: "Barista'n\u0131n s\xFCt kapasitesini art\u0131r\u0131n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1662565540524032
+    m_Localized: "S\xFCtl\xFC kahve"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677736099016704
+    m_Localized: "Barista'y\u0131 hemen doldurun."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133031481403088896
+    m_Localized: "S\xFCt a\u015F\u0131\u011F\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132754228769300480
+    m_Localized: "\xDCretilen S\xFCt:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661098758860800
+    m_Localized: "S\xFCt Tipi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132867783132815360
+    m_Localized: "S\xFCtl\xFC"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 229470362759168
+    m_Localized: "S\xFCtl\xFC Mod"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230078679445504
+    m_Localized: "S\xFCtl\xFC Mod Etkin:\nBarista giderek daha h\u0131zl\u0131 dolarken
+      h\u0131z\u0131n\u0131z\u0131 test edin.  Ona ayak uydurabilir misin?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132865505260838912
+    m_Localized: "Kazan\u0131lan Para:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035228871106560
+    m_Localized: "Ay poli\xE7esi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663875916591104
+    m_Localized: "\u015Eimdi Daha Fazla S\xFCt!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655167128006656
+    m_Localized: "M\xFCzik"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133998653654802432
+    m_Localized: "Baristan\u0131z\u0131 Y\xF6netmek"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133998700043804672
+    m_Localized: "Nihai hedefiniz baristan\u0131z\u0131 tam potansiyeline \xE7\u0131karmakt\u0131r,
+      ancak \xE7al\u0131\u015F\u0131rken onun mutlulu\u011Funu da ihmal edemezsiniz. 
+      Bir s\xFCt \xFCr\xFCnleri pozisyonunda terfi kazanmak umuduyla bu i\u015Fi
+      kabul etti, ancak bu onun hayalindeki i\u015F olsa bile, \xE7ok mutsuz olursa
+      burada kalmayacakt\u0131r.\n\nBoyutu ve s\xFCt \xFCretiminde ilerleme kaydederken
+      ruh halini dengede tutmak, m\xFC\u015Fterileri mutlu etmek ve d\xFCzenli olarak
+      bo\u015Falt\u0131lmas\u0131n\u0131 sa\u011Flamak moralinin y\xFCksek kalmas\u0131na
+      yard\u0131mc\u0131 olacakt\u0131r."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133998785406279680
+    m_Localized: "Baristan\u0131z\u0131n mutlulu\u011Funu ve toklu\u011Funu buradan
+      takip edebilirsiniz.  Mutlulu\u011Fu 0'a d\xFC\u015Ferse istifa eder.\n\nHer
+      ne kadar b\xFCy\xFCmek istese de, onu her zaman \xE7ok dolu tutamazs\u0131n\u0131z,
+      yoksa a\u011Fr\u0131 onu \xFCzer, ama ayn\u0131 zamanda onu s\xFCrekli tamamen
+      bo\u015F da tutmamal\u0131s\u0131n\u0131z, yoksa bu da onu \xFCzebilir. bu
+      y\xFCzden bir denge kurmaya \xE7al\u0131\u015F\u0131n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133847557804236800
+    m_Localized: Sonraki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133055089148010496
+    m_Localized: "Kay\u0131t yok"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870450861154304
+    m_Localized: Normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 266676540370944
+    m_Localized: "Barista'n\u0131z olabildi\u011Fince b\xFCy\xFCyene veya sinirlenip
+      istifa edene kadar oynay\u0131n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 266450740015104
+    m_Localized: Normal Zorluk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231298777313280
+    m_Localized: Normal Mod
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036121565798400
+    m_Localized: "Her\u015Feyden Biri"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224355836850176
+    m_Localized: "Se\xE7enekler"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661378443440128
+    m_Localized: "K\u0131yafet Rengi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661525407657984
+    m_Localized: "Pantolon Tarz\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652064190296064
+    m_Localized: DURAKLATILDI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133034562396200960
+    m_Localized: "Oyunu uzun s\xFCre oynay\u0131n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133031655290544128
+    m_Localized: "100 L'den fazla S\xFCt \xFCretin."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663505232392192
+    m_Localized: "\xDCretme-"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677541911130112
+    m_Localized: "Daha d\xFC\u015F\xFCk Barista s\xFCt \xFCretim oran\u0131."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1662658687627264
+    m_Localized: "\xDCretim+"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1676894453198848
+    m_Localized: "Barista'n\u0131n s\xFCt \xFCretim oran\u0131n\u0131 art\u0131r\u0131n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036731409211392
+    m_Localized: "Onun ger\xE7ek en b\xFCy\xFCk boyutuna ula\u015F\u0131n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132867593416056832
+    m_Localized: "D\xFCzenli"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1640869886521344
+    m_Localized: "Barda\u011F\u0131 S\u0131f\u0131rla"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656078697066496
+    m_Localized: "S\xFCreleri S\u0131f\u0131rla"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655301924548608
+    m_Localized: "\xC7\xF6z\xFCn\xFCrl\xFCk"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1653300364931072
+    m_Localized: "Tekrar ba\u015Flat"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132752649106333696
+    m_Localized: Kum havuzu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036482359828480
+    m_Localized: "Korumal\u0131 Alan Modu"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132752870515253248
+    m_Localized: "Skorlar ve \u0130statistikler"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660439854673920
+    m_Localized: "Gizli \u015Eeker"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132753744281051136
+    m_Localized: "Bulunan S\u0131rlar"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036011389820928
+    m_Localized: "T\xFCm \xE7apraz m\xFC\u015Fterileri g\xF6r\xFCn."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133034908078153728
+    m_Localized: "1000 \u0130\xE7ecek sat."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652825364197376
+    m_Localized: Ayar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658332258856960
+    m_Localized: "Diyalo\u011Fu G\xF6ster"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648188082974720
+    m_Localized: "Tekrar g\xF6ster?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655796151971840
+    m_Localized: "Zamanlay\u0131c\u0131y\u0131 G\xF6ster"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1654868065742848
+    m_Localized: Sesler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227953312362496
+    m_Localized: "\xD6zel te\u015Fekk\xFCr"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 234396560224256
+    m_Localized: "Ba\u015Flang\u0131\xE7"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1662771174666240
+    m_Localized: "Esnek \u015Eeker"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036677680177152
+    m_Localized: "S\xFCper boyutlu"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656401700417536
+    m_Localized: Doku kalitesi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132865470217428992
+    m_Localized: "Oynanan S\xFCre:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677955096211456
+    m_Localized: "Barista mutlulu\u011Fu daha yava\u015F kaybeder."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231146272419840
+    m_Localized: "\xF6\u011Fretici"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133992199195566080
+    m_Localized: "Yak\u0131n zamanda yeni bir kafe a\xE7m\u0131\u015F ve bu yeni
+      inek k\u0131z\u0131 buradaki ilk baristan\u0131z olarak i\u015Fe alm\u0131\u015Fsan\u0131z,
+      g\xF6reviniz baristan\u0131z\u0131n m\xFC\u015Fterilere hizmet etmesine yard\u0131mc\u0131
+      olurken onu mutlu etmesini sa\u011Flamakt\u0131r.  Haz\u0131r oldu\u011Funda
+      \xE7iftli\u011Finizde daha verimli bir pozisyona terfi etmek istiyor gibi g\xF6r\xFCnd\xFC\u011F\xFCnden,
+      i\u015Fi b\u0131rakmad\u0131\u011F\u0131ndan emin olmak \xF6nemlidir.\n\nOyunla
+      ilgili belirsiz g\xF6r\xFCnen herhangi bir \u015Fey varsa, bu e\u011Fitimde
+      yard\u0131m bulabilece\u011Finizi umuyoruz.  Aksi takdirde hemen oyuna girmeyi
+      deneyebilir ve deneme yan\u0131lma yoluyla oyunu \xF6\u011Frenmeye ba\u015Flayabilirsiniz."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133993158466445312
+    m_Localized: "Oynamak i\xE7in ihtiyac\u0131n\u0131z olan her \u015Fey bir fare
+      olmal\u0131d\u0131r; ba\u015Fka hi\xE7bir tu\u015Fa gerek yoktur.\n\nHerhangi
+      bir \u015Fey i\xE7in ihtiyac\u0131n\u0131z olan ekstra bilgi varsa, Normal
+      Mod'da pek \xE7ok yararl\u0131 bilgi sa\u011Flayan Ara\xE7 \u0130pu\xE7lar\u0131
+      bulunur.\n\xC7o\u011Fu mekanizmay\u0131 yaln\u0131zca Ara\xE7 \u0130pucu yard\u0131m\u0131yla
+      \xE7\xF6zebilirsiniz.\n\n(Dokunmatik Kontroller test edilmedi, ancak bunu bir
+      telefonda g\xF6r\xFCyorsan\u0131z en az\u0131ndan k\u0131smen \xE7al\u0131\u015F\u0131yor
+      olmal\u0131lar san\u0131r\u0131m?)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133995531494596608
+    m_Localized: "Oyun s\u0131ras\u0131ndaki as\u0131l g\xF6rev i\xE7ecekleri kar\u0131\u015Ft\u0131rmakt\u0131r.\n\nHer
+      m\xFC\u015Fterinin ruh halini g\xF6steren bir portresi vard\u0131r ve bu grafikle
+      temsil edilen bir sipari\u015F ister.\n\nHer bir malzemenin dolum miktarlar\u0131na
+      ve bunlara hangi ekstralar\u0131n eklenmesini istediklerine \xE7ok dikkat edin."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133996458540638208
+    m_Localized: "\u0130\u015Fte malzemeleriniz.  Oynarken bir barda\u011F\u0131
+      doldurmaya ba\u015Flamak i\xE7in t\u0131klay\u0131p bas\u0131l\u0131 tutun
+      veya belirli malzemeleri i\xE7ece\u011Fe eklemek i\xE7in bir kez t\u0131klay\u0131n.\n\nKafeniz
+      yeni a\xE7\u0131ld\u0131 ve h\xE2l\xE2 birka\xE7 malzeme stoklamas\u0131 gerekiyor. 
+      Hepsinin kilidini a\xE7acak kadar kazanmaya \xE7al\u0131\u015F\u0131n.\n\nYeni
+      malzemeler sat\u0131n almak daha fazla para kazanmak i\xE7in \xF6nemlidir;
+      i\xE7ecek ne kadar karma\u015F\u0131ksa de\u011Feri de o kadar y\xFCksek olur."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133997655410450432
+    m_Localized: "M\xFC\u015Fteriniz i\xE7in doldurdu\u011Funuz bardakt\u0131r, i\xE7ecek
+      haz\u0131rlarken dolum \xE7izgilerini kullanarak i\xE7ece\u011Finizi m\xFC\u015Fterinin
+      iste\u011Fine ne kadar do\u011Fru \u015Fekilde kar\u015F\u0131la\u015Ft\u0131rabilirsiniz.\n\n\u0130\xE7ece\u011Fin
+      do\u011Frulu\u011Fu, derecelendirmeyi ve ne kadar paraya sat\u0131laca\u011F\u0131n\u0131
+      etkiler."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870790192930816
+    m_Localized: Ultra Kaos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 274821425754112
+    m_Localized: "Tamam bu sefer C\u0130DD\u0130 \u015Fekilde bunu bulmaman gerekiyordu. 
+      E\u011Fer kalbinizde biraz \xF6z sevgi kald\u0131ysa bunu denemeyin bile."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 274592542584832
+    m_Localized: Ultra Kaos Zorluk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133037091288883200
+    m_Localized: Ultra Kaos...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036564937285632
+    m_Localized: "Gizli Sandbox Modunun kilidini a\xE7\u0131n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660890163539968
+    m_Localized: "G\xFCncelleme"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658553181237248
+    m_Localized: "Barista'y\u0131 g\xF6r\xFCnt\xFCle"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658635091800064
+    m_Localized: "Oyunu G\xF6r\xFCnt\xFCle"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132748730527490048
+    m_Localized: "Ses Hatlar\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656601168932864
+    m_Localized: Vsync
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133991633908244480
+    m_Localized: "Arcade Modu E\u011Fitimine Ho\u015F Geldiniz"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133034372322926592
+    m_Localized: Fazla Mesai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134010572390375424
+    m_Localized: "M\xFC\u015Fteri servisi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134010918655336448
+    m_Localized: "Ayr\u0131ca m\xFC\u015Fterinin ruh halini de izlemeye \xE7al\u0131\u015F\u0131n,
+      buradaki insanlar bir k\u0131z\u0131n b\xFCy\xFCk ve dolgun g\xF6r\xFCnmesini
+      seviyor gibi g\xF6r\xFCn\xFCyor, o kadar \xE7arp\u0131c\u0131 ki bedenine g\xF6re
+      denge zaman ge\xE7tik\xE7e m\xFC\u015Fterilerin dikkatini \xE7ekecektir.\n\nPeki
+      mutlu m\xFC\u015Fterilerin anlam\u0131 nedir?  E\u011Fer ruh halleri buna izin
+      veriyorsa, i\xE7kilerinde fazladan bir \u015Feyler isteyebilirler!  \xC7ok
+      para de\u011Ferinde \xF6zel bir malzeme...!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134011413927141376
+    m_Localized: "Zamanlanm\u0131\u015F Etkinlikler"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134011680659709952
+    m_Localized: "Bazen oynarken zamanlanm\u0131\u015F olaylar ortaya \xE7\u0131kabilir.\n\nBu
+      etkinliklerden baz\u0131lar\u0131 zorluk kat\u0131yor, baz\u0131lar\u0131 size
+      gerekli molay\u0131 veriyor ve baz\u0131lar\u0131 ise biraz sa\xE7ma.\nOlan
+      biteni takip edin ve bunlara haz\u0131rl\u0131ks\u0131z yakalanmamaya \xE7al\u0131\u015F\u0131n!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134179468267331584
+    m_Localized: "Arcade modunda oynarken y\xF6netim d\xFC\u011Fmesi, baristan\u0131z
+      i\xE7in t\xFCm y\xFCkseltmelerinizin ve \xF6zelle\u015Ftirmelerinizin bulundu\u011Fu
+      yerdir.  Kapasitesini ve \xFCretim h\u0131z\u0131n\u0131 artt\u0131rmak orada
+      bulunabilir.  Ruh hali g\xFC\xE7lendiricilerle birlikte.\n\nAyr\u0131ca k\u0131yafet
+      se\xE7enekleri ve renk se\xE7eneklerini i\xE7eren bir ki\u015Fiselle\u015Ftirme
+      men\xFCs\xFC de i\xE7erir.\nBaz\u0131 \xF6zelle\u015Ftirme se\xE7eneklerinin
+      kilidinin a\xE7\u0131lmas\u0131 gerekebilir."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134179994149167104
+    m_Localized: "Oyunu ba\u015Flatmak"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134180089527640064
+    m_Localized: "E\u011Fitim Tamamland\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134180290938118144
+    m_Localized: "Bu, a\xE7\u0131kl\u0131\u011Fa kavu\u015Fturulmaya de\u011Fer t\xFCm
+      \xF6nemli bilgilerle ilgili olmal\u0131d\u0131r.\nOyunun d\xF6ng\xFCs\xFC a\xE7\u0131k
+      olmal\u0131, i\xE7ki yap, para kazan, daha fazla i\xE7ki yap, baristay\u0131
+      b\xFCy\xFCt, daha da fazla para kazan, m\xF6\xF6'ye kadar tekrarla.\n\nE\u011Fer
+      bir meydan okuma istiyorsan\u0131z, en iyi zamanlar\u0131 elde etmek i\xE7in
+      ak\u0131ll\u0131 stratejiler bulmaya veya rotalar\u0131 y\xFCkseltmeye \xE7al\u0131\u015F\u0131n. 
+      E\u011Flenceyi artt\u0131rmak istiyorsan\u0131z di\u011Fer k\u0131yafet se\xE7eneklerinden
+      baz\u0131lar\u0131n\u0131n kilidini a\xE7may\u0131 deneyin!  Her iki durumda
+      da s\xFCtl\xFC kahvenizin tad\u0131n\u0131 \xE7\u0131kar\u0131n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135009184603807744
+    m_Localized: "Sat\u0131n almak?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135009503337357312
+    m_Localized: Evet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135009682803236864
+    m_Localized: HAYIR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135018668252307456
+    m_Localized: 'Tohum:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135037087102115840
+    m_Localized: "Drenaj\u0131 A\xE7"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143884046088904704
+    m_Localized: 'Zaman:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893353438224384
+    m_Localized: "M\xFCkemmel!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893532069437440
+    m_Localized: Harika!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893677221715968
+    m_Localized: "\u0130yi!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893751905492992
+    m_Localized: "Tamam a\u015Fk\u0131m."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893844029186048
+    m_Localized: Meh.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893899951841280
+    m_Localized: "K\xF6t\xFC..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893970122547200
+    m_Localized: Harap!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143940038960979968
+    m_Localized: "Anne s\xFCt\xFC"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143959184234881024
+    m_Localized: "S\xFCt"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143959463068016640
+    m_Localized: Sallamak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143959642353541120
+    m_Localized: "\xC7ikolata sallamak"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 162454964742496256
+    m_Localized: "Barista'n\u0131z\u0131 olabildi\u011Fince b\xFCy\xFCtt\xFCn\xFCz! 
+      Tam potansiyeline ula\u015Ft\u0131ktan sonra mand\u0131ran\u0131za tam zamanl\u0131
+      olarak kat\u0131lmaktan ve ekibinize kaliteli bir inek k\u0131z daha eklemekten
+      mutluluk duyuyor!\n\nbu arada, Arcade Modunun sol \xFCst k\u0131sm\u0131. ;)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 162455432189288448
+    m_Localized: "Ne...?  \u015Eey... Her ne ise bu \u015Fekilde yendi\u011Fin i\xE7in
+      tebrikler.  Vay.\n\nAyr\u0131ca bir gizli mod daha var.  ;P"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167524481055608832
+    m_Localized: Kredi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167524677856546816
+    m_Localized: "\xD6zel te\u015Fekk\xFCr"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167525775212302336
+    m_Localized: "S\xFCtl\xFC kahve"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167525900873650176
+    m_Localized: "\xDCretim+"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167525982276702208
+    m_Localized: "Esnek \u015Eeker"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526055043682304
+    m_Localized: Maksimum Boyut+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526161428008960
+    m_Localized: Ekstra Mola
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526229631586304
+    m_Localized: Mutluluk+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526294421000192
+    m_Localized: "Ac\u0131 Kahve"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526376109264896
+    m_Localized: "\xDCretme-"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526646520238080
+    m_Localized: Peri Latte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526696562479104
+    m_Localized: "\u015Eimdi Daha Fazla S\xFCt!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526716435091456
+    m_Localized: "Sakinle\u015Ftirici \xC7ay"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526736756494336
+    m_Localized: "Doluluk Tolerans\u0131+"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167535336119881728
+    m_Localized: "Merhaba!; Merhaba.; Ey! g\xFCzellik.; Hey.; Merhaba.; Merhaba!;
+      Merhaba...; Hm...; Uuuh...; Uh...; Aha!; Yo.; Merhaba...; Selamlar.; Merhaba
+      gen\xE7 bayan. ; Eyo.; Sup.; Uhuh...; Merhaba!; Merhaba!; Hey! Naber?; \u0130yi
+      g\xFCnler!; Hola!; Hey! Yabanc\u0131.; Selamlar!; Peki! Merhaba!; Merhaba!
+      nas\u0131ls\u0131n?; Merhaba! Seni g\xF6rd\xFC\u011F\xFCme sevindim!; Hey!
+      Uzun zamand\u0131r g\xF6r\xFC\u015Fmemi\u015Ftik!; Hey! Yemek ne?; Hey! Nas\u0131l
+      gidiyor? Tan\u0131\u015Ft\u0131\u011F\u0131m\u0131za memnun oldum!; Hey! Yenilikler
+      neler? Hayat nas\u0131l? Her \u015Fey nas\u0131l? G\xFCn\xFCn nas\u0131l ge\xE7iyor?
+      G\xFCn\xFCn nas\u0131l ge\xE7iyor?; Hey! Her \u015Fey nas\u0131l gidiyor? G\xF6r\xFC\u015Fmeyeli
+      nas\u0131ls\u0131n?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167615756777836544
+    m_Localized: "Biraz istiyorum ; Biraz alabilir miyim ; Var m\u0131 ; Sipari\u015F
+      verebilir miyim ; Alabilir miyim ; ilgileniyorum ; Almak m\xFCmk\xFCn m\xFC
+      ; L\xFCtfen bana ver "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233249931448320
+    m_Localized: Espresso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233545151729664
+    m_Localized: Kahve
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233690199150592
+    m_Localized: "\xC7ikolata"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233779009343488
+    m_Localized: "\xC7ay"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233839474429952
+    m_Localized: "S\xFCt"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233903475314688
+    m_Localized: "Anne s\xFCt\xFC"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234029493178368
+    m_Localized: Krem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234081343164416
+    m_Localized: "\u015Eeker"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234138335367168
+    m_Localized: buz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234186334982144
+    m_Localized: "Boba'n\u0131n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234253527732224
+    m_Localized: "Kabar\u0131k"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234331545980928
+    m_Localized: "S\xFCsl\xFC"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234412265361408
+    m_Localized: "\xC7ikolata"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234481072918528
+    m_Localized: "E\u011Flence"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175274055513952256
+    m_Localized: "Te\u015Fekk\xFCr ederim!; Hizmetten ve i\xE7kiden keyif ald\u0131m;
+      Harikayd\u0131!; Onu sevdim!; M\xFCkemmel hizmet!; Lezzetli i\xE7ecek!; \u015Eiddetle
+      tavsiye ederim!; Harika deneyim!; Fantastik!; Muhte\u015Fem hizmet!; Her yudumu
+      sevdim!; Birinci s\u0131n\u0131f!; Daha iyi olamazd\u0131!; M\xFCkemmel i\xE7ecek!;
+      Harika hizmet!; Tam ihtiyac\u0131m olan \u015Fey!; \u0130yi i\u015F!; Aynen
+      b\xF6yle devam!; Kesinlikle geri d\xF6nece\u011Fim!; Etkilenmi\u015F!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175274128738111488
+    m_Localized: "Sipari\u015F etti\u011Fim \u015Fey bu de\u011Fildi; Bunu ben istemedim;
+      \u0130stedi\u011Fim bu de\u011Fildi; \xDCzg\xFCn\xFCm ama bu yanl\u0131\u015F.;
+      Kusura bakmay\u0131n ama bu do\u011Fru de\u011Fil.; \xDCzg\xFCn\xFCm ama sipari\u015Fim
+      yanl\u0131\u015F.; Bunu d\xFCzeltebilir miyiz?; Sipari\u015Fimi tekrar kontrol
+      edebilir misiniz? San\u0131r\u0131m bir hata oldu.; Ba\u015Fka bir \u015Fey
+      sipari\u015F ettim; Bekledi\u011Fim bu de\u011Fildi; Bu sorunu \xE7\xF6zebilir
+      miyiz?; Bir kar\u0131\u015F\u0131kl\u0131k m\u0131 var?; L\xFCtfen tekrar kontrol
+      eder misiniz?; Biraz hayal k\u0131r\u0131kl\u0131\u011F\u0131na u\u011Frad\u0131m.;
+      Bunu benim i\xE7in d\xFCzeltebilir misin?; Ben bundan memnun de\u011Filim.;
+      Bekledi\u011Fim bu de\u011Fildi."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175601404604338176
+    m_Localized: "Olmadan; HAYIR; Hari\xE7; , D\u0131\u015Far\u0131da b\u0131rak\u0131n;
+      , \u015Eunu tut; Dahil etmeyin; \xDCcretsiz"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175608705562202112
+    m_Localized: "S\xFCt \xDCretim H\u0131z\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175609102947340288
+    m_Localized: Maksimum Boyut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175609289581285376
+    m_Localized: Para
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175639638851997696
+    m_Localized: Mutluluk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175639931622805504
+    m_Localized: "E\u011Fer bu s\u0131f\u0131ra ula\u015F\u0131rsa istifa edecek."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175640078645743616
+    m_Localized: Dolgunluk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175640229514858496
+    m_Localized: "Kazanmak i\xE7in 2000 ml'ye ula\u015F\u0131n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175641060461006848
+    m_Localized: "Sipari\u015Finiz i\xE7in Bardak"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175650030386958336
+    m_Localized: "Here is the translation into Turkish, keeping the text between
+      @ and ; unchanged:\r\n\r\nYeni i\u015F, yeni hayat.@Intro_NewJobNewLife; Buradaki
+      insanlar\u0131n nazik olmas\u0131n\u0131 umuyorum.@Intro_IHopePeopleAreNice;
+      Ba\u015Flamak i\xE7in sab\u0131rs\u0131zlan\u0131yorum!@Intro_ICantWaitToStart;
+      \u0130\u015Fteki ilk g\xFCn.@Intro_FirstDayOnTheJob"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175651777658507264
+    m_Localized: "Merhaba!; Merhaba!; Ho\u015F geldin!; Sana bir \u015Fey getirebilir
+      miyim?; D\xFCzenli?; Size nas\u0131l yard\u0131m edebilirim?; Ne alabilirim
+      ya? Ho\u015F geldin! Bug\xFCn sana ne alabilirim?; Bug\xFCn iyi g\xF6r\xFCn\xFCyorsun!
+      Sana ne getirebilirim?; Bug\xFCn\xFCn spesiyalitesi: Taze s\xFCt!; Boba s\xFCt\xFCn\xFC
+      hen\xFCz denemediniz mi?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175662100285247488
+    m_Localized: "O kurabiyeyi istiyorum!; Bu kurabiye lezzetli g\xF6r\xFCn\xFCyor.;
+      Acaba o kurabiyenin tad\u0131 nas\u0131l...?; Acaba kurabiyenin tamam\u0131
+      a\u011Fz\u0131ma s\u0131\u011Far m\u0131?; Sihirli kurabiyeyi ne zaman alaca\u011F\u0131m?;
+      Bu i\u015F baz\u0131 faydalar vaat ediyordu, de\u011Fil mi?; B\xFCy\xFCmek
+      istiyorum...; Kurabiye \xF6zlemi geliyor!; \xC7erez uyar\u0131s\u0131! Tekrar
+      ediyorum, \xE7erez uyar\u0131s\u0131!; O kurabiyeye g\xF6z\xFCm tak\u0131ld\u0131!;
+      Kurabiye iste\u011Fimi tatmin etme zaman\u0131!; \xC7erez g\xF6revi: Etkinle\u015Ftir!;
+      \xC7erez radar\u0131 devrede!; Kahveyi kurabiyeyle takas ederim!; Kurabiye
+      yapmak m\u0131, kurabiye yapmamak m\u0131? Soru bu.; Direnmek bo\u015Funa...
+      konu kurabiyelere gelince!; Kurabiye istekleri: %100 memnuniyet garantisi!;
+      Kurabiye zaman\u0131 en iyi zamand\u0131r!; Kurabiye r\xFCyalar\u0131 bundan
+      yap\u0131lm\u0131\u015Ft\u0131r!; \xC7erez tahmin d\xFCzeyi: Maksimum!; Tatl\u0131ya
+      d\xFC\u015Fk\xFCnl\xFC\u011F\xFCm o kurabiyeyi \xE7a\u011F\u0131r\u0131yor!;
+      Bu kurabiye beni \xE7a\u011F\u0131r\u0131yor!; Tek y\xF6nl\xFC bir zihnim var...
+      ve bu da o kurabiyede!; \xC7erez tak\u0131nt\u0131s\u0131: Etkinle\u015Ftirildi!;
+      \u015Eimdilik tek istedi\u011Fim o kurabiye!; Bir barista i\xE7in k\xFC\xE7\xFCk
+      bir ad\u0131m, kurabiye t\xFCr\xFC i\xE7in dev bir ad\u0131m!; Kurabiye iste\u011Fi:
+      Zirve seviyelere ula\u015Fmak!; Benim i\xE7in sihrin oldu\u011Funu biliyorum~"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175662781700263936
+    m_Localized: "Mmm! Tad\u0131 g\xFCzel!~; Bir \u015Feyler farkl\u0131 m\u0131
+      geliyor...?; Daha fazla istiyorum!; Tad\u0131 s\xFCt gibi!; \u015Eimdi bir
+      yere var\u0131yoruz!; Vay, bu harika bir duygu!; Ke\u015Fke bunlardan daha
+      fazlas\u0131na sahip olsayd\u0131k.; Kurabiye aray\u0131\u015F\u0131 buna de\u011Fdi!
+      Lezzetli!; O kurabiye tam isabet oldu! Daha fazla l\xFCtfen!; \xC7erez memnuniyeti
+      sa\u011Fland\u0131!; \u015Eu anda kurabiye cennetteyim!; Mmm! \u015Eimdiye
+      kadarki en iyi karar!; Kurabiye mutlulu\u011Fu! Yeterince alam\u0131yorum!;
+      Bu \xE7erez oyunun kurallar\u0131n\u0131 de\u011Fi\u015Ftirecek!; Kurabiye
+      b\xFCy\xFCs\xFC i\u015F ba\u015F\u0131nda! Onu seviyorum!; Bir kurabiyenin
+      bu kadar ne\u015Fe getirebilece\u011Fini kim bilebilirdi?; \u0130\u015Fte buna
+      kurabiye \u015Faheseri derim!; Kurabiye cenneti bulundu!; Zaferin tad\u0131...
+      ve kurabiyeler!; Bu kurabiye alt\u0131n madalyay\u0131 hak ediyor!; Bu kurabiyeyle
+      dokuzuncu bulutun \xFCzerindeyim!; S\xFCt ve kurabiye, m\xFCkemmel kombinasyon!;
+      Bir \u0131s\u0131r\u0131k ve ben ba\u011F\u0131ml\u0131y\u0131m! Daha fazla
+      l\xFCtfen!; Kurabiye m\xFCkemmelli\u011Fine ula\u015F\u0131ld\u0131!; Kurabiye
+      b\xFCy\xFCs\xFC etkinle\u015Ftirildi! Yemek yemeyi b\u0131rakam\u0131yorum!;
+      Bu kurabiye tam bir tat hissi!; Bu kurabiyelere \xF6m\xFCr boyu ihtiyac\u0131m
+      var!; Monch Munch"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175663362036748288
+    m_Localized: "\xD6nl\xFCk biraz s\u0131kmaya ba\u015Fl\u0131yor...; Arkada daha
+      b\xFCy\xFCk bir \xF6nl\xFC\u011F\xFCm\xFCz var m\u0131?; Umar\u0131m bu lekeleri
+      tekrar \xE7\u0131karabilirim...; Uh oh patlamak \xFCzere!; \xD6nl\xFC\u011F\xFCm
+      buna daha fazla dayanamaz!; Sonunda!~ \u015Eimdiden \xE7ek~; San\u0131r\u0131m
+      arka tarafta daha b\xFCy\xFCk bir \xF6nl\xFC\u011F\xFCm\xFCz var ama...; Zaman\u0131
+      geldi."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175664029996437504
+    m_Localized: "Kendimi \xE7ok Dolu hissediyorum!; L\xFCtfen bana patlama.; Etrafta
+      m\u0131 \xE7alkalan\u0131yorlar?; Zaten \xE7ok b\xFCy\xFCd\xFCler!; Uuuuhm,
+      bu konuda bir \u015Feyler yapabilir misin?; D\xFC\u015F\xFCnd\xFC\u011F\xFCnden
+      \xE7ok daha fazla s\xFCt\xFCm var. Barda\u011Fa alabildi\u011Fim \u015Fey bu.;
+      Ah, patron... Bu konuda bana yard\u0131m edebilir misin?; Hi\xE7bir m\xFC\u015Fteri
+      bundan istemez mi? O kadar doluyum ki...; Bundan daha fazla doyam\u0131yorum...;
+      Yard\u0131m? L\xFCtfen?; Patlayacakm\u0131\u015F gibi hissediyorum...; B\xFCy\xFCk
+      olmak istiyorum ama bu biraz rahats\u0131z edici...; Uzun s\xFCre bu kadar
+      dolu kalabilmem i\xE7in daha y\xFCksek bir kapasiteye ihtiyac\u0131m var...;
+      Ah! \u015Eimdiden sa\u011F beni!; Bana s\xFCt ver! Bana s\xFCt ver! L\xFCtfen!;
+      Bu kadar rahats\u0131z edici olmasayd\u0131 bunu \xE7ok isterdim...; \u0130zleseler
+      de umurumda de\u011Fil, sadece i\xE7imi bo\u015Falt\u0131n l\xFCtfen...; Kendimi
+      \xE7ok \u015Fi\u015Fmi\u015F hissediyorum!; Umar\u0131m ta\u015Fmam!; S\xFCt
+      dolu bir balon gibi hissediyorum!; \xC7ok fazla hareket etmekten korkuyorum!;
+      Ta\u015Fma yakla\u015F\u0131yor! S.O.S!; Bardaklar\u0131m bitti, kelimenin
+      tam anlam\u0131yla...; S\u0131z\u0131nt\u0131 yapsam kimsenin fark edece\u011Fini
+      mi san\u0131yorsun?; Bask\u0131y\u0131 bir an \xF6nce hafifletmem gerekiyor!;
+      A\u015F\u0131r\u0131 h\u0131zda bir s\xFCt fabrikas\u0131 gibi hissediyorum!;
+      Etrafta sa\xE7\u0131lan bu s\xFCt varken odaklanam\u0131yorum!; Sanki g\xF6\u011Fs\xFCmden
+      f\u0131rlayacaklarm\u0131\u015F gibi geliyor!; Bana yard\u0131m edin, kritik
+      k\xFCtleye ula\u015F\u0131yorlar!; 'M\xFCkemmel sa\u011F\u0131lm\u0131\u015F'
+      derken kastettikleri bu mu?; Sanki bir mand\u0131ra \xE7iftli\u011Fi ta\u015F\u0131yormu\u015Fum
+      gibi geliyor!; Ta\u015Fma uyar\u0131s\u0131! Tehlike, tehlike!; Ben patlamaya
+      haz\u0131r bir s\xFCt volkan\u0131y\u0131m!; Bu bulan\u0131k dikkat da\u011F\u0131t\u0131c\u0131
+      \u015Fey y\xFCz\xFCnden odaklanam\u0131yorum!; T\xFCm bu s\xFCt\xFC serbest
+      b\u0131rakman\u0131n bir yolunu bulmam\u0131z gerekiyor!; Bu s\xFCt kaplar\u0131
+      patlamaya haz\u0131r!; Patlayaca\u011F\u0131m."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175664836233940992
+    m_Localized: "Belki de y\xFCkseltme zaman\u0131?; Y\xFCkseltmelere yat\u0131r\u0131m
+      yapmak bir plan gibi g\xF6r\xFCn\xFCyor!; Hangi y\xFCkseltmelerin mevcut oldu\u011Funu
+      g\xF6relim.; Operasyonlar\u0131m\u0131z\u0131 seviyelendirmenin zaman\u0131
+      gelmi\u015F olabilir.; \u0130\u015Fimizi geli\u015Ftirmek faydal\u0131 olabilir.;
+      De\u011Ferli y\xFCkseltmeler olup olmad\u0131\u011F\u0131n\u0131 merak ediyorum.;
+      Kafemizde baz\u0131 iyile\u015Ftirmeler g\xF6z \xF6n\xFCne al\u0131nd\u0131\u011F\u0131nda;
+      Y\xFCkseltme se\xE7eneklerini ara\u015Ft\u0131rmak iyi bir fikir gibi g\xF6r\xFCn\xFCyor.;
+      Baz\u0131 y\xFCkseltmelerle verimlili\u011Fimizi art\u0131ral\u0131m!; Y\xFCkseltmeler
+      bize pazarda avantaj sa\u011Flayabilir; Bir \u015Fey sat\u0131n almal\u0131
+      m\u0131y\u0131z?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175666128926822400
+    m_Localized: "\u0130\u015Fte bu, b\u0131rakt\u0131m!; Gelmi\u015F ge\xE7mi\u015F
+      en k\xF6t\xFC patron... Buradan gidiyorum.; \xC7al\u0131\u015Famayacak kadar
+      yorgunum, ho\u015F\xE7akal...; Bu kaosla u\u011Fra\u015Fmaktan b\u0131kt\u0131m!
+      B\u0131rakt\u0131m!; Art\u0131k dayanam\u0131yorum! Ayr\u0131l\u0131yorum!;
+      Bundan daha iyisini hak ediyorum! Ben yokum!; Bu i\u015F strese de\u011Fmez.
+      Bitirdim!; Hi\xE7bir kahve bu zahmete de\u011Fmez. Ben gittim!; Yeterince sahibim!
+      Daha iyi bir f\u0131rsat bulma zaman\u0131.; Bu ko\u015Fullar alt\u0131nda
+      \xE7al\u0131\u015Fmay\u0131 reddediyorum. B\u0131rakt\u0131m!; Hayat bu sa\xE7mal\u0131klar
+      i\xE7in \xE7ok k\u0131sa. Ayr\u0131l\u0131yorum.; \xDCzg\xFCn\xFCm ama baristal\u0131k
+      oynamay\u0131 b\u0131rakt\u0131m. Ben gidiyorum!; Bunun i\xE7in kaydolmad\u0131m!
+      B\u0131rakt\u0131m!; Unut bunu, eve gidiyorum."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175674616369401856
+    m_Localized: "\xDCretim+"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175674851527249920
+    m_Localized: "Barista'n\u0131n s\xFCt \xFCretim oran\u0131n\u0131 art\u0131r\u0131n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181788866099826688
+    m_Localized: "Merhaba muhte\u015Fem.; Selam g\xFCzellik.; Merhaba g\xFCne\u015F.;
+      Hey, harika g\xF6r\xFCn\xFCyorsun; Merhaba g\xFCzelim; Merhaba, muhte\u015Fem.;
+      Hey tatl\u0131 bayan.; Selam sevimli \u015Fey.; Hey, yak\u0131\u015F\u0131kl\u0131.;
+      Merhaba, \xE7ekicilik.; Merhaba Melek.; Merhaba bebe\u011Fim; Selam tatl\u0131m.;
+      Hey, bug\xFCn \xE7ok ho\u015F g\xF6r\xFCn\xFCyorsun; Merhaba g\xFCzel.; Hey
+      bebek.; Merhaba tatl\u0131m; Hey, g\xFCzel g\xFCl\xFCmseme.; Merhaba, b\xFCy\xFCleyici.;
+      Hey, bar\u0131 ne\u015Felendiriyorsun."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181789087093510144
+    m_Localized: "Hey g\xFCzelim, bir g\xFCl\xFCmsemeyle g\xFCn\xFCm\xFC daha iyi
+      hale getirebilir misin?; Merhaba muhte\u015Fem, bu kadar g\xFCzel g\xF6r\xFCnmenin
+      s\u0131rr\u0131 nedir? Merhaba, muhte\u015Fem, men\xFCde olma \u015Fans\u0131n
+      var m\u0131?; Hey g\xFCzel bayan, g\xF6r\xFCn\xFC\u015F\xFCn\xFCze uygun \xF6zel
+      bir i\xE7kiniz var m\u0131? Merhaba, \xE7ekicilik, g\xFCl\xFC\u015F\xFCn g\xFCn\xFCm\xFCn
+      en \xF6nemli an\u0131d\u0131r; Merhaba mele\u011Fim, g\xFCzelli\u011Fin en
+      karanl\u0131k oday\u0131 ayd\u0131nlatabilir.; Hey bebe\u011Fim, yaln\u0131z
+      bir kalp i\xE7in sihirli iksirlerin var m\u0131? Merhaba tatl\u0131m, b\xFCt\xFCn
+      i\xE7ecekleri kendin kadar tatl\u0131 m\u0131 yap\u0131yorsun?; Hey bebe\u011Fim,
+      g\xFCzelli\u011Fin sarho\u015F edici; Merhaba tatl\u0131m, senin varl\u0131\u011F\u0131n
+      buradaki en g\xFCzel \u015Fey."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181789098002894848
+    m_Localized: "Hey g\xFCzelim, g\xFCl\xFC\u015F\xFCn ve o k\u0131vr\u0131mlar
+      kalbimi h\u0131zland\u0131r\u0131yor.; Merhaba muhte\u015Fem, g\xF6zlerin kadar
+      b\xFCy\xFCleyici bir \u015Feye hizmet ediyor musun?; Merhaba, muhte\u015Fem,
+      burada as\u0131l \xF6nemli olan senin fig\xFCr\xFCn.; Hey g\xFCzel bayan, g\xF6r\xFCn\xFC\u015F\xFCn\xFCz
+      herhangi bir i\xE7ece\u011Fin tad\u0131n\u0131 daha iyi hale getirebilir.;
+      Merhaba \xE7ekicilik, g\xFCzelli\u011Fin herhangi bir kokteylden daha canland\u0131r\u0131c\u0131.;
+      Merhaba melek, seninki gibi bir v\xFCcuda sahip olan kimin i\xE7kiye ihtiyac\u0131
+      var? Hey bebe\u011Fim, k\u0131vr\u0131mlar\u0131n g\xFCzelli\u011Fin m\xFCkemmel
+      kar\u0131\u015F\u0131m\u0131.; Merhaba tatl\u0131m, senin v\xFCcudun bu bar\u0131n
+      en g\xFCzel par\xE7as\u0131.; Hey bebe\u011Fim, muhte\u015Fem bak\u0131\u015Flar\u0131n
+      ba\u015F\u0131m\u0131 d\xF6nd\xFCr\xFCyor; Merhaba tatl\u0131m, senin varl\u0131\u011F\u0131n
+      her \u015Feyi daha tatl\u0131 hale getiriyor."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181789109562396672
+    m_Localized: "Hey g\xFCzelim, kahveme sihrinden biraz katma \u015Fans\u0131n
+      var m\u0131? Merhaba g\xFCzelim, bu k\u0131vr\u0131mlarla i\xE7ki d\u0131\u015F\u0131nda
+      ba\u015Fka bir \u015Fey servis ediyor musun?; Merhaba, muhte\u015Fem, g\xF6\u011F\xFCslerin
+      kahvemin en g\xFCzel par\xE7as\u0131 olabilir.; Hey, g\xFCzel bayan, men\xFC
+      d\u0131\u015F\u0131nda bir \u015Fey sunuyor musunuz, g\xFCl\xFCmseme ya da
+      randevu gibi? Merhaba tatl\u0131m, seninki gibi bir v\xFCcuda sahip olsam her
+      \u015Feyi sipari\u015F ederdim; Merhaba mele\u011Fim, g\xFCzelli\u011Fin her
+      t\xFCrl\xFC i\xE7ece\u011Fin m\xFCkemmel malzemesi; Hey bebe\u011Fim, senin
+      \xE7ekicili\u011Finle bir kahve i\xE7ebilir miyim? Merhaba tatl\u0131m, g\xF6\u011F\xFCslerin
+      g\xFCn\xFCn en \xF6zel olay\u0131; Hey bebe\u011Fim, senin buradaki varl\u0131\u011F\u0131n
+      her i\xE7kiyi daha iyi hale getiriyor; Merhaba tatl\u0131m, o muhte\u015Fem
+      fig\xFCrle g\xFCl\xFCmser misin?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182195982329466880
+    m_Localized: "Barista'n\u0131n s\xFCt kapasitesini art\u0131r\u0131n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196090546704384
+    m_Localized: Maksimum Boyut+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196364988403712
+    m_Localized: "Barista'n\u0131n ruh halini iyile\u015Ftirin."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196409754210304
+    m_Localized: Mutluluk+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196602868355072
+    m_Localized: "\xDCretme-"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196626104799232
+    m_Localized: "Daha d\xFC\u015F\xFCk Barista s\xFCt \xFCretim oran\u0131."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196763497615360
+    m_Localized: "\u015Eimdi Daha Fazla S\xFCt!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196807076433920
+    m_Localized: "Barista'y\u0131 hemen doldurun."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196916119949312
+    m_Localized: "Doluluk Tolerans\u0131+"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196947719835648
+    m_Localized: "Barista mutlulu\u011Fu daha yava\u015F kaybeder."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182201446488363008
+    m_Localized: Maksimum 500
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182205256204046336
+    m_Localized: "Dikkatli olun, hava h\xE2l\xE2 biraz s\u0131cak!; Burada! Bu biraz
+      \xF6zel, sadece sana \xF6zel!; Bu do\u011Fru mu?; Sipari\u015F verin!~; \u0130\xE7ece\u011Finizin
+      tad\u0131n\u0131 \xE7\u0131kar\u0131n!; Umar\u0131m be\u011Fenmi\u015Fsindir.;
+      \u0130\u015Fte bu kadar, harika bir g\xFCn ge\xE7irmenizi dileriz!; \u0130\u015Fte
+      bu, yak\u0131nda geri d\xF6n!~; Voo! Sadece sizin i\xE7in ki\u015Fiselle\u015Ftirilmi\u015F
+      yarat\u0131m\u0131n\u0131z!; Buna biraz fazladan sevgi katt\u0131m, tad\u0131n\u0131
+      \xE7\u0131kar\u0131n!; \u0130\u015Fte \xF6zenle haz\u0131rlanm\u0131\u015F
+      i\xE7ece\u011Finiz!; Sipari\u015Finiz bir g\xFCl\xFCmsemeyle servis edildi!;
+      Bu i\xE7ecek g\xFCn\xFCn\xFCze biraz ne\u015Fe getirsin!; Sadece sizin i\xE7in
+      bir fincanda m\xFCkemmellik!; Mutluluk yudumunuzun tad\u0131n\u0131 \xE7\u0131kar\u0131n!;
+      \u0130\xE7ece\u011Finiz sizi bekliyor! Yudumlay\u0131n ve tad\u0131n\u0131
+      \xE7\u0131kar\u0131n!; Sadece sizin i\xE7in \xF6zenle haz\u0131rland\u0131!;
+      Sipari\u015Finiz haz\u0131r, lezzetin tad\u0131n\u0131 \xE7\u0131kar\u0131n!;
+      \u0130\u015Fte m\xFCkemmel bir \u015Fekilde haz\u0131rlanm\u0131\u015F i\xE7ece\u011Finiz!;
+      Umar\u0131m bu i\xE7ecek g\xFCn\xFCn\xFCz\xFC biraz daha ayd\u0131nlat\u0131r!;
+      Bu k\xFC\xE7\xFCk zevkin tad\u0131n\u0131 \xE7\u0131kar\u0131n, hepsi sizin!;
+      Lezzetin tad\u0131n\u0131 \xE7\u0131kar\u0131n! Sadece sizin i\xE7in haz\u0131rland\u0131!;
+      Hadi bakal\u0131m! \u0130\xE7 ve tad\u0131n\u0131 \xE7\u0131kar!; Bir g\xFCl\xFCmsemeyle
+      servis edilen m\xFCkemmel fincan\u0131n\u0131z!; Bir yudum al\u0131n ve d\xFCnyan\u0131n
+      erimesine izin verin!; Umar\u0131m bu i\xE7ecek beklentilerinizi a\u015Far!;
+      G\xFCn\xFCn\xFCz bu i\xE7ecek kadar keyifli ge\xE7sin!; G\xFCn\xFCn\xFCz bu
+      i\xE7ecek kadar keyifli ge\xE7sin!; Yudumlay\u0131n, tad\u0131n\u0131 \xE7\u0131kar\u0131n
+      ve tad\u0131n\u0131 \xE7\u0131kar\u0131n! Sadece sizin i\xE7in yap\u0131ld\u0131!;
+      \u0130\u015Fte, tam sizin sevdi\u011Finiz gibi olmal\u0131.;"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427788485054464
+    m_Localized: "Bu yanl\u0131\u015F...@Spoken_Ah; Tekrar denemeliyim!@Spoken_Ah;
+      Bir sonraki sefer daha iyi olacak!@Spoken_Ah; Of! Tekrar deneyeyim...@Spoken_Ah;
+      Bu tamamen yanl\u0131\u015F de\u011Fil...@Spoken_Ah; Bu maa\u015F\u0131mdan
+      kesilecek mi?@Spoken_Ah; Tekrar deneyelim.@Spoken_Ah; G\xF6r\xFCn\xFC\u015Fe
+      g\xF6re daha fazla pratik ihtiyac\u0131m var.@Spoken_Ah; Of! Bu plana g\xF6re
+      gitmedi.@Spoken_Ah; Uygulama ustal\u0131k yapar, de\u011Fil mi?@Spoken_Ah;
+      Bu sefer do\u011Fru yapaca\u011F\u0131m, bak\u0131n!@Spoken_Ah; Ge\xE7mi\u015Fte
+      tak\u0131l\u0131p kalmayal\u0131m, bir sonraki ad\u0131ma ge\xE7elim!@Spoken_Ah;
+      Bir sonraki fincanla telafi edece\u011Fim!@Spoken_Ah; K\xFC\xE7\xFCk bir aksilik,
+      ama geri d\xF6nece\u011Fim!@Spoken_Ah; \u0130yi, bu hedefi vurmad\u0131.@Spoken_Ah;
+      \xC7izim masas\u0131na geri d\xF6n\xFCyorum, san\u0131r\u0131m.@Spoken_Ah;
+      Hmm, bunu yeniden ayarlayay\u0131m.@Spoken_Ah; Sadece k\xFC\xE7\xFCk bir hata,
+      benim ustal\u0131k eserimin s\xFCrecinde.@Spoken_Ah; Bu tam olarak ne d\xFC\u015F\xFCnd\xFC\u011F\xFCm
+      de\u011Fil, ama ula\u015Faca\u011F\u0131m.@Spoken_Ah; Of! Tekrar deneyelim,
+      olur mu?@Spoken_Ah; \u0130yi, bu beklenmedik bir \u015Fey. Tekrar deneyelim.@Spoken_Ah;
+      Her fincan bir kazanan olamaz, de\u011Fil mi?@Spoken_Ah; \u0130\xE7imdeki m\xFCkemmeliyet\xE7iyi
+      uyand\u0131rma zaman\u0131!@Spoken_Ah; M\xFCkemmel fincan yolculu\u011Fu devam
+      ediyor!@Spoken_Ah; Bu hatay\u0131 bir ustal\u0131k eserine d\xF6n\xFC\u015Ft\xFCr\xFCyoruz!@Spoken_Ah;
+      G\xF6r\xFCn\xFC\u015Fe g\xF6re becerilerimi geli\u015Ftirmem gerekiyor.@Spoken_Ah;
+      K\xFC\xE7\xFCk bir aksilik beni durdurmayacak!@Spoken_Ah; \u0130leriye! Bir
+      sonraki fincan, gidiyorum!@Spoken_Ah; Sab\u0131r ve uygulama, anahtar!@Spoken_Ah;
+      Hen\xFCz orada de\u011Filim, ama yakla\u015F\u0131yorum.@Spoken_Ah; Bir sonraki
+      fincanla telafi etme zaman\u0131!@Spoken_Ah; Ekstra \xE7aba ile telafi edece\u011Fim!@Spoken_Ah;
+      M\xFCkemmel i\xE7ecek aray\u0131\u015F\u0131 devam ediyor!@Spoken_Ah; Ba\u015Far\u0131s\u0131zl\u0131k,
+      sadece ba\u015Far\u0131ya giden bir ad\u0131m daha!@Spoken_Ah; Tekrar!@Spoken_Ah"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427829996081152
+    m_Localized: "Aaghh! \xC7o\u011Fu kupa ka\xE7t\u0131!@Spoken_Sigh_Happy; Hmmnnn~
+      ... Kim bakt\u0131?@Spoken_Sigh_Happy; Ah, hay\u0131r, benim s\xFCt\xFCm i\xE7ece\u011Fe
+      d\xFC\u015Ft\xFC!@Spoken_Sigh_Happy; Barbra sa\u011F\u0131m yapt\u0131... \xE7ok
+      etkili!@Reactions_Ooooh; Bu sefer kupaya koymaya \xE7al\u0131\u015Fal\u0131m.@Spoken_Sigh_Happy;
+      Ah \u0130yi hissediyorum~@Reactions_mmmm; Tatl\u0131 bir rahatlama.@Reactions_mmmm;
+      Hhngg!@Reactions_mmmm; Ooo oh!@Reactions_Ooooh; Muuuh!@Moo_Happier; M-muuuh@Moo_Surprised;
+      \u0130\u015Fin en iyi k\u0131sm\u0131~@Spoken_Sigh_Happy; Ah, biraz s\xFCt
+      sadece do\u011Fru miktarda!@Spoken_Sigh_Happy; S\xFCt\xFCm\xFCn b\xFCy\xFCs\xFC
+      ekstra bir lezzet katar!@Reactions_Ooooh; \xD6zel dokunu\u015Fumu ekliyorum,
+      bu i\xE7ece\u011Fi y\xFCkseltmek i\xE7in!@Spoken_Sigh_Happy; Biraz s\xFCt,
+      \xE7ok sevgi!@Reactions_mmmm; S\xFCt, m\xFCkemmelli\u011Fin gizli bile\u015Feni!@Spoken_Sigh_Happy;
+      \u0130\u015Fte, harika bir s\xFCt \xF6rne\u011Fi!@Reactions_mmmm; S\xFCt\xFCm\xFCn
+      b\xFCy\xFCs\xFC bug\xFCn \xE7ok g\xFC\xE7l\xFC!@Reactions_Ooooh; Kremams\u0131
+      bir dokunu\u015F, tam olarak istedi\u011Finiz gibi!@Spoken_Sigh_Happy; S\xFCt
+      var, ve s\xFCt olacak!@Spoken_Sigh_Happy; Hassas sa\u011F\u0131m en iyi \u015Fekilde!@Spoken_Sigh_Happy;
+      Muu-velous! Bir damla daha kupa i\xE7inde.@Moo_Happier; S\xFCtten dikkat edin!
+      Kaygan!@Spoken_Sigh_Happy; Sadece bir dokunu\u015F inek mutlulu\u011Fu!@Reactions_mmmm;
+      \xC7ok lezzetli, kat\u0131lm\u0131yor musunuz?@Spoken_Sigh_Happy; S\xFCt f\u0131\u015Fk\u0131rmas\u0131
+      yak\u0131nda gelecek!@Moo_Surprised; S\xFCt, her kupan\u0131n bilinmeyen kahraman\u0131!@Spoken_Sigh_Happy;
+      \u0130\xE7me deneyiminize kremams\u0131 bir dokunu\u015F ekleyin!@Reactions_Ooooh;
+      S\xFCt her \u015Feyi daha iyi yap\u0131yor, de\u011Fil mi?@Spoken_Sigh_Happy;
+      Son damlaya kadar s\u0131kt\u0131ral\u0131m~@Spoken_Sigh_Happy"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427845133324288
+    m_Localized: "Ne istiyorsun?@Interaction_WhatDoYouWant; Evet, aptal?@Interaction_YesSilly;
+      g\xFCl\xFCyor@Spoken_Giggles; Mooo...?@Moo_Curious; Hm, bir \u015Fey ihtiyac\u0131n
+      var m\u0131?@Interaction_DoYouNeedSomething; \u0130\u015Ften sonra bo\u015F
+      musun?@Interaction_FreeAfterWork; Bu i\u015Fi bana verdi\u011Fin i\xE7in te\u015Fekk\xFCr
+      ederim.@Interaction_ThanksForTheJob; Bir \u015Fey i\xE7in para biriktiriyor
+      musun?@Money_SavingUpForSomething; Bana bir \u015Fey alabilir misin?@Interaction_CouldYouBuyMeSomething;
+      Mewth'e s\xFCt vermek zorunday\u0131m...@Casual_MewthMilk; D\xFCn s\xFCt sa\u011Flayamad\u0131m.
+      Bu tamamen bir ba\u015Far\u0131s\u0131zl\u0131kt\u0131.@Jokes_UdderFailure;
+      Di\u011Fer inek k\u0131zlarla tan\u0131\u015Fmay\u0131 bekleyemem.@Casual_MeetTheOtherCowGirls;
+      Pogo stick'e z\u0131plarsan milkshake alabilir misin?@Jokes_MilkshakePogoStick;
+      Bug\xFCn \xF6\u011Fleden sonra ya\u011Fmur ya\u011Fmayaca\u011F\u0131n\u0131
+      umuyorum.@Casual_RainThisAfterNoon; \u0130nek s\xFCt\xFCne: 'Ben senin annenim'.@Jokes_CowToTheMilk;
+      Bu sadece ba\u015Flang\u0131\xE7.@OnlyTheBeginning; Babam s\xFCt fabrikas\u0131nda
+      yeni bir i\u015F buldu. O inek koordinat\xF6r\xFC.@Jokes_DadAtTheDairy; Arkada\u015F\u0131m
+      hep arkada\u015Flar\u0131n\u0131 korkutmaya \xE7al\u0131\u015F\u0131yor. O
+      milkshake hayran\u0131.@Jokes_FriendScaringOtherFriends; Arkada\u015F\u0131m
+      badem s\xFCt\xFC \xFCretti\u011Fine inan\u0131yor. O deli olmal\u0131.@Jokes_AlmondMilk;
+      Arkada masih baz\u0131 bardaklar var m\u0131?@Casual_CupsInTheBack; K\xF6t\xFC
+      s\xFCt her zaman istedi\u011Fini ald\u0131.@Jokes_SpoiledMilkAlwaysGotWhatItWanted;
+      Bug\xFCn \xE7ok \u015Fey oluyor.@Casual_LotGoingOn; Bir adam beni krema, tereya\u011F\u0131
+      ve s\xFCt ile sald\u0131rd\u0131. Ne s\xFCt \xFCr\xFCnleri?@Jokes_HowDairy;
+      Ben bir zamanlar senin gibi bir inektim, g\xF6\u011Fs\xFCme bir \u015Fi\u015Fe
+      ald\u0131\u011F\u0131m zaman kadar.@Jokes_ACowLikeYou; \xDCretken hissediyorum.@Casual_FeelingProductive;
+      Arkadan daha fazla kahve alabilir misin?@Casual_CoffeeFromTheBack; Kahve \xE7ok
+      g\xFCzel kokuyor.@Casual_CoffeeSmellsNice; M\xFC\u015Fteriler s\xFCrekli geliyor.@Casual_CustomersRollingIn;
+      Onlar\u0131n beni sevdi\u011Fini d\xFC\u015F\xFCn\xFCyor musun?@Casual_DoTheyLikeMe;
+      Sadece normal bir i\u015F g\xFCn\xFC.@Casual_NormalDayAtTheJob; Hey! Dikkat
+      et!@Reactions_HeyCareful"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427953908404224
+    m_Localized: "\u0130\u015F bu kadar k\xF6t\xFC ise b\xFCy\xFCmek i\xE7in bir
+      anlam\u0131 yok... @Upset_GrowingBiggerIsntWorthIt; K\u0131zg\u0131n inekler
+      genellikle ek\u015Fi s\xFCte neden oluyor.@Jokes_AngryCowsSourMilk; Bu i\u015Fi
+      b\u0131kt\u0131m!@Spoken_Grunt; U\u011F! Pes ediyorum!@Reactions_Bleh; Bu i\u015F
+      berbat!@Spoken_Grunt; Evime gitmek istiyorum...@Spoken_Grunt; Bu i\u015F i\xE7in
+      yeterli \xFCcret alm\u0131yorum...@Spoken_Grunt; Uuugh...@Spoken_Grunt; Bu
+      i\u015Fin k\u0131sa s\xFCrede d\xFCzelmesi gerekiyor...@Reactions_Bleh; Bana
+      bir mola vermelisin.@Spoken_Grunt; K\xF6t\xFC bir g\xFCn ge\xE7iriyorum...@Reactions_Bleh;
+      L\xFCtfen bana bir \u015Fey yap veya bana bir \u015Fey s\xF6yle...@Reactions_Bleh;
+      Sadece bir s\xFCt ine\u011Fi olmak istedim...@Spoken_Grunt; Muu...@Moo_Tired;
+      Bu i\u015F y\xFCk\xFCn\xFC kald\u0131ram\u0131yorum...@Spoken_Grunt; S\u0131n\u0131r\u0131ma
+      ula\u015Ft\u0131m...@Reactions_Bleh; Gitme zaman\u0131 m\u0131?@Spoken_Grunt;
+      Her g\xFCn bir m\xFCcadele...@Spoken_Grunt; Burada s\u0131n\u0131r\u0131ma
+      ula\u015Ft\u0131m...@Reactions_Bleh; Bu rutinden \xE7ok yoruldum...@Spoken_Grunt;
+      Kendimi bir d\xF6ng\xFCde hissediyorum...@Reactions_Bleh; G\xF6zlerimi a\xE7am\u0131yorum...@Spoken_Grunt;
+      Bu vardiya ne zaman bitecek?@Reactions_Bleh; Sadece bir g\xFCn daha dayanmam
+      gerekiyor...@Spoken_Grunt; Tatil ihtiyac\u0131m var... veya bir mucize.@Reactions_Bleh;
+      Bu karanl\u0131kta bir \u0131\u015F\u0131\u011Fa ihtiyac\u0131m var...@Spoken_Grunt;
+      Bu yorgunluktan kurtulam\u0131yorum...@Reactions_Bleh; Motivasyonumu kaybetmeye
+      ba\u015Flad\u0131m...@Spoken_Grunt; Her \u015Fey \xE7ok ezici geliyor...@Reactions_Bleh;
+      Ne kadar daha dayanabilece\u011Fimi bilmiyorum...@Spoken_Grunt; Sadece hayatta
+      kalmaya \xE7al\u0131\u015F\u0131yorum...@Reactions_Bleh; Bu i\u015F beni t\xFCketiyor...@Spoken_Grunt;
+      Kendimi bir d\xF6ng\xFCde hissediyorum...@Reactions_Bleh; T\xFCkenmi\u015F
+      hissediyorum... hem duygusal hem de fiziksel olarak.@Spoken_Grunt; \u015Eans\u0131m\u0131n
+      ve ruh halimin de\u011Fi\u015Fmesini umuyorum...@Reactions_Bleh; Sadece gitme
+      zaman\u0131n\u0131 bekliyorum...@Spoken_Grunt; Pes ediyorum...@Reactions_Bleh;
+      Dibe vurdu\u011Fumu hissediyorum...@Spoken_Grunt; Sadece yata\u011F\u0131ma
+      saklanmak ve d\u0131\u015Far\u0131 \xE7\u0131kmamak istiyorum...@Reactions_Bleh;
+      Bo\u015F hissediyorum...@Spoken_Grunt; Yard\u0131m ihtiyac\u0131m var...@Reactions_Bleh;
+      Sadece devam etmem gerekiyor...@Spoken_Grunt; Devam etmek i\xE7in biraz enerjiye
+      ihtiyac\u0131m var...@Reactions_Bleh; Bir mola istemek \xE7ok mu?@Spoken_Grunt;
+      Belki de iyi bir ruh hali i\xE7inde olsayd\u0131m, \u015Fakalar anlat\u0131rd\u0131m...@Moo_Tired"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427974720540672
+    m_Localized: "Bu i\u015F her zaman bu kadar zor mu?@Spoken_Sigh; Spoiler uyar\u0131s\u0131!
+      S\xFCt bozuldu.@Spoken_Sigh; Bug\xFCn \xF6\u011Fleden sonra ya\u011Fmur ya\u011Fmaz
+      umar\u0131m.@Casual_RainThisAfterNoon; Bir mola vermeliyim...@Reactions_Bleh;
+      Yanl\u0131\u015F s\xFCtte do\u011Fru kahve b\xFCy\xFCk bir fark yaratabilir.@Spoken_Sigh;
+      Sakin ol, Barbra, faydalar buna de\u011Fer...@Spoken_Sigh; Bleh...@Reactions_Bleh;
+      Bu yorucu.@Spoken_Sigh; Bu i\u015Fi biraz daha ho\u015F bulmak istiyorum.@Spoken_Sigh;
+      Bu yer ger\xE7ekten \xE7ok yo\u011Fun, de\u011Fil mi?@Spoken_Sigh; Stoklar\u0131
+      yenilemem gerekiyor.@Spoken_Sigh; Bir mola verebilir miyim?@Spoken_Sigh; Yap\u0131lacak
+      \xE7ok i\u015F var!@Spoken_Sigh; Bir at\u0131\u015Ft\u0131rmal\u0131k yiyebilir
+      miyim ?@Spoken_Sigh; Nefes al... Nefes ver...@Reactions_Bleh; Bu, \xF6nceki
+      i\u015Fimden \xE7ok farkl\u0131 de\u011Fil.@Spoken_Sigh; Daha fazla dikkat
+      gerekiyor.@Spoken_Grunt; Muu...?@Moo_Curious; Bug\xFCn kendimi biraz yorgun
+      hissediyorum.@Spoken_Sigh; Umar\u0131m \u015Feyler yak\u0131nda d\xFCzelir...@Spoken_Sigh;
+      Sadece ba\u015F\u0131m\u0131 suyun \xFCzerinde tutmaya \xE7al\u0131\u015F\u0131yorum...@Reactions_Bleh;
+      Sadece ben mi, yoksa bug\xFCn sonsuza kadar s\xFCr\xFCyor gibi mi g\xF6r\xFCn\xFCyor?@Spoken_Sigh;
+      Biraz yorgun hissediyorum...@Reactions_Bleh; Olumlu kalmaya \xE7al\u0131\u015F\u0131yorum,
+      ama zor...@Spoken_Sigh; Biraz hava almam gerekiyor... bu i\u015F yorucu.@Spoken_Sigh;
+      Biraz \u015Fans istiyorum...@Reactions_Bleh; Bu i\u015F hacmi ger\xE7ekten
+      benim s\u0131n\u0131r\u0131mda...@Spoken_Sigh; Biraz yorgun hissediyorum...@Reactions_Bleh;
+      Sadece devam etmeliyim, san\u0131r\u0131m...@Spoken_Sigh; Biraz daha enerji
+      istiyorum...@Spoken_Sigh; Gitme zaman\u0131 m\u0131?@Spoken_Sigh; Ger\xE7ekten
+      bir mola vermeliyim...@Reactions_Bleh; Biraz s\u0131k\u0131\u015Fm\u0131\u015F
+      hissediyorum...@Spoken_Sigh; Umar\u0131m yar\u0131n daha iyi bir g\xFCn olur...@Spoken_Sigh;
+      Biraz yorgun hissediyorum...@Reactions_Bleh; Motivasyonumu korumaya \xE7al\u0131\u015F\u0131yorum,
+      ama zor...@Spoken_Sigh; Bu yorgunluktan kurtulam\u0131yorum...@Reactions_Bleh;
+      Biraz \u015Fans istiyorum...@Spoken_Sigh; G\xFClmenin bu kadar yorucu olabilece\u011Fini
+      hi\xE7 d\xFC\u015F\xFCnmemi\u015Ftim.@Spoken_Sigh"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427987508973568
+    m_Localized: "Lacti ne yap\u0131yor acaba?@Spoken_Hm; Arkada daha fazla fincan
+      var m\u0131?@Casual_CupsInTheBack; K\xF6t\xFC s\xFCt her zaman istedi\u011Fini
+      elde etti.@Jokes_SpoiledMilkAlwaysGotWhatItWanted; Bug\xFCn \xE7ok \u015Fey
+      yapmak gerekiyor.@Casual_LotGoingOn; Bir adam bana krem, tereya\u011F\u0131
+      ve s\xFCtle sald\u0131rd\u0131. Ne s\xFCt \xFCr\xFCnleri.@Jokes_HowDairy; Ben
+      bir inektim, t\u0131pk\u0131 senin gibi, ta ki g\xF6\u011Fs\xFCme bir \u015Fi\u015Fe
+      alana kadar.@Jokes_ACowLikeYou; \xDCretken hissediyorum.@Casual_FeelingProductive;
+      Bana arkadan daha fazla kahve getirebilir misin?@Casual_CoffeeFromTheBack;
+      Kahve \xE7ok g\xFCzel kokuyor.@Casual_CoffeeSmellsNice; M\xFC\u015Fteriler
+      devam ediyor.@Casual_CustomersRollingIn; Onlar\u0131n beni sevdi\u011Fini d\xFC\u015F\xFCn\xFCyor
+      musun?@Casual_DoTheyLikeMe; Sadece normal bir i\u015F g\xFCn\xFC.@Casual_NormalDayAtTheJob;
+      \u0130yi, tezgah tekrar temizlendi.@Spoken_Hm; Yorgunken biraz huysuz olabilir
+      miyim.@Spoken_Hm; Daima daha fazla ilgiye ihtiyac\u0131m var, istersen.@Spoken_Hm;
+      Kahve makinesini tekrar nas\u0131l kullanabilirim?@Spoken_Hm; Ger\xE7ekten
+      normal s\xFCt satmak zorunda m\u0131y\u0131z?@Spoken_Hm; Bug\xFCn kendimi iyi
+      hissediyorum!@Spoken_Hm; Bug\xFCn harika bir g\xFCn olacak gibi g\xF6r\xFCn\xFCyor!@Spoken_Hm;
+      Bug\xFCn zirveyim!@Spoken_Hm; Enerjim dolu ve her \u015Feye haz\u0131r\u0131m!@Spoken_Hm;
+      Bug\xFCn kahvenin atmosferini seviyorum!@Spoken_Hm; Bu kadar g\xFCzel bir ortamda
+      \xE7al\u0131\u015Fmak g\xFCzel!@Spoken_Hm; Mutluluk bula\u015F\u0131c\u0131,
+      de\u011Fil mi?@Spoken_Hm; Lezzetli i\xE7ecekler haz\u0131rlamak i\xE7in haz\u0131r\u0131m!@Spoken_Hm;
+      Bug\xFCn kendimi \xE7ok iyi hissediyorum!@Spoken_Hm; \u0130yi atmosferi s\xFCrd\xFCrmeye
+      devam edelim!@Spoken_Hm; Her \u015Feyi yapabilece\u011Fimi hissediyorum!@Spoken_Hm;
+      Her \u015Fey daha parlak g\xF6r\xFCn\xFCyor, iyi hissediyorum!@Spoken_Hm; Y\xFCz\xFCmde
+      bir g\xFCl\xFCmseme ve elimde kahve var!@Spoken_Hm; Kahve mutsuzken daha iyi
+      tad\u0131 var!@Spoken_Hm; Bug\xFCn bir g\xFCne\u015F \u0131\u015F\u0131n\u0131
+      gibi hissediyorum!@Spoken_Hm; Bug\xFCn kahve yapmak i\xE7in harika bir g\xFCn
+      olacak gibi g\xF6r\xFCn\xFCyor!@Spoken_Hm; \u0130yi hissediyorum, kendi alan\u0131mday\u0131m!@Spoken_Hm;
+      Mutlulu\u011Fu yaymak i\xE7in haz\u0131r\u0131m, fincan fincan!@ Spoken_Hm;
+      Mutlu hissediyorum ve g\xFCn\xFC kar\u015F\u0131lamak i\xE7in haz\u0131r\u0131m!@Spoken_Hm;
+      Mutluluk her i\xE7ece\u011Fin gizli bile\u015Feni!@Spoken_Hm; Muh... ?@Moo_Curious;
+      Bekle, kahve ve \u015Fekerin bir ine\u011Fi b\xFCy\xFCtmesi normal de\u011Fil
+      mi?@Spoken_Hm"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428000616173568
+    m_Localized: "Lacti'nin bug\xFCn i\u015Ften ka\xE7\u0131p beni g\xF6rmeye gelece\u011Fini
+      umuyorum.@Spoken_Sigh_Happy; Arkada\u015F\u0131m hep di\u011Fer arkada\u015Flar\u0131n\u0131
+      korkutmaya \xE7al\u0131\u015F\u0131yor. Milkshake hayran\u0131.@Jokes_FriendScaringOtherFriends;
+      Arkada\u015F\u0131m badem s\xFCt\xFC \xFCretti\u011Fini d\xFC\u015F\xFCn\xFCyor.
+      Deli olmal\u0131.@Jokes_AlmondMilk; Nas\u0131l hissediyorsun, patron?@Spoken_Sigh_Happy;
+      Bug\xFCn i\u015Ften sonra nereye gitmek istiyorsun?@Spoken_Sigh_Happy; Bu i\u015F
+      ger\xE7ekten \xE7ok e\u011Flenceli!@Spoken_Sigh_Happy; Sana bir \u015Fey yapabilece\u011Fim
+      bir \u015Fey var m\u0131?@Spoken_Sigh_Happy; M\xFC\u015Fteriler beni seviyor
+      gibi g\xF6r\xFCn\xFCyor.@Spoken_Sigh_Happy; Hmm hm hmm hhm hmmm!@Spoken_Humming;
+      Ne g\xFCzel g\xFCn!@Spoken_Sigh_Happy; Bardaklarla yapabilece\u011Fim bu numaray\u0131
+      g\xF6r\xFCn.@Spoken_Giggles; Harika bir patron oldun.@Spoken_Sigh_Happy; Huysuzluk?
+      Hay\u0131r, bana iyi davranmaya devam edersen!@Spoken_Sigh_Happy; \u0130nekler
+      bana iyi davranmad\u0131\u011F\u0131n gibi davran\u0131ld\u0131klar\u0131nda
+      biraz MOOdy olabilirler.@Spoken_Sigh_Happy; Bug\xFCn d\xFCnyan\u0131n tepesinde
+      oldu\u011Fumu hissediyorum!@Spoken_Sigh_Happy; G\xFClmeyi sa\u011Flayan bir
+      i\u015F sahibi olmak iyi de\u011Fil mi?@Spoken_Sigh_Happy; \xC7ok memnun ve
+      mutlu hissediyorum!@Spoken_Sigh_Happy; \u0130yi huydayken her g\xFCn iyi g\xFCn
+      gibi g\xF6r\xFCn\xFCyor!@Spoken_Sigh_Happy; \u015Eimdi sevin\xE7ten dans edebilirim!@Spoken_Sigh_Happy;
+      Kalbim hafif ve mutlu bug\xFCn!@Spoken_Sigh_Happy; Hafif ad\u0131mlarla ve
+      y\xFCz\xFCmde bir g\xFCl\xFCmsemeyle!@Spoken_Sigh_Happy; Y\u0131ld\u0131zlar\u0131n
+      bug\xFCn hizaland\u0131\u011F\u0131 g\xF6r\xFCn\xFCyor!@Spoken_Sigh_Happy;
+      Hayat g\xFCzel de\u011Fil mi, kendini iyi hissetti\u011Finde?@Spoken_Sigh_Happy;
+      D\xFCnyay\u0131 fethedebilece\u011Fimi hissediyorum!@Spoken_Sigh_Happy; Mutlu
+      bir kalp ve kahve var!@Spoken_Sigh_Happy; Bug\xFCn inan\u0131lmaz bir g\xFCn!@Spoken_Sigh_Happy;
+      Her \u015Fey i\xE7in \xE7ok minnettar\u0131m!@Spoken_Sigh_Happy; Her \u015Fey
+      bug\xFCn do\u011Fru g\xF6r\xFCn\xFCyor!@Spoken_Sigh_Happy; Mutluluktan par\u0131ldad\u0131\u011F\u0131m\u0131
+      hissediyorum!@Spoken_Sigh_Happy; \xC7ok mutluyum, neredeyse patlayaca\u011F\u0131m!@Spoken_Sigh_Happy;
+      Mutluluk bula\u015F\u0131c\u0131, de\u011Fil mi?@Spoken_Sigh_Happy; Hayat g\xFCzel
+      de\u011Fil mi, kendini iyi hissetti\u011Finde?@Spoken_Sigh_Happy; Bug\xFCn
+      havada y\xFCr\xFCyormu\u015Fum gibi hissediyorum!@Spoken_Sigh_Happy; \xC7ok
+      mutluyum ve kutsanm\u0131\u015F hissediyorum!@Spoken_Sigh_Happy; Muh!@Moo_Happy;
+      \xC7ok rahat hissediyorum.@Spoken_Sigh_Happy"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428017326280704
+    m_Localized: "Ben \xE7ok iyi hissediyorum!@Spoken_Giggles; S\xFCt\xFC inek: 'Ben
+      senin annenim'.@Jokes_CowToTheMilk; Babam bir s\xFCt fabrikas\u0131nda yeni
+      bir i\u015F buldu. O inek koordinat\xF6r\xFC.@Jokes_DadAtTheDairy; S\xFCt\xFC
+      \xE7ikolataya tan\u0131tt\u0131m. Onlar \xE7ikolatal\u0131 milkshake yapt\u0131lar.@Spoken_Giggles;
+      S\xFCt benim son \u015Fakama g\xFClmedi. O a-meu-sed de\u011Fildi.@Spoken_Giggles;
+      Bu i\u015Fi \xE7ok seviyorum!@Spoken_Giggles; G\xFCn\xFCm daha iyi olabilir
+      mi?@Spoken_Giggles; M\xFC\u015Fteriler bug\xFCn bana \xE7ok nazik davran\u0131yorlar.@Spoken_Giggles;
+      Daha sonra benimle bir \u015Feyler i\xE7mek ister misin?@Spoken_Giggles; Biz
+      iyi yap\u0131yoruz!@Spoken_Giggles; Eeee!@Reactions_Eeeee; Ahaha!@Spoken_Giggles;
+      Muh!@Moo_Happiest; Beni kucaklamak ister misin?@Spoken_Giggles; Daha sonra
+      senin i\xE7in daha fazla s\xFCt saklayaca\u011F\u0131m!@Spoken_Giggles; Ben
+      neredeyse havada u\xE7u\u015Fuyorum!@Spoken_Giggles; Benim bir g\xFCl\xFCmsemem
+      var ki durmuyor!@Spoken_Giggles; Bug\xFCn \xE7ok g\xFCzel bir g\xFCn, sanki
+      bir r\xFCya!@Spoken_Giggles; Bu saf mutluluk mu? \u0130nan\u0131lmaz!@Spoken_Giggles;
+      Ben pozitiflik ve mutluluk yay\u0131yorum!@Spoken_Giggles; Ben bug\xFCn yedinci
+      g\xF6kteyim gibi hissediyorum!@Spoken_Giggles; Kalbim mutlulukla dolu!@Spoken_Giggles;
+      Ben \xE7ok mutluyum, neredeyse \u015Fark\u0131 s\xF6yleyebilirim!@Spoken_Giggles;
+      Bug\xFCn kula\u011F\u0131mdan kula\u011F\u0131ma g\xFCl\xFCyorum!@Spoken_Giggles;
+      Bug\xFCn m\xFCkemmel bir g\xFCn!@Spoken_Giggles; Ben mutluluk ve kahkahayla
+      dolu!@Spoken_Giggles; Ben en iyi hayat\u0131mda ya\u015F\u0131yorum!@Spoken_Giggles;
+      Ben d\xFCnyan\u0131n en mutlu baristas\u0131 gibi hissediyorum!@Spoken_Giggles;
+      Bug\xFCn \xE7ok harika, bunu\u6C38\u9060\u306Bhat\u0131rlamak istiyorum!@Spoken_Giggles;
+      Benim yayd\u0131\u011F\u0131m mutlulu\u011Fu hissedebilir misin?@Spoken_Giggles;
+      Ben mutluluk jackpotunu kazand\u0131m gibi hissediyorum!@Spoken_Giggles; Ben
+      \xE7ok mutluyum!@Spoken_Giggles; Bug\xFCn her an bir hediye gibi g\xF6r\xFCn\xFCyor!@Spoken_Giggles;
+      Hayat\u0131mdeki t\xFCm mutluluk i\xE7in \xE7ok minnettar\u0131m!@Spoken_Giggles;
+      Ben bug\xFCn g\xFCne\u015F ve ya\u011Fmurlu bir g\xFCn!@Spoken_Giggles; Ben
+      bu mutlulukla d\xFCnyay\u0131 fethedebilirim gibi hissediyorum!@Spoken_Giggles;
+      Hayat bir g\xFCzeldir, bug\xFCn en mutlu \u015Fark\u0131yla dans ediyorum!@Spoken_Giggles;
+      Ben mutluluk yay\u0131yorum!@Spoken_Giggles; Bug\xFCn bir masal gibi g\xF6r\xFCn\xFCyor,
+      ger\xE7ek oldu!@Spoken_Giggles; Ben mutlulu\u011Fu konfeti gibi sa\xE7\u0131yorum!@Spoken_Giggles;
+      Ben mutlulukla sar\u0131lm\u0131\u015F gibi hissediyorum!@Spoken_Giggles; Ben
+      \xE7ok mutluyum, neredeyse t\xFCm d\xFCnyay\u0131 kucaklayabilirim!@Spoken_Giggles;
+      Mutluluk seviyesi bug\xFCn: \xF6l\xE7\xFClemez!@Spoken_Giggles; Ben \xE7ok
+      mutluluk yay\u0131yorum , neredeyse mutluluk a\u015F\u0131r\u0131l\u0131\u011F\u0131na
+      neden olabilirim!@Spoken_Giggles; Ben t\xFCm \u015Fehri ayd\u0131nlatmak i\xE7in
+      yeterli mutlulu\u011Fa sahibim!@Spoken_Giggles; Ben \xE7ok mutluyum, neredeyse
+      burada mutluluk dans\u0131 yapabilirim!@Spoken_Giggles; Bug\xFCn bir r\xFCya
+      gibi g\xF6r\xFCn\xFCyor, uyanmak istemiyorum!@Spoken_Giggles; Ben \xE7ok mutluyum,
+      her g\xFCn benim do\u011Fum g\xFCn\xFCm gibi g\xF6r\xFCn\xFCyor!@Spoken_Giggles;
+      Ben bug\xFCn mutlulukla dolu!@Spoken_Giggles; Muh!@Moo_Happier"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428063652368384
+    m_Localized: "Kendimi \xE7ok k\xFC\xE7\xFCk hissediyorum.@Spoken_Ah; Bana b\xFCy\xFCmeme
+      yard\u0131m edece\u011Fine s\xF6z verdin, de\u011Fil mi?@Spoken_Ah; O \xF6zel
+      avantajlar\u0131n devreye girmesini h\xE2l\xE2 bekliyorum...@Spoken_Ah; Bana
+      bir \u015Fey al\u0131r m\u0131s\u0131n?@Spoken_Ah; Her zaman daha iyi yapabiliriz.@Spoken_Ah;
+      A\u011F\u0131rl\u0131klar\u0131n\u0131 neredeyse hissedemiyorum.@Spoken_Ah;
+      Di\u011Fer inek k\u0131zlar kadar b\xFCy\xFCk olacak m\u0131y\u0131m merak
+      ediyorum.@Spoken_Ah"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428070547804160
+    m_Localized: "Art\u0131k iyi ilerleme kaydetmeye ba\u015Fl\u0131yoruz.@Spoken_Hm;
+      Bu sadece bir ba\u015Flang\u0131\xE7.@Spoken_Hm; Art\u0131k \xFCzerimde ho\u015F
+      bir a\u011F\u0131rl\u0131k hissetmeye ba\u015Fl\u0131yorum.@Spoken_Hm; S\xFCt\xFCn
+      akmas\u0131n\u0131 s\xFCrd\xFCrelim!@Spoken_Hm; Bu i\u015Fin harika avantajlar\u0131
+      var.@Spoken_Hm; Senin de bir \xE7iftli\u011Fin oldu\u011Funu s\xF6yledin, de\u011Fil
+      mi?@Spoken_Hm; Herhangi bir losyonun var m\u0131?@Spoken_Hm"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428089740939264
+    m_Localized: "Bu kontrolden \xE7\u0131k\u0131yor ve ben de buna kat\u0131l\u0131yorum!@Spoken_Sigh_Happy;
+      D\xFCn s\xFCt sa\u011Famad\u0131m. Tam bir ba\u015Far\u0131s\u0131zl\u0131k
+      oldu.@Jokes_UdderFailure; \xC7\u0131rp\u0131ld\u0131\u011F\u0131nda s\xFCt\xFC
+      seviyorum. B\xF6ylece tereya\u011F\u0131 oluyor.@Spoken_Giggles; Daha fazla!@Reactions_More;
+      Daha b\xFCy\xFCk!@Reactions_Bigger; Her zaman daha b\xFCy\xFCk olabiliriz!@Spoken_Sigh_Happy;
+      S\u0131rt\u0131m \xE7ok g\xFC\xE7l\xFC, bunlar\u0131 sorun ya\u015Famadan ta\u015F\u0131yabilirim!@Spoken_Sigh_Happy;
+      Ke\u015Fke s\xFCtl\xFC kadar etli olabilsem.@Spoken_Sigh_Happy; M\xFC\u015Fteriler
+      ger\xE7ekten beni seviyor gibi g\xF6r\xFCn\xFCyor.@Spoken_Sigh_Happy; Bu harikalar
+      s\xFCt yapmaktan daha fazlas\u0131n\u0131 yapabilir.@Spoken_Sigh_Happy; En
+      iyi k\u0131zlar\u0131mdan biri miyim? Beni \u015F\u0131mart\u0131yorsun!~@Spoken_Sigh_Happy;
+      Di\u011Fer inek k\u0131zlarla tan\u0131\u015Fmak i\xE7in sab\u0131rs\u0131zlan\u0131yorum.@Casual_MeetTheOtherCowGirls"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428109055709184
+    m_Localized: "Bardaklar\u0131 servis etmek i\xE7in \xE7ok b\xFCy\xFCk oldu\u011Fumda
+      terfi al\u0131yorum, de\u011Fil mi?@Spoken_Giggles; E\u011Fer pogo \xE7er\xE7evesine
+      z\u0131plarsam bir milkshake al\u0131r m\u0131y\u0131m?@Jokes_MilkshakePogoStick;
+      Daha sonra Mewth'e biraz s\xFCt vermem gerekiyor...@Casual_MewthMilk; M\xFC\u015Fteriler
+      bug\xFCn bana garip bak\u0131yor... y\xFCz\xFCmde bir \u015Fey mi var?@Spoken_Giggles;
+      S\xFCt hakk\u0131nda bir \u015Faka yapard\u0131m ama \xE7ok cheesy.@Spoken_Giggles;
+      Harikal\u0131\u011Fa bu kadar yak\u0131n!@Spoken_Giggles; G\xFC\xE7le doluyum!
+      Ve s\xFCtle.@Spoken_Giggles; Daha! Daha!@Reactions_MoreMore; L\xFCtfen! Sadece
+      biraz daha b\xFCy\xFCk!@Reactions_Bigger; Ben bile \xE7ok daha b\xFCy\xFC\u011F\xFCn\xFC
+      kald\u0131ramam.@Spoken_Giggles; Kendi s\xFCt markam\u0131 satmak i\xE7in sab\u0131rs\u0131zlan\u0131yorum~@Spoken_Giggles;
+      Daha b\xFCy\xFCk! Daha b\xFCy\xFCk!~@Reactions_Bigger; Bu s\xFCt ak\u0131\u015F\u0131
+      asla bitmeyecek!@Spoken_Giggles; Son yakla\u015F\u0131yor.@Spoken_Giggles;
+      \xD6nce kafe, sonra d\xFCnya!@Spoken_Giggles; Devam\u0131nda \u015Fehir boyutunda
+      olmay\u0131 umuyorum.@Spoken_Giggles; Lacti \xE7ok k\u0131skanacak.@Spoken_Giggles;
+      S\xFCt y\xFCceltilsin!@Spoken_Giggles; Her g\xFCn bu kadar s\xFCt sa\u011Flanabilir
+      miyim? Hayat bir nimet.@Spoken_Giggles"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428124268449792
+    m_Localized: "Bir \u015Feyler almal\u0131y\u0131z. @Spoken_Hm; Bana bir \u015Fey
+      al\u0131r m\u0131s\u0131n? @Interaction_CouldYouBuyMeSomething; Arkadan bir
+      \u015Fey almak ger\xE7ekten isterim. @Spoken_Hm; Ma\u011Fazaya ekleyebilece\u011Fimiz
+      bir \u015Fey var m\u0131? @Spoken_Hm; \xC7ok fazla ekstra para kazan\u0131yoruz.
+      @Spoken_Hm; Ne alaca\u011F\u0131m\u0131z\u0131 merak ediyorum? @Spoken_Hm"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428146145939456
+    m_Localized: "Bir \u015Fey i\xE7in para m\u0131 biriktiriyorsun? @Money_SavingUpForSomething;
+      Almak istedi\u011Fin b\xFCy\xFCk bir \u015Fey var m\u0131? @Spoken_Hm; Bug\xFCn
+      \xE7ok para kazand\u0131k. @Spoken_Hm; T\xFCm o paraya bak. @Spoken_Hm; Bug\xFCn
+      nakit i\xE7inde y\xFCz\xFCyoruz! @Spoken_Hm; Bu kadar paraya sahip olabilece\u011Fimizi
+      hi\xE7 bilmiyordum! @Spoken_Hm; Karlar\u0131m\u0131z tavan yapm\u0131\u015F
+      durumda! @Spoken_Hm; Para denizinde y\xFCz\xFCyormu\u015Fum gibi hissediyorum!
+      @Spoken_Hm; Bug\xFCn \u015Fansl\u0131 bir g\xFCn\xFCm\xFCz gibi g\xF6r\xFCn\xFCyor!
+      @Spoken_Hm; Kahve servis etmenin bu kadar kazan\xE7l\u0131 olabilece\u011Fini
+      kim bilebilirdi? @Spoken_Hm; Yapacak bir \u015Feyimiz olmayan kadar param\u0131z
+      var! @Spoken_Hm; Kasam\u0131zda bu kadar para olaca\u011F\u0131n\u0131 hi\xE7
+      d\xFC\u015F\xFCnmemi\u015Ftim! @Spoken_Hm; Bu kadar para ile yanl\u0131\u015F
+      i\u015Fte oldu\u011Fumuzu d\xFC\u015F\xFCnmeye ba\u015Fl\u0131yorum! @Spoken_Hm;
+      Bug\xFCn karlar\u0131m\u0131z g\xF6ky\xFCz\xFCnde! @Spoken_Hm; Sanki bir kafe
+      yerine para basma makinesi i\u015Fletiyormu\u015Fuz gibi! @Spoken_Hm; Yapacak
+      bir \u015Feyimiz olmayan kadar param\u0131z var! @Spoken_Hm; Daha \xF6nce bir
+      yerde bu kadar \xE7ok para g\xF6rmemi\u015Ftim! @Spoken_Hm; Bug\xFCn neredeyse
+      paran\u0131n i\xE7inde bo\u011Fuluyoruz! @Spoken_Hm; Bu parayla \u015Fehri
+      sat\u0131n alabiliriz! @Spoken_Hm; Hmm patron, para harcayabilece\u011Fini
+      hat\u0131rl\u0131yor musun? @Spoken_Hm"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

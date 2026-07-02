@@ -10,10 +10,10 @@ public class SetSeed : MonoBehaviour
     void Start()
     {
         var chooseRandomSeed = true;
-        if(PlayerPrefs.HasKey(Consts.PlayerPrefRandomSeed))
+        if (PlayerPrefs.HasKey(Consts.PlayerPrefRandomSeed))
         {
             chosenSeed = PlayerPrefs.GetInt(Consts.PlayerPrefRandomSeed);
-            if(chosenSeed >= 0)
+            if (chosenSeed >= 0)
             {
                 chooseRandomSeed = false;
                 PlayerPrefs.SetInt(Consts.PlayerPrefCurrentSeed, chosenSeed);

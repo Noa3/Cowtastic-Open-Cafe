@@ -1,3 +1,4 @@
+
 public class Event_NotFlusteredCustomers : EventBase
 {
     private OrderManager orderManager;

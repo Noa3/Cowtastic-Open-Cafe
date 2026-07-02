@@ -2,62 +2,116 @@ using UnityEngine;
 
 public class SoundEffectManager : MonoBehaviour
 {
-    public AudioSource AS;
+    [Header("Audio Source")]
+    [SerializeField] private AudioSource audioSource;
 
-    [Header("Effects")]
-    public AudioClip LevelUp;
-    public AudioClip NewOrder;
-    public AudioClip MouseClick;
-    public AudioClip MenuSelection;
+    [Header("Sound Effects")]
+    [SerializeField] private AudioClip levelUp;
+    [SerializeField] private AudioClip newOrder;
+    [SerializeField] private AudioClip mouseClick;
+    [SerializeField] private AudioClip menuSelection;
 
-    public static SoundEffectManager instance;
+    [Header("Settings")]
+    [SerializeField][Range(0f, 1f)] private float masterVolume = 1f;
+
+    public static SoundEffectManager instance { get; private set; }
 
     private void Awake()
     {
+        // Singleton pattern mit DontDestroyOnLoad
         if (instance == null)
         {
             instance = this;
+            //DontDestroyOnLoad(gameObject);
+
+            // AudioSource validieren oder erstellen
+            if (audioSource == null)
+            {
+                audioSource = GetComponent<AudioSource>();
+                if (audioSource == null)
+                {
+                    audioSource = gameObject.AddComponent<AudioSource>();
+                }
+            }
+        }
+        else if (instance != this)
+        {
+            Destroy(gameObject);
         }
     }
 
-    // Start is called before the first frame update
-    //void Start()
-    //{
+    private void OnDestroy()
+    {
+        if (instance == this)
+        {
+            instance = null;
+        }
+    }
 
-    //}
-
-    // Update is called once per frame
-    //void Update()
-    //{
-
-    //}
-
+    #region Public Sound Methods
     public void PlayLevelUpEffect()
     {
-        PlaySoundOneShot(LevelUp);
+        PlaySoundOneShot(levelUp);
     }
 
     public void PlayNewOrderEffect()
     {
-        PlaySoundOneShot(NewOrder);
+        PlaySoundOneShot(newOrder);
     }
 
     public void PlayMenuSelection()
     {
-        PlaySoundOneShot(MenuSelection);
+        PlaySoundOneShot(menuSelection);
     }
 
     public void PlayMouseClick()
     {
-        PlaySoundOneShot(MouseClick);
+        PlaySoundOneShot(mouseClick);
     }
+    #endregion
 
+    #region Core Sound Playing Methods
     public void PlaySoundOneShot(AudioClip clip)
     {
-        if (clip == null)
+        PlaySoundOneShot(clip, masterVolume);
+    }
+
+    public void PlaySoundOneShot(AudioClip clip, float volume)
+    {
+        PlaySoundOneShot(clip, volume, 1f);
+    }
+
+    public void PlaySoundOneShot(AudioClip clip, float volume, float pitch)
+    {
+        if (clip == null || audioSource == null)
         {
             return;
         }
-        AS.PlayOneShot(clip);
+
+        audioSource.pitch = pitch;
+        audioSource.PlayOneShot(clip, volume * masterVolume);
     }
+    #endregion
+
+    #region Volume Control
+    public void SetMasterVolume(float volume)
+    {
+        masterVolume = Mathf.Clamp01(volume);
+    }
+
+    public float GetMasterVolume()
+    {
+        return masterVolume;
+    }
+    #endregion
+
+    #region Validation
+    private void OnValidate()
+    {
+        if (audioSource == null)
+        {
+            audioSource = GetComponent<AudioSource>();
+        }
+    }
+    #endregion
 }

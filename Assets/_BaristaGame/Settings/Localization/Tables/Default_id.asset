@@ -1,0 +1,1915 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Default_id
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: id
+  m_SharedData: {fileID: 11400000, guid: 99f355a02537cb04c821e914e96ec32f, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1654148486754304
+    m_Localized: Pengaturan lanjutan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656496193892352
+    m_Localized: AntiAliasing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661452141555712
+    m_Localized: Gaya Celemek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549324026376192
+    m_Localized: Menambahkan $3 ke pesanan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549242392637440
+    m_Localized: Beli Boba seharga $75
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549277549293568
+    m_Localized: Boba
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549846439522304
+    m_Localized: Menambahkan $1 ke pesanan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549769167859712
+    m_Localized: Beli Saus Karamel seharga $25
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549811962343424
+    m_Localized: saus karamel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1683534711713792
+    m_Localized: 'Peternakan sapi perah Anda baru-baru ini memutuskan untuk mencoba
+      membuka "kafe sapi" untuk membantu pemasaran, dan selain itu, ini juga merupakan
+      cara yang bagus untuk memberi para gadis sapi baru sesuatu untuk dilakukan
+      sementara Anda mempersiapkan mereka untuk tugas di bidang peternakan sapi perah.
+
+
+      Barista
+      pertama Anda bersemangat untuk memulai dan tampak penuh potensi, bantu dia
+      melayani pelanggan sambil melatihnya menuju kekuatan penuhnya!
+
+
+      Kafe
+      ini masih baru, jadi Anda juga harus membeli bahan-bahan baru selama perjalanan.
+
+      Untungnya
+      tampaknya pelanggan di sini sangat menerima gagasan membayar ekstra untuk susu
+      segar berdasarkan permintaan jika suasana hati mereka tepat.
+
+
+      Jika Anda
+      memerlukan bantuan lebih lanjut saat bermain, ada Tooltips yang mengarahkan
+      kursor.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1683396865912832
+    m_Localized: Selamat datang di Kafe Cowtastic!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1684540275126272
+    m_Localized: 'Mungkin kamu seharusnya tinggal di rumah hari ini, seluruh kafe
+      berada dalam kekacauan karena segala macam hal gila terjadi di sini!  Berapa
+      harga ini?  Mengapa semua hal ini terus terjadi setiap kali pelanggan datang?
+
+
+      Hai,
+      sepertinya Anda menemukan telur paskah kecil kami, Anda mungkin ingin memainkan
+      mode lain terlebih dahulu jika Anda menemukannya pada percobaan pertama.
+
+
+      Anda
+      memerlukan banyak pengetahuan tentang cara kerja game untuk mengatasi kekacauan
+      ini, atau tidak... Jujur saja, apakah ini bisa dikalahkan?  Hanya satu cara
+      untuk mengetahuinya.
+
+
+      Juga terima kasih sudah bermain!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1684438634557440
+    m_Localized: Selamat datang di Kafe CHAOS!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 547914811535360
+    m_Localized: Senilai $5 per minuman
+    m_Metadata:
+      m_Items: []
+  - m_Id: 547664034099200
+    m_Localized: Beli Cokelat seharga $100
+    m_Metadata:
+      m_Items: []
+  - m_Id: 547789489926144
+    m_Localized: Cokelat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 550208105967616
+    m_Localized: Menambahkan $1,5 ke pesanan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 550089201643520
+    m_Localized: Beli Bubuk Kakao seharga $35
+    m_Metadata:
+      m_Items: []
+  - m_Id: 550158147612672
+    m_Localized: Coklat bubuk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537745180422144
+    m_Localized: Beli Kopi seharga $50
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537965951807488
+    m_Localized: Senilai $2 per minuman
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537790525042688
+    m_Localized: Kopi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316567601901568
+    m_Localized: Senilai $2 per minuman
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316555551666176
+    m_Localized: Beli Krimer Vanila seharga $35
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316559485923328
+    m_Localized: Krimer Vanila
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540973469102080
+    m_Localized: Senilai $10 per minuman
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540856380911616
+    m_Localized: Beli Espresso seharga $150
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540912534253568
+    m_Localized: espreso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1651431374680064
+    m_Localized: 'Wah wah wah, susunya terlalu banyak!  Apa yang kamu lakukan??? 
+      Anda telah mengubahnya menjadi sumur susu tanpa dasar, membanjiri jalanan tanpa
+      terlihat akhir!  Ini kekacauan!
+
+
+      Maksudku, tentu saja, dia masih menikmatinya,
+      tapi...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1651623855484928
+    m_Localized: Banjir Susu!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1713462324850688
+    m_Localized: 'Peternakan sapi perah Anda baru-baru ini memutuskan untuk mencoba
+      membuka "kafe sapi" untuk membantu pemasaran, dan selain itu, ini juga merupakan
+      cara yang bagus untuk memberi para gadis sapi baru sesuatu untuk dilakukan
+      sementara Anda mempersiapkan mereka untuk tugas di bidang peternakan sapi perah.
+
+
+      Barista
+      pertama Anda bersemangat untuk memulai dan tampak penuh potensi, bantu dia
+      melayani pelanggan sambil melatihnya menuju kekuatan penuhnya!
+
+
+      Kafe
+      ini masih baru, jadi Anda juga harus membeli bahan-bahan baru selama perjalanan.
+
+      Untungnya
+      tampaknya pelanggan di sini sangat menerima gagasan membayar ekstra untuk susu
+      segar berdasarkan permintaan jika suasana hati mereka tepat.
+
+
+      Jika Anda
+      belum belajar bermain, cobalah Mode Normal terlebih dahulu.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1685107663794176
+    m_Localized: Selamat datang di Kafe Cowtastic!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537416976134144
+    m_Localized: Menambahkan $0,50 ke pesanan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537330950959104
+    m_Localized: Beli Es seharga $5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537370968813568
+    m_Localized: Es
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1650345817501696
+    m_Localized: 'Ups!  Sepertinya Anda mendorongnya terlalu jauh.  Apakah Anda membiarkannya
+      kenyang terlalu lama?  Mungkin beberapa layanan pelanggan yang sulit?
+
+
+      Mudah-mudahan
+      dia akan kembali untuk mencoba pekerjaan itu lagi setelah dia tenang.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1650204792418304
+    m_Localized: Menu utama
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649997711241216
+    m_Localized: Coba lagi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1650511282794496
+    m_Localized: Permainan telah berakhir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316273224675328
+    m_Localized: Senilai $1 per minuman
+    m_Metadata:
+      m_Items: []
+  - m_Id: 312927965245440
+    m_Localized: Beli Susu Reguler seharga $50
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316153368244224
+    m_Localized: Susu Biasa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 226539798360064
+    m_Localized: Modus Arkade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549589093806080
+    m_Localized: Menambahkan $0,50 ke pesanan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549459674361856
+    m_Localized: Beli Permen seharga $10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549533506695168
+    m_Localized: Permen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1647892887859200
+    m_Localized: 'Peternakan sapi perah Anda baru-baru ini memutuskan untuk mencoba
+      membuka "kafe sapi" untuk membantu pemasaran, dan selain itu, ini juga merupakan
+      cara yang bagus untuk memberi para gadis sapi baru sesuatu untuk dilakukan
+      sementara Anda mempersiapkan mereka untuk tugas di bidang peternakan sapi perah.
+
+
+      Barista
+      pertama Anda bersemangat untuk memulai dan tampak penuh potensi, bantu dia
+      melayani pelanggan sambil melatihnya menuju kekuatan penuhnya!
+
+
+      Kafe
+      ini masih baru, jadi Anda juga harus membeli bahan-bahan baru selama perjalanan.
+
+      Untungnya
+      tampaknya pelanggan di sini sangat menerima gagasan membayar ekstra untuk susu
+      segar berdasarkan permintaan jika suasana hati mereka tepat.
+
+
+      Jika Anda
+      memerlukan bantuan lebih lanjut saat bermain, ada Tooltips yang mengarahkan
+      kursor.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1647484102602752
+    m_Localized: Selamat datang di Kafe Cowtastic!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 541488361861120
+    m_Localized: Senilai $1,5 per minuman
+    m_Metadata:
+      m_Items: []
+  - m_Id: 541379419009024
+    m_Localized: Beli Gula seharga $15
+    m_Metadata:
+      m_Items: []
+  - m_Id: 541440546795520
+    m_Localized: Gula
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540631339724800
+    m_Localized: Senilai $3 per minuman
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540541439012864
+    m_Localized: Beli Teh seharga $50
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540592966037504
+    m_Localized: teh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233523209662464
+    m_Localized: Tutorial Arkade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 234141684953088
+    m_Localized: Tip dan instruksi untuk membantu Anda belajar bermain jika trial
+      and error bukanlah hal yang Anda sukai.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1713940962045952
+    m_Localized: 'Mungkin kamu seharusnya tinggal di rumah hari ini, seluruh kafe
+      berada dalam kekacauan karena segala macam hal gila terjadi di sini!  Berapa
+      harga ini?  Mengapa semua hal ini terus terjadi setiap kali pelanggan datang?
+
+
+      Hai,
+      sepertinya Anda menemukan telur paskah kecil kami, Anda mungkin ingin memainkan
+      mode lain terlebih dahulu jika Anda menemukannya pada percobaan pertama.
+
+
+      Anda
+      memerlukan banyak pengetahuan tentang cara kerja game untuk mengatasi kekacauan
+      ini, atau tidak... Jujur saja, apakah ini bisa dikalahkan?  Hanya satu cara
+      untuk mengetahuinya.
+
+
+      Juga terima kasih sudah bermain!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1713827099275264
+    m_Localized: Selamat datang di Kafe CHAOS!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537045671178240
+    m_Localized: Menambahkan $0,75 ke pesanan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536900430819328
+    m_Localized: Beli Krim Kocok seharga $15
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536982903418880
+    m_Localized: Krim kocok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648740309233664
+    m_Localized: Anda telah menjadikan Barista Anda sebesar yang dia bisa!  Setelah
+      mencapai potensi penuhnya, dia dengan senang hati bergabung dengan perusahaan
+      susu Anda secara penuh, menambahkan gadis sapi berkualitas lainnya ke staf
+      Anda!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648943238049792
+    m_Localized: Terus Bermain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649229939699712
+    m_Localized: Menu utama
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649612644773888
+    m_Localized: Statistik Lebih Sedikit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649493451042816
+    m_Localized: Statistik Lainnya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649079095750656
+    m_Localized: Main lagi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648511212154880
+    m_Localized: Selamat!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132749943507623936
+    m_Localized: Pakaian Perbaikan Otomatis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133847671285325824
+    m_Localized: Kembali
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133992920209006592
+    m_Localized: Dasar-dasar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133054867663593472
+    m_Localized: 'Waktu terbaik: '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663386760081408
+    m_Localized: Kopi Pahit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660668985307136
+    m_Localized: 'Cara Terbaik Untuk Memulai Hari:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035131357732864
+    m_Localized: Beli setiap pakaian.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1664405879484416
+    m_Localized: Teh yang Menenangkan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655899071803392
+    m_Localized: Gerakan Kamera
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132868178831843328
+    m_Localized: Kasual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269928791109632
+    m_Localized: 'Terkadang tidak apa-apa jika Anda ingin bersantai.
+
+      Harga
+      lebih murah & konsisten sehingga memudahkan untuk bermain-main dengan berbagai
+      pilihan.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269706832736256
+    m_Localized: Kesulitan Biasa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231828173975552
+    m_Localized: Modus Santai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870694181117952
+    m_Localized: Kekacauan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273385908432896
+    m_Localized: 'Oh tidak.
+
+      Tolong, demi cinta semua yang baik di dunia ini,
+      beri tahu saya bahwa Anda setidaknya sudah memainkan Mode Normal terlebih dahulu,
+      bukan?  Demi kebaikanmu sendiri... kumohon!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271100448960512
+    m_Localized: Kesulitan Kekacauan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648041961811968
+    m_Localized: Melanjutkan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228206665101312
+    m_Localized: Kafe Cowtastic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227076505694208
+    m_Localized: Kredit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133034814415151104
+    m_Localized: Penjual Piala
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132865428639293440
+    m_Localized: 'Piala Terjual:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661003594297344
+    m_Localized: Sesuaikan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656215754338304
+    m_Localized: Perselisihan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133995165042450432
+    m_Localized: Pembuatan Minuman
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035279336972288
+    m_Localized: Hasilkan $10.000.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2654012272640
+    m_Localized: KELUAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133847226483580928
+    m_Localized: Keluar dari Tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663192102432768
+    m_Localized: Istirahat Ekstra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663816466526208
+    m_Localized: Peri Latte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035857651802112
+    m_Localized: Wajah yang familiar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133037143440859136
+    m_Localized: Temukan kesulitan yang benar-benar terkutuk.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035644203671552
+    m_Localized: Temukan rahasia Kesulitan Kekacauan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1641101533736960
+    m_Localized: Selesaikan Pesanan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658724845711360
+    m_Localized: Perbaiki Pakaian
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035056309051392
+    m_Localized: Lemari Pakaian Lengkap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1664587954221056
+    m_Localized: Toleransi Kepenuhan+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655422749863936
+    m_Localized: Layar penuh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132753240020852736
+    m_Localized: Kemajuan Permainan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1653921176449024
+    m_Localized: Pengaturan Umum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132753222291529728
+    m_Localized: Statistik Umum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1653487506386944
+    m_Localized: Menyerah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663268698812416
+    m_Localized: Kebahagiaan+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677334284693504
+    m_Localized: Meningkatkan mood Barista.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870565030109184
+    m_Localized: Keras
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269212714364928
+    m_Localized: 'Pelanggannya lebih pemilih dan Barista lebih murung, tapi kali
+      ini dia bisa menjadi lebih besar lagi!
+
+      Tantangan yang sedikit lebih
+      sulit daripada Mode Normal.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269021949030400
+    m_Localized: Kesulitan Sulit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231467803570176
+    m_Localized: Mode sulit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660536202031104
+    m_Localized: Memiliki Efek Misterius
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658430149718016
+    m_Localized: Sembunyikan Dialog
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19834399893057536
+    m_Localized: Modus Liburan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1657977076805632
+    m_Localized: 'Bahan-bahan:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286927487332352
+    m_Localized: Bahasa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036188431392768
+    m_Localized: Buatlah minuman yang memiliki semuanya.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036853224382464
+    m_Localized: Buat susu sampai kafe kebanjiran.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036805832941568
+    m_Localized: Buat Gelombang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660808559161344
+    m_Localized: Kelola Karyawan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660182504763392
+    m_Localized: Pengelolaan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1662860714668032
+    m_Localized: Ukuran Maks+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677111105777664
+    m_Localized: Meningkatkan kapasitas susu Barista.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1662565540524032
+    m_Localized: Kopi susu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677736099016704
+    m_Localized: Segera isi Barista.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133031481403088896
+    m_Localized: Pencinta Susu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132754228769300480
+    m_Localized: 'Susu yang Diproduksi:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661098758860800
+    m_Localized: Jenis Susu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132867783132815360
+    m_Localized: Seperti susu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 229470362759168
+    m_Localized: Mode Bima Sakti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230078679445504
+    m_Localized: 'Mode Susu Diaktifkan:
+
+      Uji kecepatan Anda saat Barista mengisi
+      lebih cepat dan lebih cepat.  Bisakah kamu mengikutinya?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132865505260838912
+    m_Localized: 'Uang yang Diperoleh:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035228871106560
+    m_Localized: Moonopoly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663875916591104
+    m_Localized: Lebih Banyak Susu, Sekarang!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655167128006656
+    m_Localized: Musik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133998653654802432
+    m_Localized: Mengelola Barista Anda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133998700043804672
+    m_Localized: 'Tujuan utama Anda adalah membawa barista Anda ke potensi penuhnya,
+      namun Anda tidak bisa mengabaikan kebahagiaannya saat dia bekerja.  Dia mengambil
+      pekerjaan ini dengan harapan mendapatkan promosi ke posisi di bidang susu,
+      namun meskipun ini adalah pekerjaan impiannya, dia tidak akan bertahan jika
+      dia menjadi terlalu tidak bahagia.
+
+
+      Menyeimbangkan suasana hatinya sambil
+      membuat kemajuan dalam ukuran dan produksi susunya, membuat pelanggan senang
+      dan memastikan untuk mengosongkannya secara teratur akan membantu menjaga suasana
+      hatinya tetap tinggi.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133998785406279680
+    m_Localized: 'Anda dapat memantau kebahagiaan dan kepenuhan barista Anda di sini. 
+      Jika kebahagiaannya turun menjadi 0, dia berhenti.
+
+
+      Betapapun keinginannya
+      untuk tumbuh, Anda tidak bisa membuatnya terlalu kenyang sepanjang waktu karena
+      rasa sakitnya akan membuatnya kesal, namun Anda juga tidak boleh membiarkannya
+      kosong sepanjang waktu karena hal itu akan membuatnya kesal juga. , jadi cobalah
+      untuk mencapai keseimbangan.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133847557804236800
+    m_Localized: Berikutnya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133055089148010496
+    m_Localized: Tidak ada catatan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870450861154304
+    m_Localized: Normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 266676540370944
+    m_Localized: Mainkan sampai Barista Anda sebesar yang dia bisa, atau sampai dia
+      marah dan berhenti.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 266450740015104
+    m_Localized: Kesulitan Biasa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231298777313280
+    m_Localized: Mode normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036121565798400
+    m_Localized: Satu Dari Segalanya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224355836850176
+    m_Localized: Pilihan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661378443440128
+    m_Localized: Warna Pakaian
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661525407657984
+    m_Localized: Gaya Celana
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652064190296064
+    m_Localized: DIJEDA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133034562396200960
+    m_Localized: Mainkan game untuk waktu yang lama.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133031655290544128
+    m_Localized: Menghasilkan lebih dari 100 L Susu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663505232392192
+    m_Localized: Produksi-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677541911130112
+    m_Localized: Menurunkan tingkat produksi susu Barista.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1662658687627264
+    m_Localized: Produksi+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1676894453198848
+    m_Localized: Meningkatkan tingkat produksi susu Barista.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036731409211392
+    m_Localized: Capai ukuran terbesar sebenarnya.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132867593416056832
+    m_Localized: Reguler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1640869886521344
+    m_Localized: Atur Ulang Piala
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656078697066496
+    m_Localized: Atur Ulang Waktu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655301924548608
+    m_Localized: Resolusi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1653300364931072
+    m_Localized: Mengulang kembali
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132752649106333696
+    m_Localized: Bak pasir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036482359828480
+    m_Localized: Mode Sandbox
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132752870515253248
+    m_Localized: Skor & Statistik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660439854673920
+    m_Localized: Permen Rahasia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132753744281051136
+    m_Localized: Rahasia Ditemukan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036011389820928
+    m_Localized: Lihat semua pelanggan crossover.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133034908078153728
+    m_Localized: Jual 1000 Minuman.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652825364197376
+    m_Localized: Pengaturan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658332258856960
+    m_Localized: Tampilkan Dialog
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648188082974720
+    m_Localized: Tampilkan Lagi?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655796151971840
+    m_Localized: Tampilkan Pengatur Waktu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1654868065742848
+    m_Localized: Kedengarannya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227953312362496
+    m_Localized: Terima kasih khusus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 234396560224256
+    m_Localized: Awal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1662771174666240
+    m_Localized: Permen Melar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036677680177152
+    m_Localized: Sangat besar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656401700417536
+    m_Localized: Kualitas tekstur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132865470217428992
+    m_Localized: 'Waktu Dimainkan:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677955096211456
+    m_Localized: Barista kehilangan kebahagiaan lebih lambat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231146272419840
+    m_Localized: tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133992199195566080
+    m_Localized: 'Baru saja membuka lokasi kafe baru dan mempekerjakan gadis sapi
+      baru ini sebagai barista pertama Anda di sini, tugas Anda adalah membantu barista
+      Anda melayani pelanggan sambil memastikan dia tetap bahagia.  Penting untuk
+      memastikan dia tidak berhenti, karena dia tampaknya tertarik untuk mengambil
+      promosi ke posisi yang lebih baik di peternakan Anda setelah dia siap.
+
+
+      Jika
+      ada sesuatu tentang gameplay yang tampaknya tidak jelas, semoga Anda dapat
+      menemukan bantuan dalam tutorial ini.  Jika tidak, Anda juga dapat mencoba
+      terjun langsung dan mulai mempelajari permainan melalui trial and error.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133993158466445312
+    m_Localized: 'Mouse harus menjadi segalanya yang Anda perlukan untuk bermain,
+      tidak diperlukan tombol lain.
+
+
+      Jika ada info tambahan yang Anda perlukan
+      untuk apa pun, Mode Normal memiliki Tooltips yang memberikan banyak informasi
+      berguna.
+
+      Anda mungkin dapat mengetahui sebagian besar mekanisme hanya
+      dengan bantuan Tooltip.
+
+
+      (Kontrol Sentuh belum diuji, tetapi jika Anda
+      melihatnya di ponsel, setidaknya sebagian harus berfungsi, saya rasa?)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133995531494596608
+    m_Localized: 'Tugas utama selama bermain game adalah mencampur minuman.
+
+
+      Setiap
+      pelanggan memiliki potret yang menunjukkan suasana hati mereka dan meminta
+      pesanan yang diwakili oleh grafik ini.
+
+
+      Perhatikan baik-baik jumlah
+      isian setiap bahan dan tambahan apa yang ingin ditambahkan ke dalamnya.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133996458540638208
+    m_Localized: 'Ini bahan-bahannya.  Saat bermain cukup klik dan tahan untuk mulai
+      mengisi cangkir, atau untuk bahan tertentu klik sekali untuk menambahkannya
+      ke minuman.
+
+
+      Kafe Anda baru dibuka dan masih perlu menyimpan beberapa
+      bahan.  Cobalah untuk mendapatkan penghasilan yang cukup untuk membuka semuanya.
+
+
+      Membeli
+      bahan-bahan baru penting untuk menghasilkan lebih banyak uang, semakin kompleks
+      minumannya, semakin tinggi nilainya.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133997655410450432
+    m_Localized: 'Ini adalah cangkir yang Anda isi untuk pelanggan Anda, saat membuat
+      minuman Anda dapat menggunakan garis pengisian untuk membandingkan seberapa
+      akurat minuman Anda terhadap permintaan pelanggan.
+
+
+      Keakuratan minuman
+      memengaruhi peringkat dan harga jualnya.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870790192930816
+    m_Localized: Sangat Kekacauan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 274821425754112
+    m_Localized: Oke kali ini Anda SERIUS tidak seharusnya menemukan ini.  Jika Anda
+      masih memiliki cinta diri yang tersisa di hati Anda, jangan coba-coba yang
+      ini.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 274592542584832
+    m_Localized: Kesulitan Ultra Kekacauan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133037091288883200
+    m_Localized: Sangat Kekacauan...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036564937285632
+    m_Localized: Buka kunci Mode Sandbox rahasia.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660890163539968
+    m_Localized: Meningkatkan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658553181237248
+    m_Localized: Lihat Barista
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658635091800064
+    m_Localized: Lihat Permainan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132748730527490048
+    m_Localized: Jalur Suara
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656601168932864
+    m_Localized: Sinkronisasi V
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133991633908244480
+    m_Localized: Selamat datang di Tutorial Mode Arkade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133034372322926592
+    m_Localized: Kerja lembur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134010572390375424
+    m_Localized: Melayani pelanggan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134010918655336448
+    m_Localized: 'Coba juga perhatikan suasana hati pelanggan, orang-orang di sekitar
+      sini tampaknya menyukai jika seorang gadis terlihat besar dan penuh, begitu
+      mencolok sehingga keseimbangan ukuran tubuhnya akan menarik perhatian pelanggan
+      seiring berjalannya waktu.
+
+
+      Tapi apa gunanya pelanggan senang?  Mereka
+      mungkin menyukai sesuatu yang ekstra dalam minuman mereka jika suasana hati
+      mereka memungkinkan!  Bahan khusus yang bernilai banyak uang...!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134011413927141376
+    m_Localized: Acara Berwaktu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134011680659709952
+    m_Localized: 'Terkadang saat bermain akan ada event berwaktu yang muncul.
+
+
+      Beberapa
+      dari acara ini menambah tantangan, beberapa memberi Anda istirahat yang diperlukan,
+      dan beberapa hanya sedikit konyol.
+
+      Awasi peristiwa apa yang sedang terjadi,
+      dan cobalah untuk tidak lengah!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134179468267331584
+    m_Localized: 'Saat bermain dalam mode arcade, tombol manajemen adalah tempat
+      semua peningkatan dan penyesuaian untuk barista Anda berada.  Peningkatan kapasitas
+      dan laju produksinya dapat ditemukan di sana.  Seiring dengan penguat suasana
+      hati.
+
+
+      Ini juga mencakup menu penyesuaian dengan pilihan pakaian dan
+      pilihan warna.
+
+      Beberapa opsi penyesuaian mungkin perlu dibuka kuncinya.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134179994149167104
+    m_Localized: Memulai permainan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134180089527640064
+    m_Localized: Tutorial Selesai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134180290938118144
+    m_Localized: 'Itu seharusnya berisi semua informasi penting yang perlu diklarifikasi.
+
+      Putaran
+      permainannya harus jelas, buat minuman, hasilkan uang, buat minuman lebih banyak,
+      buat barista lebih besar, hasilkan uang lebih banyak lagi, ulangi sampai moo.
+
+
+      Jika
+      Anda menginginkan tantangan, cobalah mencari strategi cerdas atau tingkatkan
+      rute untuk mendapatkan waktu terbaik.  Jika Anda ingin meningkatkan kesenangan,
+      coba buka beberapa opsi pakaian lainnya!  Apa pun pilihannya, nikmati kopi
+      susu Anda.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135009184603807744
+    m_Localized: Membeli?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135009503337357312
+    m_Localized: Ya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135009682803236864
+    m_Localized: TIDAK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135018668252307456
+    m_Localized: 'Benih:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135037087102115840
+    m_Localized: Buka Saluran Pembuangan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143884046088904704
+    m_Localized: 'Waktu:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893353438224384
+    m_Localized: Sempurna!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893532069437440
+    m_Localized: Besar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893677221715968
+    m_Localized: Bagus!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893751905492992
+    m_Localized: Oke.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893844029186048
+    m_Localized: Ya ampun.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893899951841280
+    m_Localized: Buruk...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893970122547200
+    m_Localized: Hancur!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143940038960979968
+    m_Localized: Air susu ibu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143959184234881024
+    m_Localized: susu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143959463068016640
+    m_Localized: Menggoyang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143959642353541120
+    m_Localized: Coklat Kocok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 162454964742496256
+    m_Localized: 'Anda telah menjadikan Barista Anda sebesar yang dia bisa!  Setelah
+      mencapai potensi penuhnya, dia dengan senang hati bergabung dengan perusahaan
+      susu Anda secara penuh, menambahkan gadis sapi berkualitas lainnya ke staf
+      Anda!
+
+
+      btw, kiri atas Arcade Mode. ;)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 162455432189288448
+    m_Localized: 'Apa...?  Baiklah, uh... Selamat telah mengalahkan apapun dengan
+      cara ini.  Wow.
+
+
+      Juga, ada satu lagi mode rahasia.  ;P'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167524481055608832
+    m_Localized: Kredit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167524677856546816
+    m_Localized: Terima kasih khusus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167525775212302336
+    m_Localized: Kopi susu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167525900873650176
+    m_Localized: Produksi+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167525982276702208
+    m_Localized: Permen Melar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526055043682304
+    m_Localized: Ukuran Maks+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526161428008960
+    m_Localized: Istirahat Ekstra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526229631586304
+    m_Localized: Kebahagiaan+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526294421000192
+    m_Localized: Kopi Pahit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526376109264896
+    m_Localized: Produksi-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526646520238080
+    m_Localized: Peri Latte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526696562479104
+    m_Localized: Lebih Banyak Susu, Sekarang!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526716435091456
+    m_Localized: Teh yang Menenangkan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526736756494336
+    m_Localized: Toleransi Kepenuhan+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167535336119881728
+    m_Localized: Hai!; Halo.; Ey! cantik.; Hei.; Hai.; Halo!; Hai...; Hm...; Uuuh...;
+      Uh...; Aha!; Yo.; Halo...; Salam.; Halo nona muda. ; Eyo.; Sup.; Uhuh...; Hai!;
+      Apa kabar!; Hei! Ada apa?; Selamat siang!; Hola!; Hei! Asing.; Salam!; Baiklah!
+      Halo!; Hai! apa kabarmu?; hei! Senang bertemu denganmu!; Hei! Lama tidak bertemu!;
+      Hei! Sedang memasak apa?; Hei! Bagaimana kabarnya?; Hei! Senang bertemu denganmu!;
+      Hei! Apa yang baru?; Hei! Bagaimana kabarmu?; Hei! Bagaimana semuanya?; Hei!
+      Bagaimana harimu?; Hei! Bagaimana harimu?; Hei! Bagaimana kabarnya?; Hei! Bagaimana
+      kabarmu?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167615756777836544
+    m_Localized: 'Saya ingin beberapa ; Bolehkah saya mendapatkannya ; Apakah Anda
+      punya ; Bolehkah saya memesan ; Bolehkah saya memilikinya ; saya tertarik ;
+      Apakah mungkin untuk mendapatkannya ; Tolong beri saya '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233249931448320
+    m_Localized: espreso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233545151729664
+    m_Localized: Kopi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233690199150592
+    m_Localized: Cokelat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233779009343488
+    m_Localized: teh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233839474429952
+    m_Localized: susu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233903475314688
+    m_Localized: Air susu ibu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234029493178368
+    m_Localized: Krim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234081343164416
+    m_Localized: Gula
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234138335367168
+    m_Localized: Es
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234186334982144
+    m_Localized: Boba
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234253527732224
+    m_Localized: Empuk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234331545980928
+    m_Localized: Menyukai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234412265361408
+    m_Localized: Cokelat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234481072918528
+    m_Localized: Seru
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175274055513952256
+    m_Localized: Terima kasih!; Saya menikmati layanan dan minumannya.; Hebat sekali!;
+      Saya menyukainya!; Pelayanan prima!; Minuman lezat!; Sangat disarankan!; Pengalaman
+      luar biasa!; Fantastis!; Layanan luar biasa!; Mencintai setiap tegukan!; Hasil
+      terbaik!; Tidak bisa lebih baik lagi!; Minuman sempurna!; Layanan luar biasa!;
+      Hanya apa yang saya butuhkan!; Kerja bagus!; Lanjutkan kerja baikmu!; Pasti
+      akan kembali lagi!; Terkesan!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175274128738111488
+    m_Localized: Ini bukan yang saya pesan.; Saya tidak meminta ini.; Ini bukan yang
+      saya inginkan.; Maaf, tapi ini salah.; Maaf, tapi ini tidak benar.; Maaf, tapi
+      pesanan saya salah.; Bisakah kita memperbaikinya?; Bisakah Anda memeriksa pesanan
+      saya lagi?; Saya pikir telah terjadi kesalahan.; Saya memesan sesuatu yang
+      lain.; Ini bukan yang saya harapkan.; Bisakah kita mengatasi masalah ini?;
+      Apakah ada kesalahan?; Bisakah Anda memeriksa ulang?; Saya sedikit kecewa.;
+      Bisakah Anda memperbaikinya untuk saya?; Saya tidak puas dengan ini.; Ini bukan
+      yang saya harapkan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175601404604338176
+    m_Localized: Tanpa; TIDAK; Tidak termasuk; , Meninggalkan; , Tahan; Jangan sertakan;
+      Bebas dari
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175608705562202112
+    m_Localized: Kecepatan Produksi Susu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175609102947340288
+    m_Localized: Ukuran Maks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175609289581285376
+    m_Localized: Uang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175639638851997696
+    m_Localized: Kebahagiaan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175639931622805504
+    m_Localized: Dia akan berhenti jika ini mencapai nol.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175640078645743616
+    m_Localized: Kesempurnaan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175640229514858496
+    m_Localized: Capai 2000ml untuk menang.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175641060461006848
+    m_Localized: Piala untuk Pesanan Anda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175650030386958336
+    m_Localized: Pekerjaan baru, kehidupan baru.@Intro_NewJobNewLife; Saya harap
+      orang-orang di sini baik.@Intro_IHopePeopleAreNice; Saya tidak sabar untuk
+      memulai!@Intro_ICantWaitToStart; Hari pertama bekerja.@Intro_FirstDayOnTheJob
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175651777658507264
+    m_Localized: 'Halo!; Hai, yang di sana!; Selamat datang!; Ada yang bisa saya
+      ambilkan untuk Anda?; Yang biasa?; Apa yang bisa saya bantu?; Apa yang bisa
+      saya dapatkan yah?; Selamat datang! Apa yang bisa saya berikan untuk Anda hari
+      ini?; Anda terlihat baik hari ini! Apa yang bisa saya bawakan untuk Anda?;
+      Spesial hari ini: Susu segar!; Sudahkah Anda mencoba susu boba?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175662100285247488
+    m_Localized: 'Saya ingin kue itu!; Kue itu kelihatannya enak.; Aku penasaran
+      bagaimana rasanya kue itu...?; Saya ingin tahu apakah seluruh kue itu muat
+      di mulut saya?; Kapan saya mendapatkan kue ajaib?; Pekerjaan ini menjanjikan
+      keuntungan tertentu bukan?; Saya ingin tumbuh...; Keinginan kue masuk!; Peringatan
+      kue! Saya ulangi, peringatan cookie!; Aku tertarik pada kue itu!; Saatnya memuaskan
+      hasrat kue saya!; Misi cookie: Aktifkan!; Radar cookie aktif!; Saya akan menukar
+      kopi dengan kue!; Untuk membuat kue atau tidak? Itulah pertanyaannya.; Perlawanan
+      itu sia-sia... jika menyangkut kue!; Mengidam kue: kepuasan dijamin 100%!;
+      Waktu kue adalah waktu terbaik!; Mimpi kue tercipta dari ini!; Tingkat antisipasi
+      cookie: Maksimum!; Gigi manisku meminta kue itu!; Cookie itu memanggil namaku!;
+      Saya mempunyai pikiran yang satu arah... dan itu ada pada kue itu!; Obsesi
+      cookie: Diaktifkan!; Yang kuinginkan saat ini hanyalah kue itu!; Satu langkah
+      kecil bagi seorang barista, satu lompatan besar bagi pecinta kue!; Mengidam
+      kue: Mencapai level puncak!; Aku tahu kamu punya keajaiban untukku~'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175662781700263936
+    m_Localized: Hmm! Rasanya enak!~; Ada yang terasa berbeda...?; Saya ingin lebih!;
+      Rasanya seperti susu!; Sekarang kita sampai di suatu tempat!; Wah, rasanya
+      luar biasa!; Saya berharap kita memiliki lebih banyak dari itu.; Pencarian
+      kue tidak sia-sia! Lezat!; Kue itu tepat sasaran! Lagi dong!; Kepuasan kue
+      tercapai!; Saya berada di surga kue sekarang!; Hmm! Keputusan terbaik yang
+      pernah ada!; Kebahagiaan kue! Tidak pernah cukup!; Cookie ini adalah pengubah
+      permainan!; Keajaiban kue sedang bekerja! Saya menyukainya!; Siapa yang mengira
+      satu kue bisa memberikan begitu banyak kebahagiaan?; Inilah yang saya sebut
+      sebagai mahakarya kue!; Surga kue ditemukan!; Rasa kemenangan... dan kue!;
+      Kue itu layak mendapat medali emas!; Saya berada di cloud sembilan dengan cookie
+      ini!; Susu dan kue, kombinasi sempurna!; Satu gigitan, dan aku ketagihan! Lagi
+      dong!; Kesempurnaan kue tercapai!; Sihir kue diaktifkan! Tidak bisa berhenti
+      makan!; Kue ini adalah sensasi rasa!; Saya memerlukan persediaan kue ini seumur
+      hidup!; Monch Munch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175663362036748288
+    m_Localized: Celemeknya mulai terasa agak kencang...; Apakah kita memiliki celemek
+      yang lebih besar di bagian belakang?; Saya harap saya bisa menghilangkan noda
+      ini lagi...; Uh oh itu akan meledak!; Celemekku tidak tahan lagi!; Akhirnya!~
+      Cukup jepret saja~; Saya pikir kami memiliki celemek yang lebih besar di belakang,
+      tapi...; Sudah waktunya.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175664029996437504
+    m_Localized: Saya merasa sangat kenyang!; Tolong jangan menyerangku.; Apakah
+      mereka bermalas-malasan?; Mereka sudah tumbuh begitu besar!; Uuuuhm, bisakah
+      kamu melakukan sesuatu mengenai ini?; Saya punya lebih banyak susu daripada
+      yang Anda kira. Hanya itu yang bisa saya dapatkan di dalam cangkir.; Uh, bos...
+      Bisakah Anda membantu saya dengan ini?; Tidakkah ada pelanggan yang menginginkan
+      hal ini? aku kenyang sekali...; Saya tidak bisa mendapatkan lebih kenyang dari
+      ini...; Membantu? Silakan?; Aku merasa seperti aku akan meledak...; Saya ingin
+      menjadi besar, tetapi ini agak tidak nyaman...; Saya membutuhkan kapasitas
+      yang lebih tinggi sebelum saya bisa tetap kenyang dalam waktu lama...; Gan!
+      Sudah perah saja aku!; Susu aku! Susu aku! Silakan!; Jika ini tidak terlalu
+      tidak nyaman, saya akan menyukai ini...; Saya tidak keberatan jika mereka menonton,
+      tolong kosongkan saja saya...; Saya merasa sangat bengkak!; Saya harap saya
+      tidak meluap!; Merasa seperti balon berisi susu!; Saya takut untuk bergerak
+      terlalu banyak!; Meluap segera! SOS!; Cangkirku hampir habis, secara harafiah...;
+      Apakah menurut Anda ada orang yang akan memperhatikan jika saya membocorkannya?;
+      Saya perlu meredakan tekanan, cepat!; Merasa seperti pabrik susu yang sedang
+      overdrive!; Tidak bisa fokus dengan banyaknya susu yang tumpah!; Rasanya seperti
+      akan keluar dari dadaku!; Bantu saya di sini, mereka mencapai masa kritis!;
+      Apakah ini yang mereka maksud dengan 'diperah hingga sempurna'?; Terasa seperti
+      saya sedang membawa peternakan sapi perah!; Peringatan meluap! Bahaya, bahaya!;
+      Saya adalah gunung susu yang siap meletus!; Tidak bisa fokus dengan gangguan
+      seperti susu ini!; Hanya perlu menemukan cara untuk mengeluarkan semua susu
+      ini!; Kendi susu ini siap meledak!; Aku akan meledak.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175664836233940992
+    m_Localized: Mungkin waktunya untuk peningkatan?; Berinvestasi dalam peningkatan
+      sepertinya sebuah rencana!; Mari kita lihat peningkatan apa saja yang tersedia.;
+      Mungkin ini saatnya untuk meningkatkan operasi kami.; Meningkatkan bisnis kami
+      dapat bermanfaat.; Saya ingin tahu apakah ada peningkatan yang bermanfaat.;
+      Mempertimbangkan beberapa peningkatan untuk kafe kami.; Menjelajahi opsi peningkatan
+      sepertinya merupakan ide yang bagus.; Mari tingkatkan efisiensi kita dengan
+      beberapa peningkatan!; Peningkatan versi dapat memberi kita keunggulan di pasar.;
+      Haruskah kita membeli sesuatu?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175666128926822400
+    m_Localized: Itu saja, saya berhenti!; Bos terburuk yang pernah ada... Saya keluar
+      dari sini.; Aku terlalu sakit untuk bekerja, sampai jumpa...; Saya sudah selesai
+      menangani kekacauan ini! Saya keluar!; Saya tidak tahan lagi! Saya pergi!;
+      Saya berhak mendapatkan yang lebih baik dari ini! Saya keluar!; Pekerjaan ini
+      tidak sebanding dengan stresnya. Saya selesai!; Kopi sebanyak apa pun tidak
+      sebanding dengan kerumitan ini. Aku pergi!; Saya sudah cukup! Saatnya mencari
+      peluang yang lebih baik.; Saya menolak bekerja dalam kondisi seperti ini. Saya
+      keluar!; Hidup ini terlalu singkat untuk omong kosong ini. Saya pergi.; Maaf,
+      tapi saya sudah selesai bermain barista. Aku keluar dari sini!; Saya tidak
+      mendaftar untuk ini! Saya keluar!; Lupakan ini, aku akan pulang.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175674616369401856
+    m_Localized: Produksi+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175674851527249920
+    m_Localized: Meningkatkan tingkat produksi susu Barista.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181788866099826688
+    m_Localized: Hai, cantik.; Hai cantik.; Halo, sinar matahari.; Hei, kamu terlihat
+      luar biasa.; Hai cantik.; Halo menakjubkan.; Hei, wanita cantik.; Hai imut.;
+      Hei, tampan.; Hai, pesona.; Halo malaikat.; Hei, boneka.; Hai sayang.; Hei,
+      kamu terlihat cantik hari ini.; Hai cantik.; Hai sayang.; Halo, keren.; Hei,
+      senyum yang manis.; Hai, mempesona.; Hei, kamu mencerahkan barnya.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181789087093510144
+    m_Localized: Hei cantik, bisakah kamu membuat hariku lebih baik dengan senyuman?;
+      Hai cantik, apa rahasiamu agar terlihat cantik?; Halo, menakjubkan, ada kemungkinan
+      Anda ada di menunya?; Hei, nona cantik, punya minuman spesial yang sesuai dengan
+      penampilanmu?; Hai, pesona, senyumanmu adalah sorotan hariku.; Halo bidadari,
+      kecantikanmu mampu menerangi ruangan yang paling gelap; Hei, sayang, kamu punya
+      ramuan ajaib untuk hati yang kesepian?; Hai sayang, apakah kamu membuat semua
+      minuman semanis kamu?; Hei sayang, kecantikanmu memabukkan; Halo keren, kehadiranmu
+      adalah hal terbaik di sini.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181789098002894848
+    m_Localized: Hei cantik, senyummu dan lekuk tubuhmu itu membuat jantungku berdebar
+      kencang.; Hai cantik, apakah Anda menyajikan sesuatu yang menawan seperti mata
+      Anda?; Halo, menakjubkan, sosok Anda adalah yang sebenarnya di sini.; Hei,
+      nona cantik, penampilanmu bisa membuat minuman apa pun terasa lebih enak.;
+      Hai, pesona, kecantikanmu lebih menyegarkan dari koktail apa pun.; Halo bidadari,
+      dengan tubuh sepertimu, siapa yang butuh minuman?; Hei, boneka, lekuk tubuhmu
+      adalah perpaduan sempurna antara keindahan.; Hai sayang, sosokmu adalah bagian
+      terbaik dari bar ini; Hei sayang, penampilanmu yang menakjubkan membuatku pusing.;
+      Halo keren, kehadiranmu membuat segalanya lebih manis.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181789109562396672
+    m_Localized: Hei, cantik, adakah kemungkinan kamu menambahkan sedikit keajaiban
+      pada kopiku?; Hai cantik, apakah Anda menyajikan makanan lain selain minuman
+      dengan lekuk tubuh seperti itu?; Halo, menakjubkan, payudara Anda bisa menjadi
+      bagian terbaik dari kopi saya.; Hai, nona cantik, apakah Anda menawarkan sesuatu
+      di luar menu, seperti senyuman atau kencan?; Hai, pesona, dengan tubuh sepertimu,
+      aku akan memesan apa saja.; Halo bidadari, kecantikanmu adalah bahan yang sempurna
+      untuk minuman apa pun.; Hei sayang, bolehkah aku minum kopi dengan sentuhan
+      pesonamu?; Hai, sayang, payudaramu benar-benar spesial hari ini.; Hei sayang,
+      kehadiranmu di sini membuat setiap minuman menjadi lebih baik.; Halo keren,
+      apakah kamu menawarkan senyuman dengan sosok cantik itu?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182195982329466880
+    m_Localized: Meningkatkan kapasitas susu Barista.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196090546704384
+    m_Localized: Ukuran Maks+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196364988403712
+    m_Localized: Meningkatkan mood Barista.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196409754210304
+    m_Localized: Kebahagiaan+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196602868355072
+    m_Localized: Produksi-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196626104799232
+    m_Localized: Menurunkan tingkat produksi susu Barista.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196763497615360
+    m_Localized: Lebih Banyak Susu, Sekarang!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196807076433920
+    m_Localized: Segera isi Barista.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196916119949312
+    m_Localized: Toleransi Kepenuhan+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196947719835648
+    m_Localized: Barista kehilangan kebahagiaan lebih lambat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182201446488363008
+    m_Localized: Maks adalah 500
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182205256204046336
+    m_Localized: Hati-hati, ini masih agak panas!; Di Sini! Ini sedikit spesial,
+      hanya untuk Anda!; Apakah ini benar?; Pesan!~; Nikmati minumanmu!; Saya harap
+      Anda menyukainya.; Ini dia, semoga harimu menyenangkan!; Ini dia, segera kembali!~;
+      Astaga! Kreasi khusus Anda, hanya untuk Anda!; Saya memberikan sedikit cinta
+      ekstra pada yang satu ini, selamat menikmati!; Ini minuman Anda, dibuat dengan
+      hati-hati!; Pesanan Anda, disajikan dengan senyuman!; Semoga minuman ini membawa
+      sedikit kegembiraan pada hari Anda!; Kesempurnaan dalam cangkir, hanya untuk
+      Anda!; Nikmati seteguk kebahagiaanmu!; Minuman Anda menunggu! Cicipi dan nikmati!;
+      Dibuat dengan hati-hati, hanya untuk Anda!; Pesanan Anda sudah siap, nikmati
+      rasanya!; Ini minuman Anda, dibuat dengan sempurna!; Saya harap minuman ini
+      membuat hari Anda sedikit lebih cerah!; Manjakan diri dengan kesenangan kecil
+      ini, semuanya milik Anda!; Nikmati rasanya! Ini dibuat khusus untuk Anda!;
+      Ini dia! Minumlah dan nikmatilah!; Cangkir sempurna Anda, disajikan dengan
+      senyuman!; Minumlah sedikit dan biarkan dunia mencair!; Saya harap minuman
+      ini melebihi ekspektasi Anda!; Semoga harimu menyenangkan seperti minuman ini!;
+      Semoga harimu menyenangkan seperti minuman ini!; Cicipi, nikmati, dan nikmatilah!
+      Ini dibuat khusus untuk Anda!; Ini dia, sesuai keinginan Anda.;
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427788485054464
+    m_Localized: Itu tidak benar...@Spoken_Ah; Saya harus mencoba lagi!@Spoken_Ah;
+      Kali ini akan lebih baik!@Spoken_Ah; Oops! Biarkan saya mencoba lagi...@Spoken_Ah;
+      Itu tidak sepenuhnya benar...@Spoken_Ah; Apakah itu akan dipotong dari gaji
+      saya?@Spoken_Ah; Mari kita coba lagi.@Spoken_Ah; Sepertinya saya perlu lebih
+      banyak latihan.@Spoken_Ah; Oops! Itu tidak berjalan seperti rencana.@Spoken_Ah;
+      Latihan membuat sempurna, bukan?@Spoken_Ah; Kali ini saya akan membuatnya benar,
+      lihat!@Spoken_Ah; Jangan kita terjebak di masa lalu, mari kita lanjutkan ke
+      yang berikutnya!@Spoken_Ah; Saya akan memperbaikinya dengan cangkir berikutnya!@Spoken_Ah;
+      Sedikit mundur, tapi saya akan kembali!@Spoken_Ah; Eh, itu tidak mengenai sasaran.@Spoken_Ah;
+      Kembali ke meja gambar, saya kira.@Spoken_Ah; Hmm, biarkan saya mengkalibrasi
+      ulang.@Spoken_Ah; Hanya sedikit kesalahan dalam proses saya membuat karya agung.@Spoken_Ah;
+      Itu tidak sepenuhnya seperti yang saya pikirkan, tapi saya akan mencapainya.@Spoken_Ah;
+      Oops, mari kita coba lagi, oke?@Spoken_Ah; Eh, itu tidak terduga. Mari kita
+      coba lagi.@Spoken_Ah; Tidak setiap cangkir bisa menjadi pemenang, bukan?@Spoken_Ah;
+      Saatnya saya mengaktifkan perfeksionis dalam diri saya!@Spoken_Ah; Perjalanan
+      menuju cangkir yang sempurna berlanjut!@Spoken_Ah; Mari kita ubah kesalahan
+      ini menjadi karya agung!@Spoken_Ah; Sepertinya saya perlu meningkatkan kemampuan
+      saya.@Spoken_Ah; Sedikit mundur tidak akan menghentikan saya!@Spoken_Ah; Maju!
+      Cangkir berikutnya, saya datang!@Spoken_Ah; Kesabaran dan latihan, itu adalah
+      kunci!@Spoken_Ah; Saya belum sampai di sana, tapi saya semakin dekat.@Spoken_Ah;
+      Saatnya saya memperbaiki diri dengan cangkir berikutnya!@Spoken_Ah; Saya akan
+      memperbaikinya dengan usaha tambahan!@Spoken_Ah; Pencarian infus yang sempurna
+      berlanjut!@Spoken_Ah; Kegagalan adalah hanya satu langkah lagi menuju kesuksesan!@Spoken_Ah;
+      Lagi!@Spoken_Ah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427829996081152
+    m_Localized: Aaghh! Sebagian besar meleset dari cangkir!@Spoken_Sigh_Happy; Hmmnnn~
+      ... Oh, ada orang yang melihat?@Spoken_Sigh_Happy; Oh tidak, susu saya jatuh
+      ke dalam minuman!@Spoken_Sigh_Happy; Barbra menggunakan penggembalaan... itu
+      sangat efektif!@Reactions_Ooooh; Mari kita coba memasukkan itu ke dalam cangkir
+      kali ini.@Spoken_Sigh_Happy; Ahh Itu terasa enak~@Reactions_mmmm; Kesen angan
+      yang manis.@Reactions_mmmm; Hhngg!@Reactions_mmmm; Ooooh!@Reactions_Ooooh;
+      Muuuh!@Moo_Happier; M-muuuh@Moo_Surprised; Bagian terbaik dari pekerjaan~@Spoken_Sigh_Happy;
+      Ah, sedikit susu hanya untuk ukuran yang tepat!@Spoken_Sigh_Happy; Sihir susu
+      saya menambahkan sentuhan rasa tambahan!@Reactions_Ooooh; Saya menambahkan
+      sentuhan khusus saya untuk meningkatkan minuman ini!@Spoken_Sigh_Happy; Sedikit
+      susu, banyak cinta!@Reactions_mmmm; Susu, bahan rahasia untuk kesempurnaan!@Spoken_Sigh_Happy;
+      Lihat, sebuah contoh susu yang lezat!@Reactions_mmmm; Sihir susu saya sangat
+      kuat hari ini!@Reactions_Ooooh; Sentuhan krim yang lezat, tepat seperti yang
+      Anda inginkan!@Spoken_Sigh_Happy; Susu adalah, dan susu akan menjadi!@Spoken_Sigh_Happy;
+      Penggembalaan yang tepat pada yang terbaik!@Spoken_Sigh_Happy; Muu-velous!
+      Satu tetes lagi di cangkir.@Moo_Happier; Hati-hati dengan susu! Itu licin!@Spoken_Sigh_Happy;
+      Hanya sentuhan kebahagiaan sapi!@Reactions_mmmm; Sangat lezat, Anda tidak setuju?@Spoken_Sigh_Happy;
+      Sebuah semprotan susu yang datang segera!@Moo_Surprised; Susu, pahlawan yang
+      tidak dikenal dari setiap cangkir!@Spoken_Sigh_Happy; Menambahkan sentuhan
+      krim pada pengalaman minuman Anda!@Reactions_Ooooh; Susu membuat semua lebih
+      baik, bukan?@Spoken_Sigh_Happy; Kita tekan sampai tetesan terakhir~@Spoken_Sigh_Happy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427845133324288
+    m_Localized: 'Apa yang kamu inginkan?@Interaction_WhatDoYouWant; Ya, bodoh?@Interaction_YesSilly;
+      giggle@Spoken_Giggles; Mooo...?@Moo_Curious; Hm? Kamu butuhkan sesuatu?@Interaction_DoYouNeedSomething;
+      Apakah kamu bebas setelah kerja?@Interaction_FreeAfterWork; Terima kasih karena
+      kamu memberikan pekerjaan ini kepada saya.@Interaction_ThanksForTheJob; Kamu
+      menabung untuk sesuatu?@Money_SavingUpForSomething; Bisakah kamu membelikan
+      saya sesuatu?@Interaction_CouldYouBuyMeSomething; Saya harus memberikan susu
+      kepada Mewth nanti...@Casual_MewthMilk; Saya tidak bisa memerah susu kemarin.
+      Itu adalah kegagalan yang sangat parah.@Jokes_UdderFailure; Saya tidak sabar
+      menunggu untuk bertemu dengan gadis-gadis sapi lainnya.@Casual_MeetTheOtherCowGirls;
+      Apakah kamu mendapatkan milkshake jika saya melompati pogo stick?@Jokes_MilkshakePogoStick;
+      Saya berharap tidak akan hujan sore ini.@Casual_RainThisAfterNoon; Sapi kepada
+      susu: ''Saya adalah ibumu''.@Jokes_CowToTheMilk; Ini hanya awalnya.@OnlyTheBeginning;
+      Ayah saya mendapatkan pekerjaan baru di pabrik susu. Dia adalah koordinator
+      sapi.@Jokes_DadAtTheDairy; Teman saya selalu mencoba menakut-nakuti teman-temannya.
+      Dia adalah penggemar milkshake.@Jokes_FriendScaringOtherFriends; Teman saya
+      berpikir bahwa dia memproduksi susu almond. Dia pasti gila.@Jokes_AlmondMilk;
+      Apakah kita masih memiliki beberapa cangkir di belakang?@Casual_CupsInTheBack;
+      Susu yang rusak selalu mendapatkan apa yang dia inginkan.@Jokes_SpoiledMilkAlwaysGotWhatItWanted;
+      Hari ini ada banyak hal yang terjadi.@Casual_LotGoingOn; Seorang pria menyerang
+      saya dengan krim, mentega, dan susu. Bagaimana susu.@Jokes_HowDairy; Saya pernah
+      menjadi sapi seperti kamu, sampai saya mendapatkan botol di dada.@Jokes_ACowLikeYou;
+      Saya merasa produktif.@Casual_FeelingProductive; Bisakah kamu mengambil lebih
+      banyak kopi dari belakang?@Casual_CoffeeFromTheBack; Kopi itu berbau sangat
+      enak.@Casual_CoffeeSmellsNice; Pelanggan terus-menerus datang.@Casual_CustomersRollingIn;
+      Apakah kamu berpikir bahwa mereka menyukai saya?@Casual_DoTheyLikeMe; Hanya
+      hari biasa di tempat kerja.@Casual_NormalDayAtTheJob; Hey! Hati-hati!@Reactions_HeyCareful'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427953908404224
+    m_Localized: Jika pekerjaan ini sangat buruk, maka tidak ada gunanya menjadi
+      lebih besar...@Upset_GrowingBiggerIsntWorthIt; Sapi yang marah biasanya bertanggung
+      jawab atas susu asam.@Jokes_AngryCowsSourMilk; Saya sudah bosan dengan pekerjaan
+      ini!@Spoken_Grunt; Ugh! Saya hampir menyerah!@Reactions_Bleh; Pekerjaan ini
+      sangat buruk!@Spoken_Grunt; Saya ingin pulang...@Spoken_Grunt; Saya tidak cuk
+      up dibayar untuk ini...@Spoken_Grunt; Uuugh...@Spoken_Grunt; Pekerjaan ini
+      harus segera membaik...@Reactions_Bleh; Anda harus membiarkan saya beristirahat
+      sejenak.@Spoken_Grunt; Saya sedang memiliki hari yang buruk...@Reactions_Bleh;
+      Tolong, tekan saya atau lakukan sesuatu...@Reactions_Bleh; Saya hanya ingin
+      menjadi sapi perah...@Spoken_Grunt; Muu...@Moo_Tired; Saya tidak bisa mengikuti
+      beban kerja ini...@Spoken_Grunt; Saya merasa sudah di ujung tanduk...@Reactions_Bleh;
+      Apakah sudah waktunya untuk pulang?@Spoken_Grunt; Setiap hari adalah perjuangan...@Spoken_Grunt;
+      Saya sudah kehabisan tenaga di sini...@Reactions_Bleh; Saya sangat lelah dengan
+      rutinitas ini...@Spoken_Grunt; Saya merasa seperti terjebak dalam sebuah lingkaran...@Reactions_Bleh;
+      Saya hampir tidak bisa membuka mata...@Spoken_Grunt; Kapan pekerjaan ini akan
+      berakhir?@Reactions_Bleh; Saya hanya harus bertahan satu hari lagi...@Spoken_Grunt;
+      Saya membutuhkan liburan... atau keajaiban.@Reactions_Bleh; Saya berharap ada
+      sinar harapan dalam kesuraman ini...@Spoken_Grunt; Saya tidak bisa menghilangkan
+      kelelahan ini...@Reactions_Bleh; Saya mulai kehilangan motivasi...@Spoken_Grunt;
+      Semua terasa sangat berat...@Reactions_Bleh; Saya tidak tahu berapa lama lagi
+      saya bisa bertahan...@Spoken_Grunt; Saya hanya mencoba untuk bertahan hidup...@Reactions_Bleh;
+      Pekerjaan ini sedang menghisap hidup saya...@Spoken_Grunt; Saya merasa seperti
+      terjebak dalam sebuah siklus yang tidak berakhir...@Reactions_Bleh; Saya sangat
+      lelah... secara emosional dan fisik.@Spoken_Grunt; Saya berharap ada perubahan
+      dalam keberuntungan saya... dan suasana hati saya.@Reactions_Bleh; Saya hanya
+      menghitung menit sampai saya bisa pergi...@Spoken_Grunt; Saya sangat dekat
+      dengan menyerah...@Reactions_Bleh; Saya merasa sudah mencapai titik terendah...@Spoken_Grunt;
+      Saya hanya ingin bersembunyi di tempat tidur saya dan tidak pernah keluar...@Reactions_Bleh;
+      Saya merasa seperti kosong...@Spoken_Grunt; Saya sangat membutuhkan dorongan...@Reactions_Bleh;
+      Saya hanya harus terus melangkah...@Spoken_Grunt; Saya berharap ada sedikit
+      energi untuk terus maju...@Reactions_Bleh; Apakah terlalu banyak untuk meminta
+      istirahat sejenak?@Spoken_Grunt; Mungkin saya akan menceritakan lelucon jika
+      saya dalam mood yang lebih baik...@Moo_Tired
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427974720540672
+    m_Localized: Apakah pekerjaan ini selalu sulit seperti ini?@Spoken_Sigh; Peringatan
+      spoiler! Susu telah basi.@Spoken_Sigh; Saya berharap tidak hujan sore ini.@Casual_RainThisAfterNoon;
+      Saya butuh istirahat...@Reactions_Bleh; Kopi yang tepat dalam susu yang salah
+      dapat membuat perbedaan besar dalam cangkir.@Spoken_Sigh; Tetap tenang, Barbra,
+      manfaatnya sepadan...@Spoken_Sigh; Bleh...@Reactions_Bleh; Ini melelahkan.@Spoken_Sigh;
+      Saya ingin pekerjaan ini lebih menyenangkan.@Spoken_Sigh; Tempat ini sangat
+      sibuk, bukan?@Spoken_Sigh; Saya harus mengisi kembali persediaan.@Spoken _Sigh;
+      Bisakah saya istirahat sejenak?@Spoken_Sigh; Ada banyak pekerjaan yang harus
+      dilakukan!@Spoken_Sigh; Bisakah saya memiliki camilan?@Spoken_Sigh; Tarik napas...
+      Embuskan napas...@Reactions_Bleh; Ini tidak jauh berbeda dari pekerjaan saya
+      sebelumnya.@Spoken_Sigh; Saya butuh sedikit lebih banyak perhatian.@Spoken_Grunt;
+      Muu...?@Moo_Curious; Saya merasa sedikit kewalahan hari ini.@Spoken_Sigh; Saya
+      berharap hal-hal akan menjadi lebih mudah segera...@Spoken_Sigh; Saya hanya
+      mencoba menjaga kepala saya di atas air...@Reactions_Bleh; Apakah hanya saya
+      atau hari ini terasa berlangsung selamanya?@Spoken_Sigh; Saya merasa sedikit
+      lelah...@Reactions_Bleh; Saya mencoba untuk tetap positif, tapi sulit...@Spoken_Sigh;
+      Saya butuh sedikit udara... pekerjaan ini melelahkan.@Spoken_Sigh; Saya ingin
+      memiliki sedikit keberuntungan...@Reactions_Bleh; Volume pekerjaan ini benar-benar
+      di batas kemampuan saya...@Spoken_Sigh; Saya merasa sedikit kewalahan...@Reactions_Bleh;
+      Saya harus terus maju, saya pikir...@Spoken_Sigh; Saya ingin memiliki sedikit
+      lebih banyak energi untuk ini...@Spoken_Sigh; Sudah waktunya untuk pulang?@Spoken_Sigh;
+      Saya benar-benar butuh waktu untuk mengisi kembali energi saya...@Reactions_Bleh;
+      Saya merasa sedikit terjebak...@Spoken_Sigh; Saya berharap besok akan menjadi
+      hari yang lebih baik...@Spoken_Sigh; Saya merasa sedikit lelah...@Reactions_Bleh;
+      Saya mencoba untuk menjaga semangat, tapi sulit...@Spoken_Sigh; Saya tidak
+      bisa melepaskan kelelahan ini...@Reactions_Bleh; Saya ingin memiliki sedikit
+      keberuntungan...@Spoken_Sigh; Saya tidak pernah berpikir bahwa tersenyum bisa
+      sangat melelahkan.@Spoken_Sigh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427987508973568
+    m_Localized: Aku bertanya-tanya apa yang dilakukan Lacti?@Spoken_Hm; Apakah kita
+      masih memiliki beberapa cangkir di belakang?@Casual_CupsInTheBack; Susu yang
+      rusak selalu mendapatkan apa yang diinginkannya.@Jokes_SpoiledMilkAlwaysGotWhatItWanted;
+      Hari ini ada banyak hal yang harus dilakukan.@Casual_LotGoingOn; Seorang pria
+      menyerangku dengan krim, mentega, dan susu. Betapa susunya.@Jokes_HowDairy;
+      Aku pernah menjadi sapi seperti kamu, sampai aku mendapatkan botol di payudara.@Jokes_ACowLikeYou;
+      Aku merasa produktif.@Casual_FeelingProductive; Bisakah kamu mengambil lebih
+      banyak kopi dari belakang?@Casual_CoffeeFromTheBack; Kopi itu baunya sangat
+      enak.@Casual_CoffeeSmellsNice; Pelanggan terus berdatangan.@Casual_CustomersRollingIn;
+      Apakah kamu pikir mereka menyukai aku?@Casual_DoTheyLikeMe; Hanya hari biasa
+      di tempat kerja.@Casual_NormalDayAtTheJob; Baiklah, meja kasir sudah bersih
+      lagi.@Spoken_Hm; Aku bisa sedikit moody ketika aku lelah.@Spoken_Hm; Aku selalu
+      membutuhkan lebih banyak perhatian, jika kamu mau.@Spoken_Hm; Bagaimana cara
+      menggunakan mesin kopi lagi?@Spoken_Hm; Apakah kita benar-benar perlu menjual
+      susu biasa?@Spoken_Hm; Aku merasa baik hari ini!@Spoken_Hm; Sepertinya hari
+      ini akan menjadi hari yang luar biasa!@Spoken_Hm ; Aku hari ini sangat baik!@Spoken_Hm;
+      Aku merasa penuh energi dan siap menghadapi apa pun!@Spoken_Hm; Aku suka suasana
+      di kafe hari ini!@Spoken_Hm; Ini adalah kesenangan bekerja di lingkungan yang
+      sangat indah!@Spoken_Hm; Kebahagiaan itu menular, bukan?@Spoken_Hm; Siap membuat
+      minuman yang lezat!@Spoken_Hm; Aku merasa sangat baik hari ini!@Spoken_Hm;
+      Mari kita pertahankan suasana yang baik!@Spoken_Hm; Aku merasa bisa menghadapi
+      apa pun!@Spoken_Hm; Semua terlihat lebih cerah ketika aku baik-baik saja!@Spoken_Hm;
+      Aku memiliki senyum di wajah dan kopi di tangan!@Spoken_Hm; Kopi itu rasanya
+      lebih enak ketika aku bahagia!@Spoken_Hm; Aku hari ini seperti sinar matahari!@Spoken_Hm;
+      Sepertinya hari ini akan menjadi hari yang luar biasa untuk membuat kopi!@Spoken_Hm;
+      Aku ada di elemenku ketika aku baik-baik saja!@Spoken_Hm; Siap menyebarkan
+      kebahagiaan, satu cangkir demi satu!@Spoken_Hm; Aku merasa gembira dan siap
+      menghadapi hari!@Spoken_Hm; Kebahagiaan itu adalah bahan rahasia di setiap
+      minuman!@Spoken_Hm; Muu... ?@Moo_Curious; Tunggu, bukankah kopi dan gula membuat
+      sapi tumbuh tidak normal?@Spoken_Hm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428000616173568
+    m_Localized: Aku berharap Lacti bisa kabur dari pekerjaan untuk menemuiku hari
+      ini.@Spoken_Sigh_Happy; Temanku selalu mencoba menakuti teman-temannya yang
+      lain. Dia adalah penggemar milkshake.@Jokes_FriendScaringOtherFriends; Temanku
+      pikir dia memproduksi susu almond. Dia pasti gila.@Jokes_AlmondMilk; Bagaimana
+      perasaanmu, bos?@Spoken_Sigh_Happy; Mau pergi ke mana setelah kerja hari ini?@Spoken_Sigh_Happy;
+      Pekerjaan ini ternyata sangat menyenangkan!@Spoken_Sigh_Happy; Apakah ada yang
+      bisa aku lakukan untukmu?@Spoken_Sigh_Happy; Pelanggan sepertinya menyukai
+      aku.@Spoken_Sigh_Happy; Hmm hm hmm hhm hmmm!@Spoken_Humming; Hari yang indah!@Spoken_Sigh_Happy;
+      Lihatlah trik yang bisa aku lakukan dengan gelas.@Spoken_Giggles; Kamu telah
+      menjadi bos yang hebat.@Spoken_Sigh_Happy; Perubahan mood? Tidak, jika kamu
+      terus memperlakukan aku dengan baik!@Spoken_Sigh_Happy; Sapi bisa menjadi sedikit
+      MOOdy jika tidak diperlakukan dengan baik seperti kamu memperlakukan aku.@Spoken_Sigh_Happy;
+      Aku merasa seperti berada di puncak dunia hari ini!@Spoken_Sigh_Happy; Tidakkah
+      memiliki pekerjaan yang membuatmu tersenyum itu menyenangkan?@Spoken_Sigh_Happy;
+      Aku merasa sangat puas dan bahagia saat ini!@Spoken_Sigh_Happy; Setiap hari
+      terasa seperti hari yang baik ketika aku memiliki mood yang baik!@Spoken_Sigh_Happy;
+      Aku bisa menari dengan gembira saat ini!@Spoken_Sigh_Happy; Hati aku ringan
+      dan bahagia hari ini!@Spoken_Sigh_Happy; Aku memiliki langkah yang ringan dan
+      senyum di wajah!@Spoken_Sigh_Happy; Sepertinya bintang-bintang telah sejajar
+      hari ini!@Spoken_Sigh_Happy; Tidakkah hidup itu indah ketika kamu merasa sangat
+      baik?@Spoken_Sigh_Happy; Aku merasa seperti bisa menaklukkan dunia saat ini!@Spoken_Sigh_Happy;
+      Aku memiliki hati yang bahagia dan kafein!@Spoken_Sigh_Happy; Hari ini terlihat
+      seperti hari yang luar biasa!@Spoken_Sigh_Happy; Aku merasa sangat berterima
+      kasih untuk semua hal saat ini!@Spoken_Sigh_Happy; Semua terlihat sangat tepat
+      hari ini!@Spoken_Sigh_Happy; Aku merasa seperti bersinar dengan kebahagiaan!@Spoken_Sigh_Happy;
+      Aku sangat bahagia sehingga hampir meledak!@Spoken_Sigh_Happy; Kebahagiaan
+      itu menular, bukan?@Spoken_Sigh_Happy; Tidakkah hidup itu indah ketika kamu
+      merasa sangat baik?@Spoken_Sigh_Happy; Aku merasa seperti berjalan di udara
+      hari ini!@Spoken_Sigh_Happy; Aku merasa sangat diberkati dan bahagia saat ini!@Spoken_Sigh_Happy;
+      Muu!@Moo_Happy; Aku merasa sangat santai.@Spoken_Sigh_Happy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428017326280704
+    m_Localized: 'Aku merasa sangat baik!@Spoken_Giggles; Sapi ke susu: ''Aku adalah
+      ibumu''.@Jokes_CowToTheMilk; Ayahku mendapatkan pekerjaan baru di pabrik susu.
+      Dia adalah koordinator sapi.@Jokes_DadAtTheDairy; Aku memperkenalkan cokelat
+      ke susu. Mereka membuat milkshake cokelat.@Spoken_Giggles; Susu tidak menyukai
+      leluconku yang terakhir. Dia tidak a-meu-sed.@Spoken_Giggles; Aku sangat menyukai
+      pekerjaan ini!@Spoken_Giggles; Apakah hari ku bisa menjadi lebih baik?@Spoken_Giggles;
+      Pelanggan sangat baik kepada ku hari ini.@Spoken_Giggles; Mau pergi minum bersama
+      ku nanti?@Spoken_Giggles; Kami melakukan dengan baik!@Spoken_Giggles; Eeee!@Reactions_Eeeee;
+      Ahaha!@Spoken_Giggles; Muu!@Moo_Happiest; Mau memeluk ku?@Spoken_Giggles; Aku
+      akan menyimpan susu ekstra untuk mu nanti!@Spoken_Giggles; Aku hampir melayang
+      di udara!@Spoken_Giggles; Aku memiliki senyum yang tidak berh enti!@Spoken_Giggles;
+      Hari ini sangat baik, seperti mimpi!@Spoken_Giggles; Apakah ini kebahagiaan
+      murni? Ini luar biasa!@Spoken_Giggles; Aku memancarkan kepositifan dan kegembiraan!@Spoken_Giggles;
+      Aku merasa seperti di langit ketujuh hari ini!@Spoken_Giggles; Hati ku penuh
+      kebahagiaan!@Spoken_Giggles; Aku sangat bahagia, hampir bisa bernyanyi!@Spoken_Giggles;
+      Aku tersenyum dari telinga ke telinga hari ini!@Spoken_Giggles; Hari ini seperti
+      hari yang sempurna!@Spoken_Giggles; Aku penuh kegembiraan dan tawa!@Spoken_Giggles;
+      Aku hidup dalam kehidupan terbaik ku!@Spoken_Giggles; Aku merasa seperti barista
+      paling beruntung di dunia!@Spoken_Giggles; Hari ini sangat luar biasa, aku
+      ingin mengingatnya selamanya!@Spoken_Giggles; Bisakah kamu merasakan kebahagiaan
+      yang ku pancarkan?@Spoken_Giggles; Aku merasa seperti memenangkan jackpot kebahagiaan!@Spoken_Giggles;
+      Aku sangat berbahagia!@Spoken_Giggles; Setiap saat hari ini seperti hadiah!@Spoken_Giggles;
+      Aku sangat berterima kasih untuk semua kebahagiaan dalam hidup ku!@Spoken_Giggles;
+      Aku penuh sinar matahari dan pelangi hari ini!@Spoken_Giggles; Aku merasa seperti
+      bisa menaklukkan dunia dengan kebahagiaan ini!@Spoken_Giggles; Hidup adalah
+      melodi yang indah, dan hari ini aku menari dengan lagu yang paling bahagia!@Spoken_Giggles;
+      Aku memancarkan kegembiraan!@Spoken_Giggles; Hari ini seperti dongeng yang
+      menjadi kenyataan!@Spoken_Giggles; Aku menyebarkan kebahagiaan seperti konfeti!@Spoken_Giggles;
+      Aku merasa seperti terbungkus dalam selimut kebahagiaan yang hangat dan lembut!@Spoken_Giggles;
+      Aku sangat bahagia, hampir bisa memeluk seluruh dunia!@Spoken_Giggles; Tingkat
+      kebahagiaan hari ini: luar biasa!@Spoken_Giggles; Aku memancarkan kebahagiaan
+      yang sangat banyak, hampir bisa menyebabkan kelebihan kegembiraan!@Spoken_Giggles;
+      Aku memiliki kebahagiaan yang cukup untuk menerangi seluruh kota!@Spoken_Giggles;
+      Aku sangat gembira, hampir bisa melakukan tarian kegembiraan di sini dan sekarang!@Spoken_Giggles;
+      Hari ini seperti mimpi yang tidak ingin ku tinggalkan!@Spoken_Giggles; Aku
+      sangat penuh kegembiraan, setiap hari seperti ulang tahun ku!@Spoken_Giggles;
+      Aku penuh kebahagiaan hari ini!@Spoken_Giggles; Muu!@Moo_Happier'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428063652368384
+    m_Localized: Saya merasa sangat kecil.@Spoken_Ah; Kamu berjanji untuk membantuku
+      tumbuh, kan?@Spoken_Ah; Masih menunggu manfaat khusus itu mulai berlaku...@Spoken_Ah;
+      Bisakah kamu membelikanku sesuatu?@Spoken_Ah; Kita selalu bisa melakukan yang
+      lebih baik.@Spoken_Ah; Saya hampir tidak merasakan beratnya.@Spoken_Ah; Saya
+      penasaran apakah saya akan sebesar gadis sapi lainnya.@Spoken_Ah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428070547804160
+    m_Localized: Sekarang kami mulai membuat kemajuan yang baik.@Spoken_Hm; Ini baru
+      permulaan.@Spoken_Hm; Sekarang saya mulai merasakan sedikit berat yang menyenangkan.@Spoken_Hm;
+      Mari kita terus mengalirkan susu!@Spoken_Hm; Pekerjaan ini memiliki beberapa
+      keuntungan yang hebat.@Spoken_Hm; Kamu bilang kamu juga punya peternakan, kan?@Spoken_Hm;
+      Apakah kamu punya lotion?@Spoken_Hm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428089740939264
+    m_Localized: Ini mulai keluar dari jalur, dan saya mendukungnya!@Spoken_Sigh_Happy;
+      Saya tidak bisa memerah susu kemarin. Itu adalah kegagalan total.@Jokes_UdderFailure;
+      Saya suka susu ketika sudah dikocok. Itu menjadi mentega.@Spoken_Giggles; Lebih
+      banyak!@Reactions_More; Lebih besar!@Reactions_Bigger; Kita selalu bisa pergi
+      lebih besar!@Spoken_Sigh_Happy; Punggung saya sangat kuat, saya bisa membawa
+      ini tanpa masalah!@Spoken_Sigh_Happy; Seandainya saya bisa menjadi berisi seperti
+      saya bisa menjadi berkrim.@Spoken_Sigh_Happy; Pelanggan tampaknya sangat menyukai
+      saya.@Spoken_Sigh_Happy; Keajaiban ini bisa melakukan lebih dari sekadar membuat
+      susu.@Spoken_Sigh_Happy; Apakah saya salah satu gadis terbaikmu? Kamu memuji
+      saya!~@Spoken_Sigh_Happy; Saya tidak sabar untuk bertemu gadis-gadis sapi lainnya.@Casual_MeetTheOtherCowGirls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428109055709184
+    m_Localized: Saya dipromosikan ketika saya terlalu besar untuk menyajikan minuman,
+      kan?@Spoken_Giggles; Apakah Anda mendapatkan milkshake jika saya melompat di
+      atas pogo?@Jokes_MilkshakePogoStick; Saya harus memberikan sedikit susu kepada
+      Mewth nanti...@Casual_MewthMilk; Para pelanggan melihat saya dengan aneh hari
+      ini... apakah saya memiliki sesuatu di wajah saya?@Spoken_Giggles; Saya ingin
+      memberi tahu Anda lelucon tentang susu tetapi terlalu cheesy.@Spoken_Giggles;
+      Begitu dekat dengan kebesaran!@Spoken_Giggles; Saya melimpah dengan kekuatan!
+      Dan susu.@Spoken_Giggles; Lebih! Lebih!@Reactions_MoreMore; Tolong! Hanya sedikit
+      lebih besar!@Reactions_Bigger; Bahkan saya tidak dapat menangani lebih besar.@Spoken_Giggles;
+      Saya tidak sabar untuk menjual merek susu saya sendiri~@Spoken_Giggles; Lebih
+      besar! Lebih besar!~@Reactions_Bigger; Aliran susu ini tidak akan pernah berakhir!@Spoken_Giggles;
+      Akhirnya sudah dekat.@Spoken_Giggles; Pertama kafe, lalu dunia!@Spoken_Giggles;
+      Saya harap saya mendapatkan ukuran kota di sekuel.@Spoken_Giggles; Lacti akan
+      sangat cemburu.@Spoken_Giggles; Puji susu!@Spoken_Giggles; Saya bisa diperah
+      sebanyak ini setiap hari? Hidup adalah kebahagiaan.@Spoken_Giggles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428124268449792
+    m_Localized: Kita harus membeli sesuatu. @Spoken_Hm; Bisakah kamu membelikan
+      aku sesuatu? @Interaction_CouldYouBuyMeSomething; Aku benar-benar ingin sesuatu
+      dari belakang. @Spoken_Hm; Apakah ada yang bisa kita tambahkan ke toko? @Spoken_Hm;
+      Kita menghasilkan banyak uang tambahan. @Spoken_Hm; Aku penasaran apa yang
+      harus kita beli? @Spoken_Hm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428146145939456
+    m_Localized: Apakah kamu menabung untuk sesuatu? @Money_SavingUpForSomething;
+      Apakah ada sesuatu yang besar yang ingin kamu beli? @Spoken_Hm; Kami telah
+      menghasilkan banyak hari ini. @Spoken_Hm; Lihat semua uang itu. @Spoken_Hm;
+      Hari ini kami berenang dalam uang tunai! @Spoken_Hm; Aku tidak pernah tahu
+      kami bisa memiliki sebanyak ini! @Spoken_Hm; Keuntungan kami sangat tinggi!
+      @Spoken_Hm; Aku merasa seperti kita sedang berenang di kolam uang! @Spoken_Hm;
+      Sepertinya kita memenangkan jackpot hari ini! @Spoken_Hm; Siapa yang tahu menyajikan
+      kopi bisa begitu menguntungkan? @Spoken_Hm; Kami punya lebih banyak uang daripada
+      yang kami tahu harus dilakukan! @Spoken_Hm; Aku tidak pernah berpikir kami
+      akan memiliki sebanyak ini di kas kami! @Spoken_Hm; Aku mulai berpikir kita
+      berada di bisnis yang salah dengan semua uang ini! @Spoken_Hm; Keuntungan kami
+      sangat tinggi hari ini! @Spoken_Hm; Sepertinya kami sedang menjalankan operasi
+      pencetakan uang, bukan kafe! @Spoken_Hm; Kami memiliki lebih banyak uang daripada
+      yang kami tahu harus dilakukan! @Spoken_Hm; Aku belum pernah melihat sebanyak
+      ini uang di satu tempat sebelumnya! @Spoken_Hm; Kami praktis tenggelam dalam
+      uang hari ini! @Spoken_Hm; Dengan semua uang ini, kita bisa membeli seluruh
+      kota! @Spoken_Hm; Ehm bos, ingat bahwa kamu bisa menghabiskan uang, kan? @Spoken_Hm
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

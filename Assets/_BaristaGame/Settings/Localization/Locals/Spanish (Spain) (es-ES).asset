@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Spanish (Spain) (es-ES)
   m_EditorClassIdentifier: 
   m_Identifier:
-    m_Code: es-ES
+    m_Code: es
   m_Metadata:
     m_Items: []
   m_LocaleName: Spanish (Spain) (es-ES)

@@ -1,0 +1,1901 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Default_pl
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: pl
+  m_SharedData: {fileID: 11400000, guid: 99f355a02537cb04c821e914e96ec32f, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1654148486754304
+    m_Localized: Zaawansowane ustawienia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656496193892352
+    m_Localized: "Wyg\u0142adzanie kraw\u0119dzi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661452141555712
+    m_Localized: Styl fartucha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549324026376192
+    m_Localized: "Dodaje 3 $ do zam\xF3wienia"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549242392637440
+    m_Localized: "Kup Bob\u0119 za 75 dolar\xF3w"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549277549293568
+    m_Localized: Boba
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549846439522304
+    m_Localized: "Dodaje 1 $ do zam\xF3wienia"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549769167859712
+    m_Localized: Kup Sos Karmelowy za 25 USD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549811962343424
+    m_Localized: sos karmelowy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1683534711713792
+    m_Localized: "Twoja farma mleczna zdecydowa\u0142a si\u0119 niedawno otworzy\u0107
+      \u201Ekawiarni\u0119 dla kr\xF3w\u201D, aby pom\xF3c w marketingu, a poza tym
+      wydaje si\u0119 to \u015Bwietnym sposobem, aby zapewni\u0107 nowym krowom co\u015B
+      do zrobienia podczas przygotowywania ich do obowi\u0105zk\xF3w mlecznych.\n\nTwoja
+      pierwsza barista jest podekscytowana mo\u017Cliwo\u015Bci\u0105 rozpocz\u0119cia
+      pracy i wydaje si\u0119 pe\u0142na potencja\u0142u. Pom\xF3\u017C jej obs\u0142ugiwa\u0107
+      klient\xF3w, jednocze\u015Bnie pracuj\u0105c nad osi\u0105gni\u0119ciem pe\u0142nej
+      mlecznej mocy!\n\nKawiarnia jest nowa, wi\u0119c po drodze b\u0119dziesz musia\u0142
+      tak\u017Ce kupi\u0107 nowe sk\u0142adniki.\nNa szcz\u0119\u015Bcie wygl\u0105da
+      na to, \u017Ce tutejsi klienci s\u0105 bardzo otwarci na pomys\u0142 dop\u0142aty
+      za \u015Bwie\u017Ce mleko na \u017C\u0105danie, je\u015Bli maj\u0105 odpowiedni
+      nastr\xF3j.\n\nJe\u015Bli potrzebujesz dodatkowej pomocy podczas gry, mo\u017Cesz
+      najecha\u0107 kursorem na podpowiedzi."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1683396865912832
+    m_Localized: Witamy w kawiarni Cowtastic!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1684540275126272
+    m_Localized: "Mo\u017Ce powiniene\u015B by\u0142 dzisiaj zosta\u0107 w domu,
+      w ca\u0142ej kawiarni panuje chaos, bo dziej\u0105 si\u0119 tu r\xF3\u017Cne
+      szalone rzeczy!  Jakie s\u0105 te ceny?  Dlaczego te wszystkie rzeczy dziej\u0105
+      si\u0119 za ka\u017Cdym razem, gdy przychodzi klient?\n\nCze\u015B\u0107, wygl\u0105da
+      na to, \u017Ce znalaz\u0142e\u015B nasze ma\u0142e jajko wielkanocne. Mo\u017Cesz
+      najpierw zagra\u0107 w innym trybie, je\u015Bli jakim\u015B cudem znalaz\u0142e\u015B
+      go przy pierwszej pr\xF3bie.\n\nB\u0119dziesz potrzebowa\u0107 du\u017Cej wiedzy
+      na temat dzia\u0142ania gry, aby przezwyci\u0119\u017Cy\u0107 ten chaos, czy
+      nie... Szczerze, czy to w og\xF3le jest do pokonania?  Mo\u017Cna si\u0119
+      tego dowiedzie\u0107 tylko w jeden spos\xF3b.\n\nDzi\u0119kuj\u0119 r\xF3wnie\u017C
+      za gr\u0119!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1684438634557440
+    m_Localized: Zapraszamy do Kawiarni CHAOS!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 547914811535360
+    m_Localized: "Warte 5 dolar\xF3w za drinka"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 547664034099200
+    m_Localized: "Kup czekolad\u0119 za 100 dolar\xF3w"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 547789489926144
+    m_Localized: Czekolada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 550208105967616
+    m_Localized: "Dodaje 1,5 $ do zam\xF3wienia"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 550089201643520
+    m_Localized: "Kup kakao w proszku za 35 dolar\xF3w"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 550158147612672
+    m_Localized: Kakao w proszku
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537745180422144
+    m_Localized: "Kup kaw\u0119 za 50 dolar\xF3w"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537965951807488
+    m_Localized: Warte 2 USD za drinka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537790525042688
+    m_Localized: Kawa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316567601901568
+    m_Localized: Warte 2 USD za drinka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316555551666176
+    m_Localized: "Kup waniliow\u0105 \u015Bmietank\u0119 za 35 dolar\xF3w"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316559485923328
+    m_Localized: Krem waniliowy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540973469102080
+    m_Localized: "Warte 10 dolar\xF3w za drinka"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540856380911616
+    m_Localized: "Kup espresso za 150 dolar\xF3w"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540912534253568
+    m_Localized: Espresso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1651431374680064
+    m_Localized: "Whoa whoa whoa, to zdecydowanie za du\u017Co mleka!  Co ty w og\xF3le
+      robisz???  Zamieni\u0142e\u015B j\u0105 w studni\u0119 mleka bez dna, zalewaj\u0105c\u0105
+      ulice bez ko\u0144ca!  To chaos!\n\nTo znaczy, na pewno, nadal sprawia jej
+      to przyjemno\u015B\u0107, ale..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1651623855484928
+    m_Localized: "Pow\xF3d\u017A mleczna!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1713462324850688
+    m_Localized: "Twoja farma mleczna zdecydowa\u0142a si\u0119 niedawno otworzy\u0107
+      \u201Ekawiarni\u0119 dla kr\xF3w\u201D, aby pom\xF3c w marketingu, a poza tym
+      wydaje si\u0119 to \u015Bwietnym sposobem, aby zapewni\u0107 nowym krowom co\u015B
+      do zrobienia podczas przygotowywania ich do obowi\u0105zk\xF3w mlecznych.\n\nTwoja
+      pierwsza barista jest podekscytowana mo\u017Cliwo\u015Bci\u0105 rozpocz\u0119cia
+      pracy i wydaje si\u0119 pe\u0142na potencja\u0142u. Pom\xF3\u017C jej obs\u0142ugiwa\u0107
+      klient\xF3w, jednocze\u015Bnie pracuj\u0105c nad osi\u0105gni\u0119ciem pe\u0142nej
+      mlecznej mocy!\n\nKawiarnia jest nowa, wi\u0119c po drodze b\u0119dziesz musia\u0142
+      tak\u017Ce kupi\u0107 nowe sk\u0142adniki.\nNa szcz\u0119\u015Bcie wygl\u0105da
+      na to, \u017Ce tutejsi klienci s\u0105 bardzo otwarci na pomys\u0142 dop\u0142aty
+      za \u015Bwie\u017Ce mleko na \u017C\u0105danie, je\u015Bli maj\u0105 odpowiedni
+      nastr\xF3j.\n\nJe\u015Bli nie nauczy\u0142e\u015B si\u0119 gra\u0107, wypr\xF3buj
+      najpierw tryb normalny."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1685107663794176
+    m_Localized: Witamy w kawiarni Cowtastic!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537416976134144
+    m_Localized: "Dodaje 0,50 $ do zam\xF3wienia"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537330950959104
+    m_Localized: "Kup l\xF3d za 5 dolar\xF3w"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537370968813568
+    m_Localized: "l\xF3d"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1650345817501696
+    m_Localized: "Ups!  Wygl\u0105da na to, \u017Ce popchn\u0105\u0142e\u015B j\u0105
+      troch\u0119 za daleko.  Czy zostawi\u0142e\u015B j\u0105 pe\u0142n\u0105 na
+      zbyt d\u0142ugo?  Mo\u017Ce jaka\u015B trudna obs\u0142uga klienta?\n\nMiejmy
+      nadziej\u0119, \u017Ce gdy och\u0142onie, wr\xF3ci i spr\xF3buje jeszcze raz
+      tej pracy."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1650204792418304
+    m_Localized: "Menu g\u0142\xF3wne"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649997711241216
+    m_Localized: "Spr\xF3buj ponownie"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1650511282794496
+    m_Localized: Koniec gry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316273224675328
+    m_Localized: Warte 1 dolara za drinka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 312927965245440
+    m_Localized: "Kup zwyk\u0142e mleko za 50 dolar\xF3w"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316153368244224
+    m_Localized: "Zwyk\u0142e mleko"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 226539798360064
+    m_Localized: "Tryb zr\u0119czno\u015Bciowy"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549589093806080
+    m_Localized: "Dodaje 0,50 $ do zam\xF3wienia"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549459674361856
+    m_Localized: "Kup cukierki za 10 dolar\xF3w"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 549533506695168
+    m_Localized: Cukierki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1647892887859200
+    m_Localized: "Twoja farma mleczna zdecydowa\u0142a si\u0119 niedawno otworzy\u0107
+      \u201Ekawiarni\u0119 dla kr\xF3w\u201D, aby pom\xF3c w marketingu, a poza tym
+      wydaje si\u0119 to \u015Bwietnym sposobem, aby zapewni\u0107 nowym krowom co\u015B
+      do zrobienia podczas przygotowywania ich do obowi\u0105zk\xF3w mlecznych.\n\nTwoja
+      pierwsza barista jest podekscytowana mo\u017Cliwo\u015Bci\u0105 rozpocz\u0119cia
+      pracy i wydaje si\u0119 pe\u0142na potencja\u0142u. Pom\xF3\u017C jej obs\u0142ugiwa\u0107
+      klient\xF3w, jednocze\u015Bnie pracuj\u0105c nad osi\u0105gni\u0119ciem pe\u0142nej
+      mlecznej mocy!\n\nKawiarnia jest nowa, wi\u0119c po drodze b\u0119dziesz musia\u0142
+      tak\u017Ce kupi\u0107 nowe sk\u0142adniki.\nNa szcz\u0119\u015Bcie wygl\u0105da
+      na to, \u017Ce tutejsi klienci s\u0105 bardzo otwarci na pomys\u0142 dop\u0142aty
+      za \u015Bwie\u017Ce mleko na \u017C\u0105danie, je\u015Bli maj\u0105 odpowiedni
+      nastr\xF3j.\n\nJe\u015Bli potrzebujesz dodatkowej pomocy podczas gry, mo\u017Cesz
+      najecha\u0107 kursorem na podpowiedzi."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1647484102602752
+    m_Localized: Witamy w kawiarni Cowtastic!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 541488361861120
+    m_Localized: Warte 1,5 dolara za drinka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 541379419009024
+    m_Localized: "Kup cukier za 15 dolar\xF3w"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 541440546795520
+    m_Localized: Cukier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540631339724800
+    m_Localized: Warte 3 USD za drinka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540541439012864
+    m_Localized: "Kup herbat\u0119 za 50 dolar\xF3w"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 540592966037504
+    m_Localized: Herbata
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233523209662464
+    m_Localized: "Samouczek zr\u0119czno\u015Bciowy"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 234141684953088
+    m_Localized: "Wskaz\xF3wki i instrukcje, kt\xF3re pomog\u0105 Ci nauczy\u0107
+      si\u0119 gra\u0107, je\u015Bli metoda pr\xF3b i b\u0142\u0119d\xF3w nie jest
+      Twoj\u0105 ulubion\u0105."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1713940962045952
+    m_Localized: "Mo\u017Ce powiniene\u015B by\u0142 dzisiaj zosta\u0107 w domu,
+      w ca\u0142ej kawiarni panuje chaos, bo dziej\u0105 si\u0119 tu r\xF3\u017Cne
+      szalone rzeczy!  Jakie s\u0105 te ceny?  Dlaczego te wszystkie rzeczy dziej\u0105
+      si\u0119 za ka\u017Cdym razem, gdy przychodzi klient?\n\nCze\u015B\u0107, wygl\u0105da
+      na to, \u017Ce znalaz\u0142e\u015B nasze ma\u0142e jajko wielkanocne. Mo\u017Cesz
+      najpierw zagra\u0107 w innym trybie, je\u015Bli jakim\u015B cudem znalaz\u0142e\u015B
+      go przy pierwszej pr\xF3bie.\n\nB\u0119dziesz potrzebowa\u0107 du\u017Cej wiedzy
+      na temat dzia\u0142ania gry, aby przezwyci\u0119\u017Cy\u0107 ten chaos, czy
+      nie... Szczerze, czy to w og\xF3le jest do pokonania?  Mo\u017Cna si\u0119
+      tego dowiedzie\u0107 tylko w jeden spos\xF3b.\n\nDzi\u0119kuj\u0119 r\xF3wnie\u017C
+      za gr\u0119!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1713827099275264
+    m_Localized: Zapraszamy do Kawiarni CHAOS!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537045671178240
+    m_Localized: "Dodaje 0,75 $ do zam\xF3wienia"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536900430819328
+    m_Localized: "Kup bit\u0105 \u015Bmietan\u0119 za 15 dolar\xF3w"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536982903418880
+    m_Localized: "Bita \u015Bmietana"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648740309233664
+    m_Localized: "Uczyni\u0142e\u015B swojego barist\u0119 tak du\u017Cym, jak tylko
+      mo\u017Ce!  Osi\u0105gn\u0105wszy sw\xF3j pe\u0142ny potencja\u0142, z rado\u015Bci\u0105
+      do\u0142\u0105czy do Twojej mleczarni na pe\u0142ny etat, dodaj\u0105c do Twojego
+      personelu kolejn\u0105 warto\u015Bciow\u0105 krow\u0119!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648943238049792
+    m_Localized: "Nie przestawaj gra\u0107"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649229939699712
+    m_Localized: "Menu g\u0142\xF3wne"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649612644773888
+    m_Localized: Mniej statystyk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649493451042816
+    m_Localized: "Wi\u0119cej statystyk"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1649079095750656
+    m_Localized: Zagraj ponownie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648511212154880
+    m_Localized: Gratulacje!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132749943507623936
+    m_Localized: "Zestaw z automatyczn\u0105 napraw\u0105"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133847671285325824
+    m_Localized: Z powrotem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133992920209006592
+    m_Localized: Podstawy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133054867663593472
+    m_Localized: 'Najlepszy czas: '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663386760081408
+    m_Localized: Gorzka kawa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660668985307136
+    m_Localized: "Najlepszy spos\xF3b na rozpocz\u0119cie dnia:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035131357732864
+    m_Localized: "Kup ka\u017Cdy str\xF3j."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1664405879484416
+    m_Localized: "Uspokajaj\u0105ca herbata"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655899071803392
+    m_Localized: Ruch kamery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132868178831843328
+    m_Localized: "Zwyk\u0142y"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269928791109632
+    m_Localized: "Czasem warto chcie\u0107 si\u0119 zrelaksowa\u0107.\nTa\u0144sze
+      i sp\xF3jne ceny, kt\xF3re u\u0142atwiaj\u0105 zabaw\u0119 z r\xF3\u017Cnymi
+      opcjami."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269706832736256
+    m_Localized: "Zwyk\u0142y poziom trudno\u015Bci"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231828173975552
+    m_Localized: Tryb swobodny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870694181117952
+    m_Localized: Chaos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273385908432896
+    m_Localized: "O nie.\nProsz\u0119, na mi\u0142o\u015B\u0107 do wszystkiego, co
+      dobre na tym \u015Bwiecie, powiedz mi, \u017Ce przynajmniej gra\u0142e\u015B
+      w trybie normalnym, prawda?  Dla w\u0142asnego dobra... prosz\u0119!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271100448960512
+    m_Localized: "Poziom trudno\u015Bci chaosu"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648041961811968
+    m_Localized: "Kontynuowa\u0107"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228206665101312
+    m_Localized: Kawiarnia Cowtastic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227076505694208
+    m_Localized: Kredyty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133034814415151104
+    m_Localized: "Sprzedawca Puchar\xF3w"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132865428639293440
+    m_Localized: 'Sprzedane kubki:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661003594297344
+    m_Localized: Dostosuj
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656215754338304
+    m_Localized: Niezgoda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133995165042450432
+    m_Localized: "Robienie drink\xF3w"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035279336972288
+    m_Localized: "Zar\xF3b 10 000 dolar\xF3w."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2654012272640
+    m_Localized: "Wyj\u015Bcie"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133847226483580928
+    m_Localized: "Wyjd\u017A z samouczka"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663192102432768
+    m_Localized: Dodatkowa przerwa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663816466526208
+    m_Localized: "Wr\xF3\u017Cka latte"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035857651802112
+    m_Localized: Znajome twarze
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133037143440859136
+    m_Localized: "Znajd\u017A naprawd\u0119 przekl\u0119ty poziom trudno\u015Bci."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035644203671552
+    m_Localized: "Znajd\u017A sekretny poziom trudno\u015Bci Chaos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1641101533736960
+    m_Localized: "Zako\u0144cz zam\xF3wienie"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658724845711360
+    m_Localized: "Napraw str\xF3j"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035056309051392
+    m_Localized: "Pe\u0142na szafa"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1664587954221056
+    m_Localized: "Tolerancja pe\u0142no\u015Bci+"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655422749863936
+    m_Localized: "Pe\u0142ny ekran"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132753240020852736
+    m_Localized: "Post\u0119p gry"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1653921176449024
+    m_Localized: "Ustawienia g\u0142\xF3wne"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132753222291529728
+    m_Localized: "Statystyki og\xF3lne"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1653487506386944
+    m_Localized: "Podda\u0107 si\u0119"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663268698812416
+    m_Localized: "Szcz\u0119\u015Bcie+"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677334284693504
+    m_Localized: "Popraw nastr\xF3j Baristy."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870565030109184
+    m_Localized: Twardy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269212714364928
+    m_Localized: "Klienci s\u0105 bardziej wybredni, a Barista bardziej humorzasta,
+      ale tym razem mo\u017Ce sta\u0107 si\u0119 jeszcze wi\u0119ksza!\nNieco trudniejsze
+      wyzwanie ni\u017C tryb normalny."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269021949030400
+    m_Localized: "Trudno\u015B\u0107 trudna"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231467803570176
+    m_Localized: "Ci\u0119\u017Cki poziom"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660536202031104
+    m_Localized: Ma tajemnicze skutki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658430149718016
+    m_Localized: Ukryj dialog
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19834399893057536
+    m_Localized: Tryb wakacyjny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1657977076805632
+    m_Localized: "Sk\u0142adniki:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286927487332352
+    m_Localized: "J\u0119zyk"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036188431392768
+    m_Localized: "Przygotuj nap\xF3j, kt\xF3ry b\u0119dzie mia\u0142 to wszystko."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036853224382464
+    m_Localized: "Produkuj mleko, a\u017C kawiarnia si\u0119 zaleje."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036805832941568
+    m_Localized: "Robi\u0107 fale"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660808559161344
+    m_Localized: "Zarz\u0105dzaj pracownikiem"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660182504763392
+    m_Localized: Kierownictwo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1662860714668032
+    m_Localized: Maksymalny rozmiar+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677111105777664
+    m_Localized: "Zwi\u0119ksz pojemno\u015B\u0107 mleka Barista."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1662565540524032
+    m_Localized: Kawa z mlekiem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677736099016704
+    m_Localized: "Natychmiast nape\u0142nij Barist\u0119."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133031481403088896
+    m_Localized: "Mi\u0142o\u015Bnik mleka"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132754228769300480
+    m_Localized: 'Produkcja mleka:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661098758860800
+    m_Localized: Rodzaj mleka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132867783132815360
+    m_Localized: Mleczny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 229470362759168
+    m_Localized: Tryb mleczny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230078679445504
+    m_Localized: "W\u0142\u0105czony tryb mleczny:\nSprawd\u017A swoj\u0105 pr\u0119dko\u015B\u0107,
+      gdy Barista zape\u0142nia si\u0119 coraz szybciej.  Czy mo\u017Cesz za ni\u0105
+      dotrzyma\u0107 kroku?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132865505260838912
+    m_Localized: "Zarobione pieni\u0105dze:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133035228871106560
+    m_Localized: "Ksi\u0119\u017Cycopol"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663875916591104
+    m_Localized: "Wi\u0119cej mleka, teraz!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655167128006656
+    m_Localized: Muzyka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133998653654802432
+    m_Localized: "Zarz\u0105dzanie barist\u0105"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133998700043804672
+    m_Localized: "Twoim ostatecznym celem jest wykorzystanie pe\u0142nego potencja\u0142u
+      baristy, ale nie mo\u017Cesz zaniedbywa\u0107 jej szcz\u0119\u015Bcia podczas
+      pracy.  Podj\u0119\u0142a t\u0119 prac\u0119 z nadziej\u0105, \u017Ce uda jej
+      si\u0119 awansowa\u0107 na stanowisko mleczarza, ale nawet je\u015Bli jest
+      to jej wymarzona praca, nie pozostanie w niej, je\u015Bli stanie si\u0119 zbyt
+      nieszcz\u0119\u015Bliwa.\n\nZr\xF3wnowa\u017C jej nastr\xF3j, jednocze\u015Bnie
+      poprawiaj\u0105c jej wielko\u015B\u0107 i produkcj\u0119 mleka, uszcz\u0119\u015Bliwiaj\u0105c
+      klient\xF3w, a regularne opr\xF3\u017Cnianie pomo\u017Ce utrzyma\u0107 jej
+      dobry nastr\xF3j."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133998785406279680
+    m_Localized: "Tutaj mo\u017Cesz \u015Bledzi\u0107 szcz\u0119\u015Bcie i pe\u0142ni\u0119
+      swojego baristy.  Je\u015Bli jej szcz\u0119\u015Bcie spadnie do 0, rezygnuje.\n\nCho\u0107
+      bardzo chcia\u0142aby urosn\u0105\u0107, nie mo\u017Cesz jej utrzymywa\u0107
+      w stanie zbyt pe\u0142nym przez ca\u0142y czas, bo bolesno\u015B\u0107 j\u0105
+      zdenerwuje, ale nie powiniene\u015B te\u017C trzyma\u0107 jej ca\u0142y czas
+      ca\u0142kowicie pustej, bo to te\u017C mo\u017Ce j\u0105 zdenerwowa\u0107 ,
+      wi\u0119c spr\xF3buj znale\u017A\u0107 r\xF3wnowag\u0119."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133847557804236800
+    m_Localized: "Nast\u0119pny"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133055089148010496
+    m_Localized: Brak zapisu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870450861154304
+    m_Localized: Normalna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 266676540370944
+    m_Localized: "Graj, dop\xF3ki Twoja Barista nie osi\u0105gnie tak du\u017Cego
+      rozmiaru, jak tylko mo\u017Ce, lub dop\xF3ki si\u0119 nie z\u0142o\u015Bci
+      i nie zrezygnuje."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 266450740015104
+    m_Localized: "Normalny poziom trudno\u015Bci"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231298777313280
+    m_Localized: Tryb normalny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036121565798400
+    m_Localized: Jeden ze wszystkiego
+    m_Metadata:
+      m_Items: []
+  - m_Id: 224355836850176
+    m_Localized: Opcje
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661378443440128
+    m_Localized: Kolor stroju
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1661525407657984
+    m_Localized: Styl spodni
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652064190296064
+    m_Localized: WSTRZYMANO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133034562396200960
+    m_Localized: "Graj w gr\u0119 przez d\u0142ugi czas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133031655290544128
+    m_Localized: Wyprodukuj ponad 100 L mleka.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1663505232392192
+    m_Localized: Produkcja-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677541911130112
+    m_Localized: "Ni\u017Csza wydajno\u015B\u0107 mleka Barista."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1662658687627264
+    m_Localized: Produkcja+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1676894453198848
+    m_Localized: "Zwi\u0119ksz tempo produkcji mleka Barista."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036731409211392
+    m_Localized: "Osi\u0105gnij jej prawdziwy najwi\u0119kszy rozmiar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132867593416056832
+    m_Localized: Regularny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1640869886521344
+    m_Localized: Zresetuj kubek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656078697066496
+    m_Localized: Resetuj czasy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655301924548608
+    m_Localized: Rezolucja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1653300364931072
+    m_Localized: Uruchom ponownie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132752649106333696
+    m_Localized: Piaskownica
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036482359828480
+    m_Localized: Tryb piaskownicy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132752870515253248
+    m_Localized: Wyniki i statystyki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660439854673920
+    m_Localized: Sekretny cukierek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132753744281051136
+    m_Localized: Znaleziono tajemnice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036011389820928
+    m_Localized: "Zobacz wszystkich klient\xF3w crossover\xF3w."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133034908078153728
+    m_Localized: "Sprzedaj 1000 napoj\xF3w."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652825364197376
+    m_Localized: Ustawienie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658332258856960
+    m_Localized: "Poka\u017C dialog"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1648188082974720
+    m_Localized: "Poka\u017C ponownie?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1655796151971840
+    m_Localized: "Poka\u017C minutnik"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1654868065742848
+    m_Localized: "D\u017Awi\u0119ki"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227953312362496
+    m_Localized: "Specjalne podzi\u0119kowania"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 234396560224256
+    m_Localized: "Pocz\u0105tek"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1662771174666240
+    m_Localized: "Rozci\u0105gliwy cukierek"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036677680177152
+    m_Localized: Superwymiarowe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656401700417536
+    m_Localized: "Jako\u015B\u0107 tekstury"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132865470217428992
+    m_Localized: 'Czas gry:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1677955096211456
+    m_Localized: "Barista wolniej traci szcz\u0119\u015Bcie."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231146272419840
+    m_Localized: "Instrukta\u017C"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133992199195566080
+    m_Localized: "Niedawno otworzy\u0142e\u015B now\u0105 kawiarni\u0119 i zatrudni\u0142e\u015B
+      t\u0119 \u015Bwie\u017C\u0105 krow\u0119 jako pierwsz\u0105 baristk\u0119.
+      Twoim zadaniem jest pom\xF3c bari\u015Bcie w obs\u0142udze klient\xF3w, upewniaj\u0105c
+      si\u0119, \u017Ce jest szcz\u0119\u015Bliwa.  Wa\u017Cne jest, aby upewni\u0107
+      si\u0119, \u017Ce nie odejdzie, poniewa\u017C wydaje si\u0119 zainteresowana
+      awansem na stanowisko mleczarza w Twojej farmie, gdy b\u0119dzie na to gotowa.\n\nJe\u015Bli
+      jest co\u015B w rozgrywce, co wydaje si\u0119 niejasne, mamy nadziej\u0119,
+      \u017Ce znajdziesz pomoc w tym samouczku.  W przeciwnym razie mo\u017Cesz tak\u017Ce
+      spr\xF3bowa\u0107 od razu przyst\u0105pi\u0107 do nauki gry metod\u0105 pr\xF3b
+      i b\u0142\u0119d\xF3w."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133993158466445312
+    m_Localized: "Mysz powinna by\u0107 wszystkim, czego potrzebujesz do grania,
+      \u017Cadne inne przyciski nie s\u0105 potrzebne.\n\nJe\u015Bli potrzebujesz
+      dodatkowych informacji, w trybie normalnym znajduj\u0105 si\u0119 wy\u015Bwietlane
+      na ekranie podpowiedzi, kt\xF3re zawieraj\u0105 mn\xF3stwo przydatnych informacji.\nBy\u0107
+      mo\u017Ce b\u0119dziesz w stanie zrozumie\u0107 wi\u0119kszo\u015B\u0107 mechanizm\xF3w,
+      korzystaj\u0105c z podpowiedzi.\n\n(Sterowanie dotykowe nie zosta\u0142o przetestowane,
+      ale je\u015Bli widzisz to na telefonie, to chyba przynajmniej cz\u0119\u015Bciowo
+      dzia\u0142a?)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133995531494596608
+    m_Localized: "G\u0142\xF3wnym zadaniem podczas rozgrywki jest mieszanie drink\xF3w.\n\nKa\u017Cdy
+      klient ma portret przedstawiaj\u0105cy jego nastr\xF3j i prosi o z\u0142o\u017Cenie
+      zam\xF3wienia reprezentowanego t\u0105 grafik\u0105.\n\nZwr\xF3\u0107 szczeg\xF3ln\u0105
+      uwag\u0119 na ilo\u015B\u0107 ka\u017Cdego sk\u0142adnika i dodatki, kt\xF3re
+      chcesz do niego doda\u0107."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133996458540638208
+    m_Localized: "Tutaj s\u0105 twoje sk\u0142adniki.  Podczas gry po prostu kliknij
+      i przytrzymaj, aby rozpocz\u0105\u0107 nape\u0142nianie kubka, lub w przypadku
+      niekt\xF3rych sk\u0142adnik\xF3w kliknij raz, aby doda\u0107 go do napoju.\n\nTwoja
+      kawiarnia jest \u015Bwie\u017Co otwarta i nadal musi zaopatrzy\u0107 si\u0119
+      w kilka sk\u0142adnik\xF3w.  Spr\xF3buj zarobi\u0107 wystarczaj\u0105co du\u017Co,
+      aby odblokowa\u0107 je wszystkie.\n\nKupowanie nowych sk\u0142adnik\xF3w jest
+      wa\u017Cne, aby zarobi\u0107 wi\u0119cej pieni\u0119dzy, im bardziej z\u0142o\u017Cony
+      nap\xF3j, tym wy\u017Csza jego warto\u015B\u0107."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133997655410450432
+    m_Localized: "Jest to kubek, kt\xF3ry nape\u0142niasz dla swojego klienta. Przygotowuj\u0105c
+      napoje, mo\u017Cesz skorzysta\u0107 z linii nape\u0142niania, aby por\xF3wna\u0107,
+      jak dok\u0142adnie Tw\xF3j nap\xF3j odpowiada pro\u015Bbom klienta.\n\nDok\u0142adno\u015B\u0107
+      napoju wp\u0142ywa na ocen\u0119 i cen\u0119, za jak\u0105 jest sprzedawany."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132870790192930816
+    m_Localized: Ultrachaos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 274821425754112
+    m_Localized: "Okej, tym razem POWA\u017BNIE nie mia\u0142e\u015B tego znale\u017A\u0107. 
+      Je\u015Bli zosta\u0142o ci w sercu troch\u0119 mi\u0142o\u015Bci w\u0142asnej,
+      nawet nie pr\xF3buj tego."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 274592542584832
+    m_Localized: "Poziom trudno\u015Bci Ultra Chaos"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133037091288883200
+    m_Localized: Ultra Chaos...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133036564937285632
+    m_Localized: Odblokuj tajny tryb piaskownicy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1660890163539968
+    m_Localized: Aktualizacja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658553181237248
+    m_Localized: "Zobacz Barist\u0119"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1658635091800064
+    m_Localized: "Zobacz gr\u0119"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132748730527490048
+    m_Localized: "Linie g\u0142osowe"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656601168932864
+    m_Localized: Vsync
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133991633908244480
+    m_Localized: "Witamy w samouczku dotycz\u0105cym trybu Arcade"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133034372322926592
+    m_Localized: "Pracowa\u0107 nadgodziny"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134010572390375424
+    m_Localized: "Obs\u0142ugiwanie klient\xF3w"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134010918655336448
+    m_Localized: "Staraj si\u0119 tak\u017Ce zwraca\u0107 uwag\u0119 na nastr\xF3j
+      klientki. Wydaje si\u0119, \u017Ce ludzie w okolicy uwielbiaj\u0105, gdy dziewczyna
+      wygl\u0105da na du\u017C\u0105 i pe\u0142n\u0105, co jest tak uderzaj\u0105ce,
+      \u017Ce r\xF3wnowaga jej rozmiaru powinna z czasem przyku\u0107 uwag\u0119
+      klient\xF3w.\n\nAle jaki jest sens w zadowolonych klientach?  C\xF3\u017C,
+      mog\u0105 chcie\u0107 czego\u015B ekstra do swojego drinka, je\u015Bli pozwala
+      na to ich nastr\xF3j!  Specjalny sk\u0142adnik, kt\xF3ry jest wart mn\xF3stwo
+      pieni\u0119dzy...!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134011413927141376
+    m_Localized: Wydarzenia czasowe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134011680659709952
+    m_Localized: "Czasami podczas gry pojawi\u0105 si\u0119 wydarzenia okre\u015Blone
+      w czasie.\n\nNiekt\xF3re z tych wydarze\u0144 dodaj\u0105 wyzwania, inne daj\u0105
+      potrzebn\u0105 przerw\u0119, a jeszcze inne s\u0105 po prostu troch\u0119 g\u0142upie.\nObserwuj,
+      co si\u0119 dzieje, i staraj si\u0119 nie da\u0107 si\u0119 im zaskoczy\u0107!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134179468267331584
+    m_Localized: "Podczas gry w trybie zr\u0119czno\u015Bciowym przycisk zarz\u0105dzania
+      to miejsce, w kt\xF3rym znajduj\u0105 si\u0119 wszystkie ulepszenia i dostosowania
+      baristy.  Mo\u017Cna tam znale\u017A\u0107 zwi\u0119kszenie jej wydajno\u015Bci
+      i tempa produkcji.  Razem ze \u015Brodkami poprawiaj\u0105cymi nastr\xF3j.\n\nZawiera
+      tak\u017Ce menu dostosowywania z opcjami ubioru i opcjami kolor\xF3w.\nNiekt\xF3re
+      opcje dostosowywania mog\u0105 wymaga\u0107 odblokowania."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134179994149167104
+    m_Localized: "Rozpocz\u0105\u0107 gr\u0119"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134180089527640064
+    m_Localized: "Samouczek uko\u0144czony"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134180290938118144
+    m_Localized: "To chyba tyle, je\u015Bli chodzi o istotne informacje warte wyja\u015Bnienia.\nP\u0119tla
+      gry powinna by\u0107 jasna, robi\u0107 drinki, zarabia\u0107 pieni\u0105dze,
+      robi\u0107 wi\u0119cej drink\xF3w, powi\u0119ksza\u0107 barist\u0119, zarabia\u0107
+      jeszcze wi\u0119cej pieni\u0119dzy, powtarza\u0107 a\u017C do muuu.\n\nJe\u015Bli
+      chcesz wyzwa\u0144, spr\xF3buj znale\u017A\u0107 sprytne strategie lub ulepszy\u0107
+      trasy, aby uzyska\u0107 najlepsze czasy.  Je\u015Bli chcesz urozmaici\u0107
+      zabaw\u0119, spr\xF3buj odblokowa\u0107 inne opcje stroju!  Tak czy inaczej,
+      ciesz si\u0119 mleczn\u0105 kaw\u0105."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135009184603807744
+    m_Localized: "Kupi\u0107?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135009503337357312
+    m_Localized: Tak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135009682803236864
+    m_Localized: NIE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135018668252307456
+    m_Localized: 'Nasionko:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135037087102115840
+    m_Localized: "Otw\xF3rz odp\u0142yw"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143884046088904704
+    m_Localized: 'Czas:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893353438224384
+    m_Localized: "Doskona\u0142y!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893532069437440
+    m_Localized: "\u015Awietnie!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893677221715968
+    m_Localized: Dobry!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893751905492992
+    m_Localized: Dobra.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893844029186048
+    m_Localized: Meh.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893899951841280
+    m_Localized: "Z\u0142y..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893970122547200
+    m_Localized: Zrujnowany!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143940038960979968
+    m_Localized: Mleko matki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143959184234881024
+    m_Localized: mleko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143959463068016640
+    m_Localized: "Potrz\u0105sn\u0105\u0107"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143959642353541120
+    m_Localized: Czekoladowy szejk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 162454964742496256
+    m_Localized: "Uczyni\u0142e\u015B swojego barist\u0119 tak du\u017Cym, jak tylko
+      mo\u017Ce!  Osi\u0105gn\u0105wszy sw\xF3j pe\u0142ny potencja\u0142, z rado\u015Bci\u0105
+      do\u0142\u0105czy do Twojej mleczarni na pe\u0142ny etat, dodaj\u0105c do Twojego
+      personelu kolejn\u0105 warto\u015Bciow\u0105 krow\u0119!\n\nbtw, lewy g\xF3rny
+      r\xF3g trybu Arcade. ;)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 162455432189288448
+    m_Localized: "Co...?  No c\xF3\u017C... Gratuluj\u0119 pokonania czegokolwiek
+      w ten spos\xF3b.  Wow.\n\nJest jeszcze jeden tajny tryb.  ;P"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167524481055608832
+    m_Localized: Kredyty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167524677856546816
+    m_Localized: "Specjalne podzi\u0119kowania"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167525775212302336
+    m_Localized: Kawa z mlekiem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167525900873650176
+    m_Localized: Produkcja+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167525982276702208
+    m_Localized: "Rozci\u0105gliwy cukierek"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526055043682304
+    m_Localized: Maksymalny rozmiar+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526161428008960
+    m_Localized: Dodatkowa przerwa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526229631586304
+    m_Localized: "Szcz\u0119\u015Bcie+"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526294421000192
+    m_Localized: Gorzka kawa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526376109264896
+    m_Localized: Produkcja-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526646520238080
+    m_Localized: "Wr\xF3\u017Cka latte"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526696562479104
+    m_Localized: "Wi\u0119cej mleka, teraz!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526716435091456
+    m_Localized: "Uspokajaj\u0105ca herbata"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526736756494336
+    m_Localized: "Tolerancja pe\u0142no\u015Bci+"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167535336119881728
+    m_Localized: "Cze\u015B\u0107!; Cze\u015B\u0107.; Ej! pi\u0119kna.; Hej.; Cze\u015B\u0107.;
+      Witam!; Cze\u015B\u0107...; Hm...; Uuuh...; Uh...; Aha!; Yo.; Witam...; Pozdrawiam.;
+      Witam m\u0142oda damo. ; Eyo.; Sup.; Uhuh...; Hej!; Cze\u015B\u0107!; Hej!
+      Co s\u0142ycha\u0107?; Dzie\u0144 dobry!; Hola!; Hej! Nieznajomy.; Pozdrowienia!;
+      C\xF3\u017C! Witam!; Cze\u015B\u0107! jak si\u0119 masz?; Hej! Mi\u0142o ci\u0119
+      widzie\u0107!; Hej! Dawno si\u0119 nie widzieli\u015Bmy!; Hej! Co si\u0119
+      gotuje?; Hej! Jak leci?; Hej! Mi\u0142o mi ci\u0119 pozna\u0107!; Hej! Co nowego?;
+      Hej! Jak \u017Cycie?; Hej! Jak wszystko?; Hej! Jak ci mija dzie\u0144?; Hej!
+      Jak mija dzie\u0144?; Hej! Jak leci?; Hej! Jak si\u0119 masz?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167615756777836544
+    m_Localized: "Chc\u0119 troch\u0119 ; Czy mog\u0119 dosta\u0107 ; Czy masz ;
+      Czy mog\u0119 zam\xF3wi\u0107 ; Czy mog\u0119 mie\u0107 ; Jestem zainteresowany
+      ; Czy by\u0142oby mo\u017Cliwe dosta\u0107 ; Prosz\u0119 da\u0107 mi "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233249931448320
+    m_Localized: Espresso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233545151729664
+    m_Localized: Kawa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233690199150592
+    m_Localized: Czekolada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233779009343488
+    m_Localized: Herbata
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233839474429952
+    m_Localized: mleko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233903475314688
+    m_Localized: Mleko matki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234029493178368
+    m_Localized: Krem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234081343164416
+    m_Localized: Cukier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234138335367168
+    m_Localized: "l\xF3d"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234186334982144
+    m_Localized: Boba
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234253527732224
+    m_Localized: Puszyste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234331545980928
+    m_Localized: "Wymy\u015Blny"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234412265361408
+    m_Localized: Czekolada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234481072918528
+    m_Localized: Zabawa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175274055513952256
+    m_Localized: "Dzi\u0119kuj\u0119!; Podoba\u0142a mi si\u0119 obs\u0142uga i nap\xF3j.;
+      To by\u0142o wspania\u0142e!; Kocham to!; Doskona\u0142a obs\u0142uga!; Pyszny
+      nap\xF3j!; Wysoce zalecane!; Wspania\u0142e do\u015Bwiadczenie!; Fantastyczny!;
+      Niesamowita obs\u0142uga!; Uwielbia\u0142em ka\u017Cdy \u0142yk!; Znakomity!;
+      Nie mog\u0142o by\u0107 lepiej!; Idealny nap\xF3j!; Wspania\u0142a obs\u0142uga!;
+      Dok\u0142adnie to, czego potrzebowa\u0142em!; Dobra robota!; Tak trzymaj!;
+      Na pewno wr\xF3c\u0119!; Pod wra\u017Ceniem!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175274128738111488
+    m_Localized: "To nie by\u0142o to, co zam\xF3wi\u0142em.; Nie prosi\u0142em o
+      to.; To nie jest to, czego chcia\u0142em.; Przepraszamy, ale to jest nieprawid\u0142owe.;
+      Przepraszam, ale to nie w porz\u0105dku.; Przepraszam, ale moje zam\xF3wienie
+      jest b\u0142\u0119dne.; Czy mo\u017Cemy to naprawi\u0107?; Czy m\xF3g\u0142by\u015B
+      jeszcze raz sprawdzi\u0107 moje zam\xF3wienie?; My\u015Bl\u0119, \u017Ce zasz\u0142a
+      pomy\u0142ka.; Zam\xF3wi\u0142em co\u015B innego.; Nie tego si\u0119 spodziewa\u0142em.;
+      Czy mo\u017Cemy rozwi\u0105za\u0107 ten problem?; Czy dosz\u0142o do pomy\u0142ki?;
+      Czy m\xF3g\u0142by\u015B jeszcze raz sprawdzi\u0107?; Jestem troch\u0119 zawiedziony.;
+      Czy mo\u017Cesz to dla mnie naprawi\u0107?; Nie jestem z tego zadowolony.;
+      To nie jest to, czego si\u0119 spodziewa\u0142em."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175601404604338176
+    m_Localized: "Bez; NIE; Nie licz\u0105c; , Pomi\u0144; , Przytrzymaj; Nie uwzgl\u0119dniaj;
+      Wolny od"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175608705562202112
+    m_Localized: "Szybko\u015B\u0107 produkcji mleka"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175609102947340288
+    m_Localized: "Najwi\u0119kszy rozmiar"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175609289581285376
+    m_Localized: "Pieni\u0105dze"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175639638851997696
+    m_Localized: "Szcz\u0119\u015Bcie"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175639931622805504
+    m_Localized: "Odejdzie, je\u015Bli osi\u0105gnie zero."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175640078645743616
+    m_Localized: "Pe\u0142nia"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175640229514858496
+    m_Localized: "Zdob\u0105d\u017A 2000 ml, aby wygra\u0107."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175641060461006848
+    m_Localized: "Kubek do Twojego zam\xF3wienia"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175650030386958336
+    m_Localized: "Nowa praca, nowe \u017Cycie.@Intro_NewJobNewLife; Mam nadziej\u0119,
+      \u017Ce ludzie tutaj s\u0105 mili.@Intro_IHopePeopleAreNice; Nie mog\u0119
+      si\u0119 doczeka\u0107, aby zacz\u0105\u0107!@Intro_ICantWaitToStart; Pierwszy
+      dzie\u0144 w pracy.@Intro_FirstDayOnTheJob"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175651777658507264
+    m_Localized: "Cze\u015B\u0107!; Cze\u015B\u0107!; Powitanie!; Czy mog\u0119 ci
+      co\u015B przynie\u015B\u0107?; Regularny?; Jak mog\u0119 ci pom\xF3c?; Co mog\u0119
+      dosta\u0107?; Powitanie! Co mog\u0119 ci dzisiaj da\u0107?; Dobrze dzi\u015B
+      wygl\u0105dasz! Co mog\u0119 Ci przynie\u015B\u0107?; Dzisiejsza oferta specjalna:
+      \u015Awie\u017Ce mleko!; Pr\xF3bowali\u015Bcie ju\u017C mleka Boba?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175662100285247488
+    m_Localized: "Chc\u0119 to ciasteczko!; To ciasteczko wygl\u0105da smakowicie.;
+      Ciekawe jak smakuje to ciasteczko...?; Ciekawe, czy ca\u0142e ciasteczko zmie\u015Bci
+      mi si\u0119 w ustach?; Kiedy dostan\u0119 magiczne ciasteczko?; Ta praca obiecywa\u0142a
+      pewne korzy\u015Bci, prawda?; Chc\u0119 si\u0119 rozwija\u0107...; Nadchodzi
+      ochota na ciasteczka!; Uwaga dotycz\u0105ca plik\xF3w cookie! Powtarzam, uwaga
+      dotycz\u0105ca plik\xF3w cookie!; Mam na oku to ciasteczko!; Czas zaspokoi\u0107
+      m\xF3j apetyt na ciasteczka!; Misja Cookie: Aktywuj!; Radar ciasteczek w\u0142\u0105czony!;
+      Zamieni\u0119 kaw\u0119 na ciasteczko!; Ciastko czy nie ciasteczko? Oto jest
+      pytanie.; Op\xF3r jest daremny\u2026 je\u015Bli chodzi o ciasteczka!; Pragnienie
+      ciasteczek: gwarantowana 100% satysfakcji!; Czas na ciasteczka to najlepszy
+      czas!; Z tego powstaj\u0105 sny o ciasteczkach!; Poziom przewidywania plik\xF3w
+      cookie: Maksymalny!; M\xF3j apetyt na s\u0142odycze wo\u0142a o to ciasteczko!;
+      To ciasteczko wo\u0142a moje imi\u0119!; Mam jednokierunkowy umys\u0142...
+      i to jest w tym ciasteczku!; Obsesja na punkcie ciasteczek: Aktywowana!; Na
+      razie chc\u0119 tylko tego ciasteczka!; Jeden ma\u0142y krok dla baristy, wielki
+      skok dla ciasteczkowego!; Pragnienie ciasteczek: Osi\u0105ganie szczytowego
+      poziomu!; Wiem, \u017Ce masz dla mnie magi\u0119~"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175662781700263936
+    m_Localized: "Mmm! Smakuje dobrze!~; Co\u015B wydaje si\u0119 inne...?; Chc\u0119
+      wi\u0119cej!; Smakuje jak mleko!; Teraz do czego\u015B zmierzamy!; Och, to
+      wspania\u0142e uczucie!; Szkoda, \u017Ce \u200B\u200Bnie mamy ich wi\u0119cej.;
+      Wyprawa z ciasteczkami by\u0142a tego warta! Pyszne!; To ciasteczko trafi\u0142o
+      w sedno! Wi\u0119cej prosz\u0119!; Osi\u0105gni\u0119to satysfakcj\u0119 z
+      plik\xF3w cookie!; Jestem teraz w ciasteczkowym raju!; Mmm! Najlepsza decyzja
+      w historii!; Ciasteczkowa rozkosz! Nie mam do\u015B\u0107!; To ciasteczko zmienia
+      zasady gry!; Magia ciasteczek w dzia\u0142aniu! Uwielbiam to!; Kto by pomy\u015Bla\u0142,
+      \u017Ce jedno ciasteczko mo\u017Ce sprawi\u0107 tyle rado\u015Bci?; To jest
+      to, co nazywam ciasteczkowym arcydzie\u0142em!; Znaleziono ciasteczkowy raj!;
+      Smak zwyci\u0119stwa... i ciasteczka!; To ciasteczko zas\u0142uguje na z\u0142oty
+      medal!; Jestem w si\xF3dmym niebie z tym ciasteczkiem!; Mleko i ciasteczka,
+      po\u0142\u0105czenie idealne!; Jeden k\u0119s i jestem uzale\u017Cniony! Wi\u0119cej
+      prosz\u0119!; Osi\u0105gni\u0119to doskona\u0142o\u015B\u0107 ciasteczek!;
+      Aktywowano magi\u0119 ciasteczek! Nie mog\u0119 przesta\u0107 je\u015B\u0107!;
+      To ciasteczko to rewelacja smakowa!; Potrzebuj\u0119 zapasu tych ciasteczek
+      na ca\u0142e \u017Cycie!; Monch Munch"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175663362036748288
+    m_Localized: "Fartuch zaczyna by\u0107 troch\u0119 ciasny...; Czy z ty\u0142u
+      mamy wi\u0119kszy fartuch?; Mam nadziej\u0119, \u017Ce znowu uda mi si\u0119
+      usun\u0105\u0107 te plamy...; Och, zaraz wybuchnie!; M\xF3j fartuch nie wytrzyma
+      tego d\u0142u\u017Cej!; Nareszcie!~ Po prostu ju\u017C pstryknij~; Chyba mamy
+      wi\u0119kszy fartuszek z ty\u0142u, ale...; Ju\u017C czas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175664029996437504
+    m_Localized: "Czuj\u0119 si\u0119 taki pe\u0142ny!; Prosz\u0119, nie wybuchaj
+      na mnie.; Czy oni si\u0119 rozlewaj\u0105?; Ju\u017C uros\u0142y i to bardzo
+      du\u017Ce!; Uuuuhm, mo\u017Cesz co\u015B z tym zrobi\u0107?; Mam du\u017Co
+      wi\u0119cej mleka, ni\u017C my\u015Blisz. Tylko tyle mog\u0119 dosta\u0107
+      w pucharze.; Uh, szefie... Czy mo\u017Cesz mi w tym pom\xF3c?; Czy \u017Caden
+      klient nie chce tego? Jestem pe\u0142ny...; Nie mog\u0119 by\u0107 pe\u0142niejszy
+      ni\u017C to...; Pomoc? Prosz\u0119?; Czuj\u0119, \u017Ce zaraz p\u0119kn\u0119...;
+      Chc\u0119 urosn\u0105\u0107, ale jest to troch\u0119 niewygodne...; Potrzebuj\u0119
+      wi\u0119kszej pojemno\u015Bci, zanim b\u0119d\u0119 m\xF3g\u0142 pozosta\u0107
+      na\u0142adowany przez d\u0142ugi czas...; Gach! Po prostu mnie ju\u017C wydoj!;
+      Wydoj mnie! Wydoj mnie! Prosz\u0119!; Gdyby to nie by\u0142o takie niewygodne,
+      bardzo by mi si\u0119 to spodoba\u0142o...; Nie mam nic przeciwko, je\u015Bli
+      patrz\u0105, po prostu mnie opr\xF3\u017Cnij, prosz\u0119...; Czuj\u0119 si\u0119
+      taki spuchni\u0119ty!; Mam nadziej\u0119, \u017Ce si\u0119 nie przepe\u0142ni\u0119!;
+      Czuj\u0119 si\u0119 jak balon nape\u0142niony mlekiem!; Boj\u0119 si\u0119
+      za du\u017Co rusza\u0107!; Przepe\u0142nienie wkr\xF3tce! SOS!; Moje kubki
+      si\u0119 wylewaj\u0105, ca\u0142kiem dos\u0142ownie...; Czy my\u015Blisz, \u017Ce
+      kto\u015B by zauwa\u017Cy\u0142, gdybym wyciek\u0142a?; Musz\u0119 szybko zmniejszy\u0107
+      ci\u015Bnienie!; Czuj\u0119 si\u0119 jak w fabryce mleka na pe\u0142nych obrotach!;
+      Nie mog\u0119 si\u0119 skupi\u0107, bo mleko si\u0119 rozlewa!; Mam wra\u017Cenie,
+      \u017Ce zaraz wyskocz\u0105 mi z piersi!; Pom\xF3\u017Ccie mi, osi\u0105gaj\u0105
+      mas\u0119 krytyczn\u0105!; Czy to w\u0142a\u015Bnie maj\u0105 na my\u015Bli,
+      m\xF3wi\u0105c \u201Edojony do perfekcji\u201D?; Czuj\u0119 si\u0119, jakbym
+      nios\u0142a farm\u0119 mleczn\u0105!; Ostrze\u017Cenie o przepe\u0142nieniu!
+      Niebezpiecze\u0144stwo, niebezpiecze\u0144stwo!; Jestem mlecznym wulkanem gotowym
+      do erupcji!; Nie mog\u0119 si\u0119 skupi\u0107 przez to mleczne odwr\xF3cenie
+      uwagi!; Musz\u0119 tylko znale\u017A\u0107 spos\xF3b na uwolnienie ca\u0142ego
+      tego mleka!; Te dzbanki na mleko s\u0105 gotowe eksplodowa\u0107!; Zamierzam
+      eksplodowa\u0107."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175664836233940992
+    m_Localized: "Mo\u017Ce czas na aktualizacj\u0119?; Inwestowanie w ulepszenia
+      brzmi jak plan!; Zobaczmy, jakie ulepszenia s\u0105 dost\u0119pne.; By\u0107
+      mo\u017Ce nadszed\u0142 czas, aby ulepszy\u0107 nasze dzia\u0142ania.; Wzmocnienie
+      naszej dzia\u0142alno\u015Bci mo\u017Ce by\u0107 korzystne.; Zastanawiam si\u0119,
+      czy s\u0105 jakie\u015B warte uwagi ulepszenia.; Bior\u0105c pod uwag\u0119
+      pewne ulepszenia naszej kawiarni.; Zbadanie opcji aktualizacji wydaje si\u0119
+      dobrym pomys\u0142em.; Zwi\u0119kszmy nasz\u0105 wydajno\u015B\u0107 dzi\u0119ki
+      pewnym ulepszeniom!; Ulepszenia mog\u0105 da\u0107 nam przewag\u0119 na rynku.;
+      Powinni\u015Bmy co\u015B kupi\u0107?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175666128926822400
+    m_Localized: "To wszystko, rzuci\u0142em!; Najgorszy szef wszechczas\xF3w...
+      Wynosz\u0119 si\u0119 st\u0105d.; Jestem zbyt obola\u0142y, \u017Ceby pracowa\u0107,
+      pa...; Mam do\u015B\u0107 radzenia sobie z tym chaosem! Wychodz\u0119!; Nie
+      mog\u0119 ju\u017C tego znie\u015B\u0107! Wychodz\u0119!; Zas\u0142uguj\u0119
+      na co\u015B lepszego! Wychodz\u0119!; Ta praca nie jest warta stresu. Sko\u0144czy\u0142em!;
+      \u017Badna ilo\u015B\u0107 kawy nie jest warta tego k\u0142opotu. Nie ma mnie!;
+      Mia\u0142em do\u015B\u0107! Czas znale\u017A\u0107 lepsz\u0105 okazj\u0119.;
+      Nie zgadzam si\u0119 na prac\u0119 w takich warunkach. Wychodz\u0119!; \u017Bycie
+      jest za kr\xF3tkie na takie bzdury. Wychodz\u0119.; Przepraszam, ale sko\u0144czy\u0142em
+      bawi\u0107 si\u0119 w barist\u0119. Spadam st\u0105d!; Nie pisa\u0142em si\u0119
+      na to! Wychodz\u0119!; Zapomnij o tym, id\u0119 do domu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175674616369401856
+    m_Localized: Produkcja+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175674851527249920
+    m_Localized: "Zwi\u0119ksz tempo produkcji mleka Barista."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181788866099826688
+    m_Localized: "Cze\u015B\u0107, cudowna.; Cze\u015B\u0107 pi\u0119kna.; Witaj
+      s\u0142o\u0144ce.; Hej, wygl\u0105dasz niesamowicie.; Cze\u015B\u0107, \u015Bliczna.;
+      Witam, osza\u0142amiaj\u0105co.; Hej \u0142adna damo.; Hej pi\u0119kna.; Cze\u015B\u0107,
+      dobrze wygl\u0105dasz.; Cze\u015B\u0107, uroku.; Cze\u015B\u0107 anio\u0142ku.;
+      Hej, laleczko.; Cze\u015B\u0107 s\u0142odka.; Hej, wygl\u0105dasz dzisiaj \u015Blicznie.;
+      Cze\u015B\u0107 pi\u0119kna.; Cze\u015B\u0107 kochana.; Cze\u015B\u0107 przystojniaku.;
+      Hej, \u0142adny u\u015Bmiech.; Cze\u015B\u0107, czaruj\u0105ca.; Hej, rozja\u015Bniasz
+      bar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181789087093510144
+    m_Localized: "Hej, pi\u0119kna, czy mo\u017Cesz uczyni\u0107 m\xF3j dzie\u0144
+      lepszym u\u015Bmiechem?; Cze\u015B\u0107, \u015Blicznotko, jaki jest tw\xF3j
+      sekret tak dobrego wygl\u0105du?; Witaj, osza\u0142amiaj\u0105co, jest szansa,
+      \u017Ce \u200B\u200Bznajdziesz si\u0119 w menu?; Hej, pi\u0119kna pani, masz
+      specjalnego drinka pasuj\u0105cego do twojego wygl\u0105du?; Cze\u015B\u0107,
+      czarnuchu, tw\xF3j u\u015Bmiech jest g\u0142\xF3wn\u0105 atrakcj\u0105 mojego
+      dnia.; Witaj, anio\u0142ku, Twoja pi\u0119kno\u015B\u0107 mo\u017Ce roz\u015Bwietli\u0107
+      najciemniejszy pok\xF3j.; Hej, laleczko, masz jakie\u015B magiczne mikstury
+      na samotne serce?; Cze\u015B\u0107, kochanie, czy robisz wszystkie drinki tak
+      s\u0142odkie jak ty?; Hej, kochanie, twoje pi\u0119kno jest odurzaj\u0105ce.;
+      Witaj, przystojniaku, twoja obecno\u015B\u0107 jest tutaj najlepsza."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181789098002894848
+    m_Localized: "Hej, pi\u0119kna, tw\xF3j u\u015Bmiech i te kr\u0105g\u0142o\u015Bci
+      sprawiaj\u0105, \u017Ce moje serce bije mocniej.; Cze\u015B\u0107, \u015Blicznotko,
+      czy serwujesz co\u015B tak urzekaj\u0105cego jak Twoje oczy?; Witaj, osza\u0142amiaj\u0105co,
+      twoja figura jest tutaj najwa\u017Cniejsza.; Hej, pi\u0119kna pani, tw\xF3j
+      wygl\u0105d mo\u017Ce sprawi\u0107, \u017Ce ka\u017Cdy nap\xF3j b\u0119dzie
+      smakowa\u0142 lepiej.; Cze\u015B\u0107, czarnuchu, twoje pi\u0119kno jest bardziej
+      orze\u017Awiaj\u0105ce ni\u017C jakikolwiek koktajl.; Witaj, anio\u0142ku,
+      kto ma ochot\u0119 na drinka z takim cia\u0142em jak Twoje; Hej, laleczko,
+      twoje kr\u0105g\u0142o\u015Bci s\u0105 idealnym po\u0142\u0105czeniem pi\u0119kna.;
+      Cze\u015B\u0107, kochanie, twoja figura jest najlepsz\u0105 cz\u0119\u015Bci\u0105
+      tego baru.; Hej, kochanie, od twojego osza\u0142amiaj\u0105cego wygl\u0105du
+      kr\u0119ci mi si\u0119 w g\u0142owie.; Witaj, przystojniaku, twoja obecno\u015B\u0107
+      sprawia, \u017Ce \u200B\u200Bwszystko staje si\u0119 s\u0142odsze."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181789109562396672
+    m_Localized: "Hej, pi\u0119kna, jest szansa, \u017Ce \u200B\u200Bdodasz troch\u0119
+      swojej magii do mojej kawy?; Cze\u015B\u0107, \u015Blicznotko, czy podajesz
+      co\u015B innego ni\u017C drinki z tymi kr\u0105g\u0142o\u015Bciami?; Witaj,
+      osza\u0142amiaj\u0105co, tw\xF3j biust m\xF3g\u0142by by\u0107 najlepsz\u0105
+      cz\u0119\u015Bci\u0105 mojej kawy.; Hej, pi\u0119kna pani, oferujesz co\u015B
+      poza menu, na przyk\u0142ad u\u015Bmiech lub randk\u0119?; Cze\u015B\u0107,
+      czarodziejko, z cia\u0142em takim jak Twoje, zam\xF3wi\u0142abym wszystko.;
+      Witaj anio\u0142ku, Twoja uroda jest idealnym sk\u0142adnikiem ka\u017Cdego
+      drinka.; Hej, laleczko, mog\u0119 napi\u0107 si\u0119 kawy z odrobin\u0105
+      twojego uroku?; Cze\u015B\u0107, kochanie, tw\xF3j biust to prawdziwy wyj\u0105tek
+      dnia.; Hej, kochanie, twoja obecno\u015B\u0107 tutaj sprawia, \u017Ce \u200B\u200Bka\u017Cdy
+      drink jest lepszy.; Witaj, przystojniaku, czy oferujesz u\u015Bmiech dzi\u0119ki
+      tej wspania\u0142ej figurze?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182195982329466880
+    m_Localized: "Zwi\u0119ksz pojemno\u015B\u0107 mleka Barista."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196090546704384
+    m_Localized: Maksymalny rozmiar+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196364988403712
+    m_Localized: "Popraw nastr\xF3j Baristy."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196409754210304
+    m_Localized: "Szcz\u0119\u015Bcie+"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196602868355072
+    m_Localized: Produkcja-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196626104799232
+    m_Localized: "Ni\u017Csza wydajno\u015B\u0107 mleka Barista."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196763497615360
+    m_Localized: "Wi\u0119cej mleka, teraz!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196807076433920
+    m_Localized: "Natychmiast nape\u0142nij Barist\u0119."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196916119949312
+    m_Localized: "Tolerancja pe\u0142no\u015Bci+"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196947719835648
+    m_Localized: "Barista wolniej traci szcz\u0119\u015Bcie."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182201446488363008
+    m_Localized: Maks to 500
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182205256204046336
+    m_Localized: "Uwa\u017Caj, nadal jest troch\u0119 gor\u0105co!; Tutaj! To co\u015B
+      specjalnego, specjalnie dla Ciebie!; Czy to jest poprawne?; Zam\xF3w!~; Ciesz
+      si\u0119 drinkiem!; Mam nadziej\u0119, \u017Ce to lubisz.; Prosz\u0119 bardzo,
+      mi\u0142ego dnia!; Prosz\u0119 bardzo, wracaj wkr\xF3tce!~; Voil! Twoje spersonalizowane
+      dzie\u0142o, w\u0142a\u015Bnie dla Ciebie!; W\u0142o\u017Cy\u0142em w to troch\u0119
+      wi\u0119cej mi\u0142o\u015Bci, ciesz si\u0119!; Oto Tw\xF3j nap\xF3j, starannie
+      przygotowany!; Twoje zam\xF3wienie, podane z u\u015Bmiechem!; Niech ten nap\xF3j
+      wniesie odrobin\u0119 rado\u015Bci w Tw\xF3j dzie\u0144!; Perfekcja w fili\u017Cance,
+      w\u0142a\u015Bnie dla Ciebie!; Ciesz si\u0119 \u0142ykiem szcz\u0119\u015Bcia!;
+      Tw\xF3j nap\xF3j czeka! Popijaj i delektuj si\u0119!; Wykonane z trosk\u0105,
+      specjalnie dla Ciebie!; Twoje zam\xF3wienie jest gotowe, ciesz si\u0119 smakiem!;
+      Oto Tw\xF3j nap\xF3j dopracowany do perfekcji!; Mam nadziej\u0119, \u017Ce
+      ten nap\xF3j sprawi, \u017Ce Tw\xF3j dzie\u0144 b\u0119dzie troch\u0119 ja\u015Bniejszy!;
+      Zanurz si\u0119 w tej ma\u0142ej rozkoszy, wszystko jest Twoje!; Delektuj si\u0119
+      smakiem! Jest warzony specjalnie dla Ciebie!; Prosz\u0119 bardzo! Wypij i ciesz
+      si\u0119!; Twoja idealna fili\u017Canka, podana z u\u015Bmiechem!; Wypij \u0142yk
+      i pozw\xF3l, aby \u015Bwiat si\u0119 rozp\u0142yn\u0105\u0142!; Mam nadziej\u0119,
+      \u017Ce ten nap\xF3j przekroczy Twoje oczekiwania!; Niech Tw\xF3j dzie\u0144
+      b\u0119dzie r\xF3wnie zachwycaj\u0105cy jak ten nap\xF3j!; Niech Tw\xF3j dzie\u0144
+      b\u0119dzie r\xF3wnie zachwycaj\u0105cy jak ten nap\xF3j!; Popijaj, delektuj
+      si\u0119 i ciesz si\u0119! Jest stworzony specjalnie dla Ciebie!; Tutaj jest,
+      powinno by\u0107 tak jak lubisz.;"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427788485054464
+    m_Localized: "To nie by\u0142o w porz\u0105dku...@Spoken_Ah; Lepiej spr\xF3buj\u0119
+      jeszcze raz!@Spoken_Ah; Nast\u0119pnym razem b\u0119dzie lepiej!@Spoken_Ah;
+      Ups! Pozw\xF3l, \u017Ce spr\xF3buj\u0119 ponownie...@Spoken_Ah; To nie jest
+      do ko\u0144ca poprawne...@Spoken_Ah; Czy to zostanie odj\u0119te od mojej pensji?@Spoken_Ah;
+      Spr\xF3bujmy jeszcze raz.@Spoken_Ah; Wygl\u0105da na to, \u017Ce potrzebuj\u0119
+      wi\u0119cej praktyki.@Spoken_Ah; Ups! To nie posz\u0142o zgodnie z planem.@Spoken_Ah;
+      \u0106wiczenie czyni mistrza, prawda?@Spoken_Ah; Tym razem zrobi\u0119 to dobrze,
+      patrz!@Spoken_Ah; Nie zatrzymujmy si\u0119 na przesz\u0142o\u015Bci, przejd\u017Amy
+      do nast\u0119pnego!@Spoken_Ah; Odbij\u0119 si\u0119 przy nast\u0119pnej fili\u017Cance!@Spoken_Ah;
+      Ma\u0142y krok w ty\u0142, ale wr\xF3c\u0119!@Spoken_Ah; C\xF3\u017C, to nie
+      trafi\u0142o w cel.@Spoken_Ah; My\u015Bl\u0119, \u017Ce musz\u0119 wr\xF3ci\u0107
+      do rysowania.@Spoken_Ah; Hmm, pozw\xF3l, \u017Ce dostosuj\u0119 to.@Spoken_Ah;
+      To tylko ma\u0142e potkni\u0119cie w moim procesie tworzenia arcydzie\u0142a.@Spoken_Ah;
+      To nie jest dok\u0142adnie to, co mia\u0142em na my\u015Bli, ale dojd\u0119
+      do tego.@Spoken_Ah; Ups, spr\xF3bujmy jeszcze raz, dobrze?@Spoken_Ah; C\xF3\u017C,
+      to by\u0142o nieoczekiwane. Spr\xF3bujmy ponownie.@Spoken_Ah; Nie ka\u017Cda
+      fili\u017Canka mo\u017Ce by\u0107 zwyci\u0119zc\u0105, prawda?@Spoken_Ah; Czas
+      na uruchomienie mojego wewn\u0119trznego perfekcjonisty!@Spoken_Ah; Podr\xF3\u017C
+      do idealnej fili\u017Canki trwa!@Spoken_Ah; Przekszta\u0142\u0107my ten b\u0142\u0105d
+      w arcydzie\u0142o!@Spoken_Ah; Wygl\u0105da na to, \u017Ce musz\u0119 udoskonali\u0107
+      swoje umiej\u0119tno\u015Bci.@Spoken_Ah; Ma\u0142y krok w ty\u0142 mnie nie
+      zatrzyma!@Spoken_Ah; Naprz\xF3d! Nast\u0119pna fili\u017Canka, id\u0119!@Spoken_Ah;
+      Cierpliwo\u015B\u0107 i praktyka, to klucz!@Spoken_Ah; Jeszcze nie jestem tam,
+      ale jestem coraz bli\u017Cej.@Spoken_Ah; Czas na rehabilitacj\u0119 przy nast\u0119pnej
+      fili\u017Cance!@Spoken_Ah; Odbij\u0119 si\u0119 z dodatkowym wysi\u0142kiem!@Spoken_Ah;
+      Poszukiwanie idealnego naparu trwa!@Spoken_Ah; Niepowodzenie to tylko kolejny
+      krok w kierunku sukcesu!@Spoken_Ah; Jeszcze raz!@Spoken_Ah"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427829996081152
+    m_Localized: "Aaghh! Wi\u0119kszo\u015B\u0107 min\u0119\u0142a fili\u017Cank\u0119!@Spoken_Sigh_Happy;
+      Hmmnnn~ ... Kto\u015B patrzy\u0142?@Spoken_Sigh_Happy; Och, m\xF3j mleko wpad\u0142o
+      do napoju!@Spoken_Sigh_Happy; Barbra u\u017Cy\u0142a dojenia... jest super
+      skuteczne!@Reactions_Ooooh; Spr\xF3bujmy wla\u0107 to do fili\u017Canki tym
+      razem.@Spoken_Sigh_Happy; Ach To czuje si\u0119 dobrze~@Reactions_mmmm; S\u0142odka
+      ulga.@Reactions_mmmm; Hhngg!@Reactions_mmmm; Ooooh!@Reactions_Ooooh; Muuuh!@Moo_Happier;
+      M-muuuh@Moo_Surprised; Najlepsza cz\u0119\u015B\u0107 pracy~@Spoken_Sigh_Happy;
+      Ach, troch\u0119 mleka tylko dla w\u0142a\u015Bciwej miary!@Spoken_Sigh_Happy;
+      Moja magia mleka dodaje dodatkowy smak!@Reactions_Ooooh; Dodaj\u0119 swoj\u0105
+      specjaln\u0105 nut\u0119, aby podnie\u015B\u0107 ten nap\xF3j!@Spoken_Sigh_Happy;
+      Troch\u0119 mleka, du\u017Co mi\u0142o\u015Bci!@Reactions_mmmm; Mleko, tajny
+      sk\u0142adnik doskona\u0142o\u015Bci!@Spoken_Sigh_Happy; Oto, wspania\u0142y
+      przyk\u0142ad mleka!@Reactions_mmmm; Moja magia mleka jest dzi\u015B bardzo
+      silna!@Reactions_Ooooh; Nutka kremowa, dok\u0142adnie jak lubicie!@Spoken_Sigh_Happy;
+      Mleko jest, a mleko b\u0119dzie!@Spoken_Sigh_Happy; Precyzyjne dojenie na najwy\u017Cszym
+      poziomie!@Spoken_Sigh_Happy; Muu-velous! Jeszcze jedna kropla w fili\u017Cance.@Moo_Happier;
+      Uwa\u017Caj na mleko! Jest \u015Bliskie!@Spoken_Sigh_Happy; Tylko nutka szcz\u0119\u015Bcia
+      bydl\u0119cego!@Reactions_mmmm; Bardzo smaczne, nie zgadzasz si\u0119?@Spoken_Sigh_Happy;
+      Plama mleka, kt\xF3ra zaraz przyjdzie!@Moo_Surprised; Mleko, nieznany bohater
+      ka\u017Cdej fili\u017Canki!@Spoken_Sigh_Happy; Dodanie nutki kremowej do Waszego
+      do\u015Bwiadczenia picia!@Reactions_Ooooh; Mleko czyni wszystko lepsze, prawda?@Spoken_Sigh_Happy;
+      Wyci\u015Bnijmy do ostatniej kropli~@Spoken_Sigh_Happy"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427845133324288
+    m_Localized: "Co chcesz?@Interaction_WhatDoYouWant; Tak, g\u0142upcze?@Interaction_YesSilly;
+      \u015Bmiej\u0119 si\u0119@Spoken_Giggles; Muu...?@Moo_Curious; Hm, czy potrzebujesz
+      czego\u015B?@Interaction_DoYouNeedSomething; Czy jeste\u015B wolny po pracy?@Interaction_FreeAfterWork;
+      Dzi\u0119kuj\u0119 za t\u0119 prac\u0119.@Interaction_ThanksForTheJob; Czy
+      oszcz\u0119dzasz na co\u015B?@Money_SavingUpForSomething; Czy mog\u0119 kupi\u0107
+      ci co\u015B?@Interaction_CouldYouBuyMeSomething; Musz\u0119 da\u0107 mleko
+      Mewth p\xF3\u017Aniej...@Casual_MewthMilk; Wczoraj nie mog\u0142em wydoi\u0107
+      mleka. To by\u0142o ca\u0142kowite fiasko.@Jokes_UdderFailure; Nie mog\u0119
+      si\u0119 doczeka\u0107, aby spotka\u0107 si\u0119 z innymi dziewczynami kr\xF3w.@Casual_MeetTheOtherCowGirls;
+      Czy dostaniesz milkshake, je\u015Bli skoczysz na pogo stick?@Jokes_MilkshakePogoStick;
+      Mam nadziej\u0119, \u017Ce nie b\u0119dzie pada\u0107 dzi\u015B po po\u0142udniu.@Casual_RainThisAfterNoon;
+      Krowa do mleka: 'Jestem twoj\u0105 matk\u0105'.@Jokes_CowToTheMilk; To dopiero
+      pocz\u0105tek.@OnlyTheBeginning; M\xF3j ojciec dosta\u0142 now\u0105 prac\u0119
+      w mleczarni. On jest koordynatorem kr\xF3w.@Jokes_DadAtTheDairy; Moja przyjaci\xF3\u0142ka
+      zawsze pr\xF3buje przestraszy\u0107 swoje przyjaci\xF3\u0142ki. Ona jest fanem
+      milkshake'\xF3w.@Jokes_FriendScaringOtherFriends; Moja przyjaci\xF3\u0142ka
+      my\u015Bli, \u017Ce produkuje mleko migda\u0142owe. Ona musi by\u0107 szalona.@Jokes_AlmondMilk;
+      Czy mamy jeszcze jakie\u015B kubki z ty\u0142u?@Casual_CupsInTheBack; Zepsute
+      mleko zawsze dostawa\u0142o to, czego chcia\u0142o.@Jokes_SpoiledMilkAlwaysGotWhatItWanted;
+      Dzi\u015B jest wiele rzeczy, kt\xF3re si\u0119 dziej\u0105.@Casual_LotGoingOn;
+      M\u0119\u017Cczyzna zaatakowa\u0142 mnie \u015Bmietan\u0105, mas\u0142em i
+      mlekiem. Jakie mleko.@Jokes_HowDairy; By\u0142em kiedy\u015B krow\u0105 jak
+      ty, a\u017C do momentu, gdy dosta\u0142em butelk\u0119 w piersi.@Jokes_ACowLikeYou;
+      Czuj\u0119 si\u0119 produktywny.@Casual_FeelingProductive; Czy mog\u0119 wzi\u0105\u0107
+      wi\u0119cej kawy z ty\u0142u?@Casual_CoffeeFromTheBack; Kawa pachnie tak dobrze.@Casual_CoffeeSmellsNice;
+      Klienci ca\u0142y czas przychodz\u0105.@Casual_CustomersRollingIn; Czy my\u015Blisz,
+      \u017Ce oni mnie lubi\u0105?@Casual_DoTheyLikeMe; Tylko zwyk\u0142y dzie\u0144
+      w pracy.@Casual_NormalDayAtTheJob; Hej! Uwa\u017Caj!@Reactions_HeyCareful"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427953908404224
+    m_Localized: "Je\u015Bli praca jest tak z\u0142a, nie ma sensu rosn\u0105\u0107...@Upset_GrowingBiggerIsntWorthIt;
+      Rozgniewane krowy s\u0105 zwykle winne kwa kwa\u015Bne mleko.@Jokes_AngryCowsSourMilk;
+      Mam do\u015B\u0107 tej pracy!@Spoken_Grunt; Ugh! Jestem blisko rezygnacji!@Reactions_Bleh;
+      Ta praca jest okropna!@Spoken_Grunt; Chc\u0119 wr\xF3ci\u0107 do domu...@Spoken_Grunt;
+      Nie jestem wystarczaj\u0105co wynagradzany za to...@Spoken_Grunt; Uuugh...@Spoken_Grunt;
+      Ta praca powinna si\u0119 poprawi\u0107...@Reactions_Bleh; Powiniene\u015B
+      pozwoli\u0107 mi zrobi\u0107 przerw\u0119.@Spoken_Grunt; Przechodz\u0119 przez
+      z\u0142y dzie\u0144...@Reactions_Bleh; Prosz\u0119, naci\u015Bnij mnie lub
+      zr\xF3b co\u015B...@Reactions_Bleh; Chcia\u0142em by\u0107 tylko krow\u0105
+      mleczn\u0105...@Spoken_Grunt; Muu...@Moo_Tired; Nie mog\u0119 sprosta\u0107
+      temu obci\u0105\u017Ceniu pracy...@Spoken_Grunt; Czuj\u0119 si\u0119 na granicy...@Reactions_Bleh;
+      Czy to ju\u017C czas na wyj\u015Bcie?@Spoken_Grunt; Ka\u017Cdy dzie\u0144 jest
+      walk\u0105...@Spoken_Grunt; Jestem na granicy wyczerpania...@Reactions_Bleh;
+      Jestem tak zm\u0119czony t\u0105 rutyn\u0105...@Spoken_Grunt; Czuj\u0119 si\u0119
+      jakby\u015B by\u0142 w pu\u0142apce...@Reactions_Bleh; Ledwo mog\u0119 otworzy\u0107
+      oczy...@Spoken_Grunt; Kiedy to si\u0119 sko\u0144czy?@Reactions_Bleh; Musz\u0119
+      tylko przetrwa\u0107 jeden dzie\u0144...@Spoken_Grunt; Potrzebuj\u0119 urlopu...
+      lub cudu.@Reactions_Bleh; Licz\u0119 na promie\u0144 \u015Bwiat\u0142a w tej
+      ciemno\u015Bci...@Spoken_Grunt; Nie mog\u0119 pozby\u0107 si\u0119 tego zm\u0119czenia...@Reactions_Bleh;
+      Zaczynam traci\u0107 motywacj\u0119...@Spoken_Grunt; Wszystko wydaje si\u0119
+      tak przyt\u0142aczaj\u0105ce...@Reactions_Bleh; Nie wiem, jak d\u0142ugo jeszcze
+      mog\u0119 wytrzyma\u0107...@Spoken_Grunt; Pr\xF3buj\u0119 tylko przetrwa\u0107...@Reactions_Bleh;
+      Ta praca mnie wyczerpuje...@Spoken_Grunt; Czuj\u0119 si\u0119 jakby\u015B by\u0142
+      w niesko\u0144czonym cyklu...@Reactions_Bleh; Jestem wyczerpany... emocjonalnie
+      i fizycznie.@Spoken_Grunt; Licz\u0119 na zmian\u0119 w moim losie... i nastroju.@Reactions_Bleh;
+      Licz\u0119 tylko minuty do wyj\u015Bcia...@Spoken_Grunt; Jestem blisko rezygnacji...@Reactions_Bleh;
+      Czuj\u0119 si\u0119 jakby\u015B by\u0142 na dnie...@Spoken_Grunt; Chc\u0119
+      tylko schowa\u0107 si\u0119 w \u0142\xF3\u017Cku i nie wychodzi\u0107...@Reactions_Bleh;
+      Czuj\u0119 si\u0119 jakby\u015B by\u0142 pusty...@Spoken_Grunt; Potrzebuj\u0119
+      pilnej pomocy...@Reactions_Bleh; Musz\u0119 tylko i\u015B\u0107 dalej...@Spoken_Grunt;
+      Licz\u0119 na odrobin\u0119 energii...@Reactions_Bleh; Czy to za du\u017Co
+      prosi\u0107 o przerw\u0119?@Spoken_Grunt; Mo\u017Ce opowiada\u0142bym \u017Carty,
+      gdybym by\u0142 w lepszym nastroju...@Moo_Tired"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427974720540672
+    m_Localized: "Czy ta praca jest zawsze tak trudna?@Spoken_Sigh; Ostrze\u017Cenie
+      spoiler! Mleko si\u0119 zepsu\u0142o.@Spoken_Sigh; Mam nadziej\u0119, \u017Ce
+      dzi\u015B nie b\u0119dzie pada\u0107.@Casual_RainThisAfterNoon; Potrzebuj\u0119
+      przerwy...@Reactions_Bleh; Dobra kawa w z\u0142ym mleku mo\u017Ce zrobi\u0107
+      wielk\u0105 r\xF3\u017Cnic\u0119 w kubku.@Spoken_Sigh; Zachowaj spok\xF3j,
+      Barbro, korzy\u015Bci s\u0105 warte tego...@Spoken_Sigh; Bleh...@Reactions_Bleh;
+      To jest m\u0119cz\u0105ce.@Spoken_Sigh; Chcia\u0142bym, \u017Ceby ta praca
+      by\u0142a troch\u0119 przyjemniejsza.@Spoken_Sigh; To miejsce jest naprawd\u0119
+      bardzo zaj\u0119te, prawda?@Spoken_Sigh; Musz\u0119 uzupe\u0142ni\u0107 zapasy.@Spoken_Sigh;
+      Czy mog\u0119 zrobi\u0107 przerw\u0119?@Spoken_Sigh; Jest jeszcze tyle pracy
+      do zrobienia!@Spoken_Sigh; Czy mog\u0119 mie\u0107 przek\u0105sk\u0119?@Spoken_Sigh;
+      Wdychaj... Wypuszczaj...@Reactions_Bleh; To nie jest bardzo r\xF3\u017Cne od
+      mojej poprzedniej pracy.@Spoken_Sigh; Potrzebuj\u0119 troch\u0119 wi\u0119cej
+      uwagi.@Spoken_Grunt; Muu...?@Moo_Curious; Czuj\u0119 si\u0119 troch\u0119 przem\u0119czony
+      dzisiaj.@Spoken_Sigh; Mam nadziej\u0119, \u017Ce rzeczy stan\u0105 si\u0119
+      \u0142atwiejsze wkr\xF3tce...@Spoken_Sigh; Staram si\u0119 tylko utrzyma\u0107
+      g\u0142ow\u0119 nad wod\u0105...@Reactions_Bleh; Czy to tylko ja, czy dzisiaj
+      wydaje si\u0119 trwa\u0107 wiecznie?@Spoken_Sigh; Czuj\u0119 si\u0119 troch\u0119
+      zm\u0119czony...@Reactions_Bleh; Staram si\u0119 zachowa\u0107 pozytywne nastawienie
+      , ale jest ci\u0119\u017Cko...@Spoken_Sigh; Potrzebuj\u0119 troch\u0119 powietrza...
+      ta praca jest wyczerpuj\u0105ca.@Spoken_Sigh; Chcia\u0142bym mie\u0107 troch\u0119
+      szcz\u0119\u015Bcia...@Reactions_Bleh; Ten wolumen pracy jest naprawd\u0119
+      na granicy moich mo\u017Cliwo\u015Bci...@Spoken_Sigh; Czuj\u0119 si\u0119 troch\u0119
+      przem\u0119czony...@Reactions_Bleh; Musz\u0119 po prostu i\u015B\u0107 dalej,
+      my\u015Bl\u0119...@Spoken_Sigh; Chcia\u0142bym mie\u0107 troch\u0119 wi\u0119cej
+      energii na to...@Spoken_Sigh; Czy to ju\u017C czas na wyj\u015Bcie?@Spoken_Sigh;
+      Naprawd\u0119 potrzebuj\u0119 chwili, aby si\u0119 zregenerowa\u0107...@Reactions_Bleh;
+      Czuj\u0119 si\u0119 troch\u0119 zakleszczony...@Spoken_Sigh; Mam nadziej\u0119,
+      \u017Ce jutro b\u0119dzie lepszy dzie\u0144...@Spoken_Sigh; Czuj\u0119 si\u0119
+      troch\u0119 zm\u0119czony...@Reactions_Bleh; Staram si\u0119 utrzyma\u0107
+      motywacj\u0119, ale jest ci\u0119\u017Cko...@Spoken_Sigh; Nie mog\u0119 pozby\u0107
+      si\u0119 tego zm\u0119czenia...@Reactions_Bleh; Chcia\u0142bym mie\u0107 troch\u0119
+      szcz\u0119\u015Bcia...@Spoken_Sigh; Nigdy nie my\u015Bla\u0142em, \u017Ce u\u015Bmiech
+      mo\u017Ce by\u0107 tak m\u0119cz\u0105cy.@Spoken_Sigh"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427987508973568
+    m_Localized: "Czy Lacti robi co\u015B?@Spoken_Hm; Czy mamy jeszcze kilka fili\u017Canek
+      z ty\u0142u?@Casual_CupsInTheBack; Zepsute mleko zawsze dostawa\u0142o to,
+      czego chcia\u0142o.@Jokes_SpoiledMilkAlwaysGotWhatItWanted; Dzi\u015B jest
+      wiele rzeczy do zrobienia.@Casual_LotGoingOn; M\u0119\u017Cczyzna zaatakowa\u0142
+      mnie kremem, mas\u0142em i mlekiem. Jak mleczny.@Jokes_HowDairy; By\u0142am
+      krow\u0105 jak ty, a\u017C do momentu, gdy wzi\u0119\u0142am butelk\u0119 w
+      piersi.@Jokes_ACowLikeYou; Czuj\u0119 si\u0119 produktywna.@Casual_FeelingProductive;
+      Czy mo\u017Cesz mi przynie\u015B\u0107 wi\u0119cej kawy z ty\u0142u?@Casual_CoffeeFromTheBack;
+      Kawa pachnie tak dobrze.@Casual_CoffeeSmellsNice; Klienci nadal przychodz\u0105.@Casual_CustomersRollingIn;
+      Czy my\u015Blisz, \u017Ce oni mnie lubi\u0105?@Casual_DoTheyLikeMe; Zwyk\u0142y
+      dzie\u0144 w pracy.@Casual_NormalDayAtTheJob; Dobrze, lad\u0119 jest ju\u017C
+      czysta.@Spoken_Hm; Mog\u0119 by\u0107 troch\u0119 kapry\u015Bna, gdy jestem
+      zm\u0119czona.@Spoken_Hm; Zawsze potrzebuj\u0119 wi\u0119cej uwagi, je\u015Bli
+      chcesz.@Spoken_Hm; Jak u\u017Cy wa\u0107 ekspresu do kawy ponownie?@Spoken_Hm;
+      Czy naprawd\u0119 musimy sprzedawa\u0107 zwyk\u0142e mleko?@Spoken_Hm; Czuj\u0119
+      si\u0119 dobrze dzisiaj!@Spoken_Hm; Wygl\u0105da na to, \u017Ce b\u0119dzie
+      to wspania\u0142y dzie\u0144!@Spoken_Hm; Jestem dzisiaj wspania\u0142a!@Spoken_Hm;
+      Czuj\u0119 si\u0119 pe\u0142na energii i gotowa do wszystkiego!@Spoken_Hm;
+      Lubi\u0119 atmosfer\u0119 w kawiarni dzisiaj!@Spoken_Hm; To jest przyjemno\u015B\u0107
+      pracowa\u0107 w tak pi\u0119knym \u015Brodowisku!@Spoken_Hm; Szcz\u0119\u015Bcie
+      jest zara\u017Aliwe, prawda?@Spoken_Hm; Gotowa do przygotowania smacznych napoj\xF3w!@Spoken_Hm;
+      Czuj\u0119 si\u0119 bardzo dobrze dzisiaj!@Spoken_Hm; Trzymajmy dobr\u0105
+      atmosfer\u0119!@Spoken_Hm; Czuj\u0119, \u017Ce mog\u0119 wszystko zrobi\u0107!@Spoken_Hm;
+      Wszystko wygl\u0105da lepiej, gdy jestem w dobrym nastroju!@Spoken_Hm; Mam
+      u\u015Bmiech na twarzy i kaw\u0119 w r\u0119ku!@Spoken_Hm; Kawa smakuje lepiej,
+      gdy jestem szcz\u0119\u015Bliwa!@Spoken_Hm; Jestem dzisiaj jak promie\u0144
+      s\u0142o\u0144ca!@Spoken_Hm; Wygl\u0105da na to, \u017Ce b\u0119dzie to wspania\u0142y
+      dzie\u0144 na kaw\u0119!@Spoken_Hm; Jestem w swoim \u017Cywiole, gdy jestem
+      w dobrym nastroju!@Spoken_Hm; Gotowa do rozpowszechniania szcz\u0119\u015Bcia,
+      fili\u017Canka po fili\u017Cance!@Spoken_Hm; Czuj\u0119 si\u0119 szcz\u0119\u015Bliwa
+      i gotowa do przyj\u0119cia dnia!@Spoken_Hm; Szcz\u0119\u015Bcie jest tajnym
+      sk\u0142adnikiem ka\u017Cdego napoju!@Spoken_Hm; Muu... ?@Moo_Curious; Czekaj,
+      czy kawa i cukier nie powoduj\u0105, \u017Ce krowa ro\u015Bnie w spos\xF3b
+      nienormalny?@Spoken_Hm"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428000616173568
+    m_Localized: "Mam nadziej\u0119, \u017Ce Lacti ucieknie z pracy, aby mnie dzisiaj
+      zobaczy\u0107.@Spoken_Sigh_Happy; Moja przyjaci\xF3\u0142ka zawsze pr\xF3buje
+      przestraszy\u0107 swoich innych przyjaci\xF3\u0142. Jest fanem milkshake'\xF3w.@Jokes_FriendScaringOtherFriends;
+      Moja przyjaci\xF3\u0142ka my\u015Bli, \u017Ce produkuje mleko migda\u0142owe.
+      Musi by\u0107 szalona.@Jokes_AlmondMilk; Jak si\u0119 czujesz, szefie?@Spoken_Sigh_Happy;
+      Chcesz i\u015B\u0107 gdzie\u015B po pracy dzisiaj?@Spoken_Sigh_Happy; Ta praca
+      jest niespodziewanie zabawna!@Spoken_Sigh_Happy; Czy jest co\u015B, co mog\u0119
+      dla ciebie zrobi\u0107?@Spoken_Sigh_Happy; Klienci wydaj\u0105 si\u0119 mnie
+      lubi\u0107.@Spoken_Sigh_Happy; Hmm hm hmm hhm hmmm!@Spoken_Humming; Jaki pi\u0119kny
+      dzie\u0144!@Spoken_Sigh_Happy; Popatrz na ten trick, kt\xF3ry mog\u0119 zrobi\u0107
+      z kubkami.@Spoken_Giggles; By\u0142e\u015B wspania\u0142ym szefem.@Spoken_Sigh_Happy;
+      Zmiany nastroju? Nie, je\u015Bli b\u0119dziesz mnie traktowa\u0107 tak dobrze!@Spoken_Sigh_Happy;
+      Krowy mog\u0105 sta\u0107 si\u0119 troch\u0119 MOOdy, je\u015Bli nie s\u0105
+      traktowane tak dobrze jak ty mnie traktujesz.@Spoken_Sigh_Happy; Czuj\u0119
+      si\u0119 jakbym by\u0142a na szczycie \u015Bwiata dzisiaj!@Spoken_Sigh_Happy;
+      Czy nie jest mi\u0142o mie\u0107 prac\u0119, kt\xF3ra sprawia, \u017Ce si\u0119
+      u\u015Bmiechasz?@Spoken_Sigh_Happy; Czuj\u0119 si\u0119 tak zadowolona i szcz\u0119\u015Bliwa
+      w tym momencie!@Spoken_Sigh_Happy; Ka\u017Cdy dzie\u0144 wydaje si\u0119 by\u0107
+      dobrym dniem, gdy jestem w dobrym nastroju!@Spoken_Sigh_Happy; Mog\u0142abym
+      ta\u0144czy\u0107 z rado\u015Bci w tym momencie!@Spoken_Sigh_Happy; Moje serce
+      jest lekkie i szcz\u0119\u015Bliwe dzisiaj!@Spoken_Sigh_Happy; Mam lekki krok
+      i u\u015Bmiech na twarzy!@Spoken_Sigh_Happy; Wygl\u0105da na to, \u017Ce gwiazdy
+      s\u0105 dzisiaj wyr\xF3wnane!@Spoken_Sigh_Happy; Czy \u017Cycie nie jest pi\u0119kne,
+      gdy si\u0119 czujesz tak dobrze?@Spoken_Sigh_Happy; Czuj\u0119 si\u0119 jakbym
+      mog\u0142a podbi\u0107 \u015Bwiat w tym momencie!@Spoken_Sigh_Happy; Mam szcz\u0119\u015Bliwe
+      serce i kaw\u0119!@Spoken_Sigh_Happy; Dzisiaj jest niesamowity dzie\u0144!@Spoken_Sigh_Happy;
+      Czuj\u0119 si\u0119 tak wdzi\u0119czna za wszystko w tym momencie!@Spoken_Sigh_Happy;
+      Wszystko wydaje si\u0119 takie prawdziwe dzisiaj!@Spoken_Sigh_Happy; Czuj\u0119
+      si\u0119 jakbym promieniowa\u0142a szcz\u0119\u015Bciem!@Spoken_Sigh_Happy;
+      Jestem tak szcz\u0119\u015Bliwa, \u017Ce a\u017C wybucham!@Spoken_Sigh_Happy;
+      Szcz\u0119\u015Bcie jest zara\u017Aliwe, prawda?@Spoken_Sigh_Happy; Czy \u017Cycie
+      nie jest pi\u0119kne, gdy si\u0119 czujesz tak dobrze?@Spoken_Sigh_H appy;
+      Czuj\u0119 si\u0119 jakbym chodzi\u0142a po powietrzu dzisiaj!@Spoken_Sigh_Happy;
+      Czuj\u0119 si\u0119 tak b\u0142ogos\u0142awiona i szcz\u0119\u015Bliwa w tym
+      momencie!@Spoken_Sigh_Happy; Muu!@Moo_Happy; Czuj\u0119 si\u0119 bardzo rozlu\u017Aniona.@Spoken_Sigh_Happy"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428017326280704
+    m_Localized: "Czuj\u0119 si\u0119 super!@Spoken_Giggles; Krowa do mleka: 'Jestem
+      twoj\u0105 matk\u0105'.@Jokes_CowToTheMilk; M\xF3j ojciec dosta\u0142 now\u0105
+      prac\u0119 w mleczarni. Jest koordynatorem kr\xF3w.@Jokes_DadAtTheDairy; Przedstawi\u0142em
+      czekolad\u0119 mleku. Zrobili milkshake czekoladowy.@Spoken_Giggles; Mleko
+      nie polubi\u0142o mojej ostatniej \u017Cartu. Nie by\u0142o a-meu-sowane.@Spoken_Giggles;
+      Kocham t\u0119 prac\u0119!@Spoken_Giggles; Czy m\xF3j dzie\u0144 mo\u017Ce
+      by\u0107 jeszcze lepszy?@Spoken_Giggles; Klienci s\u0105 bardzo mili dla mnie
+      dzisiaj.@Spoken_Giggles; Chcesz i\u015B\u0107 ze mn\u0105 na drinka p\xF3\u017Aniej?@Spoken_Giggles;
+      Robimy dobrze!@Spoken_Giggles ; Eeee!@Reactions_Eeeee; Ahaha!@Spoken_Giggles;
+      Muu!@Moo_Happiest; Chcesz mnie przytuli\u0107?@Spoken_Giggles; Upewni\u0119
+      si\u0119, \u017Ce b\u0119d\u0119 mia\u0142 wi\u0119cej mleka dla ciebie p\xF3\u017Aniej!@Spoken_Giggles;
+      Unosz\u0119 si\u0119 prawie w powietrzu!@Spoken_Giggles; Mam u\u015Bmiech,
+      kt\xF3ry nie przestaje!@Spoken_Giggles; Dzi\u015B jest tak pi\u0119knie, \u017Ce
+      wygl\u0105da jak sen!@Spoken_Giggles; Czy to jest czysta rado\u015B\u0107?
+      Jest niesamowite!@Spoken_Giggles; Promieniuj\u0119 pozytywno\u015Bci\u0105
+      i rado\u015Bci\u0105!@Spoken_Giggles; Czuj\u0119 si\u0119 jakbym by\u0142a
+      w si\xF3dmym niebie dzisiaj!@Spoken_Giggles; Moje serce jest pe\u0142ne rado\u015Bci!@Spoken_Giggles;
+      Jestem tak szcz\u0119\u015Bliwa, \u017Ce prawie mog\u0142abym wybuchn\u0105\u0107
+      \u015Bpiewem!@Spoken_Giggles; U\u015Bmiecham si\u0119 dzisiaj od ucha do ucha!@Spoken_Giggles;
+      Dzi\u015B jest idealny dzie\u0144!@Spoken_Giggles; Jestem pe\u0142na rado\u015Bci
+      i \u015Bmiechu!@Spoken_Giggles; \u017Byj\u0119 najlepszym \u017Cyciem!@Spoken_Giggles;
+      Czuj\u0119 si\u0119 jak najszcz\u0119\u015Bliwsza barista na \u015Bwiecie!@Spoken_Giggles;
+      Dzi\u015B jest tak wspaniale, \u017Ce chc\u0119 to zapami\u0119ta\u0107 na
+      zawsze!@Spoken_Giggles; Czy mo\u017Cesz poczu\u0107 rado\u015B\u0107, kt\xF3r\u0105
+      promieniuj\u0119?@Spoken_Giggles; Czuj\u0119 si\u0119 jakbym wygra\u0142a jackpot
+      rado\u015Bci!@Spoken_Giggles; Jestem tak szcz\u0119\u015Bliwa!@Spoken_Giggles;
+      Ka\u017Cdy moment dzisiaj wygl\u0105da jak prezent!@Spoken_Giggles; Jestem
+      tak wdzi\u0119czna za wszystko, co mam w \u017Cyciu!@Spoken_Giggles; Jestem
+      dzisiaj pe\u0142na s\u0142o\u0144ca i t\u0119czy!@Spoken_Giggles; Czuj\u0119
+      si\u0119 jakbym mog\u0142a podbi\u0107 \u015Bwiat t\u0105 rado\u015Bci\u0105!@Spoken_Giggles;
+      \u017Bycie jest pi\u0119kn\u0105 melodi\u0105, a dzisiaj ta\u0144cz\u0119 z
+      najszcz\u0119\u015Bliwsz\u0105 piosenk\u0105!@Spoken_Giggles; Promieniuj\u0119
+      rado\u015Bci\u0105!@Spoken_Giggles; Dzi\u015B wygl\u0105da jak bajka, kt\xF3ra
+      sta\u0142a si\u0119 rzeczywisto\u015Bci\u0105!@Spoken_Giggles; Rozrzucam rado\u015B\u0107
+      jak konfetti!@Spoken_Giggles; Czuj\u0119 si\u0119 jakbym by\u0142a owini\u0119ta
+      w ciep\u0142\u0105, mi\u0119kk\u0105 ko\u0142dr\u0119 rado\u015Bci!@Spoken_Giggles;
+      Jestem tak szcz\u0119\u015Bliwa, \u017Ce prawie mog\u0142abym obj\u0105\u0107
+      ca\u0142y \u015Bwiat!@Spoken_Giggles; Poziom rado\u015Bci dzisiaj: najwy\u017Cszy!@Spoken_Giggles;
+      Promieniuj\u0119 tyle rado\u015Bci, \u017Ce prawie mog\u0142abym spowodowa\u0107
+      nadmiar rado\u015Bci!@Spoken_Giggles; Mam wystarczaj\u0105co rado\u015Bci,
+      aby o\u015Bwietli\u0107 ca\u0142e miasto!@Spoken_Giggles; Jestem tak szcz\u0119\u015Bliwa,
+      \u017Ce prawie mog\u0142abym zata\u0144czy\u0107 taniec rado\u015Bci tutaj
+      i teraz!@Spoken_Giggles; Dzi\u015B wygl\u0105da jak sen, z kt\xF3rego nie chc\u0119
+      si\u0119 obudzi\u0107!@Spoken_Giggles; Jestem tak pe\u0142na rado\u015Bci,
+      \u017Ce ka\u017Cdy dzie\u0144 wygl\u0105da jak m\xF3j urodziny!@Spoken_Giggles;
+      Jestem pe\u0142na rado\u015Bci dzisiaj!@Spoken_Giggles; Muu!@Moo_Happier"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428063652368384
+    m_Localized: "Czuj\u0119 si\u0119 taka ma\u0142a.@Spoken_Ah; Obieca\u0142e\u015B
+      mi pom\xF3c w dorastaniu, prawda?@Spoken_Ah; Wci\u0105\u017C czekam, a\u017C
+      te specjalne korzy\u015Bci zaczn\u0105 obowi\u0105zywa\u0107...@Spoken_Ah;
+      Mo\u017Cesz mi co\u015B kupi\u0107?@Spoken_Ah; Zawsze mo\u017Cemy zrobi\u0107
+      lepiej.@Spoken_Ah; Ledwo czuj\u0119 ich ci\u0119\u017Car.@Spoken_Ah; Zastanawiam
+      si\u0119, czy b\u0119d\u0119 tak du\u017Ca jak inne krowie dziewczyny.@Spoken_Ah"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428070547804160
+    m_Localized: "Teraz zaczynamy robi\u0107 dobre post\u0119py.@Spoken_Hm; To dopiero
+      pocz\u0105tek.@Spoken_Hm; Teraz zaczynam czu\u0107 na sobie \u0142adny ci\u0119\u017Car.@Spoken_Hm;
+      Kontynuujmy, aby mleko p\u0142yn\u0119\u0142o!@Spoken_Hm; Ta praca ma wiele
+      \u015Bwietnych przywilej\xF3w.@Spoken_Hm; Powiedzia\u0142e\u015B, \u017Ce masz
+      tak\u017Ce farm\u0119, prawda?@Spoken_Hm; Masz jaki\u015B lotion?@Spoken_Hm"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428089740939264
+    m_Localized: "To zaczyna wymyka\u0107 si\u0119 z r\u0105k, a ja si\u0119 na to
+      zgadzam!@Spoken_Sigh_Happy; Nie mog\u0142em doi\u0107 wczoraj. To by\u0142a
+      ca\u0142kowita pora\u017Cka.@Jokes_UdderFailure; Uwielbiam mleko, gdy jest
+      ubite. Wtedy zamienia si\u0119 w mas\u0142o.@Spoken_Giggles; Wi\u0119cej!@Reactions_More;
+      Wi\u0119ksze!@Reactions_Bigger; Zawsze mo\u017Cemy p\xF3j\u015B\u0107 wi\u0119kszym
+      krokiem!@Spoken_Sigh_Happy; Moje plecy s\u0105 niezwykle silne, mog\u0119 to
+      wszystko nosi\u0107 bez problemu!@Spoken_Sigh_Happy; Gdybym tylko m\xF3g\u0142
+      sta\u0107 si\u0119 tak mi\u0119sisty, jak mog\u0119 sta\u0107 si\u0119 mleczny.@Spoken_Sigh_Happy;
+      Klienci wydaj\u0105 si\u0119 naprawd\u0119 mnie lubi\u0107.@Spoken_Sigh_Happy;
+      Te cuda potrafi\u0105 zrobi\u0107 wi\u0119cej ni\u017C tylko mleko.@Spoken_Sigh_Happy;
+      Czy jestem jedn\u0105 z twoich najlepszych dziewczyn? Komplementujesz mnie!~@Spoken_Sigh_Happy;
+      Nie mog\u0119 si\u0119 doczeka\u0107, \u017Ceby spotka\u0107 inne dziewczyny
+      krowy.@Casual_MeetTheOtherCowGirls"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428109055709184
+    m_Localized: "Zostan\u0119 awansowany, gdy b\u0119d\u0119 zbyt du\u017Cy, aby
+      serwowa\u0107 napoje, prawda?@Spoken_Giggles; Czy dostaniesz milkshake, je\u015Bli
+      skocz\u0119 na pogo?@Jokes_MilkshakePogoStick; Musz\u0119 p\xF3\u017Aniej da\u0107
+      Mewthowi troch\u0119 mleka...@Casual_MewthMilk; Klienci dzisiaj dziwnie na
+      mnie patrz\u0105... czy mam co\u015B na twarzy?@Spoken_Giggles; Powiedzia\u0142bym
+      ci \u017Cart o mleku, ale jest zbyt cheesy.@Spoken_Giggles; Tak blisko wielko\u015Bci!@Spoken_Giggles;
+      Przepe\u0142niam si\u0119 moc\u0105! I mlekiem.@Spoken_Giggles; Wi\u0119cej!
+      Wi\u0119cej!@Reactions_MoreMore; Prosz\u0119! Tylko troch\u0119 wi\u0119kszy!@Reactions_Bigger;
+      Nawet ja nie mog\u0119 znie\u015B\u0107 wi\u0119kszego.@Spoken_Giggles; Nie
+      mog\u0119 si\u0119 doczeka\u0107, aby sprzedawa\u0107 swoj\u0105 w\u0142asn\u0105
+      mark\u0119 mleka~@Spoken_Giggles; Wi\u0119kszy! Wi\u0119kszy!~@Reactions_Bigger;
+      Ten strumie\u0144 mleka nigdy si\u0119 nie sko\u0144czy!@Spoken_Giggles; Koniec
+      jest bliski.@Spoken_Giggles; Najpierw kawiarnia, potem \u015Bwiat!@Spoken_Giggles;
+      Mam nadziej\u0119, \u017Ce w sequelu osi\u0105gn\u0119 rozmiar miasta.@Spoken_Giggles;
+      Lacti b\u0119dzie bardzo zazdrosna.@Spoken_Giggles; Chwa\u0142a Mleku!@Spoken_Giggles;
+      Czy codziennie mog\u0119 by\u0107 tak dojony? \u017Bycie to b\u0142ogo\u015B\u0107.@Spoken_Giggles"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428124268449792
+    m_Localized: "Powinni\u015Bmy co\u015B kupi\u0107. @Spoken_Hm; Czy mo\u017Cesz
+      kupi\u0107 mi co\u015B? @Interaction_CouldYouBuyMeSomething; Naprawd\u0119
+      chcia\u0142bym co\u015B z ty\u0142u. @Spoken_Hm; Czy jest co\u015B, co mo\u017Cemy
+      doda\u0107 do sklepu? @Spoken_Hm; Zarabiamy sporo dodatkowych pieni\u0119dzy.
+      @Spoken_Hm; Ciekawe, co powinni\u015Bmy kupi\u0107? @Spoken_Hm"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428146145939456
+    m_Localized: "Oszcz\u0119dzasz na co\u015B? @Money_SavingUpForSomething; Czy
+      jest co\u015B du\u017Cego, co chcesz kupi\u0107? @Spoken_Hm; Dzisiaj zarobili\u015Bmy
+      du\u017Co. @Spoken_Hm; Sp\xF3jrz na te wszystkie pieni\u0105dze. @Spoken_Hm;
+      Dzisiaj p\u0142ywamy w got\xF3wce! @Spoken_Hm; Nie wiedzia\u0142em, \u017Ce
+      mo\u017Cemy mie\u0107 tyle pieni\u0119dzy! @Spoken_Hm; Nasze zyski s\u0105
+      na niebotycznym poziomie! @Spoken_Hm; Czuj\u0119, jakby\u015Bmy p\u0142ywali
+      w basenie pieni\u0119dzy! @Spoken_Hm; Wygl\u0105da na to, \u017Ce dzisiaj trafili\u015Bmy
+      w dziesi\u0105tk\u0119! @Spoken_Hm; Kto by pomy\u015Bla\u0142, \u017Ce serwowanie
+      kawy mo\u017Ce by\u0107 tak op\u0142acalne? @Spoken_Hm; Mamy wi\u0119cej pieni\u0119dzy,
+      ni\u017C wiemy, co z nimi zrobi\u0107! @Spoken_Hm; Nigdy nie my\u015Bla\u0142em,
+      \u017Ce b\u0119dziemy mieli tyle pieni\u0119dzy w naszych skarbcach! @Spoken_Hm;
+      Zaczynam my\u015Ble\u0107, \u017Ce jeste\u015Bmy w z\u0142ym biznesie z tymi
+      wszystkimi pieni\u0119dzmi! @Spoken_Hm; Nasze zyski s\u0105 dzisiaj na nieosi\u0105galnym
+      poziomie! @Spoken_Hm; To tak, jakby\u015Bmy prowadzili drukarni\u0119 pieni\u0119dzy
+      zamiast kawiarni! @Spoken_Hm; Mamy wi\u0119cej pieni\u0119dzy, ni\u017C wiemy,
+      co z nimi zrobi\u0107! @Spoken_Hm; Nigdy nie widzia\u0142em tyle pieni\u0119dzy
+      w jednym miejscu! @Spoken_Hm; Dzisiaj praktycznie tonemy w pieni\u0105dzach!
+      @Spoken_Hm; Z tymi pieni\u0119dzmi mogliby\u015Bmy kupi\u0107 ca\u0142e miasto!
+      @Spoken_Hm; Hm, szefie, pami\u0119tasz, \u017Ce mo\u017Cesz wydawa\u0107 pieni\u0105dze,
+      prawda? @Spoken_Hm"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

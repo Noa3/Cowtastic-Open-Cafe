@@ -45,8 +45,8 @@ public class CheatStatsCup : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        controller = FindObjectOfType<CupController>();
-        orderManager = FindObjectOfType<OrderManager>();
+        controller = FindFirstObjectByType<CupController>();
+        orderManager = FindFirstObjectByType<OrderManager>();
     }
 
     // Update is called once per frame

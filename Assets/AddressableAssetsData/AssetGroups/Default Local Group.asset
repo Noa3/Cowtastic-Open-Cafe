@@ -16,7 +16,55 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 8f87251c1ad051445bde456146b695b3
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 326b492a75e8d0549bd72be5784e7061
+    m_Address: Game_Arcade_Casual
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7def3c650daf7a64ca509602a26cb493
+    m_Address: Game_Arcade_Chaos
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6bed78648f8e5a64eaf1cb93226fcf8e
+    m_Address: Game_Arcade_Hard
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 49678a328b97246499918fa37384c506
+    m_Address: Game_Arcade_UltraChaos
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b5f73cf1b08758640a08836cc799bf90
+    m_Address: Game_Sandbox
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31a72fdfc5c947846a6a10a4374860e0
+    m_Address: Tutorial
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de33ac83f5769b24baaac589b625fd4e
+    m_Address: MainMenu
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 04ed73ab00ab1734cbb6ca2bb41bb617
+    m_Address: GameArcade
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 156a9c25f5260c04d8dea6a7db36cee6, type: 2}
   m_SchemaSet:

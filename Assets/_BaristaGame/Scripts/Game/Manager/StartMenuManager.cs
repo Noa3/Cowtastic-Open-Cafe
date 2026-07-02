@@ -17,6 +17,13 @@ public class StartMenuManager : MonoBehaviour
 
     public GameObject GeneralStatsHolder; //TODO
 
+    [Header("Sandbox Unlock")]
+    [Tooltip("The SandboxUnlockManager component for special unlock methods")]
+    public SandboxUnlockManager sandboxUnlockManager;
+    
+    [Tooltip("Sound to play when sandbox is unlocked via special method")]
+    public AudioClip sandboxUnlockSound;
+
     [Header("References Best Times")]
     public LocalizedString StringNoRecord;
     [Space]
@@ -64,16 +71,11 @@ public class StartMenuManager : MonoBehaviour
     public bool NextLevelIsTutorial = true;
     [ReadOnly]
     public bool NextLevelIsMilkyMode = false;
-    [ReadOnly]
-    public bool SandboxUnlockCommandArgs = false;
-
 
 
 
     public void Awake()
     {
-        SandboxUnlockCommandArgs = !string.IsNullOrEmpty(Consts.GetArg(Consts.ARGSandboxUnlocked)); // checks if Sandbox Commandline is be used
-
         if (ToggleTutorial != null)
         {
             ToggleTutorial.isOn = PlayerPrefs.GetInt(Consts.PlayerPrefNextIsTutorial, 1) == 1 ? true : false;
@@ -81,6 +83,9 @@ public class StartMenuManager : MonoBehaviour
 
         SetNextLevelIsTutorialManager(false);
         SetNextLevelIsMilkyMode(false);
+
+        // Apply game settings when returning to main menu
+        ApplyGameSettings();
 
         GetStats();
         CheckToggleStatus();
@@ -98,6 +103,97 @@ public class StartMenuManager : MonoBehaviour
         RefreshTexts();
 
         SetGeneralStatsToggleState();
+        
+        // Initialize sandbox unlock manager
+        InitializeSandboxUnlockManager();
+    }
+    
+    /// <summary>
+    /// Initializes the SandboxUnlockManager if available
+    /// </summary>
+    private void InitializeSandboxUnlockManager()
+    {
+        // Try to find SandboxUnlockManager if not assigned
+        if (sandboxUnlockManager == null)
+        {
+            sandboxUnlockManager = FindObjectOfType<SandboxUnlockManager>();
+        }
+        
+        // If still null, create one
+        if (sandboxUnlockManager == null)
+        {
+            GameObject unlockManagerGO = new GameObject("SandboxUnlockManager");
+            unlockManagerGO.transform.SetParent(this.transform);
+            sandboxUnlockManager = unlockManagerGO.AddComponent<SandboxUnlockManager>();
+            
+            // Try to add SoundEffectVariation component and assign unlock sound
+            if (sandboxUnlockSound != null)
+            {
+                SoundEffectVariation soundVariation = unlockManagerGO.AddComponent<SoundEffectVariation>();
+                AudioSource audioSource = unlockManagerGO.GetComponent<AudioSource>();
+                if (audioSource == null)
+                {
+                    audioSource = unlockManagerGO.AddComponent<AudioSource>();
+                }
+                
+                soundVariation.effectSource = audioSource;
+                soundVariation.clipArray = new AudioClip[] { sandboxUnlockSound };
+                sandboxUnlockManager.unlockSoundVariation = soundVariation;
+            }
+            
+            // Enable debug mode in editor
+            #if UNITY_EDITOR
+            sandboxUnlockManager.debugMode = true;
+            #endif
+        }
+        
+        // Subscribe to the unlock event
+        if (sandboxUnlockManager != null)
+        {
+            sandboxUnlockManager.OnSandboxUnlocked += OnSpecialSandboxUnlock;
+        }
+    }
+    
+    /// <summary>
+    /// Called when sandbox is unlocked via special method (5 finger touch, "unlock" keyword, or command line arg)
+    /// </summary>
+    private void OnSpecialSandboxUnlock()
+    {
+        Debug.Log("StartMenuManager: Special sandbox unlock triggered!");
+        
+        // Force enable the sandbox toggle
+        if (SandboxToggle != null)
+        {
+            SandboxToggle.SetActive(true);
+            
+            // Unlock the sandbox achievement
+            Achievements.UnlockAchievements(Achievements.AchievementsID.Sandbox_Mode);
+            
+            Debug.Log("StartMenuManager: Sandbox unlocked via special method!");
+        }
+        
+        // Note: We don't save the unlock state persistently - 
+        // user needs to use the gesture/keyword each time they want to unlock
+    }
+    
+    /// <summary>
+    /// Applies game settings when returning to main menu to ensure consistency
+    /// Note: This preserves user's immediate choices like disabling fullscreen
+    /// </summary>
+    private void ApplyGameSettings()
+    {
+        try
+        {
+            // Only apply audio settings to avoid overriding user's fullscreen choice
+            // Graphics settings (including fullscreen) should not be reapplied when returning to main menu
+            GamePauseManager.ApplyVolumeSettingsToMusicController();
+            
+            Debug.Log("StartMenuManager: Audio settings applied successfully (preserving current fullscreen state)");
+        }
+        catch (System.Exception e)
+        {
+            Debug.LogError($"StartMenuManager: Error applying game settings: {e.Message}");
+        }
     }
 
     public void SetGeneralStatsToggleState()
@@ -178,6 +274,12 @@ public class StartMenuManager : MonoBehaviour
         StringCupsSold.StringChanged -= TextCupsSoldUpdate;
         StringPlayTime.StringChanged -= TextPlayTimeUpdate;
         StringEarnedMoney.StringChanged -= TextEarnedMoneyUpdate;
+        
+        // Unsubscribe from sandbox unlock events
+        if (sandboxUnlockManager != null)
+        {
+            sandboxUnlockManager.OnSandboxUnlocked -= OnSpecialSandboxUnlock;
+        }
     }
 
     const string SceneNameCasual = "Game_Arcade_Casual";
@@ -198,7 +300,7 @@ public class StartMenuManager : MonoBehaviour
         if (date.DayOfWeek == DayOfWeek.Sunday)
         {
             //HolidayToggle.SetActive(true); //Need to change here, if i want to activate the holiday mode
-            Archievements.UnlockArchievement(Archievements.ArchievementID.Holiday);
+            Achievements.UnlockAchievements(Achievements.AchievementsID.Holiday);
         }
 
         if (SandboxToggle == null)
@@ -206,19 +308,30 @@ public class StartMenuManager : MonoBehaviour
             return;
         }
 
-        //Sandbox mode
-        bool CasualWon = bool.Parse( PlayerPrefs.GetString(Consts.PlayerPrefSceneWon + SceneNameCasual, false.ToString()) );
-        bool NormalWon = bool.Parse(PlayerPrefs.GetString(Consts.PlayerPrefSceneWon + SceneNameNormal, false.ToString()));
-        bool HardWon = bool.Parse(PlayerPrefs.GetString(Consts.PlayerPrefSceneWon + SceneNameHard, false.ToString()));
-        bool ChaosWon = bool.Parse(PlayerPrefs.GetString(Consts.PlayerPrefSceneWon + SceneNameChaos, false.ToString()));
-        bool ChaosMilkyWon = (PlayerPrefs.GetFloat(Consts.PlayerPrefBestTimeUltraChaos + Consts.PlayerPrefBestTimeMilkymodeSuffix, -1) > 0);
-
-        if ((CasualWon == true && NormalWon == true && HardWon == true && ChaosWon == true)
-            || ChaosMilkyWon == true
-            || SandboxUnlockCommandArgs == true
-            ) 
+        // Use centralized unlock logic from SandboxUnlockManager
+        bool shouldUnlock = false;
+        if (sandboxUnlockManager != null)
         {
-            Archievements.UnlockArchievement(Archievements.ArchievementID.Sandbox_Mode);
+            shouldUnlock = sandboxUnlockManager.ShouldSandboxBeUnlocked();
+        }
+        else
+        {
+            // Fallback to original logic if no unlock manager is available
+            bool CasualWon = bool.Parse(PlayerPrefs.GetString(Consts.PlayerPrefSceneWon + SceneNameCasual, false.ToString()));
+            bool NormalWon = bool.Parse(PlayerPrefs.GetString(Consts.PlayerPrefSceneWon + SceneNameNormal, false.ToString()));
+            bool HardWon = bool.Parse(PlayerPrefs.GetString(Consts.PlayerPrefSceneWon + SceneNameHard, false.ToString()));
+            bool ChaosWon = bool.Parse(PlayerPrefs.GetString(Consts.PlayerPrefSceneWon + SceneNameChaos, false.ToString()));
+            bool ChaosMilkyWon = (PlayerPrefs.GetFloat(Consts.PlayerPrefBestTimeUltraChaos + Consts.PlayerPrefBestTimeMilkymodeSuffix, -1) > 0);
+            bool CommandArgUnlock = !string.IsNullOrEmpty(Consts.GetArg(Consts.ARGSandboxUnlocked));
+
+            shouldUnlock = (CasualWon && NormalWon && HardWon && ChaosWon)
+                || ChaosMilkyWon
+                || CommandArgUnlock;
+        }
+
+        if (shouldUnlock) 
+        {
+            Achievements.UnlockAchievements(Achievements.AchievementsID.Sandbox_Mode);
             SandboxToggle.SetActive(true);
         }
         else

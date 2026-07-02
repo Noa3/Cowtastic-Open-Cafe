@@ -18,7 +18,7 @@ public class CupButtonHelper : MonoBehaviour
     void Start()
     {
         controller = CupController.instance;
-        orderManager = FindObjectOfType<OrderManager>();
+        orderManager = FindFirstObjectByType<OrderManager>();
     }
 
     // Update is called once per frame

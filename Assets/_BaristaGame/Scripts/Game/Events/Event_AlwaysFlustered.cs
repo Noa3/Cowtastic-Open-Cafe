@@ -1,3 +1,4 @@
+
 public class Event_AlwaysFlustered : EventBase
 {
     private OrderManager orderManager;

@@ -1144,10 +1144,667 @@ MonoBehaviour:
     m_Localized: Chocolate Shake
     m_Metadata:
       m_Items: []
+  - m_Id: 162454964742496256
+    m_Localized: 'You''ve made your Barista as big as she can get!  Having reached
+      her full potential she is happy to join your dairy full time, adding another
+      quality cow girl to your staff!
+
+
+      btw, top left of Arcade Mode. ;)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 162455432189288448
+    m_Localized: 'What...?  Well uh... Congrats on beating whatever this way.  Wow.
+
+
+      Also,
+      there''s one more secret mOde.  ;P'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167524481055608832
+    m_Localized: Credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167524677856546816
+    m_Localized: Special Thanks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167525775212302336
+    m_Localized: Milk Coffee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167525900873650176
+    m_Localized: Production+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167525982276702208
+    m_Localized: Stretchy Candy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526055043682304
+    m_Localized: Max Size+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526161428008960
+    m_Localized: Extra Break
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526229631586304
+    m_Localized: Happiness+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526294421000192
+    m_Localized: Bitter Coffee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526376109264896
+    m_Localized: Production-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526646520238080
+    m_Localized: Fairy Latte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526696562479104
+    m_Localized: More Milk, Now!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526716435091456
+    m_Localized: Calming Tea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167526736756494336
+    m_Localized: Fullness Tolerance+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167535336119881728
+    m_Localized: Hi!; Hello.; Ey! beauty.; Hey.; Hi.; Hello!; Hi...; Hm...; Uuuh...;
+      Uh...; Aha!; Yo.; Hello...; Greetings.; Hello young lady.; Eyo.; Sup.; Uhuh...;
+      Hey there!; Howdy!; Hey! What's up?; Good day!; Hola!; Hey! Stranger.; Salutations!;
+      Well! Hello there!; Hi! how are you?; Hey! Good to see you!; Hey! Long time
+      no see!; Hey! What's cooking?; Hey! How's it going?; Hey! Nice to meet you!;
+      Hey! What's new?; Hey! How's life?; Hey! How's everything?; Hey! How's your
+      day?; Hey! How's your day going?; Hey! How's everything going?; Hey! How have
+      you been?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167615756777836544
+    m_Localized: 'I want some ; Can I get some ; Do you have ; Could I order ; May
+      I have ; I''m interested in ; Would it be possible to get ; Please give me '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233249931448320
+    m_Localized: Espresso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233545151729664
+    m_Localized: Coffee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233690199150592
+    m_Localized: Chocolate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233779009343488
+    m_Localized: Tea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233839474429952
+    m_Localized: Milk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175233903475314688
+    m_Localized: Breast milk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234029493178368
+    m_Localized: Cream
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234081343164416
+    m_Localized: Sugar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234138335367168
+    m_Localized: Ice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234186334982144
+    m_Localized: Boba
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234253527732224
+    m_Localized: Fluffy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234331545980928
+    m_Localized: Fancy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234412265361408
+    m_Localized: Chocolate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175234481072918528
+    m_Localized: Fun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175274128738111488
+    m_Localized: This was not what I ordered.; I didn't ask for this.; This isn't
+      what I wanted.; Sorry, but this is incorrect.; Excuse me, but this isn't right.;
+      I'm sorry, but my order is wrong.; Can we fix this?; Could you check my order
+      again?; I think there's been a mistake.; I ordered something else.; This isn't
+      what I expected.; Can we resolve this issue?; Is there a mix-up?; Could you
+      please double-check?; I'm a bit disappointed.; Can you fix this for me?; I'm
+      not satisfied with this.; This isn't what I expected.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175274055513952256
+    m_Localized: Thank you!; I enjoyed the service and the drink.; It was great!;
+      I loved it!; Excellent service!; Delicious drink!; Highly recommend!; Wonderful
+      experience!; Fantastic!; Amazing service!; Loved every sip!; Top-notch!; Couldn't
+      be better!; Perfect drink!; Awesome service!; Just what I needed!; Great job!;
+      Keep it up!; Will definitely come back!; Impressed!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175601404604338176
+    m_Localized: Without; No; Excluding; , Leave out; , Hold the; Don't include;
+      Free of
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175608705562202112
+    m_Localized: Milk Production Speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175609102947340288
+    m_Localized: Max Size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175609289581285376
+    m_Localized: Money
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175639638851997696
+    m_Localized: Happiness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175639931622805504
+    m_Localized: She'll quit if this reaches zero.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175640078645743616
+    m_Localized: Fullness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175640229514858496
+    m_Localized: Reach 2000ml to win.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175641060461006848
+    m_Localized: Cup for your Order
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175650030386958336
+    m_Localized: New job, new life!; I hope the people here are nice.; I can't wait
+      to start!; First day on the job.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175651777658507264
+    m_Localized: 'Hello!; Hi there!; Welcome!; Can I get you anything?; The regular?;
+      How may I help you?; What can I get yah?; Welcome! What can I get you today?;
+      You look good today!; What can I bring you?; Today''s special: Fresh milk!;
+      Have you tried boba milk yet?;'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175662100285247488
+    m_Localized: 'I want that cookie!; That cookie looks tasty.; I wonder how that
+      cookie tastes...?; I wonder if the whole cookie will fit in my mouth?; When
+      do I get the magic cookie?; This job promised certain benefits, right?; I want
+      to grow...; Cookie craving incoming!; Cookie alert! I repeat, cookie alert!;
+      I''ve got my eyes on that cookie!; Time to satisfy my cookie cravings!; Cookie
+      mission: Activate!; Cookie radar engaged!; I''ll trade a coffee for a cookie!;
+      To cookie or not to cookie? That is the question.; Resistance is futile...
+      when it comes to cookies!; Cookie cravings: 100% satisfaction guaranteed!;
+      Cookie time is the best time!; Cookie dreams are made of this!; Cookie anticipation
+      level: Maximum!; My sweet tooth is calling for that cookie!; Cookie obsession:
+      Activated!; All I want for now is that cookie!; One small step for a barista,
+      one giant leap for cookie-kind!; Cookie cravings: Achieving peak levels!; I
+      know you have magic for me~;'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175662781700263936
+    m_Localized: Mmm! It tastes good!~; Something feels different...?; I want more!;
+      It tastes like milk!; Now we're getting somewhere!; Whoa, that feels great!;
+      I wish we had more of those.; The cookie quest was worth it! Delicious!; That
+      cookie hit the spot! More, please!; Cookie satisfaction achieved!; I'm in cookie
+      heaven right now!; Mmm! Best decision ever!; Cookie bliss! Can't get enough!;
+      This cookie is a game-changer!; Cookie magic at work! I'm loving it!; Who knew
+      one cookie could bring so much joy?; Now this is what I call a cookie masterpiece!;
+      Cookie paradise found!; The taste of victory... and cookies!; That cookie deserves
+      a gold medal!; I'm on cloud nine with this cookie!; Milk and cookies, the perfect
+      combo!; One bite, and I'm hooked! More, please!; Cookie perfection achieved!;
+      Cookie magic activated! Can't stop eating!; This cookie is a taste sensation!;
+      I need a lifetime supply of these cookies!; Monch Munch;
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175663362036748288
+    m_Localized: The apron is starting to feel a little tight...; Do we have a larger
+      apron at the back?; I hope I can get these stains out again...; Uh oh, it's
+      about to blow!; My apron can't take any more of this!; Finally!~ Just snap
+      already~; I think we have a bigger apron in the back, but...; It's time.;
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175664029996437504
+    m_Localized: I feel so Full!; Please don't burst on me.; Do they slosh around?;
+      They have grown so big already!; Uuuuhm, can you do something about this?;
+      I've got a lot more milk than you'd think.; That's just what I can get in the
+      cup.; Uh, boss... Can you help me with this?; Don't any customers want some
+      of this? I'm so full...; I can't get much fuller than this...; Help? Please?;
+      I feel like I'm going to burst...; I want to get big, but this is a bit uncomfortable...;
+      I need a higher capacity before I can stay this full for long...; Gah! Just
+      milk me already!; Milk me! Milk me! Please!; If this wasn't so uncomfortable,
+      I'd love this...; I don't mind if they watch, just empty me please...; I'm
+      feeling so swollen!; I hope I don't overflow!; Feeling like a milk-filled balloon!;
+      I'm afraid to move too much!; Overflow imminent! SOS!; My cups runneth over,
+      quite literally...; Do you think anyone would notice if I leaked?; I need to
+      relieve some pressure, fast!; Feeling like a milk factory on overdrive!; Can't
+      focus with all this milk sloshing around!; Feels like they're about to burst
+      out of my chest!; Help me out here, they're reaching critical mass!; Is this
+      what they mean by 'milked to perfection'?; Feels like I'm carrying a dairy
+      farm!; Overflow warning! Danger, danger!; I'm a milk volcano ready to erupt!;
+      Can't focus with this milky distraction!; Just need to find a way to release
+      all this milk!; These milk jugs are ready to explode!; I'm going to explode.;
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175664836233940992
+    m_Localized: Time for an upgrade, perhaps?; Investing in upgrades sounds like
+      a plan!; Let's see what upgrades are available.; It might be time to level
+      up our operations.; Enhancing our business could be beneficial.; I wonder if
+      there are any worthwhile upgrades.; Considering some upgrades for our cafe.;
+      Exploring upgrade options seems like a good idea.; Let's boost our efficiency
+      with some upgrades!; Upgrades could give us an edge in the market.; Should
+      we buy something?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175666128926822400
+    m_Localized: That's it, I quit!; Worst boss ever... I'm out of here.; I'm way
+      too sore to work, bye...; I'm done dealing with this chaos! I quit!; I can't
+      take it anymore! I'm leaving!; I deserve better than this! I'm out!; This job
+      is not worth the stress. I'm done!; No amount of coffee is worth this hassle.
+      I'm gone!; I've had enough! Time to find a better opportunity.; I refuse to
+      work under these conditions. I quit!; Life's too short for this nonsense. I'm
+      leaving.; Sorry, but I'm done playing barista. I'm outta here!; I didn't sign
+      up for this! I quit!; Forget this, I'm going home.;
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175674616369401856
+    m_Localized: Production+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175674851527249920
+    m_Localized: Increase Barista milk production rate.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181788866099826688
+    m_Localized: Hey there, gorgeous.; Hi, beautiful.; Hello, sunshine.; Hey, you
+      look amazing.; Hi, lovely.; Hello, stunning.; Hey, pretty lady.; Hi, cutie.;
+      Hey, good looking.; Hi, charm.; Hello, angel.; Hey, doll.; Hi, sweetie.; Hey,
+      you look lovely today.; Hi, pretty.; Hey, babe.; Hello, hottie.; Hey, nice
+      smile.; Hi, enchanting.; Hey, you brighten up the bar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181789087093510144
+    m_Localized: Hey, beautiful, can you make my day better with a smile?; Hi, gorgeous,
+      what's your secret for looking so good?; Hello, stunning, any chance you're
+      on the menu?; Hey, pretty lady, got a special drink to match your looks?; Hi,
+      charm, your smile is the highlight of my day.; Hello, angel, your beauty could
+      light up the darkest room.; Hey, doll, you got any magic potions for a lonely
+      heart?; Hi, sweetie, do you make all the drinks as sweet as you?; Hey, babe,
+      your beauty is intoxicating.; Hello, hottie, your presence is the best thing
+      here.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181789098002894848
+    m_Localized: Hey, beautiful, your smile and those curves make my heart race.;
+      Hi, gorgeous, do you serve anything as captivating as your eyes?; Hello, stunning,
+      your figure is the real deal here.; Hey, pretty lady, your looks could make
+      any drink taste better.; Hi, charm, your beauty is more refreshing than any
+      cocktail.; Hello, angel, with a body like yours, who needs a drink?; Hey, doll,
+      your curves are the perfect blend of beauty.; Hi, sweetie, your figure is the
+      best part of this bar.; Hey, babe, your stunning looks are making me dizzy.;
+      Hello, hottie, your presence makes everything sweeter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181789109562396672
+    m_Localized: Hey, beautiful, any chance you add a bit of your magic to my coffee?;
+      Hi, gorgeous, do you serve anything other than drinks with those curves?; Hello,
+      stunning, your bust could be the best part of my coffee.; Hey, pretty lady,
+      do you offer anything off-menu, like a smile or a date?; Hi, charm, with a
+      body like yours, I'd order anything.; Hello, angel, your beauty is the perfect
+      ingredient for any drink.; Hey, doll, can I have a coffee with a touch of your
+      charm?; Hi, sweetie, your bust is the real special of the day.; Hey, babe,
+      your presence here makes every drink better.; Hello, hottie, do you offer a
+      smile with that gorgeous figure?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196090546704384
+    m_Localized: Max Size+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182195982329466880
+    m_Localized: Increase Barista milk capacity.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196364988403712
+    m_Localized: Improve Barista's mood.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196409754210304
+    m_Localized: Happiness+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196602868355072
+    m_Localized: Production-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196626104799232
+    m_Localized: Lower Barista milk production rate.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196763497615360
+    m_Localized: More Milk, Now!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196807076433920
+    m_Localized: Fill the Barista immediately.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196916119949312
+    m_Localized: Fullness Tolerance+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182196947719835648
+    m_Localized: Barista loses happiness slower.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182201446488363008
+    m_Localized: Max is 500
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182205256204046336
+    m_Localized: Be careful, it's still a bit hot!; Here! It's a little special,
+      just for you!; Is this correct?; Order up!~; Enjoy your drink!; I hope you
+      like it.; Here you go, have a great day!; There you go, come back soon!~; Voila!
+      Your customized creation, just for you!; I put a little extra love into this
+      one, enjoy!; Here's your beverage, made with care!; Your order, served with
+      a smile!; May this drink bring a little joy to your day!; Perfection in a cup,
+      just for you!; Enjoy your sip of happiness!; Your drink awaits! Sip and savor!;
+      Crafted with care, just for you!; Your order is ready, enjoy the flavor!; Here's
+      your beverage, made to perfection!; I hope this drink makes your day a little
+      brighter!; Indulge in this little delight, it's all yours!; Savor the flavor!
+      It's brewed just for you!; Here you go! Drink up and enjoy!; Your perfect cup,
+      served with a smile!; Take a sip and let the world melt away!; I hope this
+      drink exceeds your expectations!; May your day be as delightful as this drink!;
+      Sip, savor, and enjoy! It's made just for you!; Here it is, should be just
+      the way you like it.;
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427953908404224
+    m_Localized: Growing bigger isn't worth it if the job's this bad...; Angry cows
+      are usually to blame for the sour milk.; I've had just enough of working here!;
+      Ugh!  I'm about to quit!; This job is terrible!; I want to go home...; I don't
+      get paid enough for this...; Uuugh...; This job better improve soon...; You'd
+      better let me take a break.; I'm having a bad day...; Please squeeze me or
+      something...; I just wanted to be a dairy cow...; Moo...; I can't keep up with
+      this workload...; I feel like I'm at my breaking point...; Is it time to clock
+      out yet?; Every day feels like a struggle...; I'm running on fumes here...;
+      I'm so tired of this routine...; Feels like I'm stuck in a rut...; I can barely
+      keep my eyes open...; Will this shift ever end?; Just gotta push through another
+      day...; I need a vacation... or a miracle.; Wishing for a ray of sunshine in
+      this gloom...; Can't shake off this feeling of exhaustion...; I'm starting
+      to lose my motivation...; Everything just seems so overwhelming...; I'm not
+      sure how much longer I can keep this up...; Just trying to survive the day...;
+      This job is sucking the life out of me...; Feeling like I'm stuck in a never-ending
+      cycle...; I'm so drained... emotionally and physically.; Hoping for a change
+      in luck... and mood.; Just counting down the minutes until I can leave...;
+      I'm so close to calling it quits...; I feel like I'm hitting rock bottom...;
+      I just want to crawl into bed and never come out...; Feels like I'm running
+      on empty...; I'm in desperate need of a pick-me-up...; Just gotta keep putting
+      one foot in front of the other...; Wishing for a spark of energy to get me
+      through...; Is it too much to ask for a little break?; Maybe I'd tell some
+      jokes if I were in a better moo'd.;
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427974720540672
+    m_Localized: "Is this job always this hard?; Spoiler alert! The milk's gone off.;
+      I hope it doesn't rain this afternoon.; I need a break...; The right coffee
+      in the wrong milk can make all the difference in the cup.; Keep it together
+      Barbra, the benefits are worth it...; Bleh...; This is tiring.; I wish this
+      job was a little nicer.; This place is really busy, isn't it?; I need to restock
+      the supplies.; Can I take a break?; There's so much work to do!; Can I have
+      a snack?; Breath in\u2026 Breath out...; This isn't too different from my last
+      job.; I could use a little more attention.; Moo...?; I'm feeling a bit overwhelmed
+      today.; I hope things get easier soon...; Just trying to keep my head above
+      water...; Is it just me or is today dragging on forever?; Feeling a little
+      burnt out...; Trying to stay positive, but it's tough...; I need a breather...
+      this job can be exhausting.; I wish I could catch a break...; This workload
+      is really testing my limits...; Feeling like I'm in need of a pick-me-up...;
+      Just gotta keep pushing through, I guess...; I wish I had a bit more energy
+      for this...; Is it time to clock out yet?; Could really use a moment to recharge...;
+      Feeling like I'm stuck in a bit of a rut...; I hope tomorrow is a better day...;
+      I'm feeling a bit drained...; Trying to keep my spirits up, but it's tough...;
+      Can't shake off this feeling of exhaustion...; Wishing for a little bit of
+      luck to come my way...; I never knew smiling could be so tiring.;"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427987508973568
+    m_Localized: I wonder what Lacti is up to?; Do we have a few more cups in the
+      back?; The spoiled milk always got what it wanted.; There's a lot going on
+      today.; A man attacked me with cream, butter and milk. How dairy.; I used to
+      be a cow like you, until I took a bottle to the breast.; I'm feeling productive.;
+      Can you grab me some more coffee from the back?; The coffee smells so nice.;
+      The customers keep rolling in.; Do you think they like me?; Normal day at the
+      job.; There we go, counter's all clean again.; I can get kinda moody when I'm
+      tired.; I could always use more attention, if you'd like.; How do I use the
+      coffee machine again?; Do we even need to sell regular milk?; Feeling pretty
+      good about today!; Looks like it's shaping up to be a great day!; I'm on top
+      of things today!; Feeling energized and ready to tackle anything!; I'm loving
+      the vibe in the cafe today!; It's a pleasure to work in such a lovely environment!;
+      Happiness is contagious, isn't it?; Ready to make some delicious drinks!; I'm
+      feeling pretty chipper today!; Let's keep the good vibes flowing!; Feeling
+      like I can handle anything that comes my way!; Everything seems brighter when
+      I'm in a good mood!; I've got a smile on my face and coffee in my hand!; The
+      coffee tastes even better when I'm happy!; I'm like a ray of sunshine today!;
+      Today's looking like a great day to make some coffee!; I'm in my element when
+      I'm in a good mood!; Ready to spread some happiness, one cup at a time!; Feeling
+      cheerful and ready to take on the day!; Happiness is the secret ingredient
+      in every drink!; Moo...?; Wait, its not normal for coffee and sugar to make
+      a cowgirl grow?;
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428000616173568
+    m_Localized: I hope Lacti escapes work to see me here today.; My friend is always
+      trying to scare her other friends. She's a fan of milkshakes.; My friend thinks
+      she produces almond milk. She must be nuts.; How are you feeling, boss?; Want
+      to go somewhere after work today?; This job is surprisingly fun!; Anything
+      I can do for you?; The customers seem to like me.; Hmm hm hmm hhm hmmm!~; What
+      a nice day!; Watch this trick I can do with the cups.; You've been a great
+      boss.; Mood swings?  Not if you keep treating me this well!; Cows can get kinda
+      MOOdy if they aren't treated as well as you treat me~.; I feel like I'm on
+      top of the world today!; Isn't it nice to have a job that makes you smile?;
+      Feeling so content and happy right now!; Every day feels like a good day when
+      you're in a good mood!; I could dance with joy right now!; My heart feels light
+      and happy today!; I've got a skip in my step and a smile on my face!; Feels
+      like the stars have aligned today!; Isn't life wonderful when you're feeling
+      this good?; I feel like I could take on the world right now!; I've got a happy
+      heart and a caffeine buzz!; Today's shaping up to be a real gem!; I'm feeling
+      so grateful for everything right now!; Everything just feels so right today!;
+      I feel like I'm glowing with happiness!; I'm in such a good mood, I could burst!;
+      Happiness is contagious, isn't it?; Isn't life grand when you're feeling this
+      good?; Feeling like I'm walking on air today!; I'm feeling so blessed and happy
+      right now!; Moo!; I'm feeling stretchy.;
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428017326280704
+    m_Localized: 'I''m feeling great!; Cow to the milk: ''I am your mother''.; My
+      dad landed a new job at the dairy. He''s the cow-ordinator.; I introduced chocolate
+      to milk. They did a chocolate milkshake.; The milk didn''t like my last joke.
+      He wasn''t a-moo-sed.; I love this job!; Can my day even get any better?; The
+      customers are being very nice to me today.; Want to go with me for drinks later?;
+      We''re doing great!~; Eeee!~; Ahaha!~; Mooo!~; Wanna give me a squeeze?; I''ll
+      make sure to save extra milk for you later!~; I''m practically floating on
+      air!; I''ve got a smile that won''t quit!; Today''s so good, it feels like
+      a dream!; Is this what pure happiness feels like? It''s amazing!; I''m radiating
+      positivity and joy!; Feeling like I''m on cloud nine today!; My heart is bursting
+      with happiness!; I''m so happy, I could burst into song!; Grinning from ear
+      to ear today!; Today feels like a perfect day!; I''m filled to the brim with
+      joy and laughter!; I''m living my best life right now!; Feeling like the luckiest
+      barista in the world!; Today''s so wonderful, I want to remember it forever!;
+      Can you feel the happiness radiating from me?; Feeling like I''ve won the happiness
+      lottery today!; I''m overflowing with happiness!; Every moment today feels
+      like a gift!; I''m so grateful for all the happiness in my life!; I''m bursting
+      with sunshine and rainbows today!; I feel like I could conquer the world with
+      this happiness!; Life is a beautiful melody and today I''m dancing to the happiest
+      tune!; I''m positively beaming with joy!; Today feels like a fairytale come
+      true!; I''m spreading happiness like confetti today!; I feel like I''m wrapped
+      in a warm, fuzzy blanket of happiness!; I''m so happy, I could hug the entire
+      world!; Today''s happiness level: off the charts!; I''m radiating so much happiness,
+      I might just cause a joy overload!; I''ve got enough happiness to light up
+      the whole city!; I''m so thrilled, I could do a happy dance right here, right
+      now!; Today feels like a dream I never want to wake up from!; I''m so filled
+      with joy, it''s like every day is my birthday!; I''m positively buzzing with
+      happiness today!; Moo!;'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428063652368384
+    m_Localized: "I feel so small; You promised to help me grow, right?; Still waiting
+      for those special benefits to kick in...; Can you buy me something?; We can
+      always do better.; I can barely feel their weight yet.; I wonder if I\u2019ll
+      be as big as the other cow girls."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428070547804160
+    m_Localized: "Now we\u2019re starting to make good progress; This is only the
+      beginning; Now I\u2019m starting to feel some nice weight on me; Let\u2019s
+      keep the milk flowing!; This job has some great perks; You said you own a farm
+      too, right?; Do you have any lotion?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428089740939264
+    m_Localized: "This is getting out of hand, and I\u2019m all for it!; I wasn't
+      able to milk yesterday. It was an udder failure; I love milk when it's churned.
+      It's butter that way; More!; Bigger!; We can always go bigger!; My back is
+      extremely strong, I can carry these no problem!; If only I could get as meaty
+      as I can get milky; The customers really seem to like me; These wonders can
+      do more than make milk; I\u2019m one of your best girls yet? You flatter me!;
+      I can\u2019t wait to meet the other cow girls."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428109055709184
+    m_Localized: "I get promoted when I\u2019m too big to serve drinks, right?; Do
+      you get a milkshake if I jump on a pogostick?; I have to give Mewth some milk
+      later...; The customers are looking at me strangely today... do I have something
+      on my face?; I'd tell you a joke about milk but it's whey too cheesy; So close
+      to greatness!; I\u2019m overflowing with power! And milk; More! More!; Please!
+      Just a bit bigger!; Even I can\u2019t handle much bigger; I can\u2019t wait
+      to sell my own brand of milk~; Bigger! Bigger!~; This milk flow will never
+      end!; The end is near; First the cafe, then the world!; I hope I get city size
+      in the sequel; Lacti will be so jealous; Praise the Milk!; I get to be milked
+      this much every day? Life is bliss."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428124268449792
+    m_Localized: "We should buy something.; Could you buy me something?; I\u2019d
+      really like something from the back.; Is there anything we can add to the shop?;
+      We\u2019re making plenty of extra cash.; I wonder what we should buy?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219428146145939456
+    m_Localized: "Are you saving up for something?; Is there something big you want
+      to buy?; We\u2019ve made a lot today.; Look at all that money.; We're rolling
+      in cash today!; I never knew we could have this much money!; Our profits are
+      through the roof!; I feel like we're swimming in a pool of money!; Looks like
+      we hit the jackpot today!; Who knew serving coffee could be this lucrative?;
+      We've got more money than we know what to do with!; I never thought we'd have
+      this much money in our coffers!; I'm starting to think we're in the wrong business,
+      with all this money!; Our profits are sky-high today!; It's like we're running
+      a money-printing operation instead of a cafe!; We've got more money than we
+      know what to do with!; I've never seen so much money in one place before!;
+      We're practically drowning in money today!; With all this money, we could buy
+      the whole town!; Um boss, you remember you can spend money right?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427788485054464
+    m_Localized: That wasn't right...; I better try again!; The next one will be
+      better!; Oops! Let me try again...; That's not quite right...; Is that coming
+      out of my pay?; Let's try that again.; Looks like I need more practice.; Oops!
+      That didn't turn out as planned.; Practice makes perfect, right?; I'll get
+      it right this time, just watch!; Let's not dwell on the past, onto the next
+      one!; I'll make it up on the next cup!; A small setback, but I'll bounce back!;
+      Well, that didn't quite hit the mark.; Back to the drawing board, I suppose.;
+      Hmm, let me recalibrate.; Just a minor hiccup in my masterpiece-making process.;
+      Not quite what I had in mind, but I'll get there.; Whoops, let's try that again,
+      shall we?; Well, that was unexpected. Let's try another go.; Not every cup
+      can be a winner, right?; Time to channel my inner perfectionist!; The journey
+      to the perfect cup continues!; Let's turn this mishap into a masterpiece!;
+      Looks like I need to fine-tune my skills.; A little setback won't stop me!;
+      Onward and upward! Next cup, here I come.; Patience and practice, that's the
+      key!; Not quite there yet, but I'm getting closer.; Time to redeem myself with
+      the next cup!; I'll make up for it with an extra shot of effort!; The pursuit
+      of the perfect brew continues!; Failure is just another step towards success!;
+      One more time!;
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427829996081152
+    m_Localized: Aaghh! A lot of it missed the cup!; Hmmnnn~ ... Oh was somebody
+      watching?; Oh no, my milk slipped into the drink!~; Barbra used Milking...
+      it's super effective!; Let's try to get this in the cup this time.; Ahh~ That
+      feels nice~; Sweet relief.; Hhngg!~; Ooooh!~; Moooo!~; M-mooo~; Best part of
+      the job~; Ah, a splash of milk just for good measure!; My milk magic adds an
+      extra touch of flavor!; Adding my special touch to elevate this drink!; A little
+      milk, a lot of love!; Milk, the secret ingredient for perfection!; There we
+      go, a dairy delight!; My milk-fu is strong today!; A touch of creaminess, just
+      how you like it!; Milk it is, and milk it shall be!; Precision milking at its
+      finest!; Moo-velous! Another drop in the cup.; Watch out for the milk! It's
+      a slippery one!; Just a touch of bovine bliss!; Udderly delightful, wouldn't
+      you say?; One moo-splash of milk coming right up!; Milk, the unsung hero of
+      every cup!; Adding a creamy touch to your beverage experience!; Milk makes
+      everything better, doesn't it?; Squeeze 'em dry~;
+    m_Metadata:
+      m_Items: []
+  - m_Id: 219427845133324288
+    m_Localized: 'What do you want?; Yes silly?; *giggles*; Moo...?; Hm? Do you need
+      something?; Are you free after work?; Thanks for offering me this job.; Are
+      you saving up for something?; Could you buy me something?; I''ll have to give
+      Mewth some milk later...; I wasn''t able to milk yesterday. It was an udder
+      failure.; I can''t wait to meet the other cow girls.; Do you get a milkshake
+      if I jump on a pogo stick?; I hope it doesn''t rain this afternoon.; Cow to
+      the milk: ''I am your mother''.; This is only the beginning.; My dad landed
+      a new job at the dairy. He''s the cow-ordinator.; My friend is always trying
+      to scare her other friends. She''s a fan of milkshakes.; My friend thinks she
+      produces almond milk. She must be nuts.; Do we have a few more cups in the
+      back?; The spoiled milk always got what it wanted.; There''s a lot going on
+      today.; A man attacked me with cream, butter and milk. How dairy.; I used to
+      be a cow like you, until I took a bottle to the breast.; I''m feeling productive.;
+      Can you grab me some more coffee from the back?; The coffee smells so nice.;
+      The customers keep rolling in.; Do you think they like me?; Just a normal day
+      at the job.; Hey! Careful!;'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 325830863843557376
+    m_Localized: Chaos Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 325831043217162240
+    m_Localized: Ultra Chaos Mode
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:
     - rid: 5961144360232288257
       type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
       data:
-        m_Entries: 00a0398844a3d701
+        m_Entries: 
+        m_SharedEntries:
+        - id: 132754228769300480

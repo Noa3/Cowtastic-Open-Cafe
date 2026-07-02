@@ -106,7 +106,7 @@ public class PermanentUnlock : MonoBehaviour
 
         if (TypeIDTopOnly == true && TypeIDBikini == true && TypeIDNoneApron == true && TypeIDPoofyPantsPants == true && TypeIDUnderWearPants == true && TypeIDNonePants == true)
         {
-            Archievements.UnlockArchievement(Archievements.ArchievementID.Full_Wardrobe);
+            Achievements.UnlockAchievements(Achievements.AchievementsID.Full_Wardrobe);
         }
 
 

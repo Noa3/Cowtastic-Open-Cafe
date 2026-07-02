@@ -1,24 +1,28 @@
 using UnityEngine;
 
 /// <summary>
-/// This Script is supposed to Destroy the attached Gameobject on specifyed Platform
+/// This Script is supposed to Destroy the attached Gameobject on specified Platforms
 /// </summary>
 
 public class DestroyOnPlatform : MonoBehaviour
 {
-    public RuntimePlatform platformDestroyTo;
+    [SerializeField]
+    private RuntimePlatform[] platformsToDestroyOn;
 
     public void Awake()
     {
-        if (Application.platform == platformDestroyTo)
+        if (platformsToDestroyOn != null && platformsToDestroyOn.Length > 0)
         {
-            DestroyImmediate(gameObject);
+            for (int i = 0; i < platformsToDestroyOn.Length; i++)
+            {
+                if (Application.platform == platformsToDestroyOn[i])
+                {
+                    DestroyImmediate(gameObject);
+                    return;
+                }
+            }
         }
-        else
-        {
-            Destroy(this);
-        }
+
+        Destroy(this);
     }
-
-
 }

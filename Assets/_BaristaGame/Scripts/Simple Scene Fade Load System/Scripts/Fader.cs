@@ -1,6 +1,8 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using UnityEngine.AddressableAssets;
+using UnityEngine.ResourceManagement.AsyncOperations;
 using UnityEngine.UI;
 
 public class Fader : MonoBehaviour
@@ -21,6 +23,7 @@ public class Fader : MonoBehaviour
     Image bg;
     float lastTime = 0;
     bool startedLoading = false;
+    
     //Set callback
     void OnEnable()
     {
@@ -34,6 +37,12 @@ public class Fader : MonoBehaviour
 
     public void InitiateFader()
     {
+        // Ensure time scale is properly set for fading
+        if (Time.timeScale == 0)
+        {
+            Debug.LogWarning("Fader: Time.timeScale was 0, setting to 1 for fade transition");
+            Time.timeScale = 1f;
+        }
 
         DontDestroyOnLoad(gameObject);
 
@@ -81,7 +90,7 @@ public class Fader : MonoBehaviour
 
                     if (string.IsNullOrEmpty(fadeScene) == false)
                     {
-                        SceneManager.LoadScene(fadeScene);
+                        StartCoroutine(LoadSceneWithFallback(fadeScene));
                     }
                 }
 
@@ -134,10 +143,39 @@ public class Fader : MonoBehaviour
         return currAlpha;
     }
 
+    private IEnumerator LoadSceneWithFallback(string sceneName)
+    {
+        var locationsHandle = Addressables.LoadResourceLocationsAsync(sceneName);
+        yield return locationsHandle;
+
+        bool hasAddressableLocation =
+            locationsHandle.Status == AsyncOperationStatus.Succeeded &&
+            locationsHandle.Result != null &&
+            locationsHandle.Result.Count > 0;
+
+        Addressables.Release(locationsHandle);
+
+        if (hasAddressableLocation)
+        {
+            Addressables.LoadSceneAsync(sceneName, LoadSceneMode.Single, true);
+        }
+        else
+        {
+            Debug.LogWarning($"Fader: Addressable key '{sceneName}' not found. Falling back to SceneManager.LoadScene.");
+            SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
+        }
+    }
+
     void OnLevelFinishedLoading(Scene scene, LoadSceneMode mode)
     {
-        StartCoroutine(FadeIt());
-        //We can now fade in
+        // Ensure time scale is reset when scene loads
+        if (Time.timeScale != 1f)
+        {
+            Debug.LogWarning($"Fader: Time.timeScale was {Time.timeScale} when scene loaded, resetting to 1");
+            Time.timeScale = 1f;
+        }
+        
+        //We can now fade in - just set the flag, don't start a new coroutine
         isFadeIn = true;
     }
 }

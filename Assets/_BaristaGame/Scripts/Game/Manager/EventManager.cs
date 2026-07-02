@@ -2,268 +2,496 @@ using System.Collections.Generic;
 using System.Linq;
 using Unity.Burst;
 using UnityEngine;
+using UnityEngine.Serialization;
 
-
+/// <summary>
+/// Manages random events during gameplay, including timing, conditions, and effects
+/// Optimized for Unity 6.1 with Burst compilation
+/// </summary>
 public class EventManager : MonoBehaviour
 {
-    [Header("References")]
+        [Header("References")]
+        [Tooltip("The game object on which the icons for the events should be spawned")]
+        [FormerlySerializedAs("IconHolder")]
+        public Transform eventIconContainer;
 
-    [Tooltip("The game object on which the icons for the events should be spawned")]
-    public Transform IconHolder;
+        [FormerlySerializedAs("PossibileEvents")]
+        public EventBase[] availableEvents;
 
-    public EventBase[] PossibileEvents;
+        [Header("Event Activation Conditions")]
+        [Tooltip("Minimal time needed to play, until the first event can appear")]
+        [FormerlySerializedAs("minTimeForFirstEvent")]
+        public float minimumTimeBeforeFirstEvent = 30f;
 
+        [Tooltip("Minimal MaxSize of the Barista to start the events")]
+        [Min(0)]
+        [FormerlySerializedAs("minMaxBustStartEvents")]
+        public float minimumBustSizeForEvents = 20f;
 
+        [Min(0)]
+        [FormerlySerializedAs("CompletedCupsNeeded")]
+        public int requiredCompletedCups = 10;
 
-    [Header("Condition to get a RandomEvent (Only for Random Activation)")]
-    [Tooltip("Minimal time needed to play, until the first event can appear")]
-    public float minTimeForFirstEvent = 30;
+        [Header("Event Timing")]
+        [Tooltip("Minimum time between events in seconds")]
+        [Min(0)]
+        [FormerlySerializedAs("MinTime")]
+        public float minimumTimeBetweenEvents = 60f;
 
-    [Tooltip("Minmal MaxSize of the Barista to start the events")]
-    [Min(0)]
-    public float minMaxBustStartEvents = 20;
-    [Min(0)]
-    public int CompletedCupsNeeded = 10;
+        [Tooltip("Maximum time between events in seconds")]
+        [Min(1)]
+        [FormerlySerializedAs("MaxTime")]
+        public float maximumTimeBetweenEvents = 120f;
 
-    [Header("Time Between Events")]
-    [Tooltip("In Seconds")]
-    [Min(0)]
-    public float MinTime = 60;
-    [Min(1)]
-    public float MaxTime = 120;
+        [Header("Event Limits")]
+        [Min(0)]
+        [FormerlySerializedAs("MaxEventsOnSameTime")]
+        public int maximumConcurrentEvents = 10;
 
+        [Header("Current Event State")]
+        [FormerlySerializedAs("CurrentEvents")]
+        public List<EventBase> activeEvents = new List<EventBase>();
 
+        [ReadOnly]
+        [Tooltip("Multiplier for milk production speed from active events")]
+        [FormerlySerializedAs("EventFillSpeedMultipler")]
+        public float eventMilkFillSpeedMultiplier = 1f;
 
-    [Header("Settings")]
-    [Min(0)]
-    public int MaxEventsOnSameTime = 10;
+        [ReadOnly]
+        [Tooltip("Multiplier for sell value from active events")]
+        [FormerlySerializedAs("EventSellMoreValueMultipler")]
+        public float eventSellValueMultiplier = 1f;
 
-    [Header("Current Event State")]
+        [ReadOnly]
+        [Tooltip("Additional ingredients from active events")]
+        [FormerlySerializedAs("moreIngreedients")]
+        public int additionalIngredients = 0;
 
-    public List<EventBase> CurrentEvents = new List<EventBase>();
+        [Header("Debug")]
+        [FormerlySerializedAs("ForceEventStart")]
+        public bool forceStartEvent = false;
 
-    [ReadOnly]     //Will be used to fasten the MilkProduction
-    public float EventFillSpeedMultipler = 1;
-    [ReadOnly]     //Will be used to calc all current events and aplay it to the game
-    private float EventSellMoreValueMultipler = 1.00f;
-    [ReadOnly]
-    public int moreIngreedients = 0;
+        [HideInInspector]
+        public static EventManager instance;
 
+        // Private cached references
+        private OrderManager orderManager;
+        private BaseGameMode gameMode;
+        private BestTimeManager bestTimeManager;
 
-    [Header("Etc")]
-    public bool ForceEventStart = false;
+        // Event timing tracking
+        private float timeOfLastEventEnd = 0f;
+        private float nextEventTime = 0f;
+        private int completedCupsAtLastEvent = 0;
 
+        // Optimized collections for event management
+        private readonly List<EventBase> eventsToRemove = new List<EventBase>();
+        private readonly Dictionary<System.Type, int> eventTypeCounts = new Dictionary<System.Type, int>();
+        private bool isInitialized = false;
 
-    [HideInInspector]
-    public static EventManager instance;
+        #region Unity Lifecycle
 
-
-    private OrderManager orderManager;
-    private BaseGameMode gameMode;
-
-
-    private float TimeLastEventEnd = 0;
-    private float NextEventTime = 0;
-    private float CompletedCupsSinceLastEventStart = 0;
-
-    private BestTimeManager bestTimeManager;
-
-
-    public void Awake()
-    {
-        instance = this;
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        TimeLastEventEnd = Time.timeSinceLevelLoad;
-
-        orderManager = OrderManager.instance;
-        gameMode = BaseGameMode.instance;
-        bestTimeManager = BestTimeManager.instance;
-    }
-
-
-    private void FixedUpdate()
-    {
-        MyFixedUpdate();
-    }
-
-    [BurstCompile]
-    private void MyFixedUpdate()
-    {
-        if (gameMode.CurrentMaxSize >= minMaxBustStartEvents && bestTimeManager.PlayTime > minTimeForFirstEvent)
+        public void Awake()
         {
-            if (Time.timeSinceLevelLoad > NextEventTime || ForceEventStart == true) // Check Time
+            instance = this;
+        }
+
+        void Start()
+        {
+            timeOfLastEventEnd = Time.timeSinceLevelLoad;
+            CacheManagerReferences();
+            isInitialized = true;
+        }
+
+        private void FixedUpdate()
+        {
+            if (isInitialized)
             {
-                if (orderManager.CompletedCups >= (CompletedCupsSinceLastEventStart + CompletedCupsNeeded) || ForceEventStart == true) //Check min Cups
-                {
-                    RandomStartEvent();
-                    ForceEventStart = false;
-                }
+                ProcessEventLogic();
             }
         }
 
-        //New Routine ####################################
-        if (CurrentEvents.Count > 0)
+        void OnDestroy()
         {
-            EventSellMoreValueMultipler = 1f;
-            EventFillSpeedMultipler = 1f;
-            moreIngreedients = 0;
+            // Clean up any remaining events
+            EndAllActiveEvents();
+        }
 
-            for (int i = 0; i < CurrentEvents.Count; i++)
+        #endregion
+
+        #region Initialization
+
+        private void CacheManagerReferences()
+        {
+            orderManager = OrderManager.instance;
+            gameMode = BaseGameMode.instance;
+            bestTimeManager = BestTimeManager.instance;
+        }
+
+        #endregion
+
+        #region Event Processing
+
+        [BurstCompile]
+        private void ProcessEventLogic()
+        {
+            CheckForNewEventTrigger();
+            UpdateActiveEventEffects();
+        }
+
+        [BurstCompile]
+        private void CheckForNewEventTrigger()
+        {
+            if (!CanTriggerEvents()) return;
+
+            bool timeConditionMet = Time.timeSinceLevelLoad > nextEventTime || forceStartEvent;
+            bool cupConditionMet = orderManager.CompletedCups >= (completedCupsAtLastEvent + requiredCompletedCups) || forceStartEvent;
+
+            if (timeConditionMet && cupConditionMet)
             {
-                EventSellMoreValueMultipler = EventSellMoreValueMultipler * CurrentEvents[i].MoreSellValue;
-                EventFillSpeedMultipler = EventFillSpeedMultipler * CurrentEvents[i].MilkFillSpeedMultipler;
+                TriggerRandomEvent();
+                forceStartEvent = false;
+            }
+        }
 
-                string type = CurrentEvents.GetType().ToString();
-                //Debug.Log(type);
-                if (CurrentEvents[i].GetType() == typeof(Event_MoreIngreedients))
+        [BurstCompile]
+        private bool CanTriggerEvents()
+        {
+            return gameMode.CurrentMaxSize >= minimumBustSizeForEvents &&
+                   bestTimeManager.PlayTime > minimumTimeBeforeFirstEvent &&
+                   activeEvents.Count < maximumConcurrentEvents;
+        }
+
+        [BurstCompile]
+        private void UpdateActiveEventEffects()
+        {
+            if (activeEvents.Count == 0)
+            {
+                ResetEventEffects();
+                return;
+            }
+
+            // Reset multipliers
+            eventSellValueMultiplier = 1f;
+            eventMilkFillSpeedMultiplier = 1f;
+            additionalIngredients = 0;
+
+            // Calculate combined effects from all active events
+            for (int i = 0; i < activeEvents.Count; i++)
+            {
+                var currentEvent = activeEvents[i];
+                if (currentEvent == null) continue;
+
+                eventSellValueMultiplier *= currentEvent.MoreSellValue;
+                eventMilkFillSpeedMultiplier *= currentEvent.MilkFillSpeedMultipler;
+
+                // Handle specific event types
+                if (currentEvent is Event_MoreIngreedients moreIngredientsEvent)
                 {
-                    Event_MoreIngreedients moreI = (Event_MoreIngreedients)CurrentEvents[i];
-                    moreIngreedients = moreIngreedients + moreI.AdditionalIngreedients;
+                    additionalIngredients += moreIngredientsEvent.AdditionalIngreedients;
                 }
             }
 
-            orderManager.EventSellMoreValueMultipler = EventSellMoreValueMultipler;
-            gameMode.EventFastMilkFillMultipler = EventFillSpeedMultipler;
-            orderManager.ChangedIngreedientCount = moreIngreedients;
+            // Apply effects to game systems
+            ApplyEventEffectsToGameSystems();
         }
-    }
 
-    public void EndActiveEvents()
-    {
-
-    }
-
-    [BurstCompile]
-    public void RandomStartEvent()
-    {
-        if (PossibileEvents != null && PossibileEvents.Length > 0)
+        [BurstCompile]
+        private void ResetEventEffects()
         {
+            eventSellValueMultiplier = 1f;
+            eventMilkFillSpeedMultiplier = 1f;
+            additionalIngredients = 0;
+            ApplyEventEffectsToGameSystems();
+        }
 
-            //Set Which Event Should be started
-            EventBase EventToStart= null;
-            if (PossibileEvents.Count() == 1)
+        [BurstCompile]
+        private void ApplyEventEffectsToGameSystems()
+        {
+            if (orderManager != null)
             {
-                EventToStart = PossibileEvents[0];
-            }
-            else
-            {
-                int rnd = Statics.GetRandomRange(0, PossibileEvents.Count()-1, Statics.EventTypeRNG());
-                EventToStart = PossibileEvents[rnd];
+                orderManager.EventSellMoreValueMultipler = eventSellValueMultiplier;
+                orderManager.ChangedIngreedientCount = additionalIngredients;
             }
 
-            if (EventToStart.MinMaxBust > gameMode.CurrentMaxSize) //if event max bust is not fitting return
+            if (gameMode != null)
+            {
+                gameMode.EventFastMilkFillMultipler = eventMilkFillSpeedMultiplier;
+            }
+        }
+
+        #endregion
+
+        #region Event Management
+
+        [BurstCompile]
+        public void TriggerRandomEvent()
+        {
+            if (availableEvents == null || availableEvents.Length == 0)
+            {
+                Debug.LogWarning("No available events to trigger!");
+                return;
+            }
+
+            EventBase selectedEvent = SelectRandomEvent();
+            if (selectedEvent == null) return;
+
+            if (!ValidateEventRequirements(selectedEvent)) return;
+            if (!CheckEventConflicts(selectedEvent)) return;
+
+            StartEvent(selectedEvent);
+        }
+
+        [BurstCompile]
+        private EventBase SelectRandomEvent()
+        {
+            if (availableEvents.Length == 1)
+            {
+                return availableEvents[0];
+            }
+
+            int randomIndex = Statics.GetRandomRange(0, availableEvents.Length - 1, Statics.EventTypeRNG());
+            return availableEvents[randomIndex];
+        }
+
+        [BurstCompile]
+        private bool ValidateEventRequirements(EventBase eventToStart)
+        {
+            return eventToStart.MinMaxBust <= gameMode.CurrentMaxSize;
+        }
+
+        [BurstCompile]
+        private bool CheckEventConflicts(EventBase eventToStart)
+        {
+            if (activeEvents.Count == 0) return true;
+
+            var eventToStartType = eventToStart.GetType();
+
+            for (int i = 0; i < activeEvents.Count; i++)
+            {
+                var activeEvent = activeEvents[i];
+                if (activeEvent == null || activeEvent.PreventEventsWhileRunning == null) continue;
+
+                for (int j = 0; j < activeEvent.PreventEventsWhileRunning.Length; j++)
+                {
+                    if (activeEvent.PreventEventsWhileRunning[j] == null) continue;
+
+                    if (eventToStartType == activeEvent.PreventEventsWhileRunning[j].GetType())
+                    {
+                        return false; // Event conflict detected
+                    }
+                }
+            }
+
+            return true;
+        }
+
+        [BurstCompile]
+        public EventBase StartEvent(EventBase eventPrefab, bool forceOverride = false)
+        {
+            if (eventPrefab == null)
+            {
+                Debug.LogError("Cannot start null event!");
+                return null;
+            }
+
+            // Handle forced event override
+            if (forceOverride)
+            {
+                RemoveExistingEventOfSameType(eventPrefab.GetType());
+            }
+
+            // Instantiate and configure the event
+            EventBase newEvent = Instantiate(eventPrefab, eventIconContainer);
+            if (newEvent == null)
+            {
+                Debug.LogError("Failed to instantiate event!");
+                return null;
+            }
+
+            newEvent.eventManager = this;
+            activeEvents.Add(newEvent);
+
+            // Update timing for next event
+            ScheduleNextEvent();
+            completedCupsAtLastEvent = orderManager.CompletedCups;
+
+            return newEvent;
+        }
+
+        [BurstCompile]
+        private void RemoveExistingEventOfSameType(System.Type eventType)
+        {
+            eventsToRemove.Clear();
+
+            // Find events of the same type
+            for (int i = 0; i < activeEvents.Count; i++)
+            {
+                if (activeEvents[i] != null && activeEvents[i].GetType() == eventType)
+                {
+                    eventsToRemove.Add(activeEvents[i]);
+                }
+            }
+
+            // Remove found events
+            foreach (var eventToRemove in eventsToRemove)
+            {
+                StopEvent(eventToRemove);
+            }
+        }
+
+        [BurstCompile]
+        public void StopEvent(EventBase eventToStop)
+        {
+            if (eventToStop == null || !activeEvents.Contains(eventToStop))
             {
                 return;
             }
 
-            //GoThrough Current events to prevent the wanted event?
-            if (CurrentEvents.Count > 0)
+            // Check if there are multiple events of the same type
+            int sameTypeCount = CountEventsOfType(eventToStop.GetType());
+
+            // Only disable the event state if this is the last one of its type
+            if (sameTypeCount == 1)
             {
-                for (int i = 0; i < CurrentEvents.Count; i++)
+                eventToStop.SetEventState(false);
+            }
+
+            // Remove from active events and destroy
+            activeEvents.Remove(eventToStop);
+            if (eventToStop.gameObject != null)
+            {
+                Destroy(eventToStop.gameObject);
+            }
+        }
+
+        [BurstCompile]
+        private int CountEventsOfType(System.Type eventType)
+        {
+            int count = 0;
+            for (int i = 0; i < activeEvents.Count; i++)
+            {
+                if (activeEvents[i] != null && activeEvents[i].GetType() == eventType)
                 {
-                    if (CurrentEvents[i].PreventEventsWhileRunning != null && CurrentEvents[i].PreventEventsWhileRunning.Count() > 0)
-                    {
-                        if (CurrentEvents[i].PreventEventsWhileRunning.Length == 1)
-                        {
-                            //For the Forst
-                            if (EventToStart.GetType() == CurrentEvents[i].PreventEventsWhileRunning[0].GetType())
-                            {
-                                return;
-                            }
-                        }
-                        else
-                        {
-                            //For all Prevent While Running
-                            for (int i2 = 0; i2 < CurrentEvents[i].PreventEventsWhileRunning.Count(); i2++)
-                            {
-                                if  (EventToStart.GetType() == CurrentEvents[i].PreventEventsWhileRunning[i2].GetType() )
-                                {
-                                    return;
-                                }
-                            }
-                        }
-                    }
+                    count++;
+                }
+            }
+            return count;
+        }
+
+        [BurstCompile]
+        private void ScheduleNextEvent()
+        {
+            nextEventTime = Time.timeSinceLevelLoad +
+                           Statics.GetRandomRange(minimumTimeBetweenEvents, maximumTimeBetweenEvents, Statics.EventGapRNG());
+        }
+
+        #endregion
+
+        #region Public API
+
+        /// <summary>
+        /// Ends all currently active events immediately
+        /// </summary>
+        public void EndAllActiveEvents()
+        {
+            // Create a copy to avoid modification during iteration
+            eventsToRemove.Clear();
+            eventsToRemove.AddRange(activeEvents);
+
+            foreach (var eventBase in eventsToRemove)
+            {
+                StopEvent(eventBase);
+            }
+
+            eventsToRemove.Clear();
+        }
+
+        /// <summary>
+        /// Gets the count of active events of a specific type
+        /// </summary>
+        public int GetActiveEventCount<T>() where T : EventBase
+        {
+            int count = 0;
+            var targetType = typeof(T);
+
+            for (int i = 0; i < activeEvents.Count; i++)
+            {
+                if (activeEvents[i] != null && activeEvents[i].GetType() == targetType)
+                {
+                    count++;
+                }
+            }
+            return count;
+        }
+
+        /// <summary>
+        /// Forces a specific event to start, regardless of conditions
+        /// </summary>
+        public EventBase ForceStartSpecificEvent<T>() where T : EventBase
+        {
+            var targetType = typeof(T);
+            for (int i = 0; i < availableEvents.Length; i++)
+            {
+                if (availableEvents[i] != null && availableEvents[i].GetType() == targetType)
+                {
+                    return StartEvent(availableEvents[i], true);
                 }
             }
 
-
-            StartEvent(EventToStart);
-        }
-    }
-
-    [BurstCompile]
-    public EventBase StartEvent(EventBase eventObject, bool ForceThisEvent = false)
-    {
-        if (eventObject == null)
-        {
+            Debug.LogWarning($"Event of type {targetType.Name} not found in available events!");
             return null;
         }
 
-        if (ForceThisEvent == true && CurrentEvents.Count > 0)
+        /// <summary>
+        /// Checks if a specific event type is currently active
+        /// </summary>
+        public bool IsEventActive<T>() where T : EventBase
         {
-            for (int i = 0; i < CurrentEvents.Count; i++)
+            return GetActiveEventCount<T>() > 0;
+        }
+
+        /// <summary>
+        /// Gets all active events of a specific type
+        /// </summary>
+        public List<T> GetActiveEventsOfType<T>() where T : EventBase
+        {
+            var result = new List<T>();
+            for (int i = 0; i < activeEvents.Count; i++)
             {
-                if (CurrentEvents[i].GetType() == eventObject.GetType())
+                if (activeEvents[i] is T eventOfType)
                 {
-                    StopEvent(CurrentEvents[i]);
-                    break;
+                    result.Add(eventOfType);
                 }
             }
+            return result;
         }
 
-        EventBase eventBase;
-
-        eventBase = Instantiate(eventObject, IconHolder);
-
-        eventBase.eventManager = this;
-        CurrentEvents.Add(eventBase);
-
-        SetNextEventTime();
-
-        return eventBase;
-    }
-
-    [BurstCompile]
-    public void StopEvent(EventBase eventObject)
-    {
-        if (eventObject == null)
+        /// <summary>
+        /// Gets the time remaining until the next random event can trigger
+        /// </summary>
+        public float GetTimeUntilNextEvent()
         {
-            return;
+            return Mathf.Max(0f, nextEventTime - Time.timeSinceLevelLoad);
         }
 
-        if (CurrentEvents.Count > 0)
+        #endregion
+
+        #region Debug Methods
+
+        #region Debug Methods
+
+#if UNITY_EDITOR
+        private void OnDrawGizmosSelected()
         {
-            byte eventCountOfSameType = 0;
-            for (int i = 0; i < CurrentEvents.Count; i++)
-            {
-                if (CurrentEvents[i].GetType() == eventObject.GetType())
-                {
-                    eventCountOfSameType++;
-                    if (eventCountOfSameType > 1) //are there more events of this type?
-                    {
-                        break;
-                    }
-                }
-            }
+            if (!Application.isPlaying) return;
 
-            if (eventCountOfSameType < 2) //is this the only event of this type
-            {
-                eventObject.SetEventState(false);
-            }
-
-            CurrentEvents.Remove(eventObject);
-            Destroy(eventObject.gameObject);
+            // Draw debug information in scene view
+            UnityEditor.Handles.Label(transform.position, $"Active Events: {activeEvents.Count}\nNext Event In: {GetTimeUntilNextEvent():F1}s");
         }
-    }
+#endif
 
-    [BurstCompile]
-    private void SetNextEventTime()
-    {
-        NextEventTime = Time.timeSinceLevelLoad + Statics.GetRandomRange(MinTime, MaxTime, Statics.EventGapRNG());
-    }
+        #endregion
 
-}
+        #endregion
+    }
